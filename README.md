@@ -213,15 +213,23 @@ CREATE PROFILE CONTRASEÑASEGURA LIMIT
 
 
 ## Ejercicio 13
+### Enunciado
+
 Asigna el perfil creado a USRPRACTICA1 y comprueba su funcionamiento. Desbloquea posteriormente al usuario.
 
+### Realización
 
+```
 
+```
+
+### Prueba de funcionamiento
 
 
 
 ## Ejercicio 14
-Consulta qué usuarios existen en tu base de datos.
+
+Consulta qué usuarios existen en tu base de datos
 
 
 ## Ejercicio 15
@@ -284,9 +292,9 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjk1Njg4MywxNTk1OTcwNDY5LDE3NT
-kxNDI5ODUsLTE2MTUxMjIzMiwtMTM0MjI3MTM5NywxMDE4MTcx
-OTIxLDE2NzU2NTEzNDEsNDI3NjYxNjE5LC0xMTIyODM0NDY3LC
-02NjMxODE2NTcsNTcwMDAzMjE5LDE5NDY3MjgyMCwtMjQ4Njcw
-NjQyLDE1ODc5MDkzNjEsLTQxMjE2NjUyMV19
+eyJoaXN0b3J5IjpbLTEwNjIyMTk0NjgsMTU5NTk3MDQ2OSwxNz
+U5MTQyOTg1LC0xNjE1MTIyMzIsLTEzNDIyNzEzOTcsMTAxODE3
+MTkyMSwxNjc1NjUxMzQxLDQyNzY2MTYxOSwtMTEyMjgzNDQ2Ny
+wtNjYzMTgxNjU3LDU3MDAwMzIxOSwxOTQ2NzI4MjAsLTI0ODY3
+MDY0MiwxNTg3OTA5MzYxLC00MTIxNjY1MjFdfQ==
 -->
