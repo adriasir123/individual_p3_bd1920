@@ -153,7 +153,7 @@ CREATE PROFILE NOPARESDECURRAR LIMIT IDLE_TIME 2;
 ### Enunciado
 
 Activa el uso de perfiles en ORACLE
-
+> Profiles only take effect when resource limits are "turned on" for the database as a whole.
 ### Realización
 
 ```
@@ -263,8 +263,8 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxODE3MTkyMSwxNjc1NjUxMzQxLDQyNz
-Y2MTYxOSwtMTEyMjgzNDQ2NywtNjYzMTgxNjU3LDU3MDAwMzIx
-OSwxOTQ2NzI4MjAsLTI0ODY3MDY0MiwxNTg3OTA5MzYxLC00MT
-IxNjY1MjFdfQ==
+eyJoaXN0b3J5IjpbNTE3NTgxNTExLDEwMTgxNzE5MjEsMTY3NT
+Y1MTM0MSw0Mjc2NjE2MTksLTExMjI4MzQ0NjcsLTY2MzE4MTY1
+Nyw1NzAwMDMyMTksMTk0NjcyODIwLC0yNDg2NzA2NDIsMTU4Nz
+kwOTM2MSwtNDEyMTY2NTIxXX0=
 -->
