@@ -29,7 +29,7 @@ Averigua qué cuota se le ha asignado por defecto en el mismo
 Sustitúyela por una cuota de 1M
 
 ```
-create user USRPRACTICA1 default tablespace users;  
+create user USRPRACTICA1 identified by 1234 default tablespace users;  
   
 Cuota por defecto en ese tablespace  
   
@@ -229,6 +229,8 @@ ALTER USER USRPRACTICA1 IDENTIFIED BY password ACCOUNT UNLOCK;
 
 
 
+
+
 ## Ejercicio 14
 
 Consulta qué usuarios existen en tu base de datos
@@ -294,7 +296,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzM4NzcwLDIwOTMwMzQwNTMsLTEwNj
+eyJoaXN0b3J5IjpbNzU2NTc1MTk0LDIwOTMwMzQwNTMsLTEwNj
 IyMTk0NjgsMTU5NTk3MDQ2OSwxNzU5MTQyOTg1LC0xNjE1MTIy
 MzIsLTEzNDIyNzEzOTcsMTAxODE3MTkyMSwxNjc1NjUxMzQxLD
 QyNzY2MTYxOSwtMTEyMjgzNDQ2NywtNjYzMTgxNjU3LDU3MDAw
