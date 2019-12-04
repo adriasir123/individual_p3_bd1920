@@ -95,8 +95,15 @@ grant read on scott.dept to USRPRACTICA1 with grant option;
 ## Ejercicio 7
 ### Enunciado
 
-Comprueba que USRPRACTICA1 puede realizar todas las operaciones previstas en el rol.
+Comprueba que USRPRACTICA1 puede realizar todas las operaciones previstas en el rol (se refiere al rol que le dimos antes, ROLPRACTICA1).
 
+### Realización
+
+```
+
+```
+
+### Prueba de funcionamiento
 
 
 
@@ -201,7 +208,7 @@ Consulta qué roles existen en tu base de datos.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTIwMDE4MTYsNTcwMDAzMjE5LDE5ND
-Y3MjgyMCwtMjQ4NjcwNjQyLDE1ODc5MDkzNjEsLTQxMjE2NjUy
-MV19
+eyJoaXN0b3J5IjpbLTY2MzE4MTY1Nyw1NzAwMDMyMTksMTk0Nj
+cyODIwLC0yNDg2NzA2NDIsMTU4NzkwOTM2MSwtNDEyMTY2NTIx
+XX0=
 -->
