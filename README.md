@@ -216,7 +216,7 @@ CREATE PROFILE CONTRASEÑASEGURA LIMIT
 ### Enunciado
 
 Asigna el perfil creado a USRPRACTICA1 y comprueba su funcionamiento
-Desbloquea posteriormente al usuario
+Desbloquea posteriormente al usuario (porque el perfil hace que al 4 error de introducción de contraseña, bloquee al usuario)
 
 ### Realización
 
@@ -294,7 +294,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5Mzk3MDc1NywyMDkzMDM0MDUzLC0xMD
+eyJoaXN0b3J5IjpbLTk5NjYwNjQyOCwyMDkzMDM0MDUzLC0xMD
 YyMjE5NDY4LDE1OTU5NzA0NjksMTc1OTE0Mjk4NSwtMTYxNTEy
 MjMyLC0xMzQyMjcxMzk3LDEwMTgxNzE5MjEsMTY3NTY1MTM0MS
 w0Mjc2NjE2MTksLTExMjI4MzQ0NjcsLTY2MzE4MTY1Nyw1NzAw
