@@ -215,12 +215,14 @@ CREATE PROFILE CONTRASEÑASEGURA LIMIT
 ## Ejercicio 13
 ### Enunciado
 
-Asigna el perfil creado a USRPRACTICA1 y comprueba su funcionamiento. Desbloquea posteriormente al usuario.
+Asigna el perfil creado a USRPRACTICA1 y comprueba su funcionamiento
+Desbloquea posteriormente al usuario
 
 ### Realización
 
 ```
-ALTER USER USRPRACTICA1 PROFILE NOPARESDECURRAR;
+ALTER USER USRPRACTICA1 PROFILE CONTRASEÑASEGURA;
+
 ```
 
 ### Prueba de funcionamiento
@@ -292,10 +294,10 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MzAzNDA1MywtMTA2MjIxOTQ2OCwxNT
-k1OTcwNDY5LDE3NTkxNDI5ODUsLTE2MTUxMjIzMiwtMTM0MjI3
-MTM5NywxMDE4MTcxOTIxLDE2NzU2NTEzNDEsNDI3NjYxNjE5LC
-0xMTIyODM0NDY3LC02NjMxODE2NTcsNTcwMDAzMjE5LDE5NDY3
-MjgyMCwtMjQ4NjcwNjQyLDE1ODc5MDkzNjEsLTQxMjE2NjUyMV
-19
+eyJoaXN0b3J5IjpbMTg5Mzk3MDc1NywyMDkzMDM0MDUzLC0xMD
+YyMjE5NDY4LDE1OTU5NzA0NjksMTc1OTE0Mjk4NSwtMTYxNTEy
+MjMyLC0xMzQyMjcxMzk3LDEwMTgxNzE5MjEsMTY3NTY1MTM0MS
+w0Mjc2NjE2MTksLTExMjI4MzQ0NjcsLTY2MzE4MTY1Nyw1NzAw
+MDMyMTksMTk0NjcyODIwLC0yNDg2NzA2NDIsMTU4NzkwOTM2MS
+wtNDEyMTY2NTIxXX0=
 -->
