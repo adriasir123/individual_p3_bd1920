@@ -68,6 +68,9 @@ Comprueba si puede modificar la estructura o eliminar las tablas creadas.
 
 ----
 
+```
+
+```
 
 
 
@@ -185,6 +188,6 @@ Consulta qué roles existen en tu base de datos.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDk1MTY1NCwxOTQ2NzI4MjAsLTI0OD
-Y3MDY0MiwxNTg3OTA5MzYxLC00MTIxNjY1MjFdfQ==
+eyJoaXN0b3J5IjpbMzE3Mjk5NzIwLDE5NDY3MjgyMCwtMjQ4Nj
+cwNjQyLDE1ODc5MDkzNjEsLTQxMjE2NjUyMV19
 -->
