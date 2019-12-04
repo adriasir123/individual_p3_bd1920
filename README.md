@@ -268,6 +268,10 @@ select tablespace_name, username, bytes, max_bytes
 	where username = 'SYSTEM';
 ```
 
+```
+select tablespace_name
+from dba_tablespaces;
+```
 
 
 ### Prueba de funcionamiento
@@ -404,11 +408,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjkxNTI5OSwtOTk2Mjg2NjA1LC0xNz
-Y1MjQzMTc2LDE0MTk5MTk4NjUsNDQ3MzcwNzI5LDIzMzAyNjc3
-MiwyMDkzMDM0MDUzLC0xMDYyMjE5NDY4LDE1OTU5NzA0NjksMT
-c1OTE0Mjk4NSwtMTYxNTEyMjMyLC0xMzQyMjcxMzk3LDEwMTgx
-NzE5MjEsMTY3NTY1MTM0MSw0Mjc2NjE2MTksLTExMjI4MzQ0Nj
-csLTY2MzE4MTY1Nyw1NzAwMDMyMTksMTk0NjcyODIwLC0yNDg2
-NzA2NDJdfQ==
+eyJoaXN0b3J5IjpbMTgzMjgyODc5MSwxMTg2OTE1Mjk5LC05OT
+YyODY2MDUsLTE3NjUyNDMxNzYsMTQxOTkxOTg2NSw0NDczNzA3
+MjksMjMzMDI2NzcyLDIwOTMwMzQwNTMsLTEwNjIyMTk0NjgsMT
+U5NTk3MDQ2OSwxNzU5MTQyOTg1LC0xNjE1MTIyMzIsLTEzNDIy
+NzEzOTcsMTAxODE3MTkyMSwxNjc1NjUxMzQxLDQyNzY2MTYxOS
+wtMTEyMjgzNDQ2NywtNjYzMTgxNjU3LDU3MDAwMzIxOSwxOTQ2
+NzI4MjBdfQ==
 -->
