@@ -174,7 +174,7 @@ Asigna el perfil creado a USRPRACTICA1 y comprueba su correcto funcionamiento.
 ### Realización
 
 ```
-ALTER USER USRPRACTICA1 PROFILE IDLETEST;
+ALTER USER USRPRACTICA1 PROFILE NOPARESDECURRAR;
 ```
 
 ### Prueba de funcionamiento
@@ -185,8 +185,18 @@ ALTER USER USRPRACTICA1 PROFILE IDLETEST;
 Crea un perfil CONTRASEÑASEGURA especificando que la contraseña caduca mensualmente y sólo se permiten tres intentos fallidos para acceder a la cuenta. En caso de superarse, la cuenta debe quedar bloqueada indefinidamente.
 
 
+
+
+
+
+
+
 ## Ejercicio 13
 Asigna el perfil creado a USRPRACTICA1 y comprueba su funcionamiento. Desbloquea posteriormente al usuario.
+
+
+
+
 
 
 ## Ejercicio 14
@@ -253,7 +263,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3NjYxNjE5LC0xMTIyODM0NDY3LC02Nj
-MxODE2NTcsNTcwMDAzMjE5LDE5NDY3MjgyMCwtMjQ4NjcwNjQy
-LDE1ODc5MDkzNjEsLTQxMjE2NjUyMV19
+eyJoaXN0b3J5IjpbLTEzMzA4OTE0MjMsNDI3NjYxNjE5LC0xMT
+IyODM0NDY3LC02NjMxODE2NTcsNTcwMDAzMjE5LDE5NDY3Mjgy
+MCwtMjQ4NjcwNjQyLDE1ODc5MDkzNjEsLTQxMjE2NjUyMV19
 -->
