@@ -152,7 +152,7 @@ CREATE PROFILE NOPARESDECURRAR LIMIT IDLE_TIME 2;
 ## Ejercicio 10
 ### Enunciado
 
-Activa el uso de perfiles en ORACLE.
+Activa el uso de perfiles en ORACLE
 
 ### Realización
 
@@ -263,7 +263,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzA4OTE0MjMsNDI3NjYxNjE5LC0xMT
-IyODM0NDY3LC02NjMxODE2NTcsNTcwMDAzMjE5LDE5NDY3Mjgy
-MCwtMjQ4NjcwNjQyLDE1ODc5MDkzNjEsLTQxMjE2NjUyMV19
+eyJoaXN0b3J5IjpbMTY3NTY1MTM0MSw0Mjc2NjE2MTksLTExMj
+I4MzQ0NjcsLTY2MzE4MTY1Nyw1NzAwMDMyMTksMTk0NjcyODIw
+LC0yNDg2NzA2NDIsMTU4NzkwOTM2MSwtNDEyMTY2NTIxXX0=
 -->
