@@ -220,7 +220,7 @@ Asigna el perfil creado a USRPRACTICA1 y comprueba su funcionamiento. Desbloquea
 ### Realización
 
 ```
-
+ALTER USER USRPRACTICA1 PROFILE NOPARESDECURRAR;
 ```
 
 ### Prueba de funcionamiento
@@ -292,9 +292,10 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjIyMTk0NjgsMTU5NTk3MDQ2OSwxNz
-U5MTQyOTg1LC0xNjE1MTIyMzIsLTEzNDIyNzEzOTcsMTAxODE3
-MTkyMSwxNjc1NjUxMzQxLDQyNzY2MTYxOSwtMTEyMjgzNDQ2Ny
-wtNjYzMTgxNjU3LDU3MDAwMzIxOSwxOTQ2NzI4MjAsLTI0ODY3
-MDY0MiwxNTg3OTA5MzYxLC00MTIxNjY1MjFdfQ==
+eyJoaXN0b3J5IjpbMjA5MzAzNDA1MywtMTA2MjIxOTQ2OCwxNT
+k1OTcwNDY5LDE3NTkxNDI5ODUsLTE2MTUxMjIzMiwtMTM0MjI3
+MTM5NywxMDE4MTcxOTIxLDE2NzU2NTEzNDEsNDI3NjYxNjE5LC
+0xMTIyODM0NDY3LC02NjMxODE2NTcsNTcwMDAzMjE5LDE5NDY3
+MjgyMCwtMjQ4NjcwNjQyLDE1ODc5MDkzNjEsLTQxMjE2NjUyMV
+19
 -->
