@@ -265,7 +265,7 @@ Voy a hacerlo sobre system
 ```
 select tablespace_name, username, bytes, max_bytes
 	from dba_ts_quotas
-	where username = 'system';
+	where username = 'SYSTEM';
 ```
 
 
@@ -404,11 +404,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTA2OTU0NTMsLTk5NjI4NjYwNSwtMT
-c2NTI0MzE3NiwxNDE5OTE5ODY1LDQ0NzM3MDcyOSwyMzMwMjY3
-NzIsMjA5MzAzNDA1MywtMTA2MjIxOTQ2OCwxNTk1OTcwNDY5LD
-E3NTkxNDI5ODUsLTE2MTUxMjIzMiwtMTM0MjI3MTM5NywxMDE4
-MTcxOTIxLDE2NzU2NTEzNDEsNDI3NjYxNjE5LC0xMTIyODM0ND
-Y3LC02NjMxODE2NTcsNTcwMDAzMjE5LDE5NDY3MjgyMCwtMjQ4
-NjcwNjQyXX0=
+eyJoaXN0b3J5IjpbMTE4NjkxNTI5OSwtOTk2Mjg2NjA1LC0xNz
+Y1MjQzMTc2LDE0MTk5MTk4NjUsNDQ3MzcwNzI5LDIzMzAyNjc3
+MiwyMDkzMDM0MDUzLC0xMDYyMjE5NDY4LDE1OTU5NzA0NjksMT
+c1OTE0Mjk4NSwtMTYxNTEyMjMyLC0xMzQyMjcxMzk3LDEwMTgx
+NzE5MjEsMTY3NTY1MTM0MSw0Mjc2NjE2MTksLTExMjI4MzQ0Nj
+csLTY2MzE4MTY1Nyw1NzAwMDMyMTksMTk0NjcyODIwLC0yNDg2
+NzA2NDJdfQ==
 -->
