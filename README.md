@@ -138,7 +138,7 @@ Crea un perfil NOPARESDECURRAR que limita a dos el número de minutos de inactiv
 ### Realización
 
 ```
-
+CREATE PROFILE NOPARESDECURRAR LIMIT IDLE_TIME 2;
 ```
 
 
@@ -235,7 +235,7 @@ Consulta qué roles existen en tu base de datos.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjI4MzQ0NjcsLTY2MzE4MTY1Nyw1Nz
-AwMDMyMTksMTk0NjcyODIwLC0yNDg2NzA2NDIsMTU4NzkwOTM2
-MSwtNDEyMTY2NTIxXX0=
+eyJoaXN0b3J5IjpbLTQ2NzI2ODQyMCwtMTEyMjgzNDQ2NywtNj
+YzMTgxNjU3LDU3MDAwMzIxOSwxOTQ2NzI4MjAsLTI0ODY3MDY0
+MiwxNTg3OTA5MzYxLC00MTIxNjY1MjFdfQ==
 -->
