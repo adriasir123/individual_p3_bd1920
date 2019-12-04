@@ -86,7 +86,7 @@ Concede a USRPRACTICA1 el privilegio de leer la tabla DEPT de SCOTT con la posib
 ### Realización
 
 ```
-
+grant read on scott.dept to reporting_admin with grant option; 
 ```
 
 
@@ -200,6 +200,7 @@ Consulta qué roles existen en tu base de datos.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwMDAzMjE5LDE5NDY3MjgyMCwtMjQ4Nj
-cwNjQyLDE1ODc5MDkzNjEsLTQxMjE2NjUyMV19
+eyJoaXN0b3J5IjpbMTcwMTk5NjM1OSw1NzAwMDMyMTksMTk0Nj
+cyODIwLC0yNDg2NzA2NDIsMTU4NzkwOTM2MSwtNDEyMTY2NTIx
+XX0=
 -->
