@@ -167,9 +167,15 @@ Activa el uso de perfiles en ORACLE.
 
 
 ## Ejercicio 11
+### Enunciado
+
 Asigna el perfil creado a USRPRACTICA1 y comprueba su correcto funcionamiento.
 
+### Realización
 
+
+
+### Prueba de funcionamiento
 
 
 
@@ -245,7 +251,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjY0NDYwOSwtMTEyMjgzNDQ2NywtNj
-YzMTgxNjU3LDU3MDAwMzIxOSwxOTQ2NzI4MjAsLTI0ODY3MDY0
-MiwxNTg3OTA5MzYxLC00MTIxNjY1MjFdfQ==
+eyJoaXN0b3J5IjpbLTM5ODA3NDQ4LC0xMTIyODM0NDY3LC02Nj
+MxODE2NTcsNTcwMDAzMjE5LDE5NDY3MjgyMCwtMjQ4NjcwNjQy
+LDE1ODc5MDkzNjEsLTQxMjE2NjUyMV19
 -->
