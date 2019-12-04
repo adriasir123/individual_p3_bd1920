@@ -64,57 +64,76 @@ grant insert on scott.emp to ROLPRACTICA1;
 
 
 ## Ejercicio 10
-
+1.  Activa el uso de perfiles en ORACLE.
 
 
 
 ## Ejercicio 11
-
+1.  Asigna el perfil creado a USRPRACTICA1 y comprueba su correcto funcionamiento.
 
 
 
 ## Ejercicio 12
-
+1.  Crea un perfil CONTRASEÑASEGURA especificando que la contraseña caduca mensualmente y sólo se permiten tres intentos fallidos para acceder a la cuenta. En caso de superarse, la cuenta debe quedar bloqueada indefinidamente.
 
 
 ## Ejercicio 13
-
+1.  Asigna el perfil creado a USRPRACTICA1 y comprueba su funcionamiento. Desbloquea posteriormente al usuario.
 
 
 ## Ejercicio 14
-
+1.  Consulta qué usuarios existen en tu base de datos.
 
 
 ## Ejercicio 15
-
+1.  Elige un usuario concreto y consulta qué cuota tiene sobre cada uno de los tablespaces.
 
 
 ## Ejercicio 16
 
 
+
+
 ## Ejercicio 17
+
 
 
 ## Ejercicio 18
 
 
 
+
+
+
 ## Ejercicio 19
+
+
 
 
 ## Ejercicio 20
 
 
+
+
 ## Ejercicio 21
+
+
 
 
 ## Ejercicio 22
 
 
+
+
 ## Ejercicio 23
 
 
+
+
+
 ## Ejercicio 24
+
+
 
 
 ## Ejercicio 25
@@ -126,6 +145,7 @@ grant insert on scott.emp to ROLPRACTICA1;
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY1NzI0NjVdfQ==
+eyJoaXN0b3J5IjpbMjAxNTk5NDkwNV19
 -->
