@@ -262,7 +262,13 @@ Elige un usuario concreto y consulta qué cuota tiene sobre cada uno de los tabl
 
 ### Realización
 
+```
 
+```
+
+
+
+### Prueba de funcionamiento
 
 
 
@@ -300,8 +306,19 @@ Elige un usuario concreto y muestra qué privilegios sobre objetos tiene asignad
 
 
 
+
 ## Ejercicio 18
 Consulta qué roles existen en tu base de datos.
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -310,8 +327,25 @@ Elige un rol concreto y consulta qué usuarios lo tienen asignado.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 ## Ejercicio 20
 Elige un rol concreto y averigua si está compuesto por otros roles o no.
+
+
+
+
+
+
 
 
 
@@ -320,8 +354,15 @@ Consulta qué perfiles existen en tu base de datos.
 
 
 
+
+
+
 ## Ejercicio 22
 Elige un perfil y consulta qué límites se establecen en el mismo.
+
+
+
+
 
 
 
@@ -331,8 +372,22 @@ Muestra los nombres de los usuarios que tienen limitado el número de sesiones c
 
 
 
+
+
+
+
+
+
 ## Ejercicio 24
 Realiza un procedimiento que reciba un nombre de usuario y un privilegio de sistema y nos muestre el mensaje 'SI, DIRECTO' si el usuario tiene ese privilegio concedido directamente, 'SI, POR ROL' si el usuario tiene ese privilegio en alguno de los roles que tiene concedidos y un 'NO' si el usuario no tiene dicho privilegio.
+
+
+
+
+
+
+
+
 
 
 
@@ -347,11 +402,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDE4NTE4OCwxNDE5OTE5ODY1LDQ0Nz
-M3MDcyOSwyMzMwMjY3NzIsMjA5MzAzNDA1MywtMTA2MjIxOTQ2
-OCwxNTk1OTcwNDY5LDE3NTkxNDI5ODUsLTE2MTUxMjIzMiwtMT
-M0MjI3MTM5NywxMDE4MTcxOTIxLDE2NzU2NTEzNDEsNDI3NjYx
-NjE5LC0xMTIyODM0NDY3LC02NjMxODE2NTcsNTcwMDAzMjE5LD
-E5NDY3MjgyMCwtMjQ4NjcwNjQyLDE1ODc5MDkzNjEsLTQxMjE2
-NjUyMV19
+eyJoaXN0b3J5IjpbLTE3NjUyNDMxNzYsMTQxOTkxOTg2NSw0ND
+czNzA3MjksMjMzMDI2NzcyLDIwOTMwMzQwNTMsLTEwNjIyMTk0
+NjgsMTU5NTk3MDQ2OSwxNzU5MTQyOTg1LC0xNjE1MTIyMzIsLT
+EzNDIyNzEzOTcsMTAxODE3MTkyMSwxNjc1NjUxMzQxLDQyNzY2
+MTYxOSwtMTEyMjgzNDQ2NywtNjYzMTgxNjU3LDU3MDAwMzIxOS
+wxOTQ2NzI4MjAsLTI0ODY3MDY0MiwxNTg3OTA5MzYxLC00MTIx
+NjY1MjFdfQ==
 -->
