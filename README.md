@@ -279,15 +279,16 @@ select tablespace_name, username, bytes, max_bytes
 
 
 ## Ejercicio 16
+### Enunciado
 Elige un usuario concreto y muestra qué privilegios de sistema tiene asignados.
 
 
 
+### Realización
 
 
 
-
-
+### Prueba de funcionamiento
 
 
 
@@ -403,11 +404,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTU5MTE3OTEsLTM3Mzc5NjkxMSwxMT
-g2OTE1Mjk5LC05OTYyODY2MDUsLTE3NjUyNDMxNzYsMTQxOTkx
-OTg2NSw0NDczNzA3MjksMjMzMDI2NzcyLDIwOTMwMzQwNTMsLT
-EwNjIyMTk0NjgsMTU5NTk3MDQ2OSwxNzU5MTQyOTg1LC0xNjE1
-MTIyMzIsLTEzNDIyNzEzOTcsMTAxODE3MTkyMSwxNjc1NjUxMz
-QxLDQyNzY2MTYxOSwtMTEyMjgzNDQ2NywtNjYzMTgxNjU3LDU3
-MDAwMzIxOV19
+eyJoaXN0b3J5IjpbMTkwNTA3ODc4OCwtMzczNzk2OTExLDExOD
+Y5MTUyOTksLTk5NjI4NjYwNSwtMTc2NTI0MzE3NiwxNDE5OTE5
+ODY1LDQ0NzM3MDcyOSwyMzMwMjY3NzIsMjA5MzAzNDA1MywtMT
+A2MjIxOTQ2OCwxNTk1OTcwNDY5LDE3NTkxNDI5ODUsLTE2MTUx
+MjIzMiwtMTM0MjI3MTM5NywxMDE4MTcxOTIxLDE2NzU2NTEzND
+EsNDI3NjYxNjE5LC0xMTIyODM0NDY3LC02NjMxODE2NTcsNTcw
+MDAzMjE5XX0=
 -->
