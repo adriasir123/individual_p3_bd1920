@@ -214,28 +214,28 @@ Elige un rol concreto y averigua si está compuesto por otros roles o no.
 
 
 ## Ejercicio 21
-1.  Consulta qué perfiles existen en tu base de datos.
+Consulta qué perfiles existen en tu base de datos.
 
 
 
 ## Ejercicio 22
-1.  Elige un perfil y consulta qué límites se establecen en el mismo.
+Elige un perfil y consulta qué límites se establecen en el mismo.
 
 
 
 ## Ejercicio 23
-1.  Muestra los nombres de los usuarios que tienen limitado el número de sesiones concurrentes.
+Muestra los nombres de los usuarios que tienen limitado el número de sesiones concurrentes.
 
 
 
 
 ## Ejercicio 24
-1.  Realiza un procedimiento que reciba un nombre de usuario y un privilegio de sistema y nos muestre el mensaje 'SI, DIRECTO' si el usuario tiene ese privilegio concedido directamente, 'SI, POR ROL' si el usuario tiene ese privilegio en alguno de los roles que tiene concedidos y un 'NO' si el usuario no tiene dicho privilegio.
+Realiza un procedimiento que reciba un nombre de usuario y un privilegio de sistema y nos muestre el mensaje 'SI, DIRECTO' si el usuario tiene ese privilegio concedido directamente, 'SI, POR ROL' si el usuario tiene ese privilegio en alguno de los roles que tiene concedidos y un 'NO' si el usuario no tiene dicho privilegio.
 
 
 
 ## Ejercicio 25
-1.  Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de usuario y muestre el número de sesiones concurrentes que puede tener abiertas como máximo y las que tiene abiertas realmente.
+Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de usuario y muestre el número de sesiones concurrentes que puede tener abiertas como máximo y las que tiene abiertas realmente.
 
 
 
@@ -245,7 +245,7 @@ Elige un rol concreto y averigua si está compuesto por otros roles o no.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgzMzUwLC0xMTIyODM0NDY3LC02NjMxOD
-E2NTcsNTcwMDAzMjE5LDE5NDY3MjgyMCwtMjQ4NjcwNjQyLDE1
-ODc5MDkzNjEsLTQxMjE2NjUyMV19
+eyJoaXN0b3J5IjpbLTUwNjY0NDYwOSwtMTEyMjgzNDQ2NywtNj
+YzMTgxNjU3LDU3MDAwMzIxOSwxOTQ2NzI4MjAsLTI0ODY3MDY0
+MiwxNTg3OTA5MzYxLC00MTIxNjY1MjFdfQ==
 -->
