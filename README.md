@@ -160,7 +160,11 @@ Es por eso, que debemos ejecutar:
 ```
 ALTER SYSTEM SET RESOURCE_LIMIT=TRUE
 ```
-Se 
+
+Se puede comprobar el estado de éste parámetro con 
+```
+show parameter resource_limit
+```
 
 
 ### Prueba de funcionamiento
@@ -276,8 +280,8 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MjE3NTgwOSwxMDE4MTcxOTIxLDE2Nz
-U2NTEzNDEsNDI3NjYxNjE5LC0xMTIyODM0NDY3LC02NjMxODE2
-NTcsNTcwMDAzMjE5LDE5NDY3MjgyMCwtMjQ4NjcwNjQyLDE1OD
-c5MDkzNjEsLTQxMjE2NjUyMV19
+eyJoaXN0b3J5IjpbLTEzNDIyNzEzOTcsMTAxODE3MTkyMSwxNj
+c1NjUxMzQxLDQyNzY2MTYxOSwtMTEyMjgzNDQ2NywtNjYzMTgx
+NjU3LDU3MDAwMzIxOSwxOTQ2NzI4MjAsLTI0ODY3MDY0MiwxNT
+g3OTA5MzYxLC00MTIxNjY1MjFdfQ==
 -->
