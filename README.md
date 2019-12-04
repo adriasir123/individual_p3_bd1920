@@ -160,6 +160,7 @@ Es por eso, que debemos ejecutar:
 ```
 ALTER SYSTEM SET RESOURCE_LIMIT=TRUE
 ```
+Se 
 
 
 ### Prueba de funcionamiento
@@ -275,8 +276,8 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODI5MDU3LDEwMTgxNzE5MjEsMTY3NT
-Y1MTM0MSw0Mjc2NjE2MTksLTExMjI4MzQ0NjcsLTY2MzE4MTY1
-Nyw1NzAwMDMyMTksMTk0NjcyODIwLC0yNDg2NzA2NDIsMTU4Nz
-kwOTM2MSwtNDEyMTY2NTIxXX0=
+eyJoaXN0b3J5IjpbLTk5MjE3NTgwOSwxMDE4MTcxOTIxLDE2Nz
+U2NTEzNDEsNDI3NjYxNjE5LC0xMTIyODM0NDY3LC02NjMxODE2
+NTcsNTcwMDAzMjE5LDE5NDY3MjgyMCwtMjQ4NjcwNjQyLDE1OD
+c5MDkzNjEsLTQxMjE2NjUyMV19
 -->
