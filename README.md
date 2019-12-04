@@ -150,42 +150,52 @@ CREATE PROFILE NOPARESDECURRAR LIMIT IDLE_TIME 2;
 
 
 ## Ejercicio 10
+### Enunciado
+
 Activa el uso de perfiles en ORACLE.
 
+### Realización
+
+
+
+
+
+
+### Prueba de funcionamiento
 
 
 
 
 ## Ejercicio 11
-1.  Asigna el perfil creado a USRPRACTICA1 y comprueba su correcto funcionamiento.
+Asigna el perfil creado a USRPRACTICA1 y comprueba su correcto funcionamiento.
 
 
 
 
 
 ## Ejercicio 12
-1.  Crea un perfil CONTRASEÑASEGURA especificando que la contraseña caduca mensualmente y sólo se permiten tres intentos fallidos para acceder a la cuenta. En caso de superarse, la cuenta debe quedar bloqueada indefinidamente.
+Crea un perfil CONTRASEÑASEGURA especificando que la contraseña caduca mensualmente y sólo se permiten tres intentos fallidos para acceder a la cuenta. En caso de superarse, la cuenta debe quedar bloqueada indefinidamente.
 
 
 ## Ejercicio 13
-1.  Asigna el perfil creado a USRPRACTICA1 y comprueba su funcionamiento. Desbloquea posteriormente al usuario.
+Asigna el perfil creado a USRPRACTICA1 y comprueba su funcionamiento. Desbloquea posteriormente al usuario.
 
 
 ## Ejercicio 14
-1.  Consulta qué usuarios existen en tu base de datos.
+Consulta qué usuarios existen en tu base de datos.
 
 
 ## Ejercicio 15
-1.  Elige un usuario concreto y consulta qué cuota tiene sobre cada uno de los tablespaces.
+Elige un usuario concreto y consulta qué cuota tiene sobre cada uno de los tablespaces.
 
 
 ## Ejercicio 16
-1.  Elige un usuario concreto y muestra qué privilegios de sistema tiene asignados.
+Elige un usuario concreto y muestra qué privilegios de sistema tiene asignados.
 
 
 
 ## Ejercicio 17
-1.  Elige un usuario concreto y muestra qué privilegios sobre objetos tiene asignados.
+Elige un usuario concreto y muestra qué privilegios sobre objetos tiene asignados.
 
 
 ## Ejercicio 18
@@ -194,12 +204,12 @@ Consulta qué roles existen en tu base de datos.
 
 
 ## Ejercicio 19
-1.  Elige un rol concreto y consulta qué usuarios lo tienen asignado.
+Elige un rol concreto y consulta qué usuarios lo tienen asignado.
 
 
 
 ## Ejercicio 20
-1.  Elige un rol concreto y averigua si está compuesto por otros roles o no.
+Elige un rol concreto y averigua si está compuesto por otros roles o no.
 
 
 
@@ -235,7 +245,7 @@ Consulta qué roles existen en tu base de datos.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NzI2ODQyMCwtMTEyMjgzNDQ2NywtNj
-YzMTgxNjU3LDU3MDAwMzIxOSwxOTQ2NzI4MjAsLTI0ODY3MDY0
-MiwxNTg3OTA5MzYxLC00MTIxNjY1MjFdfQ==
+eyJoaXN0b3J5IjpbOTgzMzUwLC0xMTIyODM0NDY3LC02NjMxOD
+E2NTcsNTcwMDAzMjE5LDE5NDY3MjgyMCwtMjQ4NjcwNjQyLDE1
+ODc5MDkzNjEsLTQxMjE2NjUyMV19
 -->
