@@ -212,6 +212,8 @@ CREATE PROFILE CONTRASEÑASEGURA LIMIT
 
 
 
+
+
 ## Ejercicio 13
 ### Enunciado
 
@@ -222,7 +224,7 @@ Desbloquea posteriormente al usuario (porque el perfil hace que al 4 error de in
 
 ```
 ALTER USER USRPRACTICA1 PROFILE CONTRASEÑASEGURA;
-ALTER USER USRPRACTICA1 IDENTIFIED BY password ACCOUNT UNLOCK;
+ALTER USER USRPRACTICA1 IDENTIFIED BY 1234 ACCOUNT UNLOCK;
 ```
 
 ### Prueba de funcionamiento
@@ -232,8 +234,19 @@ ALTER USER USRPRACTICA1 IDENTIFIED BY password ACCOUNT UNLOCK;
 
 
 ## Ejercicio 14
+### Enunciado
 
 Consulta qué usuarios existen en tu base de datos
+
+### Realización
+
+```
+
+```
+
+### Prueba de funcionamiento
+
+
 
 
 ## Ejercicio 15
@@ -296,7 +309,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU2NTc1MTk0LDIwOTMwMzQwNTMsLTEwNj
+eyJoaXN0b3J5IjpbMjMzMDI2NzcyLDIwOTMwMzQwNTMsLTEwNj
 IyMTk0NjgsMTU5NTk3MDQ2OSwxNzU5MTQyOTg1LC0xNjE1MTIy
 MzIsLTEzNDIyNzEzOTcsMTAxODE3MTkyMSwxNjc1NjUxMzQxLD
 QyNzY2MTYxOSwtMTEyMjgzNDQ2NywtNjYzMTgxNjU3LDU3MDAw
