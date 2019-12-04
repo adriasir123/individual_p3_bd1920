@@ -200,6 +200,11 @@ Crea un perfil CONTRASEÑASEGURA especificando que:
 
 ```
 
+CREATE PROFILE CONTRASEÑASEGURA LIMIT
+
+
+
+;
 ```
 
 
@@ -280,8 +285,8 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDIyNzEzOTcsMTAxODE3MTkyMSwxNj
-c1NjUxMzQxLDQyNzY2MTYxOSwtMTEyMjgzNDQ2NywtNjYzMTgx
-NjU3LDU3MDAwMzIxOSwxOTQ2NzI4MjAsLTI0ODY3MDY0MiwxNT
-g3OTA5MzYxLC00MTIxNjY1MjFdfQ==
+eyJoaXN0b3J5IjpbLTE2MTUxMjIzMiwtMTM0MjI3MTM5NywxMD
+E4MTcxOTIxLDE2NzU2NTEzNDEsNDI3NjYxNjE5LC0xMTIyODM0
+NDY3LC02NjMxODE2NTcsNTcwMDAzMjE5LDE5NDY3MjgyMCwtMj
+Q4NjcwNjQyLDE1ODc5MDkzNjEsLTQxMjE2NjUyMV19
 -->
