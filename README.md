@@ -156,9 +156,9 @@ Activa el uso de perfiles en ORACLE
 
 ### Realización
 
-
-
-
+```
+ALTER SYSTEM SET RESOURCE_LIMIT=TRUE
+```
 
 
 ### Prueba de funcionamiento
@@ -263,7 +263,8 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTY1MTM0MSw0Mjc2NjE2MTksLTExMj
-I4MzQ0NjcsLTY2MzE4MTY1Nyw1NzAwMDMyMTksMTk0NjcyODIw
-LC0yNDg2NzA2NDIsMTU4NzkwOTM2MSwtNDEyMTY2NTIxXX0=
+eyJoaXN0b3J5IjpbMTAxODE3MTkyMSwxNjc1NjUxMzQxLDQyNz
+Y2MTYxOSwtMTEyMjgzNDQ2NywtNjYzMTgxNjU3LDU3MDAwMzIx
+OSwxOTQ2NzI4MjAsLTI0ODY3MDY0MiwxNTg3OTA5MzYxLC00MT
+IxNjY1MjFdfQ==
 -->
