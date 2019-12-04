@@ -3,14 +3,13 @@ En este repositorio se encuentra el código de mi parte individual para la prác
 La documentación de cada ejercicio con pruebas de funcionamiento, las podrás encontrar en este mismo README
 
 ## Ejercicio 1
+### Enunciado
 Crea un rol ROLPRACTICA1 con los privilegios: 
-
 - Conectarse a la base de datos
 - Crear tablas y vistas
 - Insertar datos en la tabla EMP de SCOTT.
 
----
-
+### Realización
 
 ```
 CREATE ROLE ROLPRACTICA1;
@@ -19,7 +18,7 @@ Grant Create table to ROLPRACTICA1;
 Grant Create view to ROLPRACTICA1;
 grant insert on scott.emp to ROLPRACTICA1;
 ```
-
+### Pr
 
 
 
@@ -179,6 +178,6 @@ Consulta qué roles existen en tu base de datos.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3ODU2Mzc5OSwtMjQ4NjcwNjQyLDE1OD
-c5MDkzNjEsLTQxMjE2NjUyMV19
+eyJoaXN0b3J5IjpbLTE0NDYzODAyNzYsLTI0ODY3MDY0MiwxNT
+g3OTA5MzYxLC00MTIxNjY1MjFdfQ==
 -->
