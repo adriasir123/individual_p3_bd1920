@@ -241,7 +241,8 @@ Consulta qué usuarios existen en tu base de datos
 ### Realización
 
 ```
-
+SELECT *
+FROM ALL_USERS;
 ```
 
 ### Prueba de funcionamiento
@@ -309,10 +310,10 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzMDI2NzcyLDIwOTMwMzQwNTMsLTEwNj
-IyMTk0NjgsMTU5NTk3MDQ2OSwxNzU5MTQyOTg1LC0xNjE1MTIy
-MzIsLTEzNDIyNzEzOTcsMTAxODE3MTkyMSwxNjc1NjUxMzQxLD
-QyNzY2MTYxOSwtMTEyMjgzNDQ2NywtNjYzMTgxNjU3LDU3MDAw
-MzIxOSwxOTQ2NzI4MjAsLTI0ODY3MDY0MiwxNTg3OTA5MzYxLC
-00MTIxNjY1MjFdfQ==
+eyJoaXN0b3J5IjpbNDQ3MzcwNzI5LDIzMzAyNjc3MiwyMDkzMD
+M0MDUzLC0xMDYyMjE5NDY4LDE1OTU5NzA0NjksMTc1OTE0Mjk4
+NSwtMTYxNTEyMjMyLC0xMzQyMjcxMzk3LDEwMTgxNzE5MjEsMT
+Y3NTY1MTM0MSw0Mjc2NjE2MTksLTExMjI4MzQ0NjcsLTY2MzE4
+MTY1Nyw1NzAwMDMyMTksMTk0NjcyODIwLC0yNDg2NzA2NDIsMT
+U4NzkwOTM2MSwtNDEyMTY2NTIxXX0=
 -->
