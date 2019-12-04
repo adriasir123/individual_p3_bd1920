@@ -4,6 +4,7 @@ La documentación de cada ejercicio con pruebas de funcionamiento, las podrás e
 
 ## Ejercicio 1
 ### Enunciado
+
 Crea un rol ROLPRACTICA1 con los privilegios: 
 - Conectarse a la base de datos
 - Crear tablas y vistas
@@ -18,12 +19,14 @@ Grant Create table to ROLPRACTICA1;
 Grant Create view to ROLPRACTICA1;
 grant insert on scott.emp to ROLPRACTICA1;
 ```
-### Pr
+### Prueba de funcionamiento
 
 
 
 ## Ejercicio 2
-Crea un usuario USRPRACTICA1 con el tablespace USERS por defecto y averigua que cuota se le ha asignado por defecto en el mismo. Sustitúyela por una cuota de 1M.
+Crea un usuario USRPRACTICA1 con el tablespace USERS por defecto
+Averigua qué cuota se le ha asignado por defecto en el mismo
+Sustitúyela por una cuota de 1M
 
 ```
 create user USRPRACTICA1 default tablespace users;  
@@ -178,6 +181,6 @@ Consulta qué roles existen en tu base de datos.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDYzODAyNzYsLTI0ODY3MDY0MiwxNT
-g3OTA5MzYxLC00MTIxNjY1MjFdfQ==
+eyJoaXN0b3J5IjpbMTk0NjcyODIwLC0yNDg2NzA2NDIsMTU4Nz
+kwOTM2MSwtNDEyMTY2NTIxXX0=
 -->
