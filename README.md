@@ -60,7 +60,11 @@ GRANT ROLPRACTICA1 TO USRPRACTICA1;
 
 
 ## Ejercicio 5
-Concede a USRPRACTICA1 el privilegio de crear tablas e insertar datos en el esquema de cualquier usuario. Prueba el privilegio. Comprueba si puede modificar la estructura o eliminar las tablas creadas.
+Concede a USRPRACTICA1 los privilegios:
+- Crear tablas en el esquema de cualquier usuario
+- Insertar datos en el esquema de cualquier usuario
+Probar los privilegios
+Comprueba si puede modificar la estructura o eliminar las tablas creadas.
 
 ----
 
@@ -181,6 +185,6 @@ Consulta qué roles existen en tu base de datos.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NjcyODIwLC0yNDg2NzA2NDIsMTU4Nz
-kwOTM2MSwtNDEyMTY2NTIxXX0=
+eyJoaXN0b3J5IjpbLTUzNDk1MTY1NCwxOTQ2NzI4MjAsLTI0OD
+Y3MDY0MiwxNTg3OTA5MzYxLC00MTIxNjY1MjFdfQ==
 -->
