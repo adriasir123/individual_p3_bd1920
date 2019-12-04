@@ -261,7 +261,7 @@ Elige un usuario concreto y consulta qué cuota tiene sobre cada uno de los tabl
 
 
 ### Realización
-
+Voy a hacerlo sobre system
 ```
 
 ```
@@ -402,11 +402,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjUyNDMxNzYsMTQxOTkxOTg2NSw0ND
-czNzA3MjksMjMzMDI2NzcyLDIwOTMwMzQwNTMsLTEwNjIyMTk0
-NjgsMTU5NTk3MDQ2OSwxNzU5MTQyOTg1LC0xNjE1MTIyMzIsLT
-EzNDIyNzEzOTcsMTAxODE3MTkyMSwxNjc1NjUxMzQxLDQyNzY2
-MTYxOSwtMTEyMjgzNDQ2NywtNjYzMTgxNjU3LDU3MDAwMzIxOS
-wxOTQ2NzI4MjAsLTI0ODY3MDY0MiwxNTg3OTA5MzYxLC00MTIx
-NjY1MjFdfQ==
+eyJoaXN0b3J5IjpbLTk5NjI4NjYwNSwtMTc2NTI0MzE3NiwxND
+E5OTE5ODY1LDQ0NzM3MDcyOSwyMzMwMjY3NzIsMjA5MzAzNDA1
+MywtMTA2MjIxOTQ2OCwxNTk1OTcwNDY5LDE3NTkxNDI5ODUsLT
+E2MTUxMjIzMiwtMTM0MjI3MTM5NywxMDE4MTcxOTIxLDE2NzU2
+NTEzNDEsNDI3NjYxNjE5LC0xMTIyODM0NDY3LC02NjMxODE2NT
+csNTcwMDAzMjE5LDE5NDY3MjgyMCwtMjQ4NjcwNjQyLDE1ODc5
+MDkzNjFdfQ==
 -->
