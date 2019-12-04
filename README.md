@@ -263,7 +263,9 @@ Elige un usuario concreto y consulta qué cuota tiene sobre cada uno de los tabl
 ### Realización
 Voy a hacerlo sobre system
 ```
-
+select tablespace_name, username, bytes, max_bytes
+	from dba_ts_quotas
+	where username = 'system';
 ```
 
 
@@ -402,11 +404,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjI4NjYwNSwtMTc2NTI0MzE3NiwxND
-E5OTE5ODY1LDQ0NzM3MDcyOSwyMzMwMjY3NzIsMjA5MzAzNDA1
-MywtMTA2MjIxOTQ2OCwxNTk1OTcwNDY5LDE3NTkxNDI5ODUsLT
-E2MTUxMjIzMiwtMTM0MjI3MTM5NywxMDE4MTcxOTIxLDE2NzU2
-NTEzNDEsNDI3NjYxNjE5LC0xMTIyODM0NDY3LC02NjMxODE2NT
-csNTcwMDAzMjE5LDE5NDY3MjgyMCwtMjQ4NjcwNjQyLDE1ODc5
-MDkzNjFdfQ==
+eyJoaXN0b3J5IjpbLTIxMTA2OTU0NTMsLTk5NjI4NjYwNSwtMT
+c2NTI0MzE3NiwxNDE5OTE5ODY1LDQ0NzM3MDcyOSwyMzMwMjY3
+NzIsMjA5MzAzNDA1MywtMTA2MjIxOTQ2OCwxNTk1OTcwNDY5LD
+E3NTkxNDI5ODUsLTE2MTUxMjIzMiwtMTM0MjI3MTM5NywxMDE4
+MTcxOTIxLDE2NzU2NTEzNDEsNDI3NjYxNjE5LC0xMTIyODM0ND
+Y3LC02NjMxODE2NTcsNTcwMDAzMjE5LDE5NDY3MjgyMCwtMjQ4
+NjcwNjQyXX0=
 -->
