@@ -187,12 +187,15 @@ ALTER USER USRPRACTICA1 PROFILE NOPARESDECURRAR;
 
 Crea un perfil CONTRASEÑASEGURA especificando que:
 - La contraseña caduque mensualmente
-- Sólo se permitan tres intentos fallidos para acceder a la cuenta. En caso de superarse, la cuenta debe quedar bloqueada indefinidamente.
+- Sólo se permitan tres intentos fallidos para acceder a la cuenta
+- En caso de superarse los 3 intentos, la cuenta se bloqueará indefinidamente
 
 
 ### Realización
 
+```
 
+```
 
 
 ### Prueba de funcionamiento
@@ -272,8 +275,8 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjY4ODUyMTcsMTAxODE3MTkyMSwxNj
-c1NjUxMzQxLDQyNzY2MTYxOSwtMTEyMjgzNDQ2NywtNjYzMTgx
-NjU3LDU3MDAwMzIxOSwxOTQ2NzI4MjAsLTI0ODY3MDY0MiwxNT
-g3OTA5MzYxLC00MTIxNjY1MjFdfQ==
+eyJoaXN0b3J5IjpbLTk3ODI5MDU3LDEwMTgxNzE5MjEsMTY3NT
+Y1MTM0MSw0Mjc2NjE2MTksLTExMjI4MzQ0NjcsLTY2MzE4MTY1
+Nyw1NzAwMDMyMTksMTk0NjcyODIwLC0yNDg2NzA2NDIsMTU4Nz
+kwOTM2MSwtNDEyMTY2NTIxXX0=
 -->
