@@ -98,9 +98,13 @@ grant read on scott.dept to USRPRACTICA1 with grant option;
 Comprueba que USRPRACTICA1 puede realizar todas las operaciones previstas en el rol (se refiere al rol que le dimos antes, ROLPRACTICA1).
 
 ### Realización
-
+Recordatorio de lo que hacía el rol
 ```
-
+CREATE ROLE ROLPRACTICA1;
+Grant Create session to ROLPRACTICA1;
+Grant Create table to ROLPRACTICA1;
+Grant Create view to ROLPRACTICA1;
+grant insert on scott.emp to ROLPRACTICA1;
 ```
 
 ### Prueba de funcionamiento
@@ -208,7 +212,7 @@ Consulta qué roles existen en tu base de datos.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MzE4MTY1Nyw1NzAwMDMyMTksMTk0Nj
-cyODIwLC0yNDg2NzA2NDIsMTU4NzkwOTM2MSwtNDEyMTY2NTIx
-XX0=
+eyJoaXN0b3J5IjpbLTE0NjUxOTgxMTcsLTY2MzE4MTY1Nyw1Nz
+AwMDMyMTksMTk0NjcyODIwLC0yNDg2NzA2NDIsMTU4NzkwOTM2
+MSwtNDEyMTY2NTIxXX0=
 -->
