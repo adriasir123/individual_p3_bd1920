@@ -268,12 +268,6 @@ select tablespace_name, username, bytes, max_bytes
 	where username = 'SYSTEM';
 ```
 
-```
-select USERNAME, DEFAULT_TABLESPACE, TEMPORARY_TABLESPACE
-	from DBA_USERS
-	where USERNAME='system';
-```
-
 
 ### Prueba de funcionamiento
 
@@ -409,11 +403,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0Mjk3OTcsMTE4NjkxNTI5OSwtOTk2Mj
-g2NjA1LC0xNzY1MjQzMTc2LDE0MTk5MTk4NjUsNDQ3MzcwNzI5
-LDIzMzAyNjc3MiwyMDkzMDM0MDUzLC0xMDYyMjE5NDY4LDE1OT
-U5NzA0NjksMTc1OTE0Mjk4NSwtMTYxNTEyMjMyLC0xMzQyMjcx
-Mzk3LDEwMTgxNzE5MjEsMTY3NTY1MTM0MSw0Mjc2NjE2MTksLT
-ExMjI4MzQ0NjcsLTY2MzE4MTY1Nyw1NzAwMDMyMTksMTk0Njcy
-ODIwXX0=
+eyJoaXN0b3J5IjpbLTM3Mzc5NjkxMSwxMTg2OTE1Mjk5LC05OT
+YyODY2MDUsLTE3NjUyNDMxNzYsMTQxOTkxOTg2NSw0NDczNzA3
+MjksMjMzMDI2NzcyLDIwOTMwMzQwNTMsLTEwNjIyMTk0NjgsMT
+U5NTk3MDQ2OSwxNzU5MTQyOTg1LC0xNjE1MTIyMzIsLTEzNDIy
+NzEzOTcsMTAxODE3MTkyMSwxNjc1NjUxMzQxLDQyNzY2MTYxOS
+wtMTEyMjgzNDQ2NywtNjYzMTgxNjU3LDU3MDAwMzIxOSwxOTQ2
+NzI4MjBdfQ==
 -->
