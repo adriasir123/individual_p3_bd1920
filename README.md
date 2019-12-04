@@ -2,8 +2,6 @@
 En este repositorio se encuentra el código de mi parte individual para la práctica 3 de base de datos "Gestión de usuarios". Soy el alumno 1, y me corresponde hacer la parte de Oracle.
 La documentación de cada ejercicio con pruebas de funcionamiento, las podrás encontrar en este mismo README
 
----
-
 ## Ejercicio 1
 Crea un rol ROLPRACTICA1 con los privilegios: 
 
@@ -12,8 +10,6 @@ Crea un rol ROLPRACTICA1 con los privilegios:
 - Insertar datos en la tabla EMP de SCOTT.
 
 ---
-
-
 
 
 ```
@@ -28,8 +24,15 @@ grant insert on scott.emp to ROLPRACTICA1;
 
 
 ## Ejercicio 2
-1.  Crea un usuario USRPRACTICA1 con el tablespace USERS por defecto y averigua que cuota se le ha asignado por defecto en el mismo. Sustitúyela por una cuota de 1M.
+Crea un usuario USRPRACTICA1 con el tablespace USERS por defecto y averigua que cuota se le ha asignado por defecto en el mismo. Sustitúyela por una cuota de 1M.
 
+```
+create user USRPRACTICA1 default tablespace users;  
+  
+Cuota por defecto en ese tablespace  
+  
+Sustituir por cuota de 1M
+```
 
 
 ## Ejercicio 3
@@ -145,6 +148,6 @@ Consulta qué roles existen en tu base de datos.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODY3MDY0MiwxNTg3OTA5MzYxLC00MT
-IxNjY1MjFdfQ==
+eyJoaXN0b3J5IjpbMTYxMjEzNTk0LC0yNDg2NzA2NDIsMTU4Nz
+kwOTM2MSwtNDEyMTY2NTIxXX0=
 -->
