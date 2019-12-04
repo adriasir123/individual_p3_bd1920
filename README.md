@@ -48,37 +48,62 @@ alter user USRPRACTICA1 quota 0 on SYSTEM;
 
 
 ## Ejercicio 4
-1.  Concede a USRPRACTICA1 el ROLPRACTICA1.
+Concede a USRPRACTICA1 el ROLPRACTICA1.
+
+---
+
+```
+GRANT ROLPRACTICA1 TO USRPRACTICA1;
+```
 
 
 ## Ejercicio 5
-1.  Concede a USRPRACTICA1 el privilegio de crear tablas e insertar datos en el esquema de cualquier usuario. Prueba el privilegio. Comprueba si puede modificar la estructura o eliminar las tablas creadas.
+Concede a USRPRACTICA1 el privilegio de crear tablas e insertar datos en el esquema de cualquier usuario. Prueba el privilegio. Comprueba si puede modificar la estructura o eliminar las tablas creadas.
+
+----
+
+
 
 
 ## Ejercicio 6
-1.  Concede a USRPRACTICA1 el privilegio de leer la tabla DEPT de SCOTT con la posibilidad de que lo pase a su vez a terceros usuarios.
+Concede a USRPRACTICA1 el privilegio de leer la tabla DEPT de SCOTT con la posibilidad de que lo pase a su vez a terceros usuarios.
+
+
+
 
 
 ## Ejercicio 7
-1.  Comprueba que USRPRACTICA1 puede realizar todas las operaciones previstas en el rol.
+Comprueba que USRPRACTICA1 puede realizar todas las operaciones previstas en el rol.
+
+
 
 
 ## Ejercicio 8
-1.  Quita a USRPRACTICA1 el privilegio de crear vistas. Comprueba que ya no puede hacerlo.
+Quita a USRPRACTICA1 el privilegio de crear vistas. Comprueba que ya no puede hacerlo.
+
+
+
 
 
 
 ## Ejercicio 9
-1.  Crea un perfil NOPARESDECURRAR que limita a dos el número de minutos de inactividad permitidos en una sesión.
+Crea un perfil NOPARESDECURRAR que limita a dos el número de minutos de inactividad permitidos en una sesión.
+
+
+
 
 
 ## Ejercicio 10
-1.  Activa el uso de perfiles en ORACLE.
+Activa el uso de perfiles en ORACLE.
+
+
 
 
 
 ## Ejercicio 11
 1.  Asigna el perfil creado a USRPRACTICA1 y comprueba su correcto funcionamiento.
+
+
 
 
 
@@ -154,6 +179,6 @@ Consulta qué roles existen en tu base de datos.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4NDg3MTU4LC0yNDg2NzA2NDIsMTU4Nz
-kwOTM2MSwtNDEyMTY2NTIxXX0=
+eyJoaXN0b3J5IjpbLTg3ODU2Mzc5OSwtMjQ4NjcwNjQyLDE1OD
+c5MDkzNjEsLTQxMjE2NjUyMV19
 -->
