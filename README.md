@@ -28,53 +28,65 @@ grant insert on scott.emp to ROLPRACTICA1;
 
 
 ## Ejercicio 2
-
+1.  Crea un usuario USRPRACTICA1 con el tablespace USERS por defecto y averigua que cuota se le ha asignado por defecto en el mismo. Sustitúyela por una cuota de 1M.
 
 
 
 ## Ejercicio 3
+1.  Modifica el usuario USRPRACTICA1 para que tenga cuota 0 en el tablespace SYSTEM.
+
 
 
 
 ## Ejercicio 4
-
+1.  Concede a USRPRACTICA1 el ROLPRACTICA1.
 
 
 ## Ejercicio 5
-
+1.  Concede a USRPRACTICA1 el privilegio de crear tablas e insertar datos en el esquema de cualquier usuario. Prueba el privilegio. Comprueba si puede modificar la estructura o eliminar las tablas creadas.
 
 
 ## Ejercicio 6
-
+1.  Concede a USRPRACTICA1 el privilegio de leer la tabla DEPT de SCOTT con la posibilidad de que lo pase a su vez a terceros usuarios.
 
 
 ## Ejercicio 7
+1.  Comprueba que USRPRACTICA1 puede realizar todas las operaciones previstas en el rol.
 
 
 ## Ejercicio 8
+1.  Quita a USRPRACTICA1 el privilegio de crear vistas. Comprueba que ya no puede hacerlo.
 
 
 
 ## Ejercicio 9
-
+1.  Crea un perfil NOPARESDECURRAR que limita a dos el número de minutos de inactividad permitidos en una sesión.
 
 
 ## Ejercicio 10
 
 
+
+
 ## Ejercicio 11
+
+
 
 
 ## Ejercicio 12
 
 
+
 ## Ejercicio 13
+
 
 
 ## Ejercicio 14
 
 
+
 ## Ejercicio 15
+
 
 
 ## Ejercicio 16
@@ -114,3 +126,6 @@ grant insert on scott.emp to ROLPRACTICA1;
 
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIwNTY1NzI0NjVdfQ==
+-->
