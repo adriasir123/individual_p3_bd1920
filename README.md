@@ -60,24 +60,34 @@ GRANT ROLPRACTICA1 TO USRPRACTICA1;
 
 
 ## Ejercicio 5
+### Enunciado
+
 Concede a USRPRACTICA1 los privilegios:
 - Crear tablas en el esquema de cualquier usuario
 - Insertar datos en el esquema de cualquier usuario
 Probar los privilegios
 Comprueba si puede modificar la estructura o eliminar las tablas creadas.
 
-----
+### Realización
+```
+grant create any table to USRPRACTICA1;
+grant INSERT ANY TABLE to USRPRACTICA1;
+```
 
-```
-grant create any table to USRPRACTICA1;
-grant create any table to USRPRACTICA1;
-INSERT ANY TABLE
-```
+### Prueba de funcionamiento
 
 
 
 ## Ejercicio 6
+### Enunciado
+
 Concede a USRPRACTICA1 el privilegio de leer la tabla DEPT de SCOTT con la posibilidad de que lo pase a su vez a terceros usuarios.
+
+### Realización
+
+```
+
+```
 
 
 
@@ -190,6 +200,6 @@ Consulta qué roles existen en tu base de datos.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjI5MzU1NywxOTQ2NzI4MjAsLTI0OD
-Y3MDY0MiwxNTg3OTA5MzYxLC00MTIxNjY1MjFdfQ==
+eyJoaXN0b3J5IjpbNTcwMDAzMjE5LDE5NDY3MjgyMCwtMjQ4Nj
+cwNjQyLDE1ODc5MDkzNjEsLTQxMjE2NjUyMV19
 -->
