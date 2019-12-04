@@ -120,7 +120,7 @@ Quita a USRPRACTICA1 el privilegio de crear vistas. Comprueba que ya no puede ha
 
 
 ```
-
+CREATE VIEW
 ```
 
 
@@ -222,7 +222,7 @@ Consulta qué roles existen en tu base de datos.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDIzNDMwNCwtNjYzMTgxNjU3LDU3MD
+eyJoaXN0b3J5IjpbMTczMjAzODMyMywtNjYzMTgxNjU3LDU3MD
 AwMzIxOSwxOTQ2NzI4MjAsLTI0ODY3MDY0MiwxNTg3OTA5MzYx
 LC00MTIxNjY1MjFdfQ==
 -->
