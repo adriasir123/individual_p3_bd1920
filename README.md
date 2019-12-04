@@ -99,7 +99,8 @@ grant insert on scott.emp to ROLPRACTICA1;
 
 
 ## Ejercicio 18
-1.  Consulta qué roles existen en tu base de datos.
+Consulta qué roles existen en tu base de datos.
+---
 
 
 
@@ -147,5 +148,5 @@ grant insert on scott.emp to ROLPRACTICA1;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjE2NjUyMV19
+eyJoaXN0b3J5IjpbMTU4NzkwOTM2MSwtNDEyMTY2NTIxXX0=
 -->
