@@ -130,7 +130,20 @@ REVOKE CREATE VIEW FROM USRPRACTICA1;
 
 
 ## Ejercicio 9
+### Enunciado
+
 Crea un perfil NOPARESDECURRAR que limita a dos el número de minutos de inactividad permitidos en una sesión.
+
+
+### Realización
+
+```
+
+```
+
+
+
+### Prueba de funcionamiento
 
 
 
@@ -222,7 +235,7 @@ Consulta qué roles existen en tu base de datos.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTIwOTk2ODYsLTY2MzE4MTY1Nyw1Nz
+eyJoaXN0b3J5IjpbLTExMjI4MzQ0NjcsLTY2MzE4MTY1Nyw1Nz
 AwMDMyMTksMTk0NjcyODIwLC0yNDg2NzA2NDIsMTU4NzkwOTM2
 MSwtNDEyMTY2NTIxXX0=
 -->
