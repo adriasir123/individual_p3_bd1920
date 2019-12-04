@@ -36,7 +36,13 @@ Sustituir por cuota de 1M
 
 
 ## Ejercicio 3
-1.  Modifica el usuario USRPRACTICA1 para que tenga cuota 0 en el tablespace SYSTEM.
+Modifica el usuario USRPRACTICA1 para que tenga cuota 0 en el tablespace SYSTEM.
+
+---
+
+```
+alter user USRPRACTICA1 quota 0 on SYSTEM;
+
 
 
 
@@ -148,6 +154,6 @@ Consulta qué roles existen en tu base de datos.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjEzNTk0LC0yNDg2NzA2NDIsMTU4Nz
-kwOTM2MSwtNDEyMTY2NTIxXX0=
+eyJoaXN0b3J5IjpbLTE3Mjk1NDUyMTAsLTI0ODY3MDY0MiwxNT
+g3OTA5MzYxLC00MTIxNjY1MjFdfQ==
 -->
