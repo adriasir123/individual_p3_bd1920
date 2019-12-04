@@ -14,9 +14,9 @@ Crea un rol ROLPRACTICA1 con los privilegios:
 
 ```
 CREATE ROLE ROLPRACTICA1;
-Grant Create session to ROLPRACTICA1;
-Grant Create table to ROLPRACTICA1;
-Grant Create view to ROLPRACTICA1;
+grant create session to ROLPRACTICA1;
+grant create table to ROLPRACTICA1;
+grant create view to ROLPRACTICA1;
 grant insert on scott.emp to ROLPRACTICA1;
 ```
 ### Prueba de funcionamiento
@@ -222,7 +222,7 @@ Desbloquea posteriormente al usuario (porque el perfil hace que al 4 error de in
 
 ```
 ALTER USER USRPRACTICA1 PROFILE CONTRASEÑASEGURA;
-
+ALTER USER USRPRACTICA1 IDENTIFIED BY password ACCOUNT UNLOCK;
 ```
 
 ### Prueba de funcionamiento
@@ -294,10 +294,10 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjYwNjQyOCwyMDkzMDM0MDUzLC0xMD
-YyMjE5NDY4LDE1OTU5NzA0NjksMTc1OTE0Mjk4NSwtMTYxNTEy
-MjMyLC0xMzQyMjcxMzk3LDEwMTgxNzE5MjEsMTY3NTY1MTM0MS
-w0Mjc2NjE2MTksLTExMjI4MzQ0NjcsLTY2MzE4MTY1Nyw1NzAw
-MDMyMTksMTk0NjcyODIwLC0yNDg2NzA2NDIsMTU4NzkwOTM2MS
-wtNDEyMTY2NTIxXX0=
+eyJoaXN0b3J5IjpbMTQzMzM4NzcwLDIwOTMwMzQwNTMsLTEwNj
+IyMTk0NjgsMTU5NTk3MDQ2OSwxNzU5MTQyOTg1LC0xNjE1MTIy
+MzIsLTEzNDIyNzEzOTcsMTAxODE3MTkyMSwxNjc1NjUxMzQxLD
+QyNzY2MTYxOSwtMTEyMjgzNDQ2NywtNjYzMTgxNjU3LDU3MDAw
+MzIxOSwxOTQ2NzI4MjAsLTI0ODY3MDY0MiwxNTg3OTA5MzYxLC
+00MTIxNjY1MjFdfQ==
 -->
