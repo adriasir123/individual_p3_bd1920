@@ -90,54 +90,54 @@ grant insert on scott.emp to ROLPRACTICA1;
 
 
 ## Ejercicio 16
-
+1.  Elige un usuario concreto y muestra qué privilegios de sistema tiene asignados.
 
 
 
 ## Ejercicio 17
-
+1.  Elige un usuario concreto y muestra qué privilegios sobre objetos tiene asignados.
 
 
 ## Ejercicio 18
-
+1.  Consulta qué roles existen en tu base de datos.
 
 
 
 
 
 ## Ejercicio 19
-
+1.  Elige un rol concreto y consulta qué usuarios lo tienen asignado.
 
 
 
 ## Ejercicio 20
-
+1.  Elige un rol concreto y averigua si está compuesto por otros roles o no.
 
 
 
 ## Ejercicio 21
-
+1.  Consulta qué perfiles existen en tu base de datos.
 
 
 
 ## Ejercicio 22
-
+1.  Elige un perfil y consulta qué límites se establecen en el mismo.
 
 
 
 ## Ejercicio 23
-
+1.  Muestra los nombres de los usuarios que tienen limitado el número de sesiones concurrentes.
 
 
 
 
 ## Ejercicio 24
-
+1.  Realiza un procedimiento que reciba un nombre de usuario y un privilegio de sistema y nos muestre el mensaje 'SI, DIRECTO' si el usuario tiene ese privilegio concedido directamente, 'SI, POR ROL' si el usuario tiene ese privilegio en alguno de los roles que tiene concedidos y un 'NO' si el usuario no tiene dicho privilegio.
 
 
 
 ## Ejercicio 25
-
+1.  Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de usuario y muestre el número de sesiones concurrentes que puede tener abiertas como máximo y las que tiene abiertas realmente.
 
 
 
@@ -147,5 +147,5 @@ grant insert on scott.emp to ROLPRACTICA1;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTk5NDkwNV19
+eyJoaXN0b3J5IjpbLTQxMjE2NjUyMV19
 -->
