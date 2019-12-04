@@ -250,8 +250,25 @@ FROM ALL_USERS;
 
 
 
+
+
+
+
 ## Ejercicio 15
+### Enunciado
+
 Elige un usuario concreto y consulta qué cuota tiene sobre cada uno de los tablespaces.
+
+
+### Realización
+
+
+
+
+
+
+
+
 
 
 ## Ejercicio 16
@@ -259,8 +276,28 @@ Elige un usuario concreto y muestra qué privilegios de sistema tiene asignados.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ## Ejercicio 17
 Elige un usuario concreto y muestra qué privilegios sobre objetos tiene asignados.
+
+
+
+
+
+
+
+
 
 
 ## Ejercicio 18
@@ -310,10 +347,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTkxOTg2NSw0NDczNzA3MjksMjMzMD
-I2NzcyLDIwOTMwMzQwNTMsLTEwNjIyMTk0NjgsMTU5NTk3MDQ2
-OSwxNzU5MTQyOTg1LC0xNjE1MTIyMzIsLTEzNDIyNzEzOTcsMT
-AxODE3MTkyMSwxNjc1NjUxMzQxLDQyNzY2MTYxOSwtMTEyMjgz
-NDQ2NywtNjYzMTgxNjU3LDU3MDAwMzIxOSwxOTQ2NzI4MjAsLT
-I0ODY3MDY0MiwxNTg3OTA5MzYxLC00MTIxNjY1MjFdfQ==
+eyJoaXN0b3J5IjpbMjA1MDE4NTE4OCwxNDE5OTE5ODY1LDQ0Nz
+M3MDcyOSwyMzMwMjY3NzIsMjA5MzAzNDA1MywtMTA2MjIxOTQ2
+OCwxNTk1OTcwNDY5LDE3NTkxNDI5ODUsLTE2MTUxMjIzMiwtMT
+M0MjI3MTM5NywxMDE4MTcxOTIxLDE2NzU2NTEzNDEsNDI3NjYx
+NjE5LC0xMTIyODM0NDY3LC02NjMxODE2NTcsNTcwMDAzMjE5LD
+E5NDY3MjgyMCwtMjQ4NjcwNjQyLDE1ODc5MDkzNjEsLTQxMjE2
+NjUyMV19
 -->
