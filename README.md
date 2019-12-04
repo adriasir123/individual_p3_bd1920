@@ -112,9 +112,19 @@ grant insert on scott.emp to ROLPRACTICA1;
 
 
 ## Ejercicio 8
+### Enunciado
+
 Quita a USRPRACTICA1 el privilegio de crear vistas. Comprueba que ya no puede hacerlo.
 
+### Realización
 
+
+```
+
+```
+
+
+### Prueba de funcionamiento
 
 
 
@@ -212,7 +222,7 @@ Consulta qué roles existen en tu base de datos.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjUxOTgxMTcsLTY2MzE4MTY1Nyw1Nz
-AwMDMyMTksMTk0NjcyODIwLC0yNDg2NzA2NDIsMTU4NzkwOTM2
-MSwtNDEyMTY2NTIxXX0=
+eyJoaXN0b3J5IjpbLTk2NDIzNDMwNCwtNjYzMTgxNjU3LDU3MD
+AwMzIxOSwxOTQ2NzI4MjAsLTI0ODY3MDY0MiwxNTg3OTA5MzYx
+LC00MTIxNjY1MjFdfQ==
 -->
