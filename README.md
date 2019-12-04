@@ -173,7 +173,9 @@ Asigna el perfil creado a USRPRACTICA1 y comprueba su correcto funcionamiento.
 
 ### Realización
 
-
+```
+ALTER USER USRPRACTICA1 PROFILE IDLETEST;
+```
 
 ### Prueba de funcionamiento
 
@@ -251,7 +253,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODA3NDQ4LC0xMTIyODM0NDY3LC02Nj
+eyJoaXN0b3J5IjpbNDI3NjYxNjE5LC0xMTIyODM0NDY3LC02Nj
 MxODE2NTcsNTcwMDAzMjE5LDE5NDY3MjgyMCwtMjQ4NjcwNjQy
 LDE1ODc5MDkzNjEsLTQxMjE2NjUyMV19
 -->
