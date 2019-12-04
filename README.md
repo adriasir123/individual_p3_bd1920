@@ -86,14 +86,15 @@ Concede a USRPRACTICA1 el privilegio de leer la tabla DEPT de SCOTT con la posib
 ### Realización
 
 ```
-grant read on scott.dept to reporting_admin with grant option; 
+grant read on scott.dept to USRPRACTICA1 with grant option; 
 ```
 
-
-
+### Prueba de funcionamiento
 
 
 ## Ejercicio 7
+### Enunciado
+
 Comprueba que USRPRACTICA1 puede realizar todas las operaciones previstas en el rol.
 
 
@@ -200,7 +201,7 @@ Consulta qué roles existen en tu base de datos.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTk5NjM1OSw1NzAwMDMyMTksMTk0Nj
-cyODIwLC0yNDg2NzA2NDIsMTU4NzkwOTM2MSwtNDEyMTY2NTIx
-XX0=
+eyJoaXN0b3J5IjpbLTE3NTIwMDE4MTYsNTcwMDAzMjE5LDE5ND
+Y3MjgyMCwtMjQ4NjcwNjQyLDE1ODc5MDkzNjEsLTQxMjE2NjUy
+MV19
 -->
