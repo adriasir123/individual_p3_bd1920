@@ -78,7 +78,10 @@ alter user USRPRACTICA1 quota 1M on USERS;
 
 
 ### Prueba de funcionamiento
-* 
+* Usuario creado en el tablespace que le hemos indicado
+```
+select username, DEFAULT_TABLESPACE`
+```
 
 
 ## Ejercicio 3
@@ -548,11 +551,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMTA1ODc3MywxNzUyMzA3MzY5LC0xOT
-UyODQ3MjA2LC01NTI3MDMzMDEsNzY0NjgxODIwLC05OTg4MDgz
-NDQsLTEzNzkyMTE4NTQsLTEyNTg0NjE0MzMsLTExMDEzNTc2ND
-EsLTg4NzMzMjY5NCw0MDYzODQ0NDQsLTE1OTY0OTI5OTYsLTE2
-OTYyNTA4MzksMTQ5NjU5MTYwNywtMTg2ODY3NTMzNSwtMzU3MT
-E4MzA3LDEzNjA4NDIyNjEsMTkwNTA3ODc4OCwtMzczNzk2OTEx
-LDExODY5MTUyOTldfQ==
+eyJoaXN0b3J5IjpbLTE3NzYzNDYxODQsMTc1MjMwNzM2OSwtMT
+k1Mjg0NzIwNiwtNTUyNzAzMzAxLDc2NDY4MTgyMCwtOTk4ODA4
+MzQ0LC0xMzc5MjExODU0LC0xMjU4NDYxNDMzLC0xMTAxMzU3Nj
+QxLC04ODczMzI2OTQsNDA2Mzg0NDQ0LC0xNTk2NDkyOTk2LC0x
+Njk2MjUwODM5LDE0OTY1OTE2MDcsLTE4Njg2NzUzMzUsLTM1Nz
+ExODMwNywxMzYwODQyMjYxLDE5MDUwNzg3ODgsLTM3Mzc5Njkx
+MSwxMTg2OTE1Mjk5XX0=
 -->
