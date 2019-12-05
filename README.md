@@ -307,6 +307,7 @@ Elige un usuario concreto y muestra qué privilegios sobre objetos tiene asignad
 
 ```
 
+```
 
 
 ### Prueba de funcionamiento
@@ -412,7 +413,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjc3NzM5NDMsMTkwNTA3ODc4OCwtMz
+eyJoaXN0b3J5IjpbLTEzMzM5OTgyNzUsMTkwNTA3ODc4OCwtMz
 czNzk2OTExLDExODY5MTUyOTksLTk5NjI4NjYwNSwtMTc2NTI0
 MzE3NiwxNDE5OTE5ODY1LDQ0NzM3MDcyOSwyMzMwMjY3NzIsMj
 A5MzAzNDA1MywtMTA2MjIxOTQ2OCwxNTk1OTcwNDY5LDE3NTkx
