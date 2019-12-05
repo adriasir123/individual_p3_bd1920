@@ -33,14 +33,18 @@ ROLE
 ---------------
 ROLPRACTICA1
 ```
-El rol se ha creado correctame
+_El rol se ha creado correctamente_
 * Si ese rol tiene los privilegios que le hemos asignado. En este caso es sencillo, ya que casi todos privilegios que se le han asignado son de sistema. El único privilegio Por lo tanto, tenemos que consultar la vista DBA_SYS_PRIVS
 ```
 select PRIVILEGE
 	from DBA_SYS_PRIVS
 	where grantee = 'ROLPRACTICA1';
 ```
-
+```
+select PRIVILEGE
+	from DBA_TAB_PRIVS
+	where grantee = 'ROLPRACTICA1';
+```
 
 
 
@@ -525,11 +529,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzc3NDA0MzIsNzY0NjgxODIwLC05OT
-g4MDgzNDQsLTEzNzkyMTE4NTQsLTEyNTg0NjE0MzMsLTExMDEz
-NTc2NDEsLTg4NzMzMjY5NCw0MDYzODQ0NDQsLTE1OTY0OTI5OT
-YsLTE2OTYyNTA4MzksMTQ5NjU5MTYwNywtMTg2ODY3NTMzNSwt
-MzU3MTE4MzA3LDEzNjA4NDIyNjEsMTkwNTA3ODc4OCwtMzczNz
-k2OTExLDExODY5MTUyOTksLTk5NjI4NjYwNSwtMTc2NTI0MzE3
-NiwxNDE5OTE5ODY1XX0=
+eyJoaXN0b3J5IjpbLTM4MjE3OTg5Niw3NjQ2ODE4MjAsLTk5OD
+gwODM0NCwtMTM3OTIxMTg1NCwtMTI1ODQ2MTQzMywtMTEwMTM1
+NzY0MSwtODg3MzMyNjk0LDQwNjM4NDQ0NCwtMTU5NjQ5Mjk5Ni
+wtMTY5NjI1MDgzOSwxNDk2NTkxNjA3LC0xODY4Njc1MzM1LC0z
+NTcxMTgzMDcsMTM2MDg0MjI2MSwxOTA1MDc4Nzg4LC0zNzM3OT
+Y5MTEsMTE4NjkxNTI5OSwtOTk2Mjg2NjA1LC0xNzY1MjQzMTc2
+LDE0MTk5MTk4NjVdfQ==
 -->
