@@ -29,7 +29,9 @@ SELECT role
 	WHERE role = 'ROLPRACTICA1';
 ```
 ```
-
+ROLE
+---------------
+ROLPRACTICA1
 ```
 
 * Los privilegios que se le han asignado a ese rol
@@ -521,7 +523,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTA3NDkzMTcsLTExMDEzNTc2NDEsLT
+eyJoaXN0b3J5IjpbLTEyNTg0NjE0MzMsLTExMDEzNTc2NDEsLT
 g4NzMzMjY5NCw0MDYzODQ0NDQsLTE1OTY0OTI5OTYsLTE2OTYy
 NTA4MzksMTQ5NjU5MTYwNywtMTg2ODY3NTMzNSwtMzU3MTE4Mz
 A3LDEzNjA4NDIyNjEsMTkwNTA3ODc4OCwtMzczNzk2OTExLDEx
