@@ -41,18 +41,24 @@ select PRIVILEGE
 	from DBA_SYS_PRIVS
 	where grantee = 'ROLPRACTICA1';
 ```
-
 ```
-
+PRIVILEGE
+-------------------
+CREATE TABLE
+CREATE VIEW
+CREATE SESSION
 ```
-
 ```
 select PRIVILEGE
 	from DBA_TAB_PRIVS
 	where grantee = 'ROLPRACTICA1';
 ```
-
-
+```
+PRIVILEGE
+----------
+INSERT
+```
+_Se han listado _
 
 ## Ejercicio 2
 Crea un usuario USRPRACTICA1 con el tablespace USERS por defecto
@@ -535,11 +541,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczMDQxNTY3LDc2NDY4MTgyMCwtOTk4OD
-A4MzQ0LC0xMzc5MjExODU0LC0xMjU4NDYxNDMzLC0xMTAxMzU3
-NjQxLC04ODczMzI2OTQsNDA2Mzg0NDQ0LC0xNTk2NDkyOTk2LC
-0xNjk2MjUwODM5LDE0OTY1OTE2MDcsLTE4Njg2NzUzMzUsLTM1
-NzExODMwNywxMzYwODQyMjYxLDE5MDUwNzg3ODgsLTM3Mzc5Nj
-kxMSwxMTg2OTE1Mjk5LC05OTYyODY2MDUsLTE3NjUyNDMxNzYs
-MTQxOTkxOTg2NV19
+eyJoaXN0b3J5IjpbLTU1MjcwMzMwMSw3NjQ2ODE4MjAsLTk5OD
+gwODM0NCwtMTM3OTIxMTg1NCwtMTI1ODQ2MTQzMywtMTEwMTM1
+NzY0MSwtODg3MzMyNjk0LDQwNjM4NDQ0NCwtMTU5NjQ5Mjk5Ni
+wtMTY5NjI1MDgzOSwxNDk2NTkxNjA3LC0xODY4Njc1MzM1LC0z
+NTcxMTgzMDcsMTM2MDg0MjI2MSwxOTA1MDc4Nzg4LC0zNzM3OT
+Y5MTEsMTE4NjkxNTI5OSwtOTk2Mjg2NjA1LC0xNzY1MjQzMTc2
+LDE0MTk5MTk4NjVdfQ==
 -->
