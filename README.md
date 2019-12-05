@@ -26,7 +26,13 @@ Para comprobar que los cambios hayan surtido efecto de verdad, tendremos que com
 ```
 
 ```
-* asd
+* Los privilegios que se le han asignado a ese rol
+```
+
+```
+
+
+
 
 ## Ejercicio 2
 Crea un usuario USRPRACTICA1 con el tablespace USERS por defecto
@@ -509,11 +515,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODk5NjM0NDMsLTExMDEzNTc2NDEsLT
-g4NzMzMjY5NCw0MDYzODQ0NDQsLTE1OTY0OTI5OTYsLTE2OTYy
-NTA4MzksMTQ5NjU5MTYwNywtMTg2ODY3NTMzNSwtMzU3MTE4Mz
-A3LDEzNjA4NDIyNjEsMTkwNTA3ODc4OCwtMzczNzk2OTExLDEx
-ODY5MTUyOTksLTk5NjI4NjYwNSwtMTc2NTI0MzE3NiwxNDE5OT
-E5ODY1LDQ0NzM3MDcyOSwyMzMwMjY3NzIsMjA5MzAzNDA1Mywt
-MTA2MjIxOTQ2OF19
+eyJoaXN0b3J5IjpbMTQ5OTY5MTYyMCwtMTEwMTM1NzY0MSwtOD
+g3MzMyNjk0LDQwNjM4NDQ0NCwtMTU5NjQ5Mjk5NiwtMTY5NjI1
+MDgzOSwxNDk2NTkxNjA3LC0xODY4Njc1MzM1LC0zNTcxMTgzMD
+csMTM2MDg0MjI2MSwxOTA1MDc4Nzg4LC0zNzM3OTY5MTEsMTE4
+NjkxNTI5OSwtOTk2Mjg2NjA1LC0xNzY1MjQzMTc2LDE0MTk5MT
+k4NjUsNDQ3MzcwNzI5LDIzMzAyNjc3MiwyMDkzMDM0MDUzLC0x
+MDYyMjE5NDY4XX0=
 -->
