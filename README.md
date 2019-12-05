@@ -81,6 +81,7 @@ select username, DEFAULT_TABLESPACE
 	from DBA_USERS
 	where username = 'USRPRACTICA1';
 ```
+Output
 ```
 USERNAME                                                                                                                 DEFAULT_TABLESPACE
 -------------------------------------------------------------------------------------------------------------------------------- ------------
@@ -565,7 +566,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MzQ2NzI5MywtMTIyODM4NDk4OSwtMT
+eyJoaXN0b3J5IjpbMTEyODk2ODY1NiwtMTIyODM4NDk4OSwtMT
 Q1Mzc3OTExMCwtOTMwNTk0ODg1LDE3NTIzMDczNjksLTE5NTI4
 NDcyMDYsLTU1MjcwMzMwMSw3NjQ2ODE4MjAsLTk5ODgwODM0NC
 wtMTM3OTIxMTg1NCwtMTI1ODQ2MTQzMywtMTEwMTM1NzY0MSwt
