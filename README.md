@@ -424,7 +424,14 @@ Muestra los nombres de los usuarios que tienen limitado el número de sesiones c
 ### Realización
 
 ```
-
+SELECT USERNAME, PROFILE  
+FROM DBA_USERS  
+Where profile = (  
+  
+SELECT distinct profile  
+From dba_profiles  
+Where limit = sessions_per_user;  
+)
 ```
 
 ### Prueba de funcionamiento
@@ -459,11 +466,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzOTg3NjIsMTM2MDg0MjI2MSwxOTA1MD
-c4Nzg4LC0zNzM3OTY5MTEsMTE4NjkxNTI5OSwtOTk2Mjg2NjA1
-LC0xNzY1MjQzMTc2LDE0MTk5MTk4NjUsNDQ3MzcwNzI5LDIzMz
-AyNjc3MiwyMDkzMDM0MDUzLC0xMDYyMjE5NDY4LDE1OTU5NzA0
-NjksMTc1OTE0Mjk4NSwtMTYxNTEyMjMyLC0xMzQyMjcxMzk3LD
-EwMTgxNzE5MjEsMTY3NTY1MTM0MSw0Mjc2NjE2MTksLTExMjI4
-MzQ0NjddfQ==
+eyJoaXN0b3J5IjpbLTM1NzExODMwNywxMzYwODQyMjYxLDE5MD
+UwNzg3ODgsLTM3Mzc5NjkxMSwxMTg2OTE1Mjk5LC05OTYyODY2
+MDUsLTE3NjUyNDMxNzYsMTQxOTkxOTg2NSw0NDczNzA3MjksMj
+MzMDI2NzcyLDIwOTMwMzQwNTMsLTEwNjIyMTk0NjgsMTU5NTk3
+MDQ2OSwxNzU5MTQyOTg1LC0xNjE1MTIyMzIsLTEzNDIyNzEzOT
+csMTAxODE3MTkyMSwxNjc1NjUxMzQxLDQyNzY2MTYxOSwtMTEy
+MjgzNDQ2N119
 -->
