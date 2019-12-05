@@ -299,11 +299,17 @@ Where grantee = system;
 
 
 ## Ejercicio 17
+### Enunciado
+
 Elige un usuario concreto y muestra qué privilegios sobre objetos tiene asignados.
 
+### Realización
+
+```
 
 
 
+### Prueba de funcionamiento
 
 
 
@@ -406,11 +412,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwMzQxNjIyLDE5MDUwNzg3ODgsLTM3Mz
-c5NjkxMSwxMTg2OTE1Mjk5LC05OTYyODY2MDUsLTE3NjUyNDMx
-NzYsMTQxOTkxOTg2NSw0NDczNzA3MjksMjMzMDI2NzcyLDIwOT
-MwMzQwNTMsLTEwNjIyMTk0NjgsMTU5NTk3MDQ2OSwxNzU5MTQy
-OTg1LC0xNjE1MTIyMzIsLTEzNDIyNzEzOTcsMTAxODE3MTkyMS
-wxNjc1NjUxMzQxLDQyNzY2MTYxOSwtMTEyMjgzNDQ2NywtNjYz
-MTgxNjU3XX0=
+eyJoaXN0b3J5IjpbLTE0Mjc3NzM5NDMsMTkwNTA3ODc4OCwtMz
+czNzk2OTExLDExODY5MTUyOTksLTk5NjI4NjYwNSwtMTc2NTI0
+MzE3NiwxNDE5OTE5ODY1LDQ0NzM3MDcyOSwyMzMwMjY3NzIsMj
+A5MzAzNDA1MywtMTA2MjIxOTQ2OCwxNTk1OTcwNDY5LDE3NTkx
+NDI5ODUsLTE2MTUxMjIzMiwtMTM0MjI3MTM5NywxMDE4MTcxOT
+IxLDE2NzU2NTEzNDEsNDI3NjYxNjE5LC0xMTIyODM0NDY3LC02
+NjMxODE2NTddfQ==
 -->
