@@ -306,7 +306,8 @@ Elige un usuario concreto y muestra qué privilegios sobre objetos tiene asignad
 ### Realización
 
 ```
-
+SELECT * FROM DBA_TAB_PRIVS  
+Where grantee = system;
 ```
 
 
@@ -413,11 +414,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM5OTgyNzUsMTkwNTA3ODc4OCwtMz
-czNzk2OTExLDExODY5MTUyOTksLTk5NjI4NjYwNSwtMTc2NTI0
-MzE3NiwxNDE5OTE5ODY1LDQ0NzM3MDcyOSwyMzMwMjY3NzIsMj
-A5MzAzNDA1MywtMTA2MjIxOTQ2OCwxNTk1OTcwNDY5LDE3NTkx
-NDI5ODUsLTE2MTUxMjIzMiwtMTM0MjI3MTM5NywxMDE4MTcxOT
-IxLDE2NzU2NTEzNDEsNDI3NjYxNjE5LC0xMTIyODM0NDY3LC02
-NjMxODE2NTddfQ==
+eyJoaXN0b3J5IjpbMTM2MDg0MjI2MSwxOTA1MDc4Nzg4LC0zNz
+M3OTY5MTEsMTE4NjkxNTI5OSwtOTk2Mjg2NjA1LC0xNzY1MjQz
+MTc2LDE0MTk5MTk4NjUsNDQ3MzcwNzI5LDIzMzAyNjc3MiwyMD
+kzMDM0MDUzLC0xMDYyMjE5NDY4LDE1OTU5NzA0NjksMTc1OTE0
+Mjk4NSwtMTYxNTEyMjMyLC0xMzQyMjcxMzk3LDEwMTgxNzE5Mj
+EsMTY3NTY1MTM0MSw0Mjc2NjE2MTksLTExMjI4MzQ0NjcsLTY2
+MzE4MTY1N119
 -->
