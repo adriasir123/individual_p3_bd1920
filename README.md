@@ -76,6 +76,13 @@ Sustitúyela por una cuota de 1M
 create user USRPRACTICA1 identified by 1234 default tablespace users;  
 ```
 * Comprobamos que esto se ha hecho correctamente
+```
+select username, DEFAULT_TABLESPACE
+	from DBA_USERS
+	where username = 'USRPRACTICA1';
+```
+* Mostramos su cuota sobre users
+```
 select tablespace_name, username, max_bytes
 	from dba_ts_quotas
 	where username = 'USRPRACTICA1' and TABLESPACE_NAME = 'users';
@@ -83,12 +90,7 @@ alter user USRPRACTICA1 quota 1M on USERS;
 ```
 
 
-### Prueba de funcionamiento
-```
-select username, DEFAULT_TABLESPACE
-	from DBA_USERS
-	where username = 'USRPRACTICA1';
-```
+
 
 
 ## Ejercicio 3
@@ -558,11 +560,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjQ4MjkyOSwtMTQ1Mzc3OTExMCwtOT
-MwNTk0ODg1LDE3NTIzMDczNjksLTE5NTI4NDcyMDYsLTU1Mjcw
-MzMwMSw3NjQ2ODE4MjAsLTk5ODgwODM0NCwtMTM3OTIxMTg1NC
-wtMTI1ODQ2MTQzMywtMTEwMTM1NzY0MSwtODg3MzMyNjk0LDQw
-NjM4NDQ0NCwtMTU5NjQ5Mjk5NiwtMTY5NjI1MDgzOSwxNDk2NT
-kxNjA3LC0xODY4Njc1MzM1LC0zNTcxMTgzMDcsMTM2MDg0MjI2
-MSwxOTA1MDc4Nzg4XX0=
+eyJoaXN0b3J5IjpbLTEyMjgzODQ5ODksLTE0NTM3NzkxMTAsLT
+kzMDU5NDg4NSwxNzUyMzA3MzY5LC0xOTUyODQ3MjA2LC01NTI3
+MDMzMDEsNzY0NjgxODIwLC05OTg4MDgzNDQsLTEzNzkyMTE4NT
+QsLTEyNTg0NjE0MzMsLTExMDEzNTc2NDEsLTg4NzMzMjY5NCw0
+MDYzODQ0NDQsLTE1OTY0OTI5OTYsLTE2OTYyNTA4MzksMTQ5Nj
+U5MTYwNywtMTg2ODY3NTMzNSwtMzU3MTE4MzA3LDEzNjA4NDIy
+NjEsMTkwNTA3ODc4OF19
 -->
