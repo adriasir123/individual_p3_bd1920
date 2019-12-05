@@ -70,8 +70,10 @@ Sustitúyela por una cuota de 1M
 
 ```
 create user USRPRACTICA1 identified by 1234 default tablespace users;  
+select tablespace_name, username, max_bytes
+	from dba_ts_quotas
+	where username = 'AUDSYS';
 
-Cuota por defecto en ese tablespace  
   
 Sustituir por cuota de 1M
 ```
@@ -548,11 +550,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MjMwNzM2OSwtMTk1Mjg0NzIwNiwtNT
-UyNzAzMzAxLDc2NDY4MTgyMCwtOTk4ODA4MzQ0LC0xMzc5MjEx
-ODU0LC0xMjU4NDYxNDMzLC0xMTAxMzU3NjQxLC04ODczMzI2OT
-QsNDA2Mzg0NDQ0LC0xNTk2NDkyOTk2LC0xNjk2MjUwODM5LDE0
-OTY1OTE2MDcsLTE4Njg2NzUzMzUsLTM1NzExODMwNywxMzYwOD
-QyMjYxLDE5MDUwNzg3ODgsLTM3Mzc5NjkxMSwxMTg2OTE1Mjk5
-LC05OTYyODY2MDVdfQ==
+eyJoaXN0b3J5IjpbMTg0MDc5MjUxLDE3NTIzMDczNjksLTE5NT
+I4NDcyMDYsLTU1MjcwMzMwMSw3NjQ2ODE4MjAsLTk5ODgwODM0
+NCwtMTM3OTIxMTg1NCwtMTI1ODQ2MTQzMywtMTEwMTM1NzY0MS
+wtODg3MzMyNjk0LDQwNjM4NDQ0NCwtMTU5NjQ5Mjk5NiwtMTY5
+NjI1MDgzOSwxNDk2NTkxNjA3LC0xODY4Njc1MzM1LC0zNTcxMT
+gzMDcsMTM2MDg0MjI2MSwxOTA1MDc4Nzg4LC0zNzM3OTY5MTEs
+MTE4NjkxNTI5OV19
 -->
