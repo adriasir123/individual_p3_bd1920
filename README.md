@@ -71,7 +71,7 @@ Averigua qué cuota se le ha asignado por defecto en el mismo
 Sustitúyela por una cuota de 1M
 
 ### Realización
-
+* Creamos el usuario creado con el tablespace que le hemos indicado
 ```
 create user USRPRACTICA1 identified by 1234 default tablespace users;  
 ```
@@ -84,7 +84,6 @@ alter user USRPRACTICA1 quota 1M on USERS;
 
 
 ### Prueba de funcionamiento
-* Usuario creado con el tablespace que le hemos indicado
 ```
 select username, DEFAULT_TABLESPACE
 	from DBA_USERS
@@ -559,7 +558,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MTI5MzkyNiwtMTQ1Mzc3OTExMCwtOT
+eyJoaXN0b3J5IjpbMTMyMDMxODIyNSwtMTQ1Mzc3OTExMCwtOT
 MwNTk0ODg1LDE3NTIzMDczNjksLTE5NTI4NDcyMDYsLTU1Mjcw
 MzMwMSw3NjQ2ODE4MjAsLTk5ODgwODM0NCwtMTM3OTIxMTg1NC
 wtMTI1ODQ2MTQzMywtMTEwMTM1NzY0MSwtODg3MzMyNjk0LDQw
