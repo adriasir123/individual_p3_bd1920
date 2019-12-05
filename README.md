@@ -34,12 +34,18 @@ ROLE
 ROLPRACTICA1
 ```
 _El rol se ha creado correctamente_
-* Si ese rol tiene los privilegios que le hemos asignado. En este caso es sencillo, ya que casi todos privilegios que se le han asignado son de sistema. El único privilegio so.Por lo tanto, tenemos que consultar las vistas DBA_SYS_PRIVS y DBA_TAB_PRIVS
+
+* Si ese rol tiene los privilegios que le hemos asignado. En este caso es sencillo, ya que casi todos privilegios que se le han asignado son de sistema. El único privilegio sobre objeto que se le ha concedido es el de insert. Por lo tanto, tenemos que consultar las vistas DBA_SYS_PRIVS y DBA_TAB_PRIVS
 ```
 select PRIVILEGE
 	from DBA_SYS_PRIVS
 	where grantee = 'ROLPRACTICA1';
 ```
+
+```
+
+```
+
 ```
 select PRIVILEGE
 	from DBA_TAB_PRIVS
@@ -529,7 +535,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1OTc4MDIxLDc2NDY4MTgyMCwtOTk4OD
+eyJoaXN0b3J5IjpbNDczMDQxNTY3LDc2NDY4MTgyMCwtOTk4OD
 A4MzQ0LC0xMzc5MjExODU0LC0xMjU4NDYxNDMzLC0xMTAxMzU3
 NjQxLC04ODczMzI2OTQsNDA2Mzg0NDQ0LC0xNTk2NDkyOTk2LC
 0xNjk2MjUwODM5LDE0OTY1OTE2MDcsLTE4Njg2NzUzMzUsLTM1
