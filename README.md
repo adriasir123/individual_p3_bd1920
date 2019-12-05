@@ -58,7 +58,7 @@ PRIVILEGE
 ----------
 INSERT
 ```
-_Se han listado corre_
+_Se han listado correctamente todos los privilegios que previamente le habíamos asignado. Ha funcionado correctamente_
 
 ## Ejercicio 2
 Crea un usuario USRPRACTICA1 con el tablespace USERS por defecto
@@ -541,11 +541,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTQ2MjkzNCwtNTUyNzAzMzAxLDc2ND
-Y4MTgyMCwtOTk4ODA4MzQ0LC0xMzc5MjExODU0LC0xMjU4NDYx
-NDMzLC0xMTAxMzU3NjQxLC04ODczMzI2OTQsNDA2Mzg0NDQ0LC
-0xNTk2NDkyOTk2LC0xNjk2MjUwODM5LDE0OTY1OTE2MDcsLTE4
-Njg2NzUzMzUsLTM1NzExODMwNywxMzYwODQyMjYxLDE5MDUwNz
-g3ODgsLTM3Mzc5NjkxMSwxMTg2OTE1Mjk5LC05OTYyODY2MDUs
-LTE3NjUyNDMxNzZdfQ==
+eyJoaXN0b3J5IjpbLTE5NTI4NDcyMDYsLTU1MjcwMzMwMSw3Nj
+Q2ODE4MjAsLTk5ODgwODM0NCwtMTM3OTIxMTg1NCwtMTI1ODQ2
+MTQzMywtMTEwMTM1NzY0MSwtODg3MzMyNjk0LDQwNjM4NDQ0NC
+wtMTU5NjQ5Mjk5NiwtMTY5NjI1MDgzOSwxNDk2NTkxNjA3LC0x
+ODY4Njc1MzM1LC0zNTcxMTgzMDcsMTM2MDg0MjI2MSwxOTA1MD
+c4Nzg4LC0zNzM3OTY5MTEsMTE4NjkxNTI5OSwtOTk2Mjg2NjA1
+LC0xNzY1MjQzMTc2XX0=
 -->
