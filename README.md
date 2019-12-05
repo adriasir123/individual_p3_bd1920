@@ -23,6 +23,8 @@ grant insert on scott.emp to ROLPRACTICA1;
 
 
 
+
+
 ## Ejercicio 2
 Crea un usuario USRPRACTICA1 con el tablespace USERS por defecto
 Averigua qué cuota se le ha asignado por defecto en el mismo
@@ -466,11 +468,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NzExODMwNywxMzYwODQyMjYxLDE5MD
-UwNzg3ODgsLTM3Mzc5NjkxMSwxMTg2OTE1Mjk5LC05OTYyODY2
-MDUsLTE3NjUyNDMxNzYsMTQxOTkxOTg2NSw0NDczNzA3MjksMj
-MzMDI2NzcyLDIwOTMwMzQwNTMsLTEwNjIyMTk0NjgsMTU5NTk3
-MDQ2OSwxNzU5MTQyOTg1LC0xNjE1MTIyMzIsLTEzNDIyNzEzOT
-csMTAxODE3MTkyMSwxNjc1NjUxMzQxLDQyNzY2MTYxOSwtMTEy
-MjgzNDQ2N119
+eyJoaXN0b3J5IjpbLTE4Njg2NzUzMzUsLTM1NzExODMwNywxMz
+YwODQyMjYxLDE5MDUwNzg3ODgsLTM3Mzc5NjkxMSwxMTg2OTE1
+Mjk5LC05OTYyODY2MDUsLTE3NjUyNDMxNzYsMTQxOTkxOTg2NS
+w0NDczNzA3MjksMjMzMDI2NzcyLDIwOTMwMzQwNTMsLTEwNjIy
+MTk0NjgsMTU5NTk3MDQ2OSwxNzU5MTQyOTg1LC0xNjE1MTIyMz
+IsLTEzNDIyNzEzOTcsMTAxODE3MTkyMSwxNjc1NjUxMzQxLDQy
+NzY2MTYxOV19
 -->
