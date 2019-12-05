@@ -70,14 +70,14 @@ Sustitúyela por una cuota de 1M
 
 ```
 create user USRPRACTICA1 identified by 1234 default tablespace users;  
-  
+
 Cuota por defecto en ese tablespace  
   
 Sustituir por cuota de 1M
 ```
 
 
-
+### Prueba de funcionamiento
 
 
 
@@ -548,7 +548,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzAyNTA0MywtMTk1Mjg0NzIwNiwtNT
+eyJoaXN0b3J5IjpbMTc1MjMwNzM2OSwtMTk1Mjg0NzIwNiwtNT
 UyNzAzMzAxLDc2NDY4MTgyMCwtOTk4ODA4MzQ0LC0xMzc5MjEx
 ODU0LC0xMjU4NDYxNDMzLC0xMTAxMzU3NjQxLC04ODczMzI2OT
 QsNDA2Mzg0NDQ0LC0xNTk2NDkyOTk2LC0xNjk2MjUwODM5LDE0
