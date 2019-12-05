@@ -1,7 +1,5 @@
 # TL;DR
-En este repositorio se encuentra el código de mi parte individual para la práctica 3 de base de datos "Gestión de usuarios". 
-Soy el alumno 1, y me corresponde hacer la parte de Oracle.
-La documentación de cada ejercicio con pruebas de funcionamiento, las podrás encontrar en este mismo README
+En este repositorio se encuentra el código de mi parte individual para la práctica 3 de base de datos "Gestión de usuarios". Soy el alumno 1, y me corresponde hacer la parte de Oracle. La documentación de cada ejercicio con pruebas de funcionamiento, las podrás encontrar en este mismo README
 
 ## Ejercicio 1 :heavy_check_mark:
 ### Enunciado
@@ -542,11 +540,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTM5Mjk1MjAsLTE5NTI4NDcyMDYsLT
-U1MjcwMzMwMSw3NjQ2ODE4MjAsLTk5ODgwODM0NCwtMTM3OTIx
-MTg1NCwtMTI1ODQ2MTQzMywtMTEwMTM1NzY0MSwtODg3MzMyNj
-k0LDQwNjM4NDQ0NCwtMTU5NjQ5Mjk5NiwtMTY5NjI1MDgzOSwx
-NDk2NTkxNjA3LC0xODY4Njc1MzM1LC0zNTcxMTgzMDcsMTM2MD
-g0MjI2MSwxOTA1MDc4Nzg4LC0zNzM3OTY5MTEsMTE4NjkxNTI5
-OSwtOTk2Mjg2NjA1XX0=
+eyJoaXN0b3J5IjpbMTgxNTU5MTA0NiwtMTk1Mjg0NzIwNiwtNT
+UyNzAzMzAxLDc2NDY4MTgyMCwtOTk4ODA4MzQ0LC0xMzc5MjEx
+ODU0LC0xMjU4NDYxNDMzLC0xMTAxMzU3NjQxLC04ODczMzI2OT
+QsNDA2Mzg0NDQ0LC0xNTk2NDkyOTk2LC0xNjk2MjUwODM5LDE0
+OTY1OTE2MDcsLTE4Njg2NzUzMzUsLTM1NzExODMwNywxMzYwOD
+QyMjYxLDE5MDUwNzg3ODgsLTM3Mzc5NjkxMSwxMTg2OTE1Mjk5
+LC05OTYyODY2MDVdfQ==
 -->
