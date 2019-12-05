@@ -344,7 +344,8 @@ Elige un rol concreto y consulta qué usuarios lo tienen asignado.
 ### Realización
 
 ```
-
+SELECT granted_role, username FROM USER_ROLE_PRIVS  
+WHERE granted_role = <nombre>;
 ```
 
 ### Prueba de funcionamiento
@@ -354,12 +355,20 @@ Elige un rol concreto y consulta qué usuarios lo tienen asignado.
 
 
 ## Ejercicio 20
-Elige un rol concreto y averigua si está compuesto por otros roles o no.
+### Enunciado
+
+Elige un rol concreto y averigua si está compuesto por otros roles o no
+
+### Realización
+
+```
+Select * from  
+DBA_ROLE_PRIVS  
+Where grantee = nombre_rol;
+```
 
 
-
-
-
+### Prueba de funcionamiento
 
 
 
@@ -417,7 +426,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0ODQ4MDE3LDEzNjA4NDIyNjEsMTkwNT
+eyJoaXN0b3J5IjpbODM4NTU2ODkwLDEzNjA4NDIyNjEsMTkwNT
 A3ODc4OCwtMzczNzk2OTExLDExODY5MTUyOTksLTk5NjI4NjYw
 NSwtMTc2NTI0MzE3NiwxNDE5OTE5ODY1LDQ0NzM3MDcyOSwyMz
 MwMjY3NzIsMjA5MzAzNDA1MywtMTA2MjIxOTQ2OCwxNTk1OTcw
