@@ -63,7 +63,7 @@ _Se han listado correctamente todos los privilegios que previamente le habíamos
 
 
 
-## Ejercicio 2 (pendiente responder)
+## Ejercicio 2 :warning:
 ### Enunciado
 
 Crea un usuario USRPRACTICA1 con el tablespace USERS por defecto
@@ -103,10 +103,11 @@ alter user USRPRACTICA1 quota 1M on USERS;
 
 
 ## Ejercicio 3
-Modifica el usuario USRPRACTICA1 para que tenga cuota 0 en el tablespace SYSTEM.
+### Enunciado
 
----
+Modifica el usuario USRPRACTICA1 para que tenga cuota 0 en el tablespace SYSTEM
 
+### Realización
 ```
 alter user USRPRACTICA1 quota 0 on SYSTEM;
 ```
@@ -569,11 +570,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTg4MjAyMSwtNjkxMzYzMTcyLDE5Nj
-M5NjQ5NDIsLTE5ODY4NDg4NTksLTEyMjgzODQ5ODksLTE0NTM3
-NzkxMTAsLTkzMDU5NDg4NSwxNzUyMzA3MzY5LC0xOTUyODQ3Mj
-A2LC01NTI3MDMzMDEsNzY0NjgxODIwLC05OTg4MDgzNDQsLTEz
-NzkyMTE4NTQsLTEyNTg0NjE0MzMsLTExMDEzNTc2NDEsLTg4Nz
-MzMjY5NCw0MDYzODQ0NDQsLTE1OTY0OTI5OTYsLTE2OTYyNTA4
-MzksMTQ5NjU5MTYwN119
+eyJoaXN0b3J5IjpbLTkxNTkyNTA2NCwxMzg1ODgyMDIxLC02OT
+EzNjMxNzIsMTk2Mzk2NDk0MiwtMTk4Njg0ODg1OSwtMTIyODM4
+NDk4OSwtMTQ1Mzc3OTExMCwtOTMwNTk0ODg1LDE3NTIzMDczNj
+ksLTE5NTI4NDcyMDYsLTU1MjcwMzMwMSw3NjQ2ODE4MjAsLTk5
+ODgwODM0NCwtMTM3OTIxMTg1NCwtMTI1ODQ2MTQzMywtMTEwMT
+M1NzY0MSwtODg3MzMyNjk0LDQwNjM4NDQ0NCwtMTU5NjQ5Mjk5
+NiwtMTY5NjI1MDgzOV19
 -->
