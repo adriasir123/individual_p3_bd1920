@@ -81,6 +81,11 @@ select username, DEFAULT_TABLESPACE
 	from DBA_USERS
 	where username = 'USRPRACTICA1';
 ```
+```
+USERNAME                                                                                                                 DEFAULT_TABLESPACE
+-------------------------------------------------------------------------------------------------------------------------------- ------------
+USRPRACTICA1                                                                                                             USERS
+```
 * Mostramos su cuota sobre users
 ```
 select tablespace_name, username, max_bytes
@@ -560,11 +565,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjgzODQ5ODksLTE0NTM3NzkxMTAsLT
-kzMDU5NDg4NSwxNzUyMzA3MzY5LC0xOTUyODQ3MjA2LC01NTI3
-MDMzMDEsNzY0NjgxODIwLC05OTg4MDgzNDQsLTEzNzkyMTE4NT
-QsLTEyNTg0NjE0MzMsLTExMDEzNTc2NDEsLTg4NzMzMjY5NCw0
-MDYzODQ0NDQsLTE1OTY0OTI5OTYsLTE2OTYyNTA4MzksMTQ5Nj
-U5MTYwNywtMTg2ODY3NTMzNSwtMzU3MTE4MzA3LDEzNjA4NDIy
-NjEsMTkwNTA3ODc4OF19
+eyJoaXN0b3J5IjpbLTg4MzQ2NzI5MywtMTIyODM4NDk4OSwtMT
+Q1Mzc3OTExMCwtOTMwNTk0ODg1LDE3NTIzMDczNjksLTE5NTI4
+NDcyMDYsLTU1MjcwMzMwMSw3NjQ2ODE4MjAsLTk5ODgwODM0NC
+wtMTM3OTIxMTg1NCwtMTI1ODQ2MTQzMywtMTEwMTM1NzY0MSwt
+ODg3MzMyNjk0LDQwNjM4NDQ0NCwtMTU5NjQ5Mjk5NiwtMTY5Nj
+I1MDgzOSwxNDk2NTkxNjA3LC0xODY4Njc1MzM1LC0zNTcxMTgz
+MDcsMTM2MDg0MjI2MV19
 -->
