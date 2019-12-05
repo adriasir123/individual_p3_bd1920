@@ -60,9 +60,13 @@ INSERT
 _Se han listado correctamente todos los privilegios que previamente le habíamos asignado. Ha funcionado correctamente_
 
 ## Ejercicio 2
+### Enunciado
+
 Crea un usuario USRPRACTICA1 con el tablespace USERS por defecto
 Averigua qué cuota se le ha asignado por defecto en el mismo
 Sustitúyela por una cuota de 1M
+
+### Realización
 
 ```
 create user USRPRACTICA1 identified by 1234 default tablespace users;  
@@ -71,6 +75,10 @@ Cuota por defecto en ese tablespace
   
 Sustituir por cuota de 1M
 ```
+
+
+
+
 
 
 ## Ejercicio 3
@@ -540,7 +548,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTU5MTA0NiwtMTk1Mjg0NzIwNiwtNT
+eyJoaXN0b3J5IjpbMTUwMzAyNTA0MywtMTk1Mjg0NzIwNiwtNT
 UyNzAzMzAxLDc2NDY4MTgyMCwtOTk4ODA4MzQ0LC0xMzc5MjEx
 ODU0LC0xMjU4NDYxNDMzLC0xMTAxMzU3NjQxLC04ODczMzI2OT
 QsNDA2Mzg0NDQ0LC0xNTk2NDkyOTk2LC0xNjk2MjUwODM5LDE0
