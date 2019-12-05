@@ -72,10 +72,9 @@ Sustitúyela por una cuota de 1M
 create user USRPRACTICA1 identified by 1234 default tablespace users;  
 select tablespace_name, username, max_bytes
 	from dba_ts_quotas
-	where username = 'AUDSYS';
+	where username = 'USRPRACTICA1';
 
-  
-Sustituir por cuota de 1M
+ 
 ```
 
 
@@ -550,7 +549,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDc5MjUxLDE3NTIzMDczNjksLTE5NT
+eyJoaXN0b3J5IjpbNTUxNDkwNjc2LDE3NTIzMDczNjksLTE5NT
 I4NDcyMDYsLTU1MjcwMzMwMSw3NjQ2ODE4MjAsLTk5ODgwODM0
 NCwtMTM3OTIxMTg1NCwtMTI1ODQ2MTQzMywtMTEwMTM1NzY0MS
 wtODg3MzMyNjk0LDQwNjM4NDQ0NCwtMTU5NjQ5Mjk5NiwtMTY5
