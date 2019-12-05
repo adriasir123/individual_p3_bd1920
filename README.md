@@ -21,7 +21,7 @@ grant insert on scott.emp to ROLPRACTICA1;
 ```
 
 ### Prueba de funcionamiento
-
+Para comprobar que los cambios hayan surtido efecto de verdad, tendr
 
 
 
@@ -507,11 +507,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NzMzMjY5NCw0MDYzODQ0NDQsLTE1OT
-Y0OTI5OTYsLTE2OTYyNTA4MzksMTQ5NjU5MTYwNywtMTg2ODY3
-NTMzNSwtMzU3MTE4MzA3LDEzNjA4NDIyNjEsMTkwNTA3ODc4OC
-wtMzczNzk2OTExLDExODY5MTUyOTksLTk5NjI4NjYwNSwtMTc2
-NTI0MzE3NiwxNDE5OTE5ODY1LDQ0NzM3MDcyOSwyMzMwMjY3Nz
-IsMjA5MzAzNDA1MywtMTA2MjIxOTQ2OCwxNTk1OTcwNDY5LDE3
-NTkxNDI5ODVdfQ==
+eyJoaXN0b3J5IjpbOTAyODc5MDQxLC04ODczMzI2OTQsNDA2Mz
+g0NDQ0LC0xNTk2NDkyOTk2LC0xNjk2MjUwODM5LDE0OTY1OTE2
+MDcsLTE4Njg2NzUzMzUsLTM1NzExODMwNywxMzYwODQyMjYxLD
+E5MDUwNzg3ODgsLTM3Mzc5NjkxMSwxMTg2OTE1Mjk5LC05OTYy
+ODY2MDUsLTE3NjUyNDMxNzYsMTQxOTkxOTg2NSw0NDczNzA3Mj
+ksMjMzMDI2NzcyLDIwOTMwMzQwNTMsLTEwNjIyMTk0NjgsMTU5
+NTk3MDQ2OV19
 -->
