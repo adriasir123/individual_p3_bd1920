@@ -59,6 +59,10 @@ INSERT
 ```
 _Se han listado correctamente todos los privilegios que previamente le habíamos asignado. Ha funcionado correctamente_
 
+
+
+
+
 ## Ejercicio 2
 ### Enunciado
 
@@ -78,7 +82,7 @@ alter user USRPRACTICA1 quota 1M on USERS;
 
 
 ### Prueba de funcionamiento
-* Usuario creado en el tablespace que le hemos indicado
+* Usuario creado con el tablespace que le hemos indicado
 ```
 select username, DEFAULT_TABLESPACE
 	from DBA_USERS
@@ -553,11 +557,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDU5NDg4NSwxNzUyMzA3MzY5LC0xOT
-UyODQ3MjA2LC01NTI3MDMzMDEsNzY0NjgxODIwLC05OTg4MDgz
-NDQsLTEzNzkyMTE4NTQsLTEyNTg0NjE0MzMsLTExMDEzNTc2ND
-EsLTg4NzMzMjY5NCw0MDYzODQ0NDQsLTE1OTY0OTI5OTYsLTE2
-OTYyNTA4MzksMTQ5NjU5MTYwNywtMTg2ODY3NTMzNSwtMzU3MT
-E4MzA3LDEzNjA4NDIyNjEsMTkwNTA3ODc4OCwtMzczNzk2OTEx
-LDExODY5MTUyOTldfQ==
+eyJoaXN0b3J5IjpbLTE0NTM3NzkxMTAsLTkzMDU5NDg4NSwxNz
+UyMzA3MzY5LC0xOTUyODQ3MjA2LC01NTI3MDMzMDEsNzY0Njgx
+ODIwLC05OTg4MDgzNDQsLTEzNzkyMTE4NTQsLTEyNTg0NjE0Mz
+MsLTExMDEzNTc2NDEsLTg4NzMzMjY5NCw0MDYzODQ0NDQsLTE1
+OTY0OTI5OTYsLTE2OTYyNTA4MzksMTQ5NjU5MTYwNywtMTg2OD
+Y3NTMzNSwtMzU3MTE4MzA3LDEzNjA4NDIyNjEsMTkwNTA3ODc4
+OCwtMzczNzk2OTExXX0=
 -->
