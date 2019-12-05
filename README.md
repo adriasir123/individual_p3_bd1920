@@ -402,6 +402,12 @@ Elige un perfil y consulta qué límites se establecen en el mismo.
 
 ### Realización
 
+```
+SELECT limit  
+From dba_profiles  
+Where profile = nombre_perfil;
+```
+
 
 
 ### Prueba de funcionamiento
@@ -411,10 +417,17 @@ Elige un perfil y consulta qué límites se establecen en el mismo.
 
 
 ## Ejercicio 23
+### Enunciado
+
 Muestra los nombres de los usuarios que tienen limitado el número de sesiones concurrentes.
 
+### Realización
 
+```
 
+```
+
+### Prueba de funcionamiento
 
 
 
@@ -446,11 +459,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkxNDA3MzY0LDEzNjA4NDIyNjEsMTkwNT
-A3ODc4OCwtMzczNzk2OTExLDExODY5MTUyOTksLTk5NjI4NjYw
-NSwtMTc2NTI0MzE3NiwxNDE5OTE5ODY1LDQ0NzM3MDcyOSwyMz
-MwMjY3NzIsMjA5MzAzNDA1MywtMTA2MjIxOTQ2OCwxNTk1OTcw
-NDY5LDE3NTkxNDI5ODUsLTE2MTUxMjIzMiwtMTM0MjI3MTM5Ny
-wxMDE4MTcxOTIxLDE2NzU2NTEzNDEsNDI3NjYxNjE5LC0xMTIy
-ODM0NDY3XX0=
+eyJoaXN0b3J5IjpbMjIzOTg3NjIsMTM2MDg0MjI2MSwxOTA1MD
+c4Nzg4LC0zNzM3OTY5MTEsMTE4NjkxNTI5OSwtOTk2Mjg2NjA1
+LC0xNzY1MjQzMTc2LDE0MTk5MTk4NjUsNDQ3MzcwNzI5LDIzMz
+AyNjc3MiwyMDkzMDM0MDUzLC0xMDYyMjE5NDY4LDE1OTU5NzA0
+NjksMTc1OTE0Mjk4NSwtMTYxNTEyMjMyLC0xMzQyMjcxMzk3LD
+EwMTgxNzE5MjEsMTY3NTY1MTM0MSw0Mjc2NjE2MTksLTExMjI4
+MzQ0NjddfQ==
 -->
