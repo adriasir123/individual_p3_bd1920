@@ -23,9 +23,10 @@ grant insert on scott.emp to ROLPRACTICA1;
 ### Prueba de funcionamiento
 Para comprobar que los cambios hayan surtido efecto de verdad, tendremos que comprobar 2 cosas:
 * Si el rol se ha creado
+```
 
-
-
+```
+* asd
 
 ## Ejercicio 2
 Crea un usuario USRPRACTICA1 con el tablespace USERS por defecto
@@ -508,11 +509,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDEzNTc2NDEsLTg4NzMzMjY5NCw0MD
-YzODQ0NDQsLTE1OTY0OTI5OTYsLTE2OTYyNTA4MzksMTQ5NjU5
-MTYwNywtMTg2ODY3NTMzNSwtMzU3MTE4MzA3LDEzNjA4NDIyNj
-EsMTkwNTA3ODc4OCwtMzczNzk2OTExLDExODY5MTUyOTksLTk5
-NjI4NjYwNSwtMTc2NTI0MzE3NiwxNDE5OTE5ODY1LDQ0NzM3MD
-cyOSwyMzMwMjY3NzIsMjA5MzAzNDA1MywtMTA2MjIxOTQ2OCwx
-NTk1OTcwNDY5XX0=
+eyJoaXN0b3J5IjpbLTE5ODk5NjM0NDMsLTExMDEzNTc2NDEsLT
+g4NzMzMjY5NCw0MDYzODQ0NDQsLTE1OTY0OTI5OTYsLTE2OTYy
+NTA4MzksMTQ5NjU5MTYwNywtMTg2ODY3NTMzNSwtMzU3MTE4Mz
+A3LDEzNjA4NDIyNjEsMTkwNTA3ODc4OCwtMzczNzk2OTExLDEx
+ODY5MTUyOTksLTk5NjI4NjYwNSwtMTc2NTI0MzE3NiwxNDE5OT
+E5ODY1LDQ0NzM3MDcyOSwyMzMwMjY3NzIsMjA5MzAzNDA1Mywt
+MTA2MjIxOTQ2OF19
 -->
