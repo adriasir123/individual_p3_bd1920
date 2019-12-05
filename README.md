@@ -34,7 +34,7 @@ ROLE
 ROLPRACTICA1
 ```
 
-* Si ese rol tiene asignado los privilegios que se le han asignado a ese rol
+* Si ese rol tiene los privilegios que le hemos asignado
 ```
 
 ```
@@ -523,11 +523,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzkyMTE4NTQsLTEyNTg0NjE0MzMsLT
-ExMDEzNTc2NDEsLTg4NzMzMjY5NCw0MDYzODQ0NDQsLTE1OTY0
-OTI5OTYsLTE2OTYyNTA4MzksMTQ5NjU5MTYwNywtMTg2ODY3NT
-MzNSwtMzU3MTE4MzA3LDEzNjA4NDIyNjEsMTkwNTA3ODc4OCwt
-MzczNzk2OTExLDExODY5MTUyOTksLTk5NjI4NjYwNSwtMTc2NT
-I0MzE3NiwxNDE5OTE5ODY1LDQ0NzM3MDcyOSwyMzMwMjY3NzIs
-MjA5MzAzNDA1M119
+eyJoaXN0b3J5IjpbLTk5ODgwODM0NCwtMTM3OTIxMTg1NCwtMT
+I1ODQ2MTQzMywtMTEwMTM1NzY0MSwtODg3MzMyNjk0LDQwNjM4
+NDQ0NCwtMTU5NjQ5Mjk5NiwtMTY5NjI1MDgzOSwxNDk2NTkxNj
+A3LC0xODY4Njc1MzM1LC0zNTcxMTgzMDcsMTM2MDg0MjI2MSwx
+OTA1MDc4Nzg4LC0zNzM3OTY5MTEsMTE4NjkxNTI5OSwtOTk2Mj
+g2NjA1LC0xNzY1MjQzMTc2LDE0MTk5MTk4NjUsNDQ3MzcwNzI5
+LDIzMzAyNjc3Ml19
 -->
