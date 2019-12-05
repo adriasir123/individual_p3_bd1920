@@ -286,7 +286,8 @@ Elige un usuario concreto y muestra qué privilegios de sistema tiene asignados.
 ### Realización
 
 ```
-
+SELECT * FROM DBA_SYS_PRIVS  
+Where grantee = system;
 ```
 
 ### Prueba de funcionamiento
@@ -405,7 +406,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwNTg5Mzk4LDE5MDUwNzg3ODgsLTM3Mz
+eyJoaXN0b3J5IjpbNDAwMzQxNjIyLDE5MDUwNzg3ODgsLTM3Mz
 c5NjkxMSwxMTg2OTE1Mjk5LC05OTYyODY2MDUsLTE3NjUyNDMx
 NzYsMTQxOTkxOTg2NSw0NDczNzA3MjksMjMzMDI2NzcyLDIwOT
 MwMzQwNTMsLTEwNjIyMTk0NjgsMTU5NTk3MDQ2OSwxNzU5MTQy
