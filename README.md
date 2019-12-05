@@ -34,7 +34,7 @@ ROLE
 ROLPRACTICA1
 ```
 
-* Si ese rol tiene los privilegios que le hemos asignado
+* Si ese rol tiene los privilegios que le hemos asignado. En este caso es sencillo, ya 
 ```
 
 ```
@@ -523,11 +523,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODgwODM0NCwtMTM3OTIxMTg1NCwtMT
-I1ODQ2MTQzMywtMTEwMTM1NzY0MSwtODg3MzMyNjk0LDQwNjM4
-NDQ0NCwtMTU5NjQ5Mjk5NiwtMTY5NjI1MDgzOSwxNDk2NTkxNj
-A3LC0xODY4Njc1MzM1LC0zNTcxMTgzMDcsMTM2MDg0MjI2MSwx
-OTA1MDc4Nzg4LC0zNzM3OTY5MTEsMTE4NjkxNTI5OSwtOTk2Mj
-g2NjA1LC0xNzY1MjQzMTc2LDE0MTk5MTk4NjUsNDQ3MzcwNzI5
-LDIzMzAyNjc3Ml19
+eyJoaXN0b3J5IjpbLTY1ODk3MTQ2NSwtOTk4ODA4MzQ0LC0xMz
+c5MjExODU0LC0xMjU4NDYxNDMzLC0xMTAxMzU3NjQxLC04ODcz
+MzI2OTQsNDA2Mzg0NDQ0LC0xNTk2NDkyOTk2LC0xNjk2MjUwOD
+M5LDE0OTY1OTE2MDcsLTE4Njg2NzUzMzUsLTM1NzExODMwNywx
+MzYwODQyMjYxLDE5MDUwNzg3ODgsLTM3Mzc5NjkxMSwxMTg2OT
+E1Mjk5LC05OTYyODY2MDUsLTE3NjUyNDMxNzYsMTQxOTkxOTg2
+NSw0NDczNzA3MjldfQ==
 -->
