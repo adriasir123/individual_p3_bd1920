@@ -235,7 +235,7 @@ ALTER USER USRPRACTICA1 IDENTIFIED BY 1234 ACCOUNT UNLOCK;
 
 
 
-## Ejercicio 14 `:heavy_check_mark:`
+## Ejercicio 14 :heavy_check_mark:
 ### Enunciado
 
 Consulta qué usuarios existen en tu base de datos
@@ -249,11 +249,9 @@ FROM dba_users;
 
 ### Prueba de funcionamiento
 
+```
 
-
-
-
-
+```
 
 
 ## Ejercicio 15
@@ -468,7 +466,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ2MzkxMjU3LDE0OTY1OTE2MDcsLTE4Nj
+eyJoaXN0b3J5IjpbNDk4NzYzMjc3LDE0OTY1OTE2MDcsLTE4Nj
 g2NzUzMzUsLTM1NzExODMwNywxMzYwODQyMjYxLDE5MDUwNzg3
 ODgsLTM3Mzc5NjkxMSwxMTg2OTE1Mjk5LC05OTYyODY2MDUsLT
 E3NjUyNDMxNzYsMTQxOTkxOTg2NSw0NDczNzA3MjksMjMzMDI2
