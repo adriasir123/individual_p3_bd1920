@@ -91,9 +91,9 @@ USRPRACTICA1                                                                    
 ```
 select tablespace_name, username, max_bytes
 	from dba_ts_quotas
-	where username = 'USRPRACTICA1' and TABLESPACE_NAME = 'users';
+	where username = 'USRPRACTICA1' and TABLESPACE_NAME = 'USERS';
 ```
-
+> En este momento a
 * Cambiarle la cuota asignada
 ```
 alter user USRPRACTICA1 quota 1M on USERS; 
@@ -569,11 +569,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODY4NDg4NTksLTEyMjgzODQ5ODksLT
-E0NTM3NzkxMTAsLTkzMDU5NDg4NSwxNzUyMzA3MzY5LC0xOTUy
-ODQ3MjA2LC01NTI3MDMzMDEsNzY0NjgxODIwLC05OTg4MDgzND
-QsLTEzNzkyMTE4NTQsLTEyNTg0NjE0MzMsLTExMDEzNTc2NDEs
-LTg4NzMzMjY5NCw0MDYzODQ0NDQsLTE1OTY0OTI5OTYsLTE2OT
-YyNTA4MzksMTQ5NjU5MTYwNywtMTg2ODY3NTMzNSwtMzU3MTE4
-MzA3LDEzNjA4NDIyNjFdfQ==
+eyJoaXN0b3J5IjpbLTIwMzg0OTYzNjksLTE5ODY4NDg4NTksLT
+EyMjgzODQ5ODksLTE0NTM3NzkxMTAsLTkzMDU5NDg4NSwxNzUy
+MzA3MzY5LC0xOTUyODQ3MjA2LC01NTI3MDMzMDEsNzY0NjgxOD
+IwLC05OTg4MDgzNDQsLTEzNzkyMTE4NTQsLTEyNTg0NjE0MzMs
+LTExMDEzNTc2NDEsLTg4NzMzMjY5NCw0MDYzODQ0NDQsLTE1OT
+Y0OTI5OTYsLTE2OTYyNTA4MzksMTQ5NjU5MTYwNywtMTg2ODY3
+NTMzNSwtMzU3MTE4MzA3XX0=
 -->
