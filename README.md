@@ -327,7 +327,7 @@ Consulta qué roles existen en tu base de datos.
 ### Realización
 
 ```
-
+SELECT role FROM DBA_ROLES;
 ```
 
 
@@ -337,16 +337,17 @@ Consulta qué roles existen en tu base de datos.
 
 
 ## Ejercicio 19
+### Enunciado
+
 Elige un rol concreto y consulta qué usuarios lo tienen asignado.
 
+### Realización
 
+```
 
+```
 
-
-
-
-
-
+### Prueba de funcionamiento
 
 
 
@@ -416,11 +417,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzUxNTQ5MTAsMTM2MDg0MjI2MSwxOT
-A1MDc4Nzg4LC0zNzM3OTY5MTEsMTE4NjkxNTI5OSwtOTk2Mjg2
-NjA1LC0xNzY1MjQzMTc2LDE0MTk5MTk4NjUsNDQ3MzcwNzI5LD
-IzMzAyNjc3MiwyMDkzMDM0MDUzLC0xMDYyMjE5NDY4LDE1OTU5
-NzA0NjksMTc1OTE0Mjk4NSwtMTYxNTEyMjMyLC0xMzQyMjcxMz
-k3LDEwMTgxNzE5MjEsMTY3NTY1MTM0MSw0Mjc2NjE2MTksLTEx
-MjI4MzQ0NjddfQ==
+eyJoaXN0b3J5IjpbNjI0ODQ4MDE3LDEzNjA4NDIyNjEsMTkwNT
+A3ODc4OCwtMzczNzk2OTExLDExODY5MTUyOTksLTk5NjI4NjYw
+NSwtMTc2NTI0MzE3NiwxNDE5OTE5ODY1LDQ0NzM3MDcyOSwyMz
+MwMjY3NzIsMjA5MzAzNDA1MywtMTA2MjIxOTQ2OCwxNTk1OTcw
+NDY5LDE3NTkxNDI5ODUsLTE2MTUxMjIzMiwtMTM0MjI3MTM5Ny
+wxMDE4MTcxOTIxLDE2NzU2NTEzNDEsNDI3NjYxNjE5LC0xMTIy
+ODM0NDY3XX0=
 -->
