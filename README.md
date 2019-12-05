@@ -81,7 +81,7 @@ select username, DEFAULT_TABLESPACE
 	from DBA_USERS
 	where username = 'USRPRACTICA1';
 ```
-Output
+Output `:arrow_double_down:`
 ```
 USERNAME                                                                                                                 DEFAULT_TABLESPACE
 -------------------------------------------------------------------------------------------------------------------------------- ------------
@@ -566,11 +566,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODk2ODY1NiwtMTIyODM4NDk4OSwtMT
-Q1Mzc3OTExMCwtOTMwNTk0ODg1LDE3NTIzMDczNjksLTE5NTI4
-NDcyMDYsLTU1MjcwMzMwMSw3NjQ2ODE4MjAsLTk5ODgwODM0NC
-wtMTM3OTIxMTg1NCwtMTI1ODQ2MTQzMywtMTEwMTM1NzY0MSwt
-ODg3MzMyNjk0LDQwNjM4NDQ0NCwtMTU5NjQ5Mjk5NiwtMTY5Nj
-I1MDgzOSwxNDk2NTkxNjA3LC0xODY4Njc1MzM1LC0zNTcxMTgz
-MDcsMTM2MDg0MjI2MV19
+eyJoaXN0b3J5IjpbNTAwOTQ5ODYsLTEyMjgzODQ5ODksLTE0NT
+M3NzkxMTAsLTkzMDU5NDg4NSwxNzUyMzA3MzY5LC0xOTUyODQ3
+MjA2LC01NTI3MDMzMDEsNzY0NjgxODIwLC05OTg4MDgzNDQsLT
+EzNzkyMTE4NTQsLTEyNTg0NjE0MzMsLTExMDEzNTc2NDEsLTg4
+NzMzMjY5NCw0MDYzODQ0NDQsLTE1OTY0OTI5OTYsLTE2OTYyNT
+A4MzksMTQ5NjU5MTYwNywtMTg2ODY3NTMzNSwtMzU3MTE4MzA3
+LDEzNjA4NDIyNjFdfQ==
 -->
