@@ -36,7 +36,9 @@ ROLPRACTICA1
 
 * Si ese rol tiene los privilegios que le hemos asignado. En este caso es sencillo, ya que los privilegios que se le han asignado son todos de sistema. Por lo tanto, tenemos que consultar la vista DBA_SYS_PRIVS
 ```
-
+select 
+	from DBA_SYS_PRIVS
+	where grantee = 'ROLPRACTICA1';
 ```
 
 
@@ -523,11 +525,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU2ODk1NzcsLTk5ODgwODM0NCwtMT
-M3OTIxMTg1NCwtMTI1ODQ2MTQzMywtMTEwMTM1NzY0MSwtODg3
-MzMyNjk0LDQwNjM4NDQ0NCwtMTU5NjQ5Mjk5NiwtMTY5NjI1MD
-gzOSwxNDk2NTkxNjA3LC0xODY4Njc1MzM1LC0zNTcxMTgzMDcs
-MTM2MDg0MjI2MSwxOTA1MDc4Nzg4LC0zNzM3OTY5MTEsMTE4Nj
-kxNTI5OSwtOTk2Mjg2NjA1LC0xNzY1MjQzMTc2LDE0MTk5MTk4
-NjUsNDQ3MzcwNzI5XX0=
+eyJoaXN0b3J5IjpbLTQ0NzkxMjYzNSwtOTk4ODA4MzQ0LC0xMz
+c5MjExODU0LC0xMjU4NDYxNDMzLC0xMTAxMzU3NjQxLC04ODcz
+MzI2OTQsNDA2Mzg0NDQ0LC0xNTk2NDkyOTk2LC0xNjk2MjUwOD
+M5LDE0OTY1OTE2MDcsLTE4Njg2NzUzMzUsLTM1NzExODMwNywx
+MzYwODQyMjYxLDE5MDUwNzg3ODgsLTM3Mzc5NjkxMSwxMTg2OT
+E1Mjk5LC05OTYyODY2MDUsLTE3NjUyNDMxNzYsMTQxOTkxOTg2
+NSw0NDczNzA3MjldfQ==
 -->
