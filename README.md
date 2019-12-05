@@ -21,7 +21,8 @@ grant insert on scott.emp to ROLPRACTICA1;
 ```
 
 ### Prueba de funcionamiento
-Para comprobar que los cambios hayan surtido efecto de verdad, tendr
+Para comprobar que los cambios hayan surtido efecto de verdad, tendremos que comprobar 2 cosas:
+* Si el rol se ha creado
 
 
 
@@ -507,11 +508,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyODc5MDQxLC04ODczMzI2OTQsNDA2Mz
-g0NDQ0LC0xNTk2NDkyOTk2LC0xNjk2MjUwODM5LDE0OTY1OTE2
-MDcsLTE4Njg2NzUzMzUsLTM1NzExODMwNywxMzYwODQyMjYxLD
-E5MDUwNzg3ODgsLTM3Mzc5NjkxMSwxMTg2OTE1Mjk5LC05OTYy
-ODY2MDUsLTE3NjUyNDMxNzYsMTQxOTkxOTg2NSw0NDczNzA3Mj
-ksMjMzMDI2NzcyLDIwOTMwMzQwNTMsLTEwNjIyMTk0NjgsMTU5
-NTk3MDQ2OV19
+eyJoaXN0b3J5IjpbLTExMDEzNTc2NDEsLTg4NzMzMjY5NCw0MD
+YzODQ0NDQsLTE1OTY0OTI5OTYsLTE2OTYyNTA4MzksMTQ5NjU5
+MTYwNywtMTg2ODY3NTMzNSwtMzU3MTE4MzA3LDEzNjA4NDIyNj
+EsMTkwNTA3ODc4OCwtMzczNzk2OTExLDExODY5MTUyOTksLTk5
+NjI4NjYwNSwtMTc2NTI0MzE3NiwxNDE5OTE5ODY1LDQ0NzM3MD
+cyOSwyMzMwMjY3NzIsMjA5MzAzNDA1MywtMTA2MjIxOTQ2OCwx
+NTk1OTcwNDY5XX0=
 -->
