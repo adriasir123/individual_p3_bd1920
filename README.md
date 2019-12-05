@@ -33,8 +33,8 @@ ROLE
 ---------------
 ROLPRACTICA1
 ```
-
-* Si ese rol tiene los privilegios que le hemos asignado. En este caso es sencillo, ya que los casi todos privilegios que se le han asignado son de sistema. Por lo tanto, tenemos que consultar la vista DBA_SYS_PRIVS
+El rol se ha creado correctame
+* Si ese rol tiene los privilegios que le hemos asignado. En este caso es sencillo, ya que casi todos privilegios que se le han asignado son de sistema. El único privilegio Por lo tanto, tenemos que consultar la vista DBA_SYS_PRIVS
 ```
 select PRIVILEGE
 	from DBA_SYS_PRIVS
@@ -525,7 +525,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTMyNjA2OTYsNzY0NjgxODIwLC05OT
+eyJoaXN0b3J5IjpbLTE4Mzc3NDA0MzIsNzY0NjgxODIwLC05OT
 g4MDgzNDQsLTEzNzkyMTE4NTQsLTEyNTg0NjE0MzMsLTExMDEz
 NTc2NDEsLTg4NzMzMjY5NCw0MDYzODQ0NDQsLTE1OTY0OTI5OT
 YsLTE2OTYyNTA4MzksMTQ5NjU5MTYwNywtMTg2ODY3NTMzNSwt
