@@ -442,7 +442,7 @@ Where limit = sessions_per_user;
 
 
 
-## Ejercicio 24
+## Ejercicio 24 :x:
 Realiza un procedimiento que reciba un nombre de usuario y un privilegio de sistema y nos muestre el mensaje 'SI, DIRECTO' si el usuario tiene ese privilegio concedido directamente, 'SI, POR ROL' si el usuario tiene ese privilegio en alguno de los roles que tiene concedidos y un 'NO' si el usuario no tiene dicho privilegio.
 
 
@@ -466,7 +466,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4NzYzMjc3LDE0OTY1OTE2MDcsLTE4Nj
+eyJoaXN0b3J5IjpbMjYwMjA2NTY5LDE0OTY1OTE2MDcsLTE4Nj
 g2NzUzMzUsLTM1NzExODMwNywxMzYwODQyMjYxLDE5MDUwNzg3
 ODgsLTM3Mzc5NjkxMSwxMTg2OTE1Mjk5LC05OTYyODY2MDUsLT
 E3NjUyNDMxNzYsMTQxOTkxOTg2NSw0NDczNzA3MjksMjMzMDI2
