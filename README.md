@@ -71,11 +71,11 @@ Averigua qué cuota se le ha asignado por defecto en el mismo
 Sustitúyela por una cuota de 1M
 
 ### Realización
-* Creamos el usuario creado con el tablespace que le hemos indicado
+* Creamos el usuario con el tablespace dicho
 ```
 create user USRPRACTICA1 identified by 1234 default tablespace users;  
 ```
-
+* Comprobamos que esto se ha hecho correctamente
 select tablespace_name, username, max_bytes
 	from dba_ts_quotas
 	where username = 'USRPRACTICA1' and TABLESPACE_NAME = 'users';
@@ -558,7 +558,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDMxODIyNSwtMTQ1Mzc3OTExMCwtOT
+eyJoaXN0b3J5IjpbMTExNjQ4MjkyOSwtMTQ1Mzc3OTExMCwtOT
 MwNTk0ODg1LDE3NTIzMDczNjksLTE5NTI4NDcyMDYsLTU1Mjcw
 MzMwMSw3NjQ2ODE4MjAsLTk5ODgwODM0NCwtMTM3OTIxMTg1NC
 wtMTI1ODQ2MTQzMywtMTEwMTM1NzY0MSwtODg3MzMyNjk0LDQw
