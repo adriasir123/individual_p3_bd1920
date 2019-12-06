@@ -96,7 +96,7 @@ select tablespace_name, username, max_bytes
 ```
 no rows selected
 ```
-No muestra ningún registro porque
+No muestra ningún registro porque por defecto en Oracle la cuota de los usuarios sobre los tablespaces es de 0. Si queremos que explícitamente tengan cuota (limitada o ilimitada), tendremos q
 
 
 > En este momento no aparece registrado en la vista la quota por defecto que se le ha asignado. 
@@ -576,11 +576,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTMyNDU4NjYsOTg3NjU0ODY1LC05MT
-U5MjUwNjQsMTM4NTg4MjAyMSwtNjkxMzYzMTcyLDE5NjM5NjQ5
-NDIsLTE5ODY4NDg4NTksLTEyMjgzODQ5ODksLTE0NTM3NzkxMT
-AsLTkzMDU5NDg4NSwxNzUyMzA3MzY5LC0xOTUyODQ3MjA2LC01
-NTI3MDMzMDEsNzY0NjgxODIwLC05OTg4MDgzNDQsLTEzNzkyMT
-E4NTQsLTEyNTg0NjE0MzMsLTExMDEzNTc2NDEsLTg4NzMzMjY5
-NCw0MDYzODQ0NDRdfQ==
+eyJoaXN0b3J5IjpbODU2ODY2MDcyLDk4NzY1NDg2NSwtOTE1OT
+I1MDY0LDEzODU4ODIwMjEsLTY5MTM2MzE3MiwxOTYzOTY0OTQy
+LC0xOTg2ODQ4ODU5LC0xMjI4Mzg0OTg5LC0xNDUzNzc5MTEwLC
+05MzA1OTQ4ODUsMTc1MjMwNzM2OSwtMTk1Mjg0NzIwNiwtNTUy
+NzAzMzAxLDc2NDY4MTgyMCwtOTk4ODA4MzQ0LC0xMzc5MjExOD
+U0LC0xMjU4NDYxNDMzLC0xMTAxMzU3NjQxLC04ODczMzI2OTQs
+NDA2Mzg0NDQ0XX0=
 -->
