@@ -1,3 +1,4 @@
+
 # TL;DR
 En este repositorio se encuentra el código de mi parte individual para la práctica 3 de base de datos "Gestión de usuarios". Soy el alumno 1, y me corresponde hacer la parte de Oracle. La documentación de cada ejercicio con pruebas de funcionamiento, las podrás encontrar en este mismo README
 
@@ -106,21 +107,20 @@ Por lo tanto, en cuanto le asignemos una quota sobre un tablespace, ya aparecer�
 La respuesta en resumen fue que pude crear tablas debido al "**deferred_segment_creation**".
 Indagando un poco más sobre esto vi los conceptos de segmento, partición...etc. Pero creo que esto se escapa del ámbito de este tema, y seguramente es lo que vayamos a dar en el tema del almacenamiento. 
 Aún así, creo que ha sido muy interesante investigar esto.
+
 * Cambiarle la cuota asignada
 ```
 alter user USRPRACTICA1 quota 1M on USERS; 
 ```
-Ahora SÍ podremos mostrar la cuota asignada para ese usuario, en el tablespace dicho:
+Ahora SÍ podremos mostrar la cuota asignada para ese usuario, en el tablespace dicho:  
 ```
 SQL> select tablespace_name, username, max_bytes
   2     from dba_ts_quotas
   3     where username = 'USRPRACTICA1' and TABLESPACE_NAME = 'USERS';
-
 TABLE USERNAME      MAX_BYTES
 ----- ------------ ----------
 USERS USRPRACTICA1    1048576
 ```
-
 
 
 ## Ejercicio 3 :heavy_check_mark:
@@ -602,12 +602,18 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 
+
+
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDY0MzY2NzMsMTgyNjk5MzI4NSwxMj
-Q4MzAzMTYxLDU3NDQ4NTAxMyw1ODY1Nzg5NzMsLTEyMTY4ODYw
-MDAsOTQwNDIyMzYyLC0xMDE3Mjc4NjY0LC0xNTc0MDc2Nyw5OD
-c2NTQ4NjUsLTkxNTkyNTA2NCwxMzg1ODgyMDIxLC02OTEzNjMx
-NzIsMTk2Mzk2NDk0MiwtMTk4Njg0ODg1OSwtMTIyODM4NDk4OS
-wtMTQ1Mzc3OTExMCwtOTMwNTk0ODg1LDE3NTIzMDczNjksLTE5
-NTI4NDcyMDZdfQ==
+eyJoaXN0b3J5IjpbLTE0ODAwOTI5MDksLTIxMDY0MzY2NzMsMT
+gyNjk5MzI4NSwxMjQ4MzAzMTYxLDU3NDQ4NTAxMyw1ODY1Nzg5
+NzMsLTEyMTY4ODYwMDAsOTQwNDIyMzYyLC0xMDE3Mjc4NjY0LC
+0xNTc0MDc2Nyw5ODc2NTQ4NjUsLTkxNTkyNTA2NCwxMzg1ODgy
+MDIxLC02OTEzNjMxNzIsMTk2Mzk2NDk0MiwtMTk4Njg0ODg1OS
+wtMTIyODM4NDk4OSwtMTQ1Mzc3OTExMCwtOTMwNTk0ODg1LDE3
+NTIzMDczNjldfQ==
 -->
