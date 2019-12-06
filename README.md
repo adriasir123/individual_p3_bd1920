@@ -143,7 +143,7 @@ Output :arrow_double_down:
 ```
 no rows selected
 ```
-_Esto es correcto porque como vimos antes, cualquier usuario con cuota 0 sobre un tablespace_
+_Esto es correcto porque como vimos antes, cualquier usuario con cuota 0 sobre un tablespace, no aparecerá en esa vista_
 
 
 ## Ejercicio 4
@@ -601,7 +601,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Nzk1NzMxMyw1NzQ0ODUwMTMsNTg2NT
+eyJoaXN0b3J5IjpbMTI0ODMwMzE2MSw1NzQ0ODUwMTMsNTg2NT
 c4OTczLC0xMjE2ODg2MDAwLDk0MDQyMjM2MiwtMTAxNzI3ODY2
 NCwtMTU3NDA3NjcsOTg3NjU0ODY1LC05MTU5MjUwNjQsMTM4NT
 g4MjAyMSwtNjkxMzYzMTcyLDE5NjM5NjQ5NDIsLTE5ODY4NDg4
