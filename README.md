@@ -93,6 +93,12 @@ select tablespace_name, username, max_bytes
 	from dba_ts_quotas
 	where username = 'USRPRACTICA1' and TABLESPACE_NAME = 'USERS';
 ```
+```
+no rows selected
+```
+No muestra ningún
+
+
 > En este momento no aparece registrado en la vista la quota por defecto que se le ha asignado. 
 * Cambiarle la cuota asignada
 ```
@@ -570,11 +576,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTkyNTA2NCwxMzg1ODgyMDIxLC02OT
-EzNjMxNzIsMTk2Mzk2NDk0MiwtMTk4Njg0ODg1OSwtMTIyODM4
-NDk4OSwtMTQ1Mzc3OTExMCwtOTMwNTk0ODg1LDE3NTIzMDczNj
-ksLTE5NTI4NDcyMDYsLTU1MjcwMzMwMSw3NjQ2ODE4MjAsLTk5
-ODgwODM0NCwtMTM3OTIxMTg1NCwtMTI1ODQ2MTQzMywtMTEwMT
-M1NzY0MSwtODg3MzMyNjk0LDQwNjM4NDQ0NCwtMTU5NjQ5Mjk5
-NiwtMTY5NjI1MDgzOV19
+eyJoaXN0b3J5IjpbMTI1MDE0MDcyMSwtOTE1OTI1MDY0LDEzOD
+U4ODIwMjEsLTY5MTM2MzE3MiwxOTYzOTY0OTQyLC0xOTg2ODQ4
+ODU5LC0xMjI4Mzg0OTg5LC0xNDUzNzc5MTEwLC05MzA1OTQ4OD
+UsMTc1MjMwNzM2OSwtMTk1Mjg0NzIwNiwtNTUyNzAzMzAxLDc2
+NDY4MTgyMCwtOTk4ODA4MzQ0LC0xMzc5MjExODU0LC0xMjU4ND
+YxNDMzLC0xMTAxMzU3NjQxLC04ODczMzI2OTQsNDA2Mzg0NDQ0
+LC0xNTk2NDkyOTk2XX0=
 -->
