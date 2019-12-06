@@ -133,7 +133,16 @@ Modifica el usuario USRPRACTICA1 para que tenga cuota 0 en el tablespace SYSTEM
 ```
 alter user USRPRACTICA1 quota 0 on SYSTEM;
 ```
-* Compro
+* Comprobamos que se han realizado los cambios
+```
+select tablespace_name, username, max_bytes
+	from dba_ts_quotas
+	where username = 'USRPRACTICA1' and TABLESPACE_NAME = 'SYSTEM';
+```
+Output :arrow_double_down:
+```
+
+
 
 
 
@@ -592,11 +601,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTk2NTA1OSw1NzQ0ODUwMTMsNTg2NT
-c4OTczLC0xMjE2ODg2MDAwLDk0MDQyMjM2MiwtMTAxNzI3ODY2
-NCwtMTU3NDA3NjcsOTg3NjU0ODY1LC05MTU5MjUwNjQsMTM4NT
-g4MjAyMSwtNjkxMzYzMTcyLDE5NjM5NjQ5NDIsLTE5ODY4NDg4
-NTksLTEyMjgzODQ5ODksLTE0NTM3NzkxMTAsLTkzMDU5NDg4NS
-wxNzUyMzA3MzY5LC0xOTUyODQ3MjA2LC01NTI3MDMzMDEsNzY0
-NjgxODIwXX0=
+eyJoaXN0b3J5IjpbMzYzNzI4OTQ4LDU3NDQ4NTAxMyw1ODY1Nz
+g5NzMsLTEyMTY4ODYwMDAsOTQwNDIyMzYyLC0xMDE3Mjc4NjY0
+LC0xNTc0MDc2Nyw5ODc2NTQ4NjUsLTkxNTkyNTA2NCwxMzg1OD
+gyMDIxLC02OTEzNjMxNzIsMTk2Mzk2NDk0MiwtMTk4Njg0ODg1
+OSwtMTIyODM4NDk4OSwtMTQ1Mzc3OTExMCwtOTMwNTk0ODg1LD
+E3NTIzMDczNjksLTE5NTI4NDcyMDYsLTU1MjcwMzMwMSw3NjQ2
+ODE4MjBdfQ==
 -->
