@@ -96,7 +96,7 @@ select tablespace_name, username, max_bytes
 ```
 no rows selected
 ```
-No muestra ningún
+No muestra ningún 
 
 
 > En este momento no aparece registrado en la vista la quota por defecto que se le ha asignado. 
@@ -576,11 +576,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDE0MDcyMSwtOTE1OTI1MDY0LDEzOD
-U4ODIwMjEsLTY5MTM2MzE3MiwxOTYzOTY0OTQyLC0xOTg2ODQ4
-ODU5LC0xMjI4Mzg0OTg5LC0xNDUzNzc5MTEwLC05MzA1OTQ4OD
-UsMTc1MjMwNzM2OSwtMTk1Mjg0NzIwNiwtNTUyNzAzMzAxLDc2
-NDY4MTgyMCwtOTk4ODA4MzQ0LC0xMzc5MjExODU0LC0xMjU4ND
-YxNDMzLC0xMTAxMzU3NjQxLC04ODczMzI2OTQsNDA2Mzg0NDQ0
-LC0xNTk2NDkyOTk2XX0=
+eyJoaXN0b3J5IjpbOTg3NjU0ODY1LC05MTU5MjUwNjQsMTM4NT
+g4MjAyMSwtNjkxMzYzMTcyLDE5NjM5NjQ5NDIsLTE5ODY4NDg4
+NTksLTEyMjgzODQ5ODksLTE0NTM3NzkxMTAsLTkzMDU5NDg4NS
+wxNzUyMzA3MzY5LC0xOTUyODQ3MjA2LC01NTI3MDMzMDEsNzY0
+NjgxODIwLC05OTg4MDgzNDQsLTEzNzkyMTE4NTQsLTEyNTg0Nj
+E0MzMsLTExMDEzNTc2NDEsLTg4NzMzMjY5NCw0MDYzODQ0NDQs
+LTE1OTY0OTI5OTZdfQ==
 -->
