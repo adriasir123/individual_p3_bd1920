@@ -97,7 +97,7 @@ select tablespace_name, username, max_bytes
 no rows selected
 ```
 No muestra ningún registro porque por defecto en Oracle la cuota de los usuarios sobre los tablespaces es de 0. Si queremos que explícitamente tengan cuota (limitada o ilimitada), tendremos que asignársela.
-Encontré lo siguiente en la documentación de oracle, de donde saqué la información para haber sabido eso
+Encontré lo siguiente en la documentación de oracle, de donde saqué la información para haber sabido esto
 >By default, a user has no quota on any tablespace in the database. If the user has the privilege to create a schema object, you must assign a quota to allow the user to create objects. Minimally, assign users a quota for the default tablespace, and additional quotas for other tablespaces in which they can create objects.
 
 Por lo tanto, en cuanto le asignemos una quota sobre un tablespace, ya aparecería con la consulta anterior. Es lo que haremos a continuación
@@ -577,11 +577,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwNDIyMzYyLC0xMDE3Mjc4NjY0LC0xNT
-c0MDc2Nyw5ODc2NTQ4NjUsLTkxNTkyNTA2NCwxMzg1ODgyMDIx
-LC02OTEzNjMxNzIsMTk2Mzk2NDk0MiwtMTk4Njg0ODg1OSwtMT
-IyODM4NDk4OSwtMTQ1Mzc3OTExMCwtOTMwNTk0ODg1LDE3NTIz
-MDczNjksLTE5NTI4NDcyMDYsLTU1MjcwMzMwMSw3NjQ2ODE4Mj
-AsLTk5ODgwODM0NCwtMTM3OTIxMTg1NCwtMTI1ODQ2MTQzMywt
-MTEwMTM1NzY0MV19
+eyJoaXN0b3J5IjpbLTEyMTY4ODYwMDAsOTQwNDIyMzYyLC0xMD
+E3Mjc4NjY0LC0xNTc0MDc2Nyw5ODc2NTQ4NjUsLTkxNTkyNTA2
+NCwxMzg1ODgyMDIxLC02OTEzNjMxNzIsMTk2Mzk2NDk0MiwtMT
+k4Njg0ODg1OSwtMTIyODM4NDk4OSwtMTQ1Mzc3OTExMCwtOTMw
+NTk0ODg1LDE3NTIzMDczNjksLTE5NTI4NDcyMDYsLTU1MjcwMz
+MwMSw3NjQ2ODE4MjAsLTk5ODgwODM0NCwtMTM3OTIxMTg1NCwt
+MTI1ODQ2MTQzM119
 -->
