@@ -147,10 +147,12 @@ _Esto es correcto porque como vimos antes, cualquier usuario con cuota 0 sobre u
 
 
 ## Ejercicio 4
-Concede a USRPRACTICA1 el ROLPRACTICA1.
+### Enunciado
 
----
+Concede a USRPRACTICA1 el ROLPRACTICA1
 
+### Realización
+*
 ```
 GRANT ROLPRACTICA1 TO USRPRACTICA1;
 ```
@@ -601,11 +603,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNjk5MzI4NSwxMjQ4MzAzMTYxLDU3ND
-Q4NTAxMyw1ODY1Nzg5NzMsLTEyMTY4ODYwMDAsOTQwNDIyMzYy
-LC0xMDE3Mjc4NjY0LC0xNTc0MDc2Nyw5ODc2NTQ4NjUsLTkxNT
-kyNTA2NCwxMzg1ODgyMDIxLC02OTEzNjMxNzIsMTk2Mzk2NDk0
-MiwtMTk4Njg0ODg1OSwtMTIyODM4NDk4OSwtMTQ1Mzc3OTExMC
-wtOTMwNTk0ODg1LDE3NTIzMDczNjksLTE5NTI4NDcyMDYsLTU1
-MjcwMzMwMV19
+eyJoaXN0b3J5IjpbLTIxMDY0MzY2NzMsMTgyNjk5MzI4NSwxMj
+Q4MzAzMTYxLDU3NDQ4NTAxMyw1ODY1Nzg5NzMsLTEyMTY4ODYw
+MDAsOTQwNDIyMzYyLC0xMDE3Mjc4NjY0LC0xNTc0MDc2Nyw5OD
+c2NTQ4NjUsLTkxNTkyNTA2NCwxMzg1ODgyMDIxLC02OTEzNjMx
+NzIsMTk2Mzk2NDk0MiwtMTk4Njg0ODg1OSwtMTIyODM4NDk4OS
+wtMTQ1Mzc3OTExMCwtOTMwNTk0ODg1LDE3NTIzMDczNjksLTE5
+NTI4NDcyMDZdfQ==
 -->
