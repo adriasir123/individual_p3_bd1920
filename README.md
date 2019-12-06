@@ -100,7 +100,9 @@ No muestra ningún registro porque por defecto en Oracle la cuota de los usuario
 Encontré lo siguiente en la documentación de oracle, de donde saqué la información para haber sabido esto
 >By default, a user has no quota on any tablespace in the database. If the user has the privilege to create a schema object, you must assign a quota to allow the user to create objects. Minimally, assign users a quota for the default tablespace, and additional quotas for other tablespaces in which they can create objects.
 
-Por lo tanto, en cuanto le asignemos una quota sobre un tablespace, ya aparecería con la consulta anterior. Es lo que haremos a continuación
+Por lo tanto, en cuanto le asignemos una quota sobre un tablespace, ya aparecería con la consulta anterior. Es lo que haremos en el siguiente punto.
+
+> NOTA IMPORTANTE: 
 * Cambiarle la cuota asignada
 ```
 alter user USRPRACTICA1 quota 1M on USERS; 
@@ -586,11 +588,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4NzQ1NjgsLTEyMTY4ODYwMDAsOTQwND
-IyMzYyLC0xMDE3Mjc4NjY0LC0xNTc0MDc2Nyw5ODc2NTQ4NjUs
-LTkxNTkyNTA2NCwxMzg1ODgyMDIxLC02OTEzNjMxNzIsMTk2Mz
-k2NDk0MiwtMTk4Njg0ODg1OSwtMTIyODM4NDk4OSwtMTQ1Mzc3
-OTExMCwtOTMwNTk0ODg1LDE3NTIzMDczNjksLTE5NTI4NDcyMD
-YsLTU1MjcwMzMwMSw3NjQ2ODE4MjAsLTk5ODgwODM0NCwtMTM3
-OTIxMTg1NF19
+eyJoaXN0b3J5IjpbNTg2NTc4OTczLC0xMjE2ODg2MDAwLDk0MD
+QyMjM2MiwtMTAxNzI3ODY2NCwtMTU3NDA3NjcsOTg3NjU0ODY1
+LC05MTU5MjUwNjQsMTM4NTg4MjAyMSwtNjkxMzYzMTcyLDE5Nj
+M5NjQ5NDIsLTE5ODY4NDg4NTksLTEyMjgzODQ5ODksLTE0NTM3
+NzkxMTAsLTkzMDU5NDg4NSwxNzUyMzA3MzY5LC0xOTUyODQ3Mj
+A2LC01NTI3MDMzMDEsNzY0NjgxODIwLC05OTg4MDgzNDQsLTEz
+NzkyMTE4NTRdfQ==
 -->
