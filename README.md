@@ -104,7 +104,8 @@ Por lo tanto, en cuanto le asignemos una quota sobre un tablespace, ya aparecer�
 
 > NOTA IMPORTANTE: por curiosidad quise saber si cuando a un usuario no se le asigna cuota en un tablespace por defecto, tiene realmente cuota o no. Porque con este usuario, que en principio no tenía cuota, pude crear una tabla, y esto me confundió bastante, sabiendo que desde la documentación oficial de oracle decían que no tienen cuota si no se la asignas. Creé [esta pregunta](https://dba.stackexchange.com/questions/254949/what-is-the-default-quota-on-a-tablespace-for-a-given-user-in-oracle-if-you-don/254950#254950)  en stack exchange para que me la resolvieran, y llegué a la conclusión de que aunque hubiese podido crear tablas, realmente no se estaban guardando en el tablespace users. Es decir, es real que ese usuario no tenía cuota sobre el tablespace.
 La respuesta en resumen fue que pude crear tablas debido al "**deferred_segment_creation**".
-Indagando un poco más sobre esto vi los conceptos de segmento, partición...etc. P
+Indagando un poco más sobre esto vi los conceptos de segmento, partición...etc. Pero creo que esto se escapa del ámbito de este tema, y seguramente es lo que vayamos a dar en el tema del almacenamiento. 
+Aún así, creo que ha sido muy interesante investigar esto.
 * Cambiarle la cuota asignada
 ```
 alter user USRPRACTICA1 quota 1M on USERS; 
@@ -590,11 +591,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTUyMDIwNjgsNTg2NTc4OTczLC0xMj
-E2ODg2MDAwLDk0MDQyMjM2MiwtMTAxNzI3ODY2NCwtMTU3NDA3
-NjcsOTg3NjU0ODY1LC05MTU5MjUwNjQsMTM4NTg4MjAyMSwtNj
-kxMzYzMTcyLDE5NjM5NjQ5NDIsLTE5ODY4NDg4NTksLTEyMjgz
-ODQ5ODksLTE0NTM3NzkxMTAsLTkzMDU5NDg4NSwxNzUyMzA3Mz
-Y5LC0xOTUyODQ3MjA2LC01NTI3MDMzMDEsNzY0NjgxODIwLC05
-OTg4MDgzNDRdfQ==
+eyJoaXN0b3J5IjpbNTc0NDg1MDEzLDU4NjU3ODk3MywtMTIxNj
+g4NjAwMCw5NDA0MjIzNjIsLTEwMTcyNzg2NjQsLTE1NzQwNzY3
+LDk4NzY1NDg2NSwtOTE1OTI1MDY0LDEzODU4ODIwMjEsLTY5MT
+M2MzE3MiwxOTYzOTY0OTQyLC0xOTg2ODQ4ODU5LC0xMjI4Mzg0
+OTg5LC0xNDUzNzc5MTEwLC05MzA1OTQ4ODUsMTc1MjMwNzM2OS
+wtMTk1Mjg0NzIwNiwtNTUyNzAzMzAxLDc2NDY4MTgyMCwtOTk4
+ODA4MzQ0XX0=
 -->
