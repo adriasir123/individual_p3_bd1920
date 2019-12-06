@@ -129,10 +129,11 @@ USERS USRPRACTICA1    1048576
 Modifica el usuario USRPRACTICA1 para que tenga cuota 0 en el tablespace SYSTEM
 
 ### Realización
+* Le modificamos la cuota
 ```
 alter user USRPRACTICA1 quota 0 on SYSTEM;
 ```
-
+* Compro
 
 
 
@@ -591,7 +592,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTAyNTg3NCw1NzQ0ODUwMTMsNTg2NT
+eyJoaXN0b3J5IjpbMTUxOTk2NTA1OSw1NzQ0ODUwMTMsNTg2NT
 c4OTczLC0xMjE2ODg2MDAwLDk0MDQyMjM2MiwtMTAxNzI3ODY2
 NCwtMTU3NDA3NjcsOTg3NjU0ODY1LC05MTU5MjUwNjQsMTM4NT
 g4MjAyMSwtNjkxMzYzMTcyLDE5NjM5NjQ5NDIsLTE5ODY4NDg4
