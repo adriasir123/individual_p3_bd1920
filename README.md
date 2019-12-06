@@ -105,7 +105,10 @@ Por lo tanto, en cuanto le asignemos una quota sobre un tablespace, ya aparecer�
 ```
 alter user USRPRACTICA1 quota 1M on USERS; 
 ```
-Ahora sí podremos mostrarla cuota asignada para e
+Ahora SÍ podremos mostrar la cuota asignada para ese usuario, en el tablespace dicho:
+```
+
+```
 
 
 
@@ -577,11 +580,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjEwOTg3NCwtMTIxNjg4NjAwMCw5ND
-A0MjIzNjIsLTEwMTcyNzg2NjQsLTE1NzQwNzY3LDk4NzY1NDg2
-NSwtOTE1OTI1MDY0LDEzODU4ODIwMjEsLTY5MTM2MzE3MiwxOT
-YzOTY0OTQyLC0xOTg2ODQ4ODU5LC0xMjI4Mzg0OTg5LC0xNDUz
-Nzc5MTEwLC05MzA1OTQ4ODUsMTc1MjMwNzM2OSwtMTk1Mjg0Nz
-IwNiwtNTUyNzAzMzAxLDc2NDY4MTgyMCwtOTk4ODA4MzQ0LC0x
-Mzc5MjExODU0XX0=
+eyJoaXN0b3J5IjpbLTY0MDM2NDExLC0xMjE2ODg2MDAwLDk0MD
+QyMjM2MiwtMTAxNzI3ODY2NCwtMTU3NDA3NjcsOTg3NjU0ODY1
+LC05MTU5MjUwNjQsMTM4NTg4MjAyMSwtNjkxMzYzMTcyLDE5Nj
+M5NjQ5NDIsLTE5ODY4NDg4NTksLTEyMjgzODQ5ODksLTE0NTM3
+NzkxMTAsLTkzMDU5NDg4NSwxNzUyMzA3MzY5LC0xOTUyODQ3Mj
+A2LC01NTI3MDMzMDEsNzY0NjgxODIwLC05OTg4MDgzNDQsLTEz
+NzkyMTE4NTRdfQ==
 -->
