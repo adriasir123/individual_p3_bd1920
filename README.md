@@ -107,7 +107,13 @@ alter user USRPRACTICA1 quota 1M on USERS;
 ```
 Ahora SÍ podremos mostrar la cuota asignada para ese usuario, en el tablespace dicho:
 ```
+SQL> select tablespace_name, username, max_bytes
+  2     from dba_ts_quotas
+  3     where username = 'USRPRACTICA1' and TABLESPACE_NAME = 'USERS';
 
+TABLE USERNAME      MAX_BYTES
+----- ------------ ----------
+USERS USRPRACTICA1    1048576
 ```
 
 
@@ -580,11 +586,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDM2NDExLC0xMjE2ODg2MDAwLDk0MD
-QyMjM2MiwtMTAxNzI3ODY2NCwtMTU3NDA3NjcsOTg3NjU0ODY1
-LC05MTU5MjUwNjQsMTM4NTg4MjAyMSwtNjkxMzYzMTcyLDE5Nj
-M5NjQ5NDIsLTE5ODY4NDg4NTksLTEyMjgzODQ5ODksLTE0NTM3
-NzkxMTAsLTkzMDU5NDg4NSwxNzUyMzA3MzY5LC0xOTUyODQ3Mj
-A2LC01NTI3MDMzMDEsNzY0NjgxODIwLC05OTg4MDgzNDQsLTEz
-NzkyMTE4NTRdfQ==
+eyJoaXN0b3J5IjpbMzI4NzQ1NjgsLTEyMTY4ODYwMDAsOTQwND
+IyMzYyLC0xMDE3Mjc4NjY0LC0xNTc0MDc2Nyw5ODc2NTQ4NjUs
+LTkxNTkyNTA2NCwxMzg1ODgyMDIxLC02OTEzNjMxNzIsMTk2Mz
+k2NDk0MiwtMTk4Njg0ODg1OSwtMTIyODM4NDk4OSwtMTQ1Mzc3
+OTExMCwtOTMwNTk0ODg1LDE3NTIzMDczNjksLTE5NTI4NDcyMD
+YsLTU1MjcwMzMwMSw3NjQ2ODE4MjAsLTk5ODgwODM0NCwtMTM3
+OTIxMTg1NF19
 -->
