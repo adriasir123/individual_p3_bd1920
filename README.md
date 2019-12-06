@@ -102,7 +102,7 @@ Encontré lo siguiente en la documentación de oracle, de donde saqué la inform
 
 Por lo tanto, en cuanto le asignemos una quota sobre un tablespace, ya aparecería con la consulta anterior. Es lo que haremos en el siguiente punto.
 
-> NOTA IMPORTANTE: por curiosidad quise saber si cuando a un usuario no se le asigna cuota en un tablespace por defecto, tiene realmente quota o no. Porque con este usuario, que en principio no tenía cuota, pude crear una tabla, y esto me confundió bastante, sabiendo que desde la documentación oficial de oracle decían que no tienen cuota si no se la 
+> NOTA IMPORTANTE: por curiosidad quise saber si cuando a un usuario no se le asigna cuota en un tablespace por defecto, tiene realmente cuota o no. Porque con este usuario, que en principio no tenía cuota, pude crear una tabla, y esto me confundió bastante, sabiendo que desde la documentación oficial de oracle decían que no tienen cuota si no se la asignas. Creé [enter link description here](https://dba.stackexchange.com/questions/254949/what-is-the-default-quota-on-a-tablespace-for-a-given-user-in-oracle-if-you-don/254950#254950)
 * Cambiarle la cuota asignada
 ```
 alter user USRPRACTICA1 quota 1M on USERS; 
@@ -588,11 +588,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzM5NjAwNyw1ODY1Nzg5NzMsLTEyMT
-Y4ODYwMDAsOTQwNDIyMzYyLC0xMDE3Mjc4NjY0LC0xNTc0MDc2
-Nyw5ODc2NTQ4NjUsLTkxNTkyNTA2NCwxMzg1ODgyMDIxLC02OT
-EzNjMxNzIsMTk2Mzk2NDk0MiwtMTk4Njg0ODg1OSwtMTIyODM4
-NDk4OSwtMTQ1Mzc3OTExMCwtOTMwNTk0ODg1LDE3NTIzMDczNj
-ksLTE5NTI4NDcyMDYsLTU1MjcwMzMwMSw3NjQ2ODE4MjAsLTk5
-ODgwODM0NF19
+eyJoaXN0b3J5IjpbLTIwMDg5MTA1OTgsNTg2NTc4OTczLC0xMj
+E2ODg2MDAwLDk0MDQyMjM2MiwtMTAxNzI3ODY2NCwtMTU3NDA3
+NjcsOTg3NjU0ODY1LC05MTU5MjUwNjQsMTM4NTg4MjAyMSwtNj
+kxMzYzMTcyLDE5NjM5NjQ5NDIsLTE5ODY4NDg4NTksLTEyMjgz
+ODQ5ODksLTE0NTM3NzkxMTAsLTkzMDU5NDg4NSwxNzUyMzA3Mz
+Y5LC0xOTUyODQ3MjA2LC01NTI3MDMzMDEsNzY0NjgxODIwLC05
+OTg4MDgzNDRdfQ==
 -->
