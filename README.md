@@ -102,7 +102,7 @@ Encontré lo siguiente en la documentación de oracle, de donde saqué la inform
 
 Por lo tanto, en cuanto le asignemos una quota sobre un tablespace, ya aparecería con la consulta anterior. Es lo que haremos en el siguiente punto.
 
-> NOTA IMPORTANTE: 
+> NOTA IMPORTANTE: p
 * Cambiarle la cuota asignada
 ```
 alter user USRPRACTICA1 quota 1M on USERS; 
@@ -588,11 +588,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2NTc4OTczLC0xMjE2ODg2MDAwLDk0MD
-QyMjM2MiwtMTAxNzI3ODY2NCwtMTU3NDA3NjcsOTg3NjU0ODY1
-LC05MTU5MjUwNjQsMTM4NTg4MjAyMSwtNjkxMzYzMTcyLDE5Nj
-M5NjQ5NDIsLTE5ODY4NDg4NTksLTEyMjgzODQ5ODksLTE0NTM3
-NzkxMTAsLTkzMDU5NDg4NSwxNzUyMzA3MzY5LC0xOTUyODQ3Mj
-A2LC01NTI3MDMzMDEsNzY0NjgxODIwLC05OTg4MDgzNDQsLTEz
-NzkyMTE4NTRdfQ==
+eyJoaXN0b3J5IjpbLTU2MDYzNTQyMSw1ODY1Nzg5NzMsLTEyMT
+Y4ODYwMDAsOTQwNDIyMzYyLC0xMDE3Mjc4NjY0LC0xNTc0MDc2
+Nyw5ODc2NTQ4NjUsLTkxNTkyNTA2NCwxMzg1ODgyMDIxLC02OT
+EzNjMxNzIsMTk2Mzk2NDk0MiwtMTk4Njg0ODg1OSwtMTIyODM4
+NDk4OSwtMTQ1Mzc3OTExMCwtOTMwNTk0ODg1LDE3NTIzMDczNj
+ksLTE5NTI4NDcyMDYsLTU1MjcwMzMwMSw3NjQ2ODE4MjAsLTk5
+ODgwODM0NF19
 -->
