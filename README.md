@@ -63,7 +63,7 @@ _Se han listado correctamente todos los privilegios que previamente le habíamos
 
 
 
-## Ejercicio 2 :warning:
+## Ejercicio 2 :heavy_check_mark:
 ### Enunciado
 
 Crea un usuario USRPRACTICA1 con el tablespace USERS por defecto
@@ -591,11 +591,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0NDg1MDEzLDU4NjU3ODk3MywtMTIxNj
-g4NjAwMCw5NDA0MjIzNjIsLTEwMTcyNzg2NjQsLTE1NzQwNzY3
-LDk4NzY1NDg2NSwtOTE1OTI1MDY0LDEzODU4ODIwMjEsLTY5MT
-M2MzE3MiwxOTYzOTY0OTQyLC0xOTg2ODQ4ODU5LC0xMjI4Mzg0
-OTg5LC0xNDUzNzc5MTEwLC05MzA1OTQ4ODUsMTc1MjMwNzM2OS
-wtMTk1Mjg0NzIwNiwtNTUyNzAzMzAxLDc2NDY4MTgyMCwtOTk4
-ODA4MzQ0XX0=
+eyJoaXN0b3J5IjpbODc5ODg1Nzg1LDU3NDQ4NTAxMyw1ODY1Nz
+g5NzMsLTEyMTY4ODYwMDAsOTQwNDIyMzYyLC0xMDE3Mjc4NjY0
+LC0xNTc0MDc2Nyw5ODc2NTQ4NjUsLTkxNTkyNTA2NCwxMzg1OD
+gyMDIxLC02OTEzNjMxNzIsMTk2Mzk2NDk0MiwtMTk4Njg0ODg1
+OSwtMTIyODM4NDk4OSwtMTQ1Mzc3OTExMCwtOTMwNTk0ODg1LD
+E3NTIzMDczNjksLTE5NTI4NDcyMDYsLTU1MjcwMzMwMSw3NjQ2
+ODE4MjBdfQ==
 -->
