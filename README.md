@@ -239,7 +239,7 @@ Evidentemente USRPRACTICA1 no puede realizar esta acción, ya que no posee los p
 
 Además, también tenemos que probar si USRPRACTICA1 puede borrar la tabla creada. Para ello, ejecutamos lo siguiente
 ```
-
+DROP  TABLE  persons;
 ```
 
 
@@ -678,11 +678,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5MDAzNjQsLTg1NDkxODU0MCwtMTgzMD
-Q1NDc4MCwxODAzMzU1NzE5LC0xMDI4MjYyODU2LDU2NjIwOTIw
-Nyw4MDU2NjYxMTksOTUyNDAyNjMsLTE5MTY1Mzc0NDEsMzIxOT
-gxMjgsLTE0ODAwOTI5MDksLTIxMDY0MzY2NzMsMTgyNjk5MzI4
-NSwxMjQ4MzAzMTYxLDU3NDQ4NTAxMyw1ODY1Nzg5NzMsLTEyMT
-Y4ODYwMDAsOTQwNDIyMzYyLC0xMDE3Mjc4NjY0LC0xNTc0MDc2
-N119
+eyJoaXN0b3J5IjpbNjMwNjcwMzcwLC04NTQ5MTg1NDAsLTE4Mz
+A0NTQ3ODAsMTgwMzM1NTcxOSwtMTAyODI2Mjg1Niw1NjYyMDky
+MDcsODA1NjY2MTE5LDk1MjQwMjYzLC0xOTE2NTM3NDQxLDMyMT
+k4MTI4LC0xNDgwMDkyOTA5LC0yMTA2NDM2NjczLDE4MjY5OTMy
+ODUsMTI0ODMwMzE2MSw1NzQ0ODUwMTMsNTg2NTc4OTczLC0xMj
+E2ODg2MDAwLDk0MDQyMjM2MiwtMTAxNzI3ODY2NCwtMTU3NDA3
+NjddfQ==
 -->
