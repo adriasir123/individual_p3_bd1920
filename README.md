@@ -380,9 +380,9 @@ SQL> select * from view1;
         30 SALES          CHICAGO
         40 OPERATIONS     BOSTON
 ```
-_Efectivamente, la_
+_Efectivamente, la vista se ha creado con los datos correctos_
 
-
+* Por último, vamos a probar si podemos
 
 
 
@@ -787,11 +787,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTE2MTI2NiwxMTMyMDIxODEzLDgxMj
-MzNTYzNCwtMTY3Mjc5NjI1NywyMTQ3MjAwMzU4LDc1NTY1MTA4
-NywtNTg4OTQ4MDkwLC0xNzg5MTQyNTY2LC0xNzcxNjQyMjQwLD
-c1NTg1ODg4NCw3MDc4MzI3MjgsLTg1NDkxODU0MCwtMTgzMDQ1
-NDc4MCwxODAzMzU1NzE5LC0xMDI4MjYyODU2LDU2NjIwOTIwNy
-w4MDU2NjYxMTksOTUyNDAyNjMsLTE5MTY1Mzc0NDEsMzIxOTgx
-MjhdfQ==
+eyJoaXN0b3J5IjpbLTE5NDk4NjcyMTMsMTEzMjAyMTgxMyw4MT
+IzMzU2MzQsLTE2NzI3OTYyNTcsMjE0NzIwMDM1OCw3NTU2NTEw
+ODcsLTU4ODk0ODA5MCwtMTc4OTE0MjU2NiwtMTc3MTY0MjI0MC
+w3NTU4NTg4ODQsNzA3ODMyNzI4LC04NTQ5MTg1NDAsLTE4MzA0
+NTQ3ODAsMTgwMzM1NTcxOSwtMTAyODI2Mjg1Niw1NjYyMDkyMD
+csODA1NjY2MTE5LDk1MjQwMjYzLC0xOTE2NTM3NDQxLDMyMTk4
+MTI4XX0=
 -->
