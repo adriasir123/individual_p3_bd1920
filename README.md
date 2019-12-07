@@ -477,7 +477,27 @@ select profile, resource_name, resource_type, limit
 	where profile = 'NOPARESDECURRAR';
 ```
 ```
+PROFILE                                                                                                                  RESOURCE_NAME                    RESOURCE LIMIT
+-------------------------------------------------------------------------------------------------------------------------------- -------------------------------- --------
+NOPARESDECURRAR                                                                                                          COMPOSITE_LIMIT                  KERNEL   DEFAULT
+NOPARESDECURRAR                                                                                                          SESSIONS_PER_USER                KERNEL   DEFAULT
+NOPARESDECURRAR                                                                                                          CPU_PER_SESSION                  KERNEL   DEFAULT
+NOPARESDECURRAR                                                                                                          CPU_PER_CALL                     KERNEL   DEFAULT
+NOPARESDECURRAR                                                                                                          LOGICAL_READS_PER_SESSION        KERNEL   DEFAULT
+NOPARESDECURRAR                                                                                                          LOGICAL_READS_PER_CALL           KERNEL   DEFAULT
+NOPARESDECURRAR                                                                                                          IDLE_TIME                        KERNEL   2
+NOPARESDECURRAR                                                                                                          CONNECT_TIME                     KERNEL   DEFAULT
+NOPARESDECURRAR                                                                                                          PRIVATE_SGA                      KERNEL   DEFAULT
+NOPARESDECURRAR                                                                                                          FAILED_LOGIN_ATTEMPTS            PASSWORD DEFAULT
+NOPARESDECURRAR                                                                                                          PASSWORD_LIFE_TIME               PASSWORD DEFAULT
+NOPARESDECURRAR                                                                                                          PASSWORD_REUSE_TIME              PASSWORD DEFAULT
+NOPARESDECURRAR                                                                                                          PASSWORD_REUSE_MAX               PASSWORD DEFAULT
+NOPARESDECURRAR                                                                                                          PASSWORD_VERIFY_FUNCTION         PASSWORD DEFAULT
+NOPARESDECURRAR                                                                                                          PASSWORD_LOCK_TIME               PASSWORD DEFAULT
+NOPARESDECURRAR                                                                                                          PASSWORD_GRACE_TIME              PASSWORD DEFAULT
+NOPARESDECURRAR                                                                                                          INACTIVE_ACCOUNT_TIME            PASSWORD DEFAULT
 
+17 rows selected.
 ```
 _Vemos que el perfil se ha creado correctamente, y que además oracle, aunque no se lo indiquemos, añade unos límites por defecto por perfil creado_
 
@@ -914,11 +934,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0NDM0NjY5LDEyMjM1OTU3NTYsMjc2MD
-M2Njg4LC02NzcyNzI3MTAsLTEyODAwNjkzMjgsMTA1MjgzMzQw
-NSwtNjQwNzM4MDc1LC0zNTkzNTU2OTgsNDM1MTg1NDAsLTgzND
-g0MjgyNyw5Nzc5MzQ2NTIsMTI5MzE2NTc1MSwxNjUzMjE4Mjc5
-LDM3Nzc0OTE1MSwxODc3ODEyMDgwLDE0MjA0NDg2MSwtMTE4OD
-MzMDMyNCw5NzM2MjU2LDg0ODM3NjQ2MCwtNjgwNzk4ODg5XX0=
+eyJoaXN0b3J5IjpbLTUyNDA5MDI3OCwxMjIzNTk1NzU2LDI3Nj
+AzNjY4OCwtNjc3MjcyNzEwLC0xMjgwMDY5MzI4LDEwNTI4MzM0
+MDUsLTY0MDczODA3NSwtMzU5MzU1Njk4LDQzNTE4NTQwLC04Mz
+Q4NDI4MjcsOTc3OTM0NjUyLDEyOTMxNjU3NTEsMTY1MzIxODI3
+OSwzNzc3NDkxNTEsMTg3NzgxMjA4MCwxNDIwNDQ4NjEsLTExOD
+gzMzAzMjQsOTczNjI1Niw4NDgzNzY0NjAsLTY4MDc5ODg4OV19
 
 -->
