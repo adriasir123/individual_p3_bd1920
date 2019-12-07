@@ -395,9 +395,22 @@ _Se insertó el registro correctamente_
 
 Ahora, con un usuario que tenga permisos de dba (porque USRPRACTICA1 no tiene permisos de lectura sobre esa tabla), podremos ver el nuevo contenido de la tabla
 ```
+SQL> select * from scott.emp;
 
+     EMPNO ENAME      JOB              MGR HIREDATE        SAL       COMM     DEPTNO
+---------- ---------- --------- ---------- -------- ---------- ---------- ----------
+      8000 PAQUITO    CLERK           7902 17/12/80        800                    20
+      7499 ALLEN      SALESMAN        7698 20/02/81       1600        300         30
+      7521 WARD       SALESMAN        7698 22/02/81       1250        500         30
+      7654 MARTIN     SALESMAN        7698 28/09/81       1250       1400         30
+      7698 BLAKE      MANAGER         7839 01/05/81       2850                    30
+      7782 CLARK      MANAGER         7839 09/06/81       2450                    10
+      7839 KING       PRESIDENT            17/11/81       5000                    10
+      7844 TURNER     SALESMAN        7698 08/09/81       1500          0         30
+
+8 filas seleccionadas.
 ```
-
+_Ha aparecido el _
 
 
 
@@ -802,11 +815,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTI4NDU2MSwxNDIwNDQ4NjEsLTExOD
-gzMzAzMjQsOTczNjI1Niw4NDgzNzY0NjAsLTY4MDc5ODg4OSwx
-NjIzNDE5MzQ5LC00NzczMDQwMTcsLTE5NDk4NjcyMTMsMTEzMj
-AyMTgxMyw4MTIzMzU2MzQsLTE2NzI3OTYyNTcsMjE0NzIwMDM1
-OCw3NTU2NTEwODcsLTU4ODk0ODA5MCwtMTc4OTE0MjU2NiwtMT
-c3MTY0MjI0MCw3NTU4NTg4ODQsNzA3ODMyNzI4LC04NTQ5MTg1
-NDBdfQ==
+eyJoaXN0b3J5IjpbLTEzNDM2OTYyNDYsMTQyMDQ0ODYxLC0xMT
+g4MzMwMzI0LDk3MzYyNTYsODQ4Mzc2NDYwLC02ODA3OTg4ODks
+MTYyMzQxOTM0OSwtNDc3MzA0MDE3LC0xOTQ5ODY3MjEzLDExMz
+IwMjE4MTMsODEyMzM1NjM0LC0xNjcyNzk2MjU3LDIxNDcyMDAz
+NTgsNzU1NjUxMDg3LC01ODg5NDgwOTAsLTE3ODkxNDI1NjYsLT
+E3NzE2NDIyNDAsNzU1ODU4ODg0LDcwNzgzMjcyOCwtODU0OTE4
+NTQwXX0=
 -->
