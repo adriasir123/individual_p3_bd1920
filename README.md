@@ -854,11 +854,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que:
 
 
 ### Realización
-Importante hacer esto al princicpio para que se nos muestren los mensajes
+* Importante hacer esto al princicpio para que se nos muestren los mensajes
 ```
 set serveroutput on;
 ```
-
+* 
 
 
 
@@ -867,11 +867,11 @@ set serveroutput on;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTM1NTY5OCw0MzUxODU0MCwtODM0OD
-QyODI3LDk3NzkzNDY1MiwxMjkzMTY1NzUxLDE2NTMyMTgyNzks
-Mzc3NzQ5MTUxLDE4Nzc4MTIwODAsMTQyMDQ0ODYxLC0xMTg4Mz
-MwMzI0LDk3MzYyNTYsODQ4Mzc2NDYwLC02ODA3OTg4ODksMTYy
-MzQxOTM0OSwtNDc3MzA0MDE3LC0xOTQ5ODY3MjEzLDExMzIwMj
-E4MTMsODEyMzM1NjM0LC0xNjcyNzk2MjU3LDIxNDcyMDAzNThd
+eyJoaXN0b3J5IjpbMTA5NzE0OTk2NiwtMzU5MzU1Njk4LDQzNT
+E4NTQwLC04MzQ4NDI4MjcsOTc3OTM0NjUyLDEyOTMxNjU3NTEs
+MTY1MzIxODI3OSwzNzc3NDkxNTEsMTg3NzgxMjA4MCwxNDIwND
+Q4NjEsLTExODgzMzAzMjQsOTczNjI1Niw4NDgzNzY0NjAsLTY4
+MDc5ODg4OSwxNjIzNDE5MzQ5LC00NzczMDQwMTcsLTE5NDk4Nj
+cyMTMsMTEzMjAyMTgxMyw4MTIzMzU2MzQsLTE2NzI3OTYyNTdd
 fQ==
 -->
