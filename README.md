@@ -247,9 +247,9 @@ DROP TABLE usrpractica2.emp
 ERROR en lÝnea 1:
 ORA-01031: privilegios insuficientes
 ```
-De nuevo, volvemos a tener errores de permisos. Así que, ¿qué necesitariamos para poder borrar tablas en otros esquemas? Pues hay 2 opciones:
+De nuevo, volvemos a tener errores de permisos. Así que, ¿qué necesitaríamos para poder borrar tablas en otros esquemas? Pues hay 2 opciones:
 * Ser el owner de la tabla 
-* asd
+* Tener el privilegio `DROP ANY TABLE`
 
 
 
@@ -685,7 +685,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzk0NzQ2OCw3MDc4MzI3MjgsLTg1ND
+eyJoaXN0b3J5IjpbMjAzMTQwNjIyNiw3MDc4MzI3MjgsLTg1ND
 kxODU0MCwtMTgzMDQ1NDc4MCwxODAzMzU1NzE5LC0xMDI4MjYy
 ODU2LDU2NjIwOTIwNyw4MDU2NjYxMTksOTUyNDAyNjMsLTE5MT
 Y1Mzc0NDEsMzIxOTgxMjgsLTE0ODAwOTI5MDksLTIxMDY0MzY2
