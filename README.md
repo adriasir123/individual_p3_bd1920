@@ -194,8 +194,9 @@ grant insert any table to USRPRACTICA1;
 create user USRPRACTICA2 identified by 1234 default tablespace users;  
 ```
 En el esquema de este usuario crearé una tabla simple, y le añadiré un registro
+```
 
-
+```
 
 
 
@@ -646,7 +647,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzMzMjgxMywtMTAyODI2Mjg1Niw1Nj
+eyJoaXN0b3J5IjpbLTk1ODgzNzk5MywtMTAyODI2Mjg1Niw1Nj
 YyMDkyMDcsODA1NjY2MTE5LDk1MjQwMjYzLC0xOTE2NTM3NDQx
 LDMyMTk4MTI4LC0xNDgwMDkyOTA5LC0yMTA2NDM2NjczLDE4Mj
 Y5OTMyODUsMTI0ODMwMzE2MSw1NzQ0ODUwMTMsNTg2NTc4OTcz
