@@ -192,7 +192,8 @@ grant insert any table to USRPRACTICA1;
 * Para probar estos privilegios, en mi caso por ejemplo he creado un usuario "USRPRACTICA2" con
 ```
 
-`
+```
+En el esquema de este usuario crearé una tabla simple, y le 
 
 
 
@@ -645,11 +646,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzMTU3ODUsNTY2MjA5MjA3LDgwNTY2Nj
-ExOSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMjE5ODEyOCwtMTQ4
-MDA5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkzMjg1LDEyNDgzMD
-MxNjEsNTc0NDg1MDEzLDU4NjU3ODk3MywtMTIxNjg4NjAwMCw5
-NDA0MjIzNjIsLTEwMTcyNzg2NjQsLTE1NzQwNzY3LDk4NzY1ND
-g2NSwtOTE1OTI1MDY0LDEzODU4ODIwMjEsLTY5MTM2MzE3Ml19
-
+eyJoaXN0b3J5IjpbLTEwMjgyNjI4NTYsNTY2MjA5MjA3LDgwNT
+Y2NjExOSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMjE5ODEyOCwt
+MTQ4MDA5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkzMjg1LDEyND
+gzMDMxNjEsNTc0NDg1MDEzLDU4NjU3ODk3MywtMTIxNjg4NjAw
+MCw5NDA0MjIzNjIsLTEwMTcyNzg2NjQsLTE1NzQwNzY3LDk4Nz
+Y1NDg2NSwtOTE1OTI1MDY0LDEzODU4ODIwMjEsLTY5MTM2MzE3
+Ml19
 -->
