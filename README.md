@@ -361,7 +361,10 @@ Table created.
 _La tabla se creó correctamente_
 * Creamos una vista
 ```
-
+CREATE VIEW view1 AS
+  SELECT *
+  FROM tables
+  [WHERE conditions];
 ```
 
 
@@ -776,7 +779,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODg5Njc3OSw4MTIzMzU2MzQsLTE2Nz
+eyJoaXN0b3J5IjpbMTcwMDgwNTAwNyw4MTIzMzU2MzQsLTE2Nz
 I3OTYyNTcsMjE0NzIwMDM1OCw3NTU2NTEwODcsLTU4ODk0ODA5
 MCwtMTc4OTE0MjU2NiwtMTc3MTY0MjI0MCw3NTU4NTg4ODQsNz
 A3ODMyNzI4LC04NTQ5MTg1NDAsLTE4MzA0NTQ3ODAsMTgwMzM1
