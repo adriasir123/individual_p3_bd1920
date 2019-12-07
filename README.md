@@ -424,15 +424,16 @@ _Ha aparecido el nuevo registro que le hemos añadido, por lo tanto ha funcionad
 ## Ejercicio 8
 ### Enunciado
 
-Quita a USRPRACTICA1 el privilegio de crear vistas. Comprueba que ya no puede hacerlo.
+Quita a USRPRACTICA1 el privilegio de crear vistas. Comprueba que ya no puede hacerlo
 
 ### Realización
-
-
+* Le quitamos el privilegio
 ```
 REVOKE CREATE VIEW FROM USRPRACTICA1;
 ```
+```
 
+```
 
 
 
@@ -820,11 +821,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzIxODI3OSwzNzc3NDkxNTEsMTg3Nz
-gxMjA4MCwxNDIwNDQ4NjEsLTExODgzMzAzMjQsOTczNjI1Niw4
-NDgzNzY0NjAsLTY4MDc5ODg4OSwxNjIzNDE5MzQ5LC00NzczMD
-QwMTcsLTE5NDk4NjcyMTMsMTEzMjAyMTgxMyw4MTIzMzU2MzQs
-LTE2NzI3OTYyNTcsMjE0NzIwMDM1OCw3NTU2NTEwODcsLTU4OD
-k0ODA5MCwtMTc4OTE0MjU2NiwtMTc3MTY0MjI0MCw3NTU4NTg4
-ODRdfQ==
+eyJoaXN0b3J5IjpbMTMyODcxMjYyMCwxNjUzMjE4Mjc5LDM3Nz
+c0OTE1MSwxODc3ODEyMDgwLDE0MjA0NDg2MSwtMTE4ODMzMDMy
+NCw5NzM2MjU2LDg0ODM3NjQ2MCwtNjgwNzk4ODg5LDE2MjM0MT
+kzNDksLTQ3NzMwNDAxNywtMTk0OTg2NzIxMywxMTMyMDIxODEz
+LDgxMjMzNTYzNCwtMTY3Mjc5NjI1NywyMTQ3MjAwMzU4LDc1NT
+Y1MTA4NywtNTg4OTQ4MDkwLC0xNzg5MTQyNTY2LC0xNzcxNjQy
+MjQwXX0=
 -->
