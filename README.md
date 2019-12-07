@@ -391,8 +391,11 @@ VALUES (8000, 'PAQUITO');
 1 fila creada.
 ```
 _Se insertó el registro correctamente_
-Ahora, con un usuario que tenga permisos de dba (porque USRPRACTICA1 no tiene permisos de lectura sobre esa tabla), podremos ver
 
+Ahora, con un usuario que tenga permisos de dba (porque USRPRACTICA1 no tiene permisos de lectura sobre esa tabla), podremos ver el nuevo contenido de la tabla
+```
+
+```
 
 
 
@@ -798,7 +801,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDg4MzQxMiwtNDc3MzA0MDE3LC0xOT
+eyJoaXN0b3J5IjpbMTYyMzQxOTM0OSwtNDc3MzA0MDE3LC0xOT
 Q5ODY3MjEzLDExMzIwMjE4MTMsODEyMzM1NjM0LC0xNjcyNzk2
 MjU3LDIxNDcyMDAzNTgsNzU1NjUxMDg3LC01ODg5NDgwOTAsLT
 E3ODkxNDI1NjYsLTE3NzE2NDIyNDAsNzU1ODU4ODg0LDcwNzgz
