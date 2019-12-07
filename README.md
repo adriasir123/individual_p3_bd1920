@@ -161,7 +161,8 @@ Grant succeeded.
 ```
 * Comprobamos que este cambio se haya registrado
 ```
-
+select granted_role, username
+	from USER_ROLE_PRIVS where USERNAME='SAMPLE';
 ```
 
 
@@ -618,11 +619,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIxOTgxMjgsLTE0ODAwOTI5MDksLTIxMD
-Y0MzY2NzMsMTgyNjk5MzI4NSwxMjQ4MzAzMTYxLDU3NDQ4NTAx
-Myw1ODY1Nzg5NzMsLTEyMTY4ODYwMDAsOTQwNDIyMzYyLC0xMD
-E3Mjc4NjY0LC0xNTc0MDc2Nyw5ODc2NTQ4NjUsLTkxNTkyNTA2
-NCwxMzg1ODgyMDIxLC02OTEzNjMxNzIsMTk2Mzk2NDk0MiwtMT
-k4Njg0ODg1OSwtMTIyODM4NDk4OSwtMTQ1Mzc3OTExMCwtOTMw
-NTk0ODg1XX0=
+eyJoaXN0b3J5IjpbLTk0NzQ3NDg4NCwzMjE5ODEyOCwtMTQ4MD
+A5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkzMjg1LDEyNDgzMDMx
+NjEsNTc0NDg1MDEzLDU4NjU3ODk3MywtMTIxNjg4NjAwMCw5ND
+A0MjIzNjIsLTEwMTcyNzg2NjQsLTE1NzQwNzY3LDk4NzY1NDg2
+NSwtOTE1OTI1MDY0LDEzODU4ODIwMjEsLTY5MTM2MzE3MiwxOT
+YzOTY0OTQyLC0xOTg2ODQ4ODU5LC0xMjI4Mzg0OTg5LC0xNDUz
+Nzc5MTEwXX0=
 -->
