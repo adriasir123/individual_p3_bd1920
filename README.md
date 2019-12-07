@@ -272,11 +272,19 @@ grant read on scott.dept to USRPRACTICA1 with grant option;
 > El privilegio "read" se añadió a partir de la versión de Oracle 12c, como mejora para la seguridad de la base de datos. Éste permiso, reemplaza al clásico permiso de "select".
 > Se recomienda el uso de "read" para usuarios de sólo lectura, ya que evita la posibilidad de ataques DoS
 * A continuación, probaremos el privilegio haciendo una simple consulta a DEPT desde USRPRACTICA1
-
-
-
-
-
+```
+select * from scott.dept;
+```
+```
+    DEPTNO DNAME          LOC
+---------- -------------- -------------
+        10 ACCOUNTING     NEW YORK
+        20 RESEARCH       DALLAS
+        30 SALES          CHICAGO
+        40 OPERATIONS     BOSTON
+```
+_Ha funcionado correctamente_
+* 
 
 
 
@@ -700,11 +708,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjAyNDYzNiwtNTg4OTQ4MDkwLC0xNz
-g5MTQyNTY2LC0xNzcxNjQyMjQwLDc1NTg1ODg4NCw3MDc4MzI3
-MjgsLTg1NDkxODU0MCwtMTgzMDQ1NDc4MCwxODAzMzU1NzE5LC
-0xMDI4MjYyODU2LDU2NjIwOTIwNyw4MDU2NjYxMTksOTUyNDAy
-NjMsLTE5MTY1Mzc0NDEsMzIxOTgxMjgsLTE0ODAwOTI5MDksLT
-IxMDY0MzY2NzMsMTgyNjk5MzI4NSwxMjQ4MzAzMTYxLDU3NDQ4
-NTAxM119
+eyJoaXN0b3J5IjpbLTExMDM5OTkxMDcsLTU4ODk0ODA5MCwtMT
+c4OTE0MjU2NiwtMTc3MTY0MjI0MCw3NTU4NTg4ODQsNzA3ODMy
+NzI4LC04NTQ5MTg1NDAsLTE4MzA0NTQ3ODAsMTgwMzM1NTcxOS
+wtMTAyODI2Mjg1Niw1NjYyMDkyMDcsODA1NjY2MTE5LDk1MjQw
+MjYzLC0xOTE2NTM3NDQxLDMyMTk4MTI4LC0xNDgwMDkyOTA5LC
+0yMTA2NDM2NjczLDE4MjY5OTMyODUsMTI0ODMwMzE2MSw1NzQ0
+ODUwMTNdfQ==
 -->
