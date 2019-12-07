@@ -237,7 +237,10 @@ ORA-01031: privilegios insuficientes
 ```
 Evidentemente USRPRACTICA1 no puede realizar esta acción, ya que no posee los permisos necesarios. Para poder hacer esto, tendría que tener permisos de `ALTER` sobre esa tabla específicamente, o permisos de `ALTER ANY TABLE`.
 
+Además, también tenemos que probar si USRPRACTICA1 puede borrar la tabla creada. Para ello, ejecutamos lo siguiente
+```
 
+```
 
 
 
@@ -675,11 +678,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzQwMDcwOSwtODU0OTE4NTQwLC0xOD
-MwNDU0NzgwLDE4MDMzNTU3MTksLTEwMjgyNjI4NTYsNTY2MjA5
-MjA3LDgwNTY2NjExOSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMj
-E5ODEyOCwtMTQ4MDA5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkz
-Mjg1LDEyNDgzMDMxNjEsNTc0NDg1MDEzLDU4NjU3ODk3MywtMT
-IxNjg4NjAwMCw5NDA0MjIzNjIsLTEwMTcyNzg2NjQsLTE1NzQw
-NzY3XX0=
+eyJoaXN0b3J5IjpbNDE5MDAzNjQsLTg1NDkxODU0MCwtMTgzMD
+Q1NDc4MCwxODAzMzU1NzE5LC0xMDI4MjYyODU2LDU2NjIwOTIw
+Nyw4MDU2NjYxMTksOTUyNDAyNjMsLTE5MTY1Mzc0NDEsMzIxOT
+gxMjgsLTE0ODAwOTI5MDksLTIxMDY0MzY2NzMsMTgyNjk5MzI4
+NSwxMjQ4MzAzMTYxLDU3NDQ4NTAxMyw1ODY1Nzg5NzMsLTEyMT
+Y4ODYwMDAsOTQwNDIyMzYyLC0xMDE3Mjc4NjY0LC0xNTc0MDc2
+N119
 -->
