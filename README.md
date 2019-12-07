@@ -193,6 +193,8 @@ grant insert any table to USRPRACTICA1;
 ```
 create user USRPRACTICA2 identified by 1234 default tablespace users quota 1M on users;  
 ```
+> Es importante que al crear este usuario le asignemos previam
+
 En el esquema de este usuario, conectado como USRPRACTICA1, crearé una tabla simple, y le añadiré un registro
 ```
 
@@ -647,11 +649,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzA0NTQ3ODAsMTgwMzM1NTcxOSwtMT
-AyODI2Mjg1Niw1NjYyMDkyMDcsODA1NjY2MTE5LDk1MjQwMjYz
-LC0xOTE2NTM3NDQxLDMyMTk4MTI4LC0xNDgwMDkyOTA5LC0yMT
-A2NDM2NjczLDE4MjY5OTMyODUsMTI0ODMwMzE2MSw1NzQ0ODUw
-MTMsNTg2NTc4OTczLC0xMjE2ODg2MDAwLDk0MDQyMjM2MiwtMT
-AxNzI3ODY2NCwtMTU3NDA3NjcsOTg3NjU0ODY1LC05MTU5MjUw
-NjRdfQ==
+eyJoaXN0b3J5IjpbNDU4NzIzMTE0LC0xODMwNDU0NzgwLDE4MD
+MzNTU3MTksLTEwMjgyNjI4NTYsNTY2MjA5MjA3LDgwNTY2NjEx
+OSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMjE5ODEyOCwtMTQ4MD
+A5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkzMjg1LDEyNDgzMDMx
+NjEsNTc0NDg1MDEzLDU4NjU3ODk3MywtMTIxNjg4NjAwMCw5ND
+A0MjIzNjIsLTEwMTcyNzg2NjQsLTE1NzQwNzY3LDk4NzY1NDg2
+NV19
 -->
