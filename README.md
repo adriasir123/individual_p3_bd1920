@@ -213,7 +213,11 @@ DEPTNO NUMBER(2));
 INSERT INTO USRPRACTICA2.EMP (empno, ename)
 VALUES (1, 'paco');
 ```
-Para comprobar que la tabla se creó correctamente y tiene el registro, me conectaré de nuevo con nuevo permisos de dba. ¿Por qué? Pues porque ahora mismo USRPRACTICA1 no tiene permisos de sel
+Para comprobar que la tabla se creó correctamente y tiene el registro, me conectaré de nuevo con nuevo permisos de dba. ¿Por qué? Pues porque ahora mismo USRPRACTICA1 no tiene permisos de select sobre nada del esquema de USRPRACTICA2, y éste último, tampoco tiene permisos de create session.
+Así que, pasaré a mostrar los datos de esa tabla:
+```
+
+```
 
 
 
@@ -665,11 +669,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyMDYwNTY0LC04NTQ5MTg1NDAsLTE4Mz
-A0NTQ3ODAsMTgwMzM1NTcxOSwtMTAyODI2Mjg1Niw1NjYyMDky
-MDcsODA1NjY2MTE5LDk1MjQwMjYzLC0xOTE2NTM3NDQxLDMyMT
-k4MTI4LC0xNDgwMDkyOTA5LC0yMTA2NDM2NjczLDE4MjY5OTMy
-ODUsMTI0ODMwMzE2MSw1NzQ0ODUwMTMsNTg2NTc4OTczLC0xMj
-E2ODg2MDAwLDk0MDQyMjM2MiwtMTAxNzI3ODY2NCwtMTU3NDA3
-NjddfQ==
+eyJoaXN0b3J5IjpbLTY2MjI2NjUzMywtODU0OTE4NTQwLC0xOD
+MwNDU0NzgwLDE4MDMzNTU3MTksLTEwMjgyNjI4NTYsNTY2MjA5
+MjA3LDgwNTY2NjExOSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMj
+E5ODEyOCwtMTQ4MDA5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkz
+Mjg1LDEyNDgzMDMxNjEsNTc0NDg1MDEzLDU4NjU3ODk3MywtMT
+IxNjg4NjAwMCw5NDA0MjIzNjIsLTEwMTcyNzg2NjQsLTE1NzQw
+NzY3XX0=
 -->
