@@ -325,14 +325,13 @@ _Como podemos comprobar, ha funcionado correctamente. He mostrado el prompt comp
 Comprueba que USRPRACTICA1 puede realizar todas las operaciones previstas en el rol (se refiere al rol que le dimos antes, ROLPRACTICA1)
 
 ### Realización
-> Recordatorio de lo que permitía hacer el rol ROLPRACTICA1
-	```
->CREATE ROLE ROLPRACTICA1;
->Grant Create session to ROLPRACTICA1;
->Grant Create table to ROLPRACTICA1;
->Grant Create view to ROLPRACTICA1;
->grant insert on scott.emp to ROLPRACTICA1;
->```
+Recordatorio de lo que permitía hacer el rol ROLPRACTICA1
+```
+grant create session to ROLPRACTICA1;
+Grant Create table to ROLPRACTICA1;
+Grant Create view to ROLPRACTICA1;
+grant insert on scott.emp to ROLPRACTICA1;
+```
 
 
 
@@ -742,7 +741,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxOTcyODUzLC0xNjcyNzk2MjU3LDIxND
+eyJoaXN0b3J5IjpbMTQwNzY3OTYzLC0xNjcyNzk2MjU3LDIxND
 cyMDAzNTgsNzU1NjUxMDg3LC01ODg5NDgwOTAsLTE3ODkxNDI1
 NjYsLTE3NzE2NDIyNDAsNzU1ODU4ODg0LDcwNzgzMjcyOCwtOD
 U0OTE4NTQwLC0xODMwNDU0NzgwLDE4MDMzNTU3MTksLTEwMjgy
