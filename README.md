@@ -254,6 +254,11 @@ De nuevo, volvemos a tener errores de permisos. Así que, ¿qué necesitaríamos
 
 
 
+
+
+
+
+
 ## Ejercicio 6
 ### Enunciado
 
@@ -265,7 +270,7 @@ Concede a USRPRACTICA1 el privilegio de leer la tabla DEPT de SCOTT con la posib
 grant read on scott.dept to USRPRACTICA1 with grant option; 
 ```
 
-### Prueba de funcionamiento
+
 
 
 ## Ejercicio 7
@@ -686,11 +691,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTQyNjI0OCw3MDc4MzI3MjgsLTg1ND
-kxODU0MCwtMTgzMDQ1NDc4MCwxODAzMzU1NzE5LC0xMDI4MjYy
-ODU2LDU2NjIwOTIwNyw4MDU2NjYxMTksOTUyNDAyNjMsLTE5MT
-Y1Mzc0NDEsMzIxOTgxMjgsLTE0ODAwOTI5MDksLTIxMDY0MzY2
-NzMsMTgyNjk5MzI4NSwxMjQ4MzAzMTYxLDU3NDQ4NTAxMyw1OD
-Y1Nzg5NzMsLTEyMTY4ODYwMDAsOTQwNDIyMzYyLC0xMDE3Mjc4
-NjY0XX0=
+eyJoaXN0b3J5IjpbNzU1ODU4ODg0LDcwNzgzMjcyOCwtODU0OT
+E4NTQwLC0xODMwNDU0NzgwLDE4MDMzNTU3MTksLTEwMjgyNjI4
+NTYsNTY2MjA5MjA3LDgwNTY2NjExOSw5NTI0MDI2MywtMTkxNj
+UzNzQ0MSwzMjE5ODEyOCwtMTQ4MDA5MjkwOSwtMjEwNjQzNjY3
+MywxODI2OTkzMjg1LDEyNDgzMDMxNjEsNTc0NDg1MDEzLDU4Nj
+U3ODk3MywtMTIxNjg4NjAwMCw5NDA0MjIzNjIsLTEwMTcyNzg2
+NjRdfQ==
 -->
