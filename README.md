@@ -195,7 +195,8 @@ create user USRPRACTICA2 identified by 1234 default tablespace users quota 1M on
 ```
 > Es importante que al crear este usuario le asignemos previamente una cuota, ya que cuando creemos una tabla e insertemos datos sobre ella desde el otro usuario, nos va a dar un error de cuota.
 > ¿Por qué da este error de cuota? Muy sencillo, es porque cuando realizamos acciones en el esquema de otro usuario, lo hacemos a nombre de ese usuario, y ese mismo debe de poder tener cuota para crear lo que sea que queramos. 
-> Por ejemplo, si estamos queriendo crear una tabla, cuando se cree, tendrá como owner
+> Por ejemplo, si estamos queriendo crear una tabla, cuando se cree, tendrá como owner "USRPRACTICA2" y no "USRPRACTICA1".
+> Si creásemos en primer lugar el usuario "USRPRACTICA2" sin cuota sobre users, parece ser que desde un usuario externo, 
 
 En el esquema de este usuario, conectado como USRPRACTICA1, crearé una tabla simple, y le añadiré un registro
 ```
@@ -651,11 +652,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NjQxMDMzMCwtODU0OTE4NTQwLC0xOD
-MwNDU0NzgwLDE4MDMzNTU3MTksLTEwMjgyNjI4NTYsNTY2MjA5
-MjA3LDgwNTY2NjExOSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMj
-E5ODEyOCwtMTQ4MDA5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkz
-Mjg1LDEyNDgzMDMxNjEsNTc0NDg1MDEzLDU4NjU3ODk3MywtMT
-IxNjg4NjAwMCw5NDA0MjIzNjIsLTEwMTcyNzg2NjQsLTE1NzQw
-NzY3XX0=
+eyJoaXN0b3J5IjpbLTExMjk5NDQ3MTcsLTg1NDkxODU0MCwtMT
+gzMDQ1NDc4MCwxODAzMzU1NzE5LC0xMDI4MjYyODU2LDU2NjIw
+OTIwNyw4MDU2NjYxMTksOTUyNDAyNjMsLTE5MTY1Mzc0NDEsMz
+IxOTgxMjgsLTE0ODAwOTI5MDksLTIxMDY0MzY2NzMsMTgyNjk5
+MzI4NSwxMjQ4MzAzMTYxLDU3NDQ4NTAxMyw1ODY1Nzg5NzMsLT
+EyMTY4ODYwMDAsOTQwNDIyMzYyLC0xMDE3Mjc4NjY0LC0xNTc0
+MDc2N119
 -->
