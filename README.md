@@ -541,7 +541,7 @@ User altered.
 ```
 ORA-02396: ha excedido el tiempo mßximo de inactividad, vuelva a conectarse
 ```
-> NOTA IMPORTANTE: 
+> NOTA IMPORTANTE: en la consola cuando se corta la conexión no nos aparece directamente el mensaje. Es cuando intentamos realizar algun acción, cuando nos avisa de que nos ha cortado la conexión
 
 
 
@@ -917,11 +917,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NDIxODgzNiwtNjc3MjcyNzEwLC0xMj
-gwMDY5MzI4LDEwNTI4MzM0MDUsLTY0MDczODA3NSwtMzU5MzU1
-Njk4LDQzNTE4NTQwLC04MzQ4NDI4MjcsOTc3OTM0NjUyLDEyOT
-MxNjU3NTEsMTY1MzIxODI3OSwzNzc3NDkxNTEsMTg3NzgxMjA4
-MCwxNDIwNDQ4NjEsLTExODgzMzAzMjQsOTczNjI1Niw4NDgzNz
-Y0NjAsLTY4MDc5ODg4OSwxNjIzNDE5MzQ5LC00NzczMDQwMTdd
-fQ==
+eyJoaXN0b3J5IjpbMjc2MDM2Njg4LC02NzcyNzI3MTAsLTEyOD
+AwNjkzMjgsMTA1MjgzMzQwNSwtNjQwNzM4MDc1LC0zNTkzNTU2
+OTgsNDM1MTg1NDAsLTgzNDg0MjgyNyw5Nzc5MzQ2NTIsMTI5Mz
+E2NTc1MSwxNjUzMjE4Mjc5LDM3Nzc0OTE1MSwxODc3ODEyMDgw
+LDE0MjA0NDg2MSwtMTE4ODMzMDMyNCw5NzM2MjU2LDg0ODM3Nj
+Q2MCwtNjgwNzk4ODg5LDE2MjM0MTkzNDksLTQ3NzMwNDAxN119
+
 -->
