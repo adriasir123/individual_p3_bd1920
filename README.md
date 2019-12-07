@@ -269,7 +269,8 @@ Concede a USRPRACTICA1 el privilegio de leer la tabla DEPT de SCOTT con la posib
 ```
 grant read on scott.dept to USRPRACTICA1 with grant option; 
 ```
-> El privilegio "read" se añadió a partir de la versión de Oracle 12c, como mejora para la seguridad de la base de datos. Éste permiso, reemplaza al clásico permiso de 
+> El privilegio "read" se añadió a partir de la versión de Oracle 12c, como mejora para la seguridad de la base de datos. Éste permiso, reemplaza al clásico permiso de "select".
+> Se recomienda el uso del
 
 
 
@@ -699,7 +700,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMjczNzM2MCwtNTg4OTQ4MDkwLC0xNz
+eyJoaXN0b3J5IjpbMjEyNzk4MTcwOCwtNTg4OTQ4MDkwLC0xNz
 g5MTQyNTY2LC0xNzcxNjQyMjQwLDc1NTg1ODg4NCw3MDc4MzI3
 MjgsLTg1NDkxODU0MCwtMTgzMDQ1NDc4MCwxODAzMzU1NzE5LC
 0xMDI4MjYyODU2LDU2NjIwOTIwNyw4MDU2NjYxMTksOTUyNDAy
