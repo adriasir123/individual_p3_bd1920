@@ -289,7 +289,13 @@ Le pasamos el permiso
 ```
 grant read on scott.dept to USRPRACTICA2;
 ```
+```
+Grant succeeded.
+```
+Bien, el primero paso ha funcionado. Ahora veamos si podemos realmente leer la tabla desde USRPRACTICA2
+```
 
+```
 
 
 
@@ -712,11 +718,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzQ4NDI3MCwtNTg4OTQ4MDkwLC0xNz
-g5MTQyNTY2LC0xNzcxNjQyMjQwLDc1NTg1ODg4NCw3MDc4MzI3
-MjgsLTg1NDkxODU0MCwtMTgzMDQ1NDc4MCwxODAzMzU1NzE5LC
-0xMDI4MjYyODU2LDU2NjIwOTIwNyw4MDU2NjYxMTksOTUyNDAy
-NjMsLTE5MTY1Mzc0NDEsMzIxOTgxMjgsLTE0ODAwOTI5MDksLT
-IxMDY0MzY2NzMsMTgyNjk5MzI4NSwxMjQ4MzAzMTYxLDU3NDQ4
-NTAxM119
+eyJoaXN0b3J5IjpbNzU1NjUxMDg3LC01ODg5NDgwOTAsLTE3OD
+kxNDI1NjYsLTE3NzE2NDIyNDAsNzU1ODU4ODg0LDcwNzgzMjcy
+OCwtODU0OTE4NTQwLC0xODMwNDU0NzgwLDE4MDMzNTU3MTksLT
+EwMjgyNjI4NTYsNTY2MjA5MjA3LDgwNTY2NjExOSw5NTI0MDI2
+MywtMTkxNjUzNzQ0MSwzMjE5ODEyOCwtMTQ4MDA5MjkwOSwtMj
+EwNjQzNjY3MywxODI2OTkzMjg1LDEyNDgzMDMxNjEsNTc0NDg1
+MDEzXX0=
 -->
