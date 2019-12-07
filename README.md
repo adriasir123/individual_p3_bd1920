@@ -326,15 +326,13 @@ Comprueba que USRPRACTICA1 puede realizar todas las operaciones previstas en el 
 
 ### Realización
 > Recordatorio de lo que permitía hacer el rol ROLPRACTICA1
-```
-CREATE ROLE ROLPRACTICA1;
-Grant Create session to ROLPRACTICA1;
-Grant Create table to ROLPRACTICA1;
-Grant Create view to ROLPRACTICA1;
-grant insert on scott.emp to ROLPRACTICA1;
-```
->
->
+	```
+>CREATE ROLE ROLPRACTICA1;
+>Grant Create session to ROLPRACTICA1;
+>Grant Create table to ROLPRACTICA1;
+>Grant Create view to ROLPRACTICA1;
+>grant insert on scott.emp to ROLPRACTICA1;
+>```
 
 
 
@@ -744,11 +742,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzI3OTYyNTcsMjE0NzIwMDM1OCw3NT
-U2NTEwODcsLTU4ODk0ODA5MCwtMTc4OTE0MjU2NiwtMTc3MTY0
-MjI0MCw3NTU4NTg4ODQsNzA3ODMyNzI4LC04NTQ5MTg1NDAsLT
-E4MzA0NTQ3ODAsMTgwMzM1NTcxOSwtMTAyODI2Mjg1Niw1NjYy
-MDkyMDcsODA1NjY2MTE5LDk1MjQwMjYzLC0xOTE2NTM3NDQxLD
-MyMTk4MTI4LC0xNDgwMDkyOTA5LC0yMTA2NDM2NjczLDE4MjY5
-OTMyODVdfQ==
+eyJoaXN0b3J5IjpbNDQxOTcyODUzLC0xNjcyNzk2MjU3LDIxND
+cyMDAzNTgsNzU1NjUxMDg3LC01ODg5NDgwOTAsLTE3ODkxNDI1
+NjYsLTE3NzE2NDIyNDAsNzU1ODU4ODg0LDcwNzgzMjcyOCwtOD
+U0OTE4NTQwLC0xODMwNDU0NzgwLDE4MDMzNTU3MTksLTEwMjgy
+NjI4NTYsNTY2MjA5MjA3LDgwNTY2NjExOSw5NTI0MDI2MywtMT
+kxNjUzNzQ0MSwzMjE5ODEyOCwtMTQ4MDA5MjkwOSwtMjEwNjQz
+NjY3M119
 -->
