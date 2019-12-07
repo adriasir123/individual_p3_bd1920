@@ -500,12 +500,16 @@ Extracto sacado de la documentación de oracle:
 
 Es por eso, que debemos ejecutar lo siguiente para que los perfiles entren en funcionamiento
 ```
-ALTER SYSTEM SET RESOURCE_LIMIT=TRUE
+ALTER SYSTEM SET RESOURCE_LIMIT=TRUE;
 ```
+```
+System altered.
+```
+_Ha surtido efecto el cambio correctamente_
 
-Se puede comprobar el estado de éste parámetro con 
+Luego, podemos comprobar el estado de éste parámetro con 
 ```
-show parameter resource_limit
+show parameter resource_limit;
 ```
 
 
@@ -852,7 +856,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDU2MTI4MSwxNjUzMjE4Mjc5LDM3Nz
+eyJoaXN0b3J5IjpbLTEyNDQyMDA0NCwxNjUzMjE4Mjc5LDM3Nz
 c0OTE1MSwxODc3ODEyMDgwLDE0MjA0NDg2MSwtMTE4ODMzMDMy
 NCw5NzM2MjU2LDg0ODM3NjQ2MCwtNjgwNzk4ODg5LDE2MjM0MT
 kzNDksLTQ3NzMwNDAxNywtMTk0OTg2NzIxMywxMTMyMDIxODEz
