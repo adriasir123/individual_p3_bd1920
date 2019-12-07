@@ -189,11 +189,11 @@ Comprobamos si puede modificar la estructura o eliminar las tablas creadas.
 grant create any table to USRPRACTICA1;
 grant insert any table to USRPRACTICA1;
 ```
-* Para probar estos privilegios, en mi caso por ejemplo he creado un usuario "USRPRACTICA2" con
+* Para probar estos privilegios, en mi caso por ejemplo he creado un usuario "USRPRACTICA2"
 ```
-
+create user USRPRACTICA2 identified by 1234 default tablespace users;  
 ```
-En el esquema de este usuario crearé una tabla simple, y le 
+En el esquema de este usuario crearé una tabla simple, y le añadiré un registro
 
 
 
@@ -646,11 +646,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjgyNjI4NTYsNTY2MjA5MjA3LDgwNT
-Y2NjExOSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMjE5ODEyOCwt
-MTQ4MDA5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkzMjg1LDEyND
-gzMDMxNjEsNTc0NDg1MDEzLDU4NjU3ODk3MywtMTIxNjg4NjAw
-MCw5NDA0MjIzNjIsLTEwMTcyNzg2NjQsLTE1NzQwNzY3LDk4Nz
-Y1NDg2NSwtOTE1OTI1MDY0LDEzODU4ODIwMjEsLTY5MTM2MzE3
-Ml19
+eyJoaXN0b3J5IjpbMTYzMzMzMjgxMywtMTAyODI2Mjg1Niw1Nj
+YyMDkyMDcsODA1NjY2MTE5LDk1MjQwMjYzLC0xOTE2NTM3NDQx
+LDMyMTk4MTI4LC0xNDgwMDkyOTA5LC0yMTA2NDM2NjczLDE4Mj
+Y5OTMyODUsMTI0ODMwMzE2MSw1NzQ0ODUwMTMsNTg2NTc4OTcz
+LC0xMjE2ODg2MDAwLDk0MDQyMjM2MiwtMTAxNzI3ODY2NCwtMT
+U3NDA3NjcsOTg3NjU0ODY1LC05MTU5MjUwNjQsMTM4NTg4MjAy
+MV19
 -->
