@@ -414,6 +414,8 @@ _Ha aparecido el nuevo registro que le hemos añadido, por lo tanto ha funcionad
 
 
 
+****
+
 
 
 
@@ -817,7 +819,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODA2ODUwMCwxNDIwNDQ4NjEsLTExOD
+eyJoaXN0b3J5IjpbMTg3NzgxMjA4MCwxNDIwNDQ4NjEsLTExOD
 gzMzAzMjQsOTczNjI1Niw4NDgzNzY0NjAsLTY4MDc5ODg4OSwx
 NjIzNDE5MzQ5LC00NzczMDQwMTcsLTE5NDk4NjcyMTMsMTEzMj
 AyMTgxMyw4MTIzMzU2MzQsLTE2NzI3OTYyNTcsMjE0NzIwMDM1
