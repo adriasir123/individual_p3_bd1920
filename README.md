@@ -170,9 +170,7 @@ GRANTED_ROLE GRANTEE
 ------------ ------------------
 ROLPRACTICA1 USRPRACTICA1
 ```
-_Ha aparecido el resultado en esa vista, por lo tanto los cambios _
-
-
+_Ha aparecido el resultado en esa vista, por lo tanto el rol se concedió correctamente_
 
 
 
@@ -627,7 +625,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxNzIyNTA0LC0xOTE2NTM3NDQxLDMyMT
+eyJoaXN0b3J5IjpbNjg5OTUzNzgwLC0xOTE2NTM3NDQxLDMyMT
 k4MTI4LC0xNDgwMDkyOTA5LC0yMTA2NDM2NjczLDE4MjY5OTMy
 ODUsMTI0ODMwMzE2MSw1NzQ0ODUwMTMsNTg2NTc4OTczLC0xMj
 E2ODg2MDAwLDk0MDQyMjM2MiwtMTAxNzI3ODY2NCwtMTU3NDA3
