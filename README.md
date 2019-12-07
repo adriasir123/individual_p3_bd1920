@@ -191,7 +191,7 @@ grant insert any table to USRPRACTICA1;
 ```
 * Para probar estos privilegios, en mi caso por ejemplo he creado un usuario "USRPRACTICA2"
 ```
-create user USRPRACTICA2 identified by 1234 default tablespace users;  
+create user USRPRACTICA2 identified by 1234 default tablespace users quota 1M on users;  
 ```
 En el esquema de este usuario, conectado como USRPRACTICA1, crearé una tabla simple, y le añadiré un registro
 ```
@@ -647,11 +647,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzM1NTcxOSwtMTAyODI2Mjg1Niw1Nj
-YyMDkyMDcsODA1NjY2MTE5LDk1MjQwMjYzLC0xOTE2NTM3NDQx
-LDMyMTk4MTI4LC0xNDgwMDkyOTA5LC0yMTA2NDM2NjczLDE4Mj
-Y5OTMyODUsMTI0ODMwMzE2MSw1NzQ0ODUwMTMsNTg2NTc4OTcz
-LC0xMjE2ODg2MDAwLDk0MDQyMjM2MiwtMTAxNzI3ODY2NCwtMT
-U3NDA3NjcsOTg3NjU0ODY1LC05MTU5MjUwNjQsMTM4NTg4MjAy
-MV19
+eyJoaXN0b3J5IjpbLTE4MzA0NTQ3ODAsMTgwMzM1NTcxOSwtMT
+AyODI2Mjg1Niw1NjYyMDkyMDcsODA1NjY2MTE5LDk1MjQwMjYz
+LC0xOTE2NTM3NDQxLDMyMTk4MTI4LC0xNDgwMDkyOTA5LC0yMT
+A2NDM2NjczLDE4MjY5OTMyODUsMTI0ODMwMzE2MSw1NzQ0ODUw
+MTMsNTg2NTc4OTczLC0xMjE2ODg2MDAwLDk0MDQyMjM2MiwtMT
+AxNzI3ODY2NCwtMTU3NDA3NjcsOTg3NjU0ODY1LC05MTU5MjUw
+NjRdfQ==
 -->
