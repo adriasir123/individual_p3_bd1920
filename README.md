@@ -189,7 +189,7 @@ Comprobamos si puede modificar la estructura o eliminar las tablas creadas.
 grant create any table to USRPRACTICA1;
 grant insert any table to USRPRACTICA1;
 ```
-
+* Para probar los privilegios
 
 
 
@@ -635,11 +635,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQzMzkyMzQsODA1NjY2MTE5LDk1Mj
-QwMjYzLC0xOTE2NTM3NDQxLDMyMTk4MTI4LC0xNDgwMDkyOTA5
-LC0yMTA2NDM2NjczLDE4MjY5OTMyODUsMTI0ODMwMzE2MSw1Nz
-Q0ODUwMTMsNTg2NTc4OTczLC0xMjE2ODg2MDAwLDk0MDQyMjM2
-MiwtMTAxNzI3ODY2NCwtMTU3NDA3NjcsOTg3NjU0ODY1LC05MT
-U5MjUwNjQsMTM4NTg4MjAyMSwtNjkxMzYzMTcyLDE5NjM5NjQ5
-NDJdfQ==
+eyJoaXN0b3J5IjpbNTY2MjA5MjA3LDgwNTY2NjExOSw5NTI0MD
+I2MywtMTkxNjUzNzQ0MSwzMjE5ODEyOCwtMTQ4MDA5MjkwOSwt
+MjEwNjQzNjY3MywxODI2OTkzMjg1LDEyNDgzMDMxNjEsNTc0ND
+g1MDEzLDU4NjU3ODk3MywtMTIxNjg4NjAwMCw5NDA0MjIzNjIs
+LTEwMTcyNzg2NjQsLTE1NzQwNzY3LDk4NzY1NDg2NSwtOTE1OT
+I1MDY0LDEzODU4ODIwMjEsLTY5MTM2MzE3MiwxOTYzOTY0OTQy
+XX0=
 -->
