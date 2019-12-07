@@ -900,15 +900,22 @@ EXEC MostrarNumSesiones (‘nombre_usuario’);
 Para probarlo, abriré 2 ventanas de SQL*PLUS con la sesión iniciada para el usuario USRPRACTICA1
 
 Habiendo hecho eso, ejecutaré el procedimiento y mostraré su output
+```
+SQL> EXEC MostrarNumSesiones ('USRPRACTICA1');
+El usuario USRPRACTICA1 tiene un límite de sesiones concurrentes permitidas de: UNLIMITED
+Pero el número real de sesiones que tiene abiertas son: 2
 
+PL/SQL procedure successfully completed.
 
-
+SQL>
+```
+_Como vemos, _
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDUxMjAwNTgsLTM1OTM1NTY5OCw0Mz
-UxODU0MCwtODM0ODQyODI3LDk3NzkzNDY1MiwxMjkzMTY1NzUx
-LDE2NTMyMTgyNzksMzc3NzQ5MTUxLDE4Nzc4MTIwODAsMTQyMD
-Q0ODYxLC0xMTg4MzMwMzI0LDk3MzYyNTYsODQ4Mzc2NDYwLC02
-ODA3OTg4ODksMTYyMzQxOTM0OSwtNDc3MzA0MDE3LC0xOTQ5OD
-Y3MjEzLDExMzIwMjE4MTMsODEyMzM1NjM0LC0xNjcyNzk2MjU3
-XX0=
+eyJoaXN0b3J5IjpbOTI2Nzc2NDI1LC0zNTkzNTU2OTgsNDM1MT
+g1NDAsLTgzNDg0MjgyNyw5Nzc5MzQ2NTIsMTI5MzE2NTc1MSwx
+NjUzMjE4Mjc5LDM3Nzc0OTE1MSwxODc3ODEyMDgwLDE0MjA0ND
+g2MSwtMTE4ODMzMDMyNCw5NzM2MjU2LDg0ODM3NjQ2MCwtNjgw
+Nzk4ODg5LDE2MjM0MTkzNDksLTQ3NzMwNDAxNywtMTk0OTg2Nz
+IxMywxMTMyMDIxODEzLDgxMjMzNTYzNCwtMTY3Mjc5NjI1N119
+
 -->
