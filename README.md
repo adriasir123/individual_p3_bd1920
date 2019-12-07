@@ -845,7 +845,7 @@ Realiza un procedimiento que reciba un nombre de usuario y un privilegio de sist
 
 
 
-## Ejercicio 25
+## Ejercicio 25 :heavy_check_mark:
 ### Enunciado
 
 Realiza un procedimiento llamado _MostrarNumSesiones_ que:
@@ -899,7 +899,7 @@ EXEC MostrarNumSesiones (‘nombre_usuario’);
 ### Prueba de funcionamiento
 Para probarlo, abriré 2 ventanas de SQL*PLUS con la sesión iniciada para el usuario USRPRACTICA1
 
-Habiendo hecho eso, ejecutaré el procedimiento y mostraré su output
+Habiendo hecho esto, ejecutaré el procedimiento y mostraré su output
 ```
 SQL> EXEC MostrarNumSesiones ('USRPRACTICA1');
 El usuario USRPRACTICA1 tiene un límite de sesiones concurrentes permitidas de: UNLIMITED
@@ -911,11 +911,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDczODA3NSwtMzU5MzU1Njk4LDQzNT
-E4NTQwLC04MzQ4NDI4MjcsOTc3OTM0NjUyLDEyOTMxNjU3NTEs
-MTY1MzIxODI3OSwzNzc3NDkxNTEsMTg3NzgxMjA4MCwxNDIwND
-Q4NjEsLTExODgzMzAzMjQsOTczNjI1Niw4NDgzNzY0NjAsLTY4
-MDc5ODg4OSwxNjIzNDE5MzQ5LC00NzczMDQwMTcsLTE5NDk4Nj
-cyMTMsMTEzMjAyMTgxMyw4MTIzMzU2MzQsLTE2NzI3OTYyNTdd
-fQ==
+eyJoaXN0b3J5IjpbMTA1MjgzMzQwNSwtNjQwNzM4MDc1LC0zNT
+kzNTU2OTgsNDM1MTg1NDAsLTgzNDg0MjgyNyw5Nzc5MzQ2NTIs
+MTI5MzE2NTc1MSwxNjUzMjE4Mjc5LDM3Nzc0OTE1MSwxODc3OD
+EyMDgwLDE0MjA0NDg2MSwtMTE4ODMzMDMyNCw5NzM2MjU2LDg0
+ODM3NjQ2MCwtNjgwNzk4ODg5LDE2MjM0MTkzNDksLTQ3NzMwND
+AxNywtMTk0OTg2NzIxMywxMTMyMDIxODEzLDgxMjMzNTYzNF19
+
 -->
