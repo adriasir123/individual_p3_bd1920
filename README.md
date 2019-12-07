@@ -325,7 +325,7 @@ _Como podemos comprobar, ha funcionado correctamente. He mostrado el prompt comp
 Comprueba que USRPRACTICA1 puede realizar todas las operaciones previstas en el rol (se refiere al rol que le dimos antes, ROLPRACTICA1)
 
 ### Realización
-Recordatorio de lo que hacía el rol
+> Recordatorio de lo que permitía hacer el rol ROLPRACTICA1
 ```
 CREATE ROLE ROLPRACTICA1;
 Grant Create session to ROLPRACTICA1;
@@ -333,8 +333,15 @@ Grant Create table to ROLPRACTICA1;
 Grant Create view to ROLPRACTICA1;
 grant insert on scott.emp to ROLPRACTICA1;
 ```
+>
+>
 
-### Prueba de funcionamiento
+
+
+
+
+
+
 
 
 
@@ -737,11 +744,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwMTIwNjU0LDIxNDcyMDAzNTgsNzU1Nj
-UxMDg3LC01ODg5NDgwOTAsLTE3ODkxNDI1NjYsLTE3NzE2NDIy
-NDAsNzU1ODU4ODg0LDcwNzgzMjcyOCwtODU0OTE4NTQwLC0xOD
-MwNDU0NzgwLDE4MDMzNTU3MTksLTEwMjgyNjI4NTYsNTY2MjA5
-MjA3LDgwNTY2NjExOSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMj
-E5ODEyOCwtMTQ4MDA5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkz
-Mjg1XX0=
+eyJoaXN0b3J5IjpbLTE2NzI3OTYyNTcsMjE0NzIwMDM1OCw3NT
+U2NTEwODcsLTU4ODk0ODA5MCwtMTc4OTE0MjU2NiwtMTc3MTY0
+MjI0MCw3NTU4NTg4ODQsNzA3ODMyNzI4LC04NTQ5MTg1NDAsLT
+E4MzA0NTQ3ODAsMTgwMzM1NTcxOSwtMTAyODI2Mjg1Niw1NjYy
+MDkyMDcsODA1NjY2MTE5LDk1MjQwMjYzLC0xOTE2NTM3NDQxLD
+MyMTk4MTI4LC0xNDgwMDkyOTA5LC0yMTA2NDM2NjczLDE4MjY5
+OTMyODVdfQ==
 -->
