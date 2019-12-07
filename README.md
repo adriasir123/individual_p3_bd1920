@@ -152,7 +152,7 @@ _Esto es correcto porque como vimos antes, cualquier usuario con cuota 0 sobre u
 Concede a USRPRACTICA1 el ROLPRACTICA1
 
 ### Realización
-* Le asignamos el rol
+* Le asignamos el rol dicho
 ```
 GRANT ROLPRACTICA1 TO USRPRACTICA1;
 ```
@@ -612,7 +612,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTQxMTE4MCwtMTQ4MDA5MjkwOSwtMj
+eyJoaXN0b3J5IjpbMjAxMjA1Nzc0NSwtMTQ4MDA5MjkwOSwtMj
 EwNjQzNjY3MywxODI2OTkzMjg1LDEyNDgzMDMxNjEsNTc0NDg1
 MDEzLDU4NjU3ODk3MywtMTIxNjg4NjAwMCw5NDA0MjIzNjIsLT
 EwMTcyNzg2NjQsLTE1NzQwNzY3LDk4NzY1NDg2NSwtOTE1OTI1
