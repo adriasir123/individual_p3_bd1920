@@ -216,6 +216,8 @@ VALUES (1, 'paco');
 
 
 
+
+
 * Modificar la estructura...
 ```
 ALTER TABLE table_name DROP COLUMN column_name;
@@ -663,7 +665,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTM2MDAwNSwtODU0OTE4NTQwLC0xOD
+eyJoaXN0b3J5IjpbMjAxODY0NzU5MywtODU0OTE4NTQwLC0xOD
 MwNDU0NzgwLDE4MDMzNTU3MTksLTEwMjgyNjI4NTYsNTY2MjA5
 MjA3LDgwNTY2NjExOSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMj
 E5ODEyOCwtMTQ4MDA5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkz
