@@ -262,7 +262,7 @@ De nuevo, volvemos a tener errores de permisos. Así que, ¿qué necesitaríamos
 ## Ejercicio 6
 ### Enunciado
 
-Concede a USRPRACTICA1 el privilegio de leer la tabla DEPT de SCOTT con la posibilidad de que lo pase a su vez a terceros usuarios.
+Concede a USRPRACTICA1 el privilegio de leer la tabla DEPT de SCOTT con la posibilidad de que lo pase a su vez a terceros usuarios
 
 ### Realización
 
@@ -691,11 +691,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1ODU4ODg0LDcwNzgzMjcyOCwtODU0OT
-E4NTQwLC0xODMwNDU0NzgwLDE4MDMzNTU3MTksLTEwMjgyNjI4
-NTYsNTY2MjA5MjA3LDgwNTY2NjExOSw5NTI0MDI2MywtMTkxNj
-UzNzQ0MSwzMjE5ODEyOCwtMTQ4MDA5MjkwOSwtMjEwNjQzNjY3
-MywxODI2OTkzMjg1LDEyNDgzMDMxNjEsNTc0NDg1MDEzLDU4Nj
-U3ODk3MywtMTIxNjg4NjAwMCw5NDA0MjIzNjIsLTEwMTcyNzg2
-NjRdfQ==
+eyJoaXN0b3J5IjpbLTE3NzE2NDIyNDAsNzU1ODU4ODg0LDcwNz
+gzMjcyOCwtODU0OTE4NTQwLC0xODMwNDU0NzgwLDE4MDMzNTU3
+MTksLTEwMjgyNjI4NTYsNTY2MjA5MjA3LDgwNTY2NjExOSw5NT
+I0MDI2MywtMTkxNjUzNzQ0MSwzMjE5ODEyOCwtMTQ4MDA5Mjkw
+OSwtMjEwNjQzNjY3MywxODI2OTkzMjg1LDEyNDgzMDMxNjEsNT
+c0NDg1MDEzLDU4NjU3ODk3MywtMTIxNjg4NjAwMCw5NDA0MjIz
+NjJdfQ==
 -->
