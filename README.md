@@ -224,7 +224,7 @@ select * from usrpractica2.emp;
 ---------- ---------- --------- ---------- -------- ---------- ---------- ----------
          1 paco
 ```
-_Tanto los campos de la tabla como el registro añadido son correctos, así que todo los pasos de realizaron correctamente_
+_Tanto los campos de la tabla como el registro añadido son correctos, así que todos los pasos de realizaron correctamente_
 
 * Para terminar, tendremos que comprobar si USRPRACTICA1 puede modificar la estructura de la tabla que acaba de crear, por ejemplo. Para llevar a cabo esta acción, serviría el eliminar una columna de esa tabla, por lo que intentaré borrar la columna "JOB"
 ```
@@ -686,7 +686,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzUyMDQzNTYsNzA3ODMyNzI4LC04NT
+eyJoaXN0b3J5IjpbLTE0MDE0OTMwNjMsNzA3ODMyNzI4LC04NT
 Q5MTg1NDAsLTE4MzA0NTQ3ODAsMTgwMzM1NTcxOSwtMTAyODI2
 Mjg1Niw1NjYyMDkyMDcsODA1NjY2MTE5LDk1MjQwMjYzLC0xOT
 E2NTM3NDQxLDMyMTk4MTI4LC0xNDgwMDkyOTA5LC0yMTA2NDM2
