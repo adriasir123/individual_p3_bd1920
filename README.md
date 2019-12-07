@@ -216,10 +216,14 @@ VALUES (1, 'paco');
 Para comprobar que la tabla se creó correctamente y tiene el registro, me conectaré de nuevo con nuevo permisos de dba. ¿Por qué? Pues porque ahora mismo USRPRACTICA1 no tiene permisos de select sobre nada del esquema de USRPRACTICA2, y éste último, tampoco tiene permisos de create session.
 Así que, pasaré a mostrar los datos de esa tabla:
 ```
-
+select * from usrpractica2.emp;
 ```
-
-
+```
+     EMPNO ENAME      JOB              MGR HIREDATE        SAL       COMM     DEPTNO
+---------- ---------- --------- ---------- -------- ---------- ---------- ----------
+         1 paco
+```
+_Tanto los campos de la tabla como el registro añadido son correctos, _
 
 
 * Modificar la estructura...
@@ -669,7 +673,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MjI2NjUzMywtODU0OTE4NTQwLC0xOD
+eyJoaXN0b3J5IjpbMTU4MTI1MzM2OCwtODU0OTE4NTQwLC0xOD
 MwNDU0NzgwLDE4MDMzNTU3MTksLTEwMjgyNjI4NTYsNTY2MjA5
 MjA3LDgwNTY2NjExOSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMj
 E5ODEyOCwtMTQ4MDA5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkz
