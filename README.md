@@ -174,7 +174,7 @@ _Ha aparecido el resultado en esa vista, por lo tanto el rol se concedió correc
 
 
 
-## Ejercicio 5
+## Ejercicio 5 :heavy_check_mark:
 ### Enunciado
 
 Concede a USRPRACTICA1 los privilegios:
@@ -685,7 +685,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTQwNjIyNiw3MDc4MzI3MjgsLTg1ND
+eyJoaXN0b3J5IjpbLTIwOTc4NzU1MCw3MDc4MzI3MjgsLTg1ND
 kxODU0MCwtMTgzMDQ1NDc4MCwxODAzMzU1NzE5LC0xMDI4MjYy
 ODU2LDU2NjIwOTIwNyw4MDU2NjYxMTksOTUyNDAyNjMsLTE5MT
 Y1Mzc0NDEsMzIxOTgxMjgsLTE0ODAwOTI5MDksLTIxMDY0MzY2
