@@ -382,7 +382,17 @@ SQL> select * from view1;
 ```
 _Efectivamente, la vista se ha creado con los datos correctos_
 
-* Por último, vamos a probar si podemos
+* Por último, vamos a probar si podemos insertar registros en la tabla EMP de SCOTT
+```
+
+```
+
+
+
+
+
+
+
 
 
 
@@ -787,11 +797,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk4NjcyMTMsMTEzMjAyMTgxMyw4MT
-IzMzU2MzQsLTE2NzI3OTYyNTcsMjE0NzIwMDM1OCw3NTU2NTEw
-ODcsLTU4ODk0ODA5MCwtMTc4OTE0MjU2NiwtMTc3MTY0MjI0MC
-w3NTU4NTg4ODQsNzA3ODMyNzI4LC04NTQ5MTg1NDAsLTE4MzA0
-NTQ3ODAsMTgwMzM1NTcxOSwtMTAyODI2Mjg1Niw1NjYyMDkyMD
-csODA1NjY2MTE5LDk1MjQwMjYzLC0xOTE2NTM3NDQxLDMyMTk4
-MTI4XX0=
+eyJoaXN0b3J5IjpbLTQ3NzMwNDAxNywtMTk0OTg2NzIxMywxMT
+MyMDIxODEzLDgxMjMzNTYzNCwtMTY3Mjc5NjI1NywyMTQ3MjAw
+MzU4LDc1NTY1MTA4NywtNTg4OTQ4MDkwLC0xNzg5MTQyNTY2LC
+0xNzcxNjQyMjQwLDc1NTg1ODg4NCw3MDc4MzI3MjgsLTg1NDkx
+ODU0MCwtMTgzMDQ1NDc4MCwxODAzMzU1NzE5LC0xMDI4MjYyOD
+U2LDU2NjIwOTIwNyw4MDU2NjYxMTksOTUyNDAyNjMsLTE5MTY1
+Mzc0NDFdfQ==
 -->
