@@ -436,7 +436,20 @@ Revoke succeeded.
 ```
 _El privilegio se quitó correctamente_
 
-* Ahora, probaremos a crear 
+* Ahora, probaremos a crear una segunda vista, y veremos si puede seguir creando vistas o no
+```
+CREATE VIEW view2 AS
+  SELECT *
+  FROM scott.dept;
+```
+
+
+
+
+
+
+
+
 
 
 
@@ -822,7 +835,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwOTg5MDI0NiwxNjUzMjE4Mjc5LDM3Nz
+eyJoaXN0b3J5IjpbMTYwMzgyNzU2NSwxNjUzMjE4Mjc5LDM3Nz
 c0OTE1MSwxODc3ODEyMDgwLDE0MjA0NDg2MSwtMTE4ODMzMDMy
 NCw5NzM2MjU2LDg0ODM3NjQ2MCwtNjgwNzk4ODg5LDE2MjM0MT
 kzNDksLTQ3NzMwNDAxNywtMTk0OTg2NzIxMywxMTMyMDIxODEz
