@@ -359,7 +359,7 @@ DEPTNO NUMBER(2));
 Table created.
 ```
 _La tabla se creó correctamente_
-* Creamos una vista. Ya que previamente le habíamos dado permiso de lectura al USRPRACTICA1
+* Creamos una vista. Ya que previamente le habíamos dado permiso de lectura al USRPRACTICA1 sobre la table DEPT de SCOTT, apr
 ```
 CREATE VIEW view1 AS
   SELECT *
@@ -779,11 +779,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjAyMTgxMyw4MTIzMzU2MzQsLTE2Nz
-I3OTYyNTcsMjE0NzIwMDM1OCw3NTU2NTEwODcsLTU4ODk0ODA5
-MCwtMTc4OTE0MjU2NiwtMTc3MTY0MjI0MCw3NTU4NTg4ODQsNz
-A3ODMyNzI4LC04NTQ5MTg1NDAsLTE4MzA0NTQ3ODAsMTgwMzM1
-NTcxOSwtMTAyODI2Mjg1Niw1NjYyMDkyMDcsODA1NjY2MTE5LD
-k1MjQwMjYzLC0xOTE2NTM3NDQxLDMyMTk4MTI4LC0xNDgwMDky
-OTA5XX0=
+eyJoaXN0b3J5IjpbMTY5MzQzNDY3LDExMzIwMjE4MTMsODEyMz
+M1NjM0LC0xNjcyNzk2MjU3LDIxNDcyMDAzNTgsNzU1NjUxMDg3
+LC01ODg5NDgwOTAsLTE3ODkxNDI1NjYsLTE3NzE2NDIyNDAsNz
+U1ODU4ODg0LDcwNzgzMjcyOCwtODU0OTE4NTQwLC0xODMwNDU0
+NzgwLDE4MDMzNTU3MTksLTEwMjgyNjI4NTYsNTY2MjA5MjA3LD
+gwNTY2NjExOSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMjE5ODEy
+OF19
 -->
