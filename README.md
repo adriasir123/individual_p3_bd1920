@@ -197,7 +197,7 @@ create user USRPRACTICA2 identified by 1234 default tablespace users quota 1M on
 > Es importante que al crear este usuario le asignemos previamente una cuota, ya que cuando creemos una tabla e insertemos datos sobre ella desde el otro usuario, nos va a dar un error de cuota.
 > ¿Por qué da este error de cuota? Muy sencillo, es porque cuando realizamos acciones en el esquema de otro usuario, lo hacemos a nombre de ese usuario, y ese mismo debe de poder tener cuota para crear lo que sea que queramos. 
 > Por ejemplo, si estamos queriendo crear una tabla, cuando se cree, tendrá como owner "USRPRACTICA2" y no "USRPRACTICA1".
-> Si creásemos en primer lugar el usuario "USRPRACTICA2" sin cuota sobre users, parece ser que desde un usuario externo, no entra el funcionamiento el "deferred_segment_creation", porque al intentar crear una tabla directamente da el error de cuota.
+> Si creásemos en primer lugar el usuario "USRPRACTICA2" sin cuota sobre users, parece ser que desde un usuario externo, no entra en funcionamiento el "deferred_segment_creation", porque al intentar crear una tabla, directamente da el error de cuota.
 
 Ahora, en el esquema del usuario USRPRACTICA2, conectado como USRPRACTICA1, crearé una tabla simple, y le añadiré un registro
 ```
@@ -686,11 +686,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NjYyMjI2MCw3MDc4MzI3MjgsLTg1ND
-kxODU0MCwtMTgzMDQ1NDc4MCwxODAzMzU1NzE5LC0xMDI4MjYy
-ODU2LDU2NjIwOTIwNyw4MDU2NjYxMTksOTUyNDAyNjMsLTE5MT
-Y1Mzc0NDEsMzIxOTgxMjgsLTE0ODAwOTI5MDksLTIxMDY0MzY2
-NzMsMTgyNjk5MzI4NSwxMjQ4MzAzMTYxLDU3NDQ4NTAxMyw1OD
-Y1Nzg5NzMsLTEyMTY4ODYwMDAsOTQwNDIyMzYyLC0xMDE3Mjc4
-NjY0XX0=
+eyJoaXN0b3J5IjpbLTE4NzUyMDQzNTYsNzA3ODMyNzI4LC04NT
+Q5MTg1NDAsLTE4MzA0NTQ3ODAsMTgwMzM1NTcxOSwtMTAyODI2
+Mjg1Niw1NjYyMDkyMDcsODA1NjY2MTE5LDk1MjQwMjYzLC0xOT
+E2NTM3NDQxLDMyMTk4MTI4LC0xNDgwMDkyOTA5LC0yMTA2NDM2
+NjczLDE4MjY5OTMyODUsMTI0ODMwMzE2MSw1NzQ0ODUwMTMsNT
+g2NTc4OTczLC0xMjE2ODg2MDAwLDk0MDQyMjM2MiwtMTAxNzI3
+ODY2NF19
 -->
