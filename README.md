@@ -235,7 +235,7 @@ ALTER TABLE USRPRACTICA2.EMP DROP COLUMN JOB
 ERROR en lÝnea 1:
 ORA-01031: privilegios insuficientes
 ```
-Evidentemente USRPRACTICA1 no puede realizar esta acción, ya que no posee los permisos necesarios. Para poder hacer esto, tendría que tener permisos de `ALTER` sobre esa tabla específicamente, o permisos de `ALTER ANY TABLE`
+Evidentemente USRPRACTICA1 no puede realizar esta acción, ya que no posee los permisos necesarios. Para poder hacer esto, tendría que tener permisos de `ALTER` sobre esa tabla específicamente, o permisos de `ALTER ANY TABLE`.
 
 
 
@@ -675,7 +675,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3ODU0NTg4NSwtODU0OTE4NTQwLC0xOD
+eyJoaXN0b3J5IjpbLTgyNzQwMDcwOSwtODU0OTE4NTQwLC0xOD
 MwNDU0NzgwLDE4MDMzNTU3MTksLTEwMjgyNjI4NTYsNTY2MjA5
 MjA3LDgwNTY2NjExOSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMj
 E5ODEyOCwtMTQ4MDA5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkz
