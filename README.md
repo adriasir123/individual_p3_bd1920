@@ -460,11 +460,10 @@ _Como vemos, ya no podemos crear vistas_
 ## Ejercicio 9
 ### Enunciado
 
-Crea un perfil NOPARESDECURRAR que limita a dos el número de minutos de inactividad permitidos en una sesión.
-
+Crea un perfil NOPARESDECURRAR, que limite a 2 el número de minutos de inactividad permitidos en una sesión
 
 ### Realización
-
+* Creamos el perfil
 ```
 CREATE PROFILE NOPARESDECURRAR LIMIT IDLE_TIME 2;
 ```
@@ -640,7 +639,7 @@ select tablespace_name, username, bytes, max_bytes
 ```
 
 
-### Prueba de funcionamiento
+
 
 
 
@@ -661,7 +660,7 @@ SELECT * FROM DBA_SYS_PRIVS
 Where grantee = system;
 ```
 
-### Prueba de funcionamiento
+
 
 
 
@@ -682,7 +681,7 @@ Where grantee = system;
 ```
 
 
-### Prueba de funcionamiento
+
 
 
 
@@ -702,7 +701,7 @@ SELECT role FROM DBA_ROLES;
 ```
 
 
-### Prueba de funcionamiento
+
 
 
 
@@ -719,7 +718,7 @@ SELECT granted_role, username FROM USER_ROLE_PRIVS
 WHERE granted_role = <nombre>;
 ```
 
-### Prueba de funcionamiento
+
 
 
 
@@ -739,7 +738,7 @@ Where grantee = nombre_rol;
 ```
 
 
-### Prueba de funcionamiento
+
 
 
 
@@ -758,7 +757,7 @@ From dba_profiles;
 
 
 
-### Prueba de funcionamiento
+
 
 
 
@@ -781,7 +780,7 @@ Where profile = nombre_perfil;
 
 
 
-### Prueba de funcionamiento
+
 
 
 
@@ -805,7 +804,7 @@ Where limit = sessions_per_user;
 )
 ```
 
-### Prueba de funcionamiento
+
 
 
 
@@ -843,11 +842,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTAzNzQyNCwxNjUzMjE4Mjc5LDM3Nz
-c0OTE1MSwxODc3ODEyMDgwLDE0MjA0NDg2MSwtMTE4ODMzMDMy
-NCw5NzM2MjU2LDg0ODM3NjQ2MCwtNjgwNzk4ODg5LDE2MjM0MT
-kzNDksLTQ3NzMwNDAxNywtMTk0OTg2NzIxMywxMTMyMDIxODEz
-LDgxMjMzNTYzNCwtMTY3Mjc5NjI1NywyMTQ3MjAwMzU4LDc1NT
-Y1MTA4NywtNTg4OTQ4MDkwLC0xNzg5MTQyNTY2LC0xNzcxNjQy
-MjQwXX0=
+eyJoaXN0b3J5IjpbLTU4NjUxOTg5LDE2NTMyMTgyNzksMzc3Nz
+Q5MTUxLDE4Nzc4MTIwODAsMTQyMDQ0ODYxLC0xMTg4MzMwMzI0
+LDk3MzYyNTYsODQ4Mzc2NDYwLC02ODA3OTg4ODksMTYyMzQxOT
+M0OSwtNDc3MzA0MDE3LC0xOTQ5ODY3MjEzLDExMzIwMjE4MTMs
+ODEyMzM1NjM0LC0xNjcyNzk2MjU3LDIxNDcyMDAzNTgsNzU1Nj
+UxMDg3LC01ODg5NDgwOTAsLTE3ODkxNDI1NjYsLTE3NzE2NDIy
+NDBdfQ==
 -->
