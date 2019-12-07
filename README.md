@@ -489,7 +489,7 @@ _Vemos que el perfil se ha creado correctamente, y que además oracle, aunque no
 
 
 
-## Ejercicio 10
+## Ejercicio 10 :heavy_check_mark:
 ### Enunciado
 
 Activa el uso de perfiles en ORACLE
@@ -832,7 +832,7 @@ Where limit = sessions_per_user;
 
 
 
-## Ejercicio 24 :x:
+## Ejercicio 24
 Realiza un procedimiento que reciba un nombre de usuario y un privilegio de sistema y nos muestre el mensaje 'SI, DIRECTO' si el usuario tiene ese privilegio concedido directamente, 'SI, POR ROL' si el usuario tiene ese privilegio en alguno de los roles que tiene concedidos y un 'NO' si el usuario no tiene dicho privilegio.
 
 
@@ -846,10 +846,12 @@ Realiza un procedimiento que reciba un nombre de usuario y un privilegio de sist
 
 
 ## Ejercicio 25
+### Enunciado
+
 Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de usuario y muestre el número de sesiones concurrentes que puede tener abiertas como máximo y las que tiene abiertas realmente.
 
 
-
+### Realización
 
 
 
@@ -862,11 +864,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MzE2NTc1MSwxNjUzMjE4Mjc5LDM3Nz
-c0OTE1MSwxODc3ODEyMDgwLDE0MjA0NDg2MSwtMTE4ODMzMDMy
-NCw5NzM2MjU2LDg0ODM3NjQ2MCwtNjgwNzk4ODg5LDE2MjM0MT
-kzNDksLTQ3NzMwNDAxNywtMTk0OTg2NzIxMywxMTMyMDIxODEz
-LDgxMjMzNTYzNCwtMTY3Mjc5NjI1NywyMTQ3MjAwMzU4LDc1NT
-Y1MTA4NywtNTg4OTQ4MDkwLC0xNzg5MTQyNTY2LC0xNzcxNjQy
-MjQwXX0=
+eyJoaXN0b3J5IjpbOTc3OTM0NjUyLDEyOTMxNjU3NTEsMTY1Mz
+IxODI3OSwzNzc3NDkxNTEsMTg3NzgxMjA4MCwxNDIwNDQ4NjEs
+LTExODgzMzAzMjQsOTczNjI1Niw4NDgzNzY0NjAsLTY4MDc5OD
+g4OSwxNjIzNDE5MzQ5LC00NzczMDQwMTcsLTE5NDk4NjcyMTMs
+MTEzMjAyMTgxMyw4MTIzMzU2MzQsLTE2NzI3OTYyNTcsMjE0Nz
+IwMDM1OCw3NTU2NTEwODcsLTU4ODk0ODA5MCwtMTc4OTE0MjU2
+Nl19
 -->
