@@ -427,15 +427,16 @@ _Ha aparecido el nuevo registro que le hemos añadido, por lo tanto ha funcionad
 Quita a USRPRACTICA1 el privilegio de crear vistas. Comprueba que ya no puede hacerlo
 
 ### Realización
-* Para conseguir esto, tendremos que quitarle el privilegio a ROLPRACTICA1, que es la razón real porque la que . Si intentamos quitarle el privilegio a USRPRACTICA1, no funcionará, porque oracle no permite quitar privilegios que no se han dado.
+* Para conseguir esto, tendremos que quitarle el privilegio a ROLPRACTICA1, que es la razón real porque la que USRPRACTICA1 puede crear vistas. Si intentamos quitarle el privilegio a USRPRACTICA1, no funcionará, porque oracle no permite quitar privilegios que no se han dado
 ```
 REVOKE CREATE VIEW FROM ROLPRACTICA1;
 ```
 ```
-
+Revoke succeeded.
 ```
+_El privilegio se quitó correctamente_
 
-
+* Ahora, probaremos a crear 
 
 
 
@@ -821,7 +822,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTYyMjIyNSwxNjUzMjE4Mjc5LDM3Nz
+eyJoaXN0b3J5IjpbMjAwOTg5MDI0NiwxNjUzMjE4Mjc5LDM3Nz
 c0OTE1MSwxODc3ODEyMDgwLDE0MjA0NDg2MSwtMTE4ODMzMDMy
 NCw5NzM2MjU2LDg0ODM3NjQ2MCwtNjgwNzk4ODg5LDE2MjM0MT
 kzNDksLTQ3NzMwNDAxNywtMTk0OTg2NzIxMywxMTMyMDIxODEz
