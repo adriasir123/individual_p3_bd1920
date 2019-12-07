@@ -193,7 +193,7 @@ grant insert any table to USRPRACTICA1;
 ```
 create user USRPRACTICA2 identified by 1234 default tablespace users quota 1M on users;  
 ```
-> Es importante que al crear este usuario le asignemos previam
+> Es importante que al crear este usuario le asignemos previamente una cuota, ya que cuando creemos la tabla e insertemos los datos desde el otro usuario, nos va a dar un error de cuota.
 
 En el esquema de este usuario, conectado como USRPRACTICA1, crearé una tabla simple, y le añadiré un registro
 ```
@@ -649,11 +649,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4NzIzMTE0LC0xODMwNDU0NzgwLDE4MD
-MzNTU3MTksLTEwMjgyNjI4NTYsNTY2MjA5MjA3LDgwNTY2NjEx
-OSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMjE5ODEyOCwtMTQ4MD
-A5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkzMjg1LDEyNDgzMDMx
-NjEsNTc0NDg1MDEzLDU4NjU3ODk3MywtMTIxNjg4NjAwMCw5ND
-A0MjIzNjIsLTEwMTcyNzg2NjQsLTE1NzQwNzY3LDk4NzY1NDg2
-NV19
+eyJoaXN0b3J5IjpbLTg1NDkxODU0MCwtMTgzMDQ1NDc4MCwxOD
+AzMzU1NzE5LC0xMDI4MjYyODU2LDU2NjIwOTIwNyw4MDU2NjYx
+MTksOTUyNDAyNjMsLTE5MTY1Mzc0NDEsMzIxOTgxMjgsLTE0OD
+AwOTI5MDksLTIxMDY0MzY2NzMsMTgyNjk5MzI4NSwxMjQ4MzAz
+MTYxLDU3NDQ4NTAxMyw1ODY1Nzg5NzMsLTEyMTY4ODYwMDAsOT
+QwNDIyMzYyLC0xMDE3Mjc4NjY0LC0xNTc0MDc2Nyw5ODc2NTQ4
+NjVdfQ==
 -->
