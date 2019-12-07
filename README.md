@@ -241,8 +241,13 @@ Además, también tenemos que comprobar si USRPRACTICA1 puede borrar la tabla cr
 ```
 DROP TABLE usrpractica2.emp;
 ```
-
-
+```
+DROP TABLE usrpractica2.emp
+                        *
+ERROR en lÝnea 1:
+ORA-01031: privilegios insuficientes
+```
+De nuevo, volvemos a tener error de permisos. 
 
 
 
@@ -678,11 +683,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTIxODYxMjIsLTg1NDkxODU0MCwtMT
-gzMDQ1NDc4MCwxODAzMzU1NzE5LC0xMDI4MjYyODU2LDU2NjIw
-OTIwNyw4MDU2NjYxMTksOTUyNDAyNjMsLTE5MTY1Mzc0NDEsMz
-IxOTgxMjgsLTE0ODAwOTI5MDksLTIxMDY0MzY2NzMsMTgyNjk5
-MzI4NSwxMjQ4MzAzMTYxLDU3NDQ4NTAxMyw1ODY1Nzg5NzMsLT
-EyMTY4ODYwMDAsOTQwNDIyMzYyLC0xMDE3Mjc4NjY0LC0xNTc0
-MDc2N119
+eyJoaXN0b3J5IjpbNzA3ODMyNzI4LC04NTQ5MTg1NDAsLTE4Mz
+A0NTQ3ODAsMTgwMzM1NTcxOSwtMTAyODI2Mjg1Niw1NjYyMDky
+MDcsODA1NjY2MTE5LDk1MjQwMjYzLC0xOTE2NTM3NDQxLDMyMT
+k4MTI4LC0xNDgwMDkyOTA5LC0yMTA2NDM2NjczLDE4MjY5OTMy
+ODUsMTI0ODMwMzE2MSw1NzQ0ODUwMTMsNTg2NTc4OTczLC0xMj
+E2ODg2MDAwLDk0MDQyMjM2MiwtMTAxNzI3ODY2NCwtMTU3NDA3
+NjddfQ==
 -->
