@@ -312,7 +312,7 @@ SQL> select * from scott.dept;
 
 SQL>
 ```
-_Como podemos comprobar, ha funcionado correctamente._
+_Como podemos comprobar, ha funcionado correctamente. He mostrado el prompt completo desde que realicé la conexión con USRPRACTICA2, para que se vea que de verdad lo he hecho_
 
 
 
@@ -734,11 +734,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0OTc1MTE2LDc1NTY1MTA4NywtNTg4OT
-Q4MDkwLC0xNzg5MTQyNTY2LC0xNzcxNjQyMjQwLDc1NTg1ODg4
-NCw3MDc4MzI3MjgsLTg1NDkxODU0MCwtMTgzMDQ1NDc4MCwxOD
-AzMzU1NzE5LC0xMDI4MjYyODU2LDU2NjIwOTIwNyw4MDU2NjYx
-MTksOTUyNDAyNjMsLTE5MTY1Mzc0NDEsMzIxOTgxMjgsLTE0OD
-AwOTI5MDksLTIxMDY0MzY2NzMsMTgyNjk5MzI4NSwxMjQ4MzAz
-MTYxXX0=
+eyJoaXN0b3J5IjpbMjE0NzIwMDM1OCw3NTU2NTEwODcsLTU4OD
+k0ODA5MCwtMTc4OTE0MjU2NiwtMTc3MTY0MjI0MCw3NTU4NTg4
+ODQsNzA3ODMyNzI4LC04NTQ5MTg1NDAsLTE4MzA0NTQ3ODAsMT
+gwMzM1NTcxOSwtMTAyODI2Mjg1Niw1NjYyMDkyMDcsODA1NjY2
+MTE5LDk1MjQwMjYzLC0xOTE2NTM3NDQxLDMyMTk4MTI4LC0xND
+gwMDkyOTA5LC0yMTA2NDM2NjczLDE4MjY5OTMyODUsMTI0ODMw
+MzE2MV19
 -->
