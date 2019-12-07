@@ -259,7 +259,7 @@ De nuevo, volvemos a tener errores de permisos. Así que, ¿qué necesitaríamos
 
 
 
-## Ejercicio 6
+## Ejercicio 6 :heavy_check_mark:
 ### Enunciado
 
 Concede a USRPRACTICA1 el privilegio de leer la tabla DEPT de SCOTT, con la posibilidad de que lo pase a su vez a terceros usuarios
@@ -295,7 +295,7 @@ Grant succeeded.
 > Como vemos, le he pasado el permiso de manera "normal". Es decir, no tiene el "with grant option", por lo tanto USRPRACTICA2 no podría pasar este privilegio a terceros. 
 > Aún así, se podría perfectamente pasar el permiso con "with grant option", dándo esa posibilidad extra para pasarlo a terceros.
 
-Bien, el primero paso ha funcionado. Ahora veamos si podemos realmente leer la tabla desde USRPRACTICA2
+Bien, el primer paso ha funcionado. Ahora veamos si podemos realmente leer la tabla desde USRPRACTICA2
 ```
 SQL> connect usrpractica2;
 Introduzca la contrase±a:
@@ -322,7 +322,7 @@ _Como podemos comprobar, ha funcionado correctamente. He mostrado el prompt comp
 ## Ejercicio 7
 ### Enunciado
 
-Comprueba que USRPRACTICA1 puede realizar todas las operaciones previstas en el rol (se refiere al rol que le dimos antes, ROLPRACTICA1).
+Comprueba que USRPRACTICA1 puede realizar todas las operaciones previstas en el rol (se refiere al rol que le dimos antes, ROLPRACTICA1)
 
 ### Realización
 Recordatorio de lo que hacía el rol
@@ -737,11 +737,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MTA0MzAwNSwyMTQ3MjAwMzU4LDc1NT
-Y1MTA4NywtNTg4OTQ4MDkwLC0xNzg5MTQyNTY2LC0xNzcxNjQy
-MjQwLDc1NTg1ODg4NCw3MDc4MzI3MjgsLTg1NDkxODU0MCwtMT
-gzMDQ1NDc4MCwxODAzMzU1NzE5LC0xMDI4MjYyODU2LDU2NjIw
-OTIwNyw4MDU2NjYxMTksOTUyNDAyNjMsLTE5MTY1Mzc0NDEsMz
-IxOTgxMjgsLTE0ODAwOTI5MDksLTIxMDY0MzY2NzMsMTgyNjk5
-MzI4NV19
+eyJoaXN0b3J5IjpbNDQwMTIwNjU0LDIxNDcyMDAzNTgsNzU1Nj
+UxMDg3LC01ODg5NDgwOTAsLTE3ODkxNDI1NjYsLTE3NzE2NDIy
+NDAsNzU1ODU4ODg0LDcwNzgzMjcyOCwtODU0OTE4NTQwLC0xOD
+MwNDU0NzgwLDE4MDMzNTU3MTksLTEwMjgyNjI4NTYsNTY2MjA5
+MjA3LDgwNTY2NjExOSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMj
+E5ODEyOCwtMTQ4MDA5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkz
+Mjg1XX0=
 -->
