@@ -284,7 +284,7 @@ select * from scott.dept;
         40 OPERATIONS     BOSTON
 ```
 _Ha funcionado correctamente_
-* 
+* Lo siguiente que vamos a probar es a 
 
 
 
@@ -708,7 +708,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDM5OTkxMDcsLTU4ODk0ODA5MCwtMT
+eyJoaXN0b3J5IjpbLTE1ODM0NzMyMTAsLTU4ODk0ODA5MCwtMT
 c4OTE0MjU2NiwtMTc3MTY0MjI0MCw3NTU4NTg4ODQsNzA3ODMy
 NzI4LC04NTQ5MTg1NDAsLTE4MzA0NTQ3ODAsMTgwMzM1NTcxOS
 wtMTAyODI2Mjg1Niw1NjYyMDkyMDcsODA1NjY2MTE5LDk1MjQw
