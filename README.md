@@ -442,10 +442,13 @@ CREATE VIEW view2 AS
   SELECT *
   FROM scott.dept;
 ```
-
-
-
-
+```
+CREATE VIEW view2 AS
+            *
+ERROR at line 1:
+ORA-01031: insufficient privileges
+```
+_Como vemos, ya no podemos crear vistas_
 
 
 
@@ -835,7 +838,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMzgyNzU2NSwxNjUzMjE4Mjc5LDM3Nz
+eyJoaXN0b3J5IjpbMTY2ODEwNDYyOSwxNjUzMjE4Mjc5LDM3Nz
 c0OTE1MSwxODc3ODEyMDgwLDE0MjA0NDg2MSwtMTE4ODMzMDMy
 NCw5NzM2MjU2LDg0ODM3NjQ2MCwtNjgwNzk4ODg5LDE2MjM0MT
 kzNDksLTQ3NzMwNDAxNywtMTk0OTg2NzIxMywxMTMyMDIxODEz
