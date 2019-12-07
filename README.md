@@ -146,7 +146,7 @@ no rows selected
 _Esto es correcto porque como vimos antes, cualquier usuario con cuota 0 sobre un tablespace, no aparecerá en esa vista_
 
 
-## Ejercicio 4
+## Ejercicio 4 :heavy_check_mark:
 ### Enunciado
 
 Concede a USRPRACTICA1 el ROLPRACTICA1
@@ -180,8 +180,8 @@ _Ha aparecido el resultado en esa vista, por lo tanto el rol se concedió correc
 Concede a USRPRACTICA1 los privilegios:
 - Crear tablas en el esquema de cualquier usuario
 - Insertar datos en el esquema de cualquier usuario
-Probar los privilegios
-Comprueba si puede modificar la estructura o eliminar las tablas creadas.
+Probamos los privilegios
+Comprobamos si puede modificar la estructura o eliminar las tablas creadas.
 
 ### Realización
 ```
@@ -625,11 +625,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5OTUzNzgwLC0xOTE2NTM3NDQxLDMyMT
-k4MTI4LC0xNDgwMDkyOTA5LC0yMTA2NDM2NjczLDE4MjY5OTMy
-ODUsMTI0ODMwMzE2MSw1NzQ0ODUwMTMsNTg2NTc4OTczLC0xMj
-E2ODg2MDAwLDk0MDQyMjM2MiwtMTAxNzI3ODY2NCwtMTU3NDA3
-NjcsOTg3NjU0ODY1LC05MTU5MjUwNjQsMTM4NTg4MjAyMSwtNj
-kxMzYzMTcyLDE5NjM5NjQ5NDIsLTE5ODY4NDg4NTksLTEyMjgz
-ODQ5ODldfQ==
+eyJoaXN0b3J5IjpbOTUyNDAyNjMsLTE5MTY1Mzc0NDEsMzIxOT
+gxMjgsLTE0ODAwOTI5MDksLTIxMDY0MzY2NzMsMTgyNjk5MzI4
+NSwxMjQ4MzAzMTYxLDU3NDQ4NTAxMyw1ODY1Nzg5NzMsLTEyMT
+Y4ODYwMDAsOTQwNDIyMzYyLC0xMDE3Mjc4NjY0LC0xNTc0MDc2
+Nyw5ODc2NTQ4NjUsLTkxNTkyNTA2NCwxMzg1ODgyMDIxLC02OT
+EzNjMxNzIsMTk2Mzk2NDk0MiwtMTk4Njg0ODg1OSwtMTIyODM4
+NDk4OV19
 -->
