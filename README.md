@@ -165,6 +165,13 @@ select granted_role, grantee
 	from DBA_ROLE_PRIVS
 	where granted_role = 'ROLPRACTICA1' AND grantee = 'USRPRACTICA1';
 ```
+```
+GRANTED_ROLE GRANTEE
+------------ ------------------
+ROLPRACTICA1 USRPRACTICA1
+```
+_Ha aparecido el resultado en esa vista, por lo tanto los cambios _
+
 
 
 
@@ -620,11 +627,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjEyODkzMSwtMTkxNjUzNzQ0MSwzMj
-E5ODEyOCwtMTQ4MDA5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkz
-Mjg1LDEyNDgzMDMxNjEsNTc0NDg1MDEzLDU4NjU3ODk3MywtMT
-IxNjg4NjAwMCw5NDA0MjIzNjIsLTEwMTcyNzg2NjQsLTE1NzQw
-NzY3LDk4NzY1NDg2NSwtOTE1OTI1MDY0LDEzODU4ODIwMjEsLT
-Y5MTM2MzE3MiwxOTYzOTY0OTQyLC0xOTg2ODQ4ODU5LC0xMjI4
-Mzg0OTg5XX0=
+eyJoaXN0b3J5IjpbNDYxNzIyNTA0LC0xOTE2NTM3NDQxLDMyMT
+k4MTI4LC0xNDgwMDkyOTA5LC0yMTA2NDM2NjczLDE4MjY5OTMy
+ODUsMTI0ODMwMzE2MSw1NzQ0ODUwMTMsNTg2NTc4OTczLC0xMj
+E2ODg2MDAwLDk0MDQyMjM2MiwtMTAxNzI3ODY2NCwtMTU3NDA3
+NjcsOTg3NjU0ODY1LC05MTU5MjUwNjQsMTM4NTg4MjAyMSwtNj
+kxMzYzMTcyLDE5NjM5NjQ5NDIsLTE5ODY4NDg4NTksLTEyMjgz
+ODQ5ODldfQ==
 -->
