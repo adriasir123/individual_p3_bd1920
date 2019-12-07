@@ -410,7 +410,9 @@ SQL> select * from scott.emp;
 
 8 filas seleccionadas.
 ```
-_Ha aparecido el _
+_Ha aparecido el nuevo registro que le hemos añadido, por lo tanto ha funcionado correctamente_
+
+
 
 
 
@@ -815,11 +817,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDM2OTYyNDYsMTQyMDQ0ODYxLC0xMT
-g4MzMwMzI0LDk3MzYyNTYsODQ4Mzc2NDYwLC02ODA3OTg4ODks
-MTYyMzQxOTM0OSwtNDc3MzA0MDE3LC0xOTQ5ODY3MjEzLDExMz
-IwMjE4MTMsODEyMzM1NjM0LC0xNjcyNzk2MjU3LDIxNDcyMDAz
-NTgsNzU1NjUxMDg3LC01ODg5NDgwOTAsLTE3ODkxNDI1NjYsLT
-E3NzE2NDIyNDAsNzU1ODU4ODg0LDcwNzgzMjcyOCwtODU0OTE4
-NTQwXX0=
+eyJoaXN0b3J5IjpbMTY1ODA2ODUwMCwxNDIwNDQ4NjEsLTExOD
+gzMzAzMjQsOTczNjI1Niw4NDgzNzY0NjAsLTY4MDc5ODg4OSwx
+NjIzNDE5MzQ5LC00NzczMDQwMTcsLTE5NDk4NjcyMTMsMTEzMj
+AyMTgxMyw4MTIzMzU2MzQsLTE2NzI3OTYyNTcsMjE0NzIwMDM1
+OCw3NTU2NTEwODcsLTU4ODk0ODA5MCwtMTc4OTE0MjU2NiwtMT
+c3MTY0MjI0MCw3NTU4NTg4ODQsNzA3ODMyNzI4LC04NTQ5MTg1
+NDBdfQ==
 -->
