@@ -200,7 +200,18 @@ create user USRPRACTICA2 identified by 1234 default tablespace users quota 1M on
 
 Ahora, en el esquema del usuario USRPRACTICA2, conectado como USRPRACTICA1, crearé una tabla simple, y le añadiré un registro
 ```
+CREATE TABLE USRPRACTICA2.EMP
+(EMPNO NUMBER(4) NOT NULL,
+ENAME VARCHAR2(10),
+JOB VARCHAR2(9),
+MGR NUMBER(4),
+HIREDATE DATE,
+SAL NUMBER(7, 2),
+COMM NUMBER(7, 2),
+DEPTNO NUMBER(2));
 
+INSERT INTO USRPRACTICA2.EMP (empno, ename)
+VALUES (1, 'paco');
 ```
 
 
@@ -652,7 +663,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjEyNDk0NCwtODU0OTE4NTQwLC0xOD
+eyJoaXN0b3J5IjpbMTYzMTM2MDAwNSwtODU0OTE4NTQwLC0xOD
 MwNDU0NzgwLDE4MDMzNTU3MTksLTEwMjgyNjI4NTYsNTY2MjA5
 MjA3LDgwNTY2NjExOSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMj
 E5ODEyOCwtMTQ4MDA5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkz
