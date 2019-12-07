@@ -387,11 +387,11 @@ _Efectivamente, la vista se ha creado con los datos correctos_
 INSERT INTO EMP (EMPNO, ENAME) 
 VALUES (8000, 'PAQUITO');
 ```
-
-
-
-
-
+```
+1 fila creada.
+```
+_Se insertó el registro correctamente_
+Ahora, con un usuario que tenga permisos de dba (porque USRPRACTICA1 no tiene permisos de lectura sobre esa tabla), podremos ver
 
 
 
@@ -798,11 +798,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0NDM3MjcxLC00NzczMDQwMTcsLTE5ND
-k4NjcyMTMsMTEzMjAyMTgxMyw4MTIzMzU2MzQsLTE2NzI3OTYy
-NTcsMjE0NzIwMDM1OCw3NTU2NTEwODcsLTU4ODk0ODA5MCwtMT
-c4OTE0MjU2NiwtMTc3MTY0MjI0MCw3NTU4NTg4ODQsNzA3ODMy
-NzI4LC04NTQ5MTg1NDAsLTE4MzA0NTQ3ODAsMTgwMzM1NTcxOS
-wtMTAyODI2Mjg1Niw1NjYyMDkyMDcsODA1NjY2MTE5LDk1MjQw
-MjYzXX0=
+eyJoaXN0b3J5IjpbMTA5NDg4MzQxMiwtNDc3MzA0MDE3LC0xOT
+Q5ODY3MjEzLDExMzIwMjE4MTMsODEyMzM1NjM0LC0xNjcyNzk2
+MjU3LDIxNDcyMDAzNTgsNzU1NjUxMDg3LC01ODg5NDgwOTAsLT
+E3ODkxNDI1NjYsLTE3NzE2NDIyNDAsNzU1ODU4ODg0LDcwNzgz
+MjcyOCwtODU0OTE4NTQwLC0xODMwNDU0NzgwLDE4MDMzNTU3MT
+ksLTEwMjgyNjI4NTYsNTY2MjA5MjA3LDgwNTY2NjExOSw5NTI0
+MDI2M119
 -->
