@@ -371,9 +371,16 @@ View created.
 ```
 Una vez hecho esto, comprobaremos si los datos de la vista creada son los correctos
 ```
+SQL> select * from view1;
 
+    DEPTNO DNAME          LOC
+---------- -------------- -------------
+        10 ACCOUNTING     NEW YORK
+        20 RESEARCH       DALLAS
+        30 SALES          CHICAGO
+        40 OPERATIONS     BOSTON
 ```
-
+_Efectivamente, la_
 
 
 
@@ -780,7 +787,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MjI1MDcxMSwxMTMyMDIxODEzLDgxMj
+eyJoaXN0b3J5IjpbMjEwMTE2MTI2NiwxMTMyMDIxODEzLDgxMj
 MzNTYzNCwtMTY3Mjc5NjI1NywyMTQ3MjAwMzU4LDc1NTY1MTA4
 NywtNTg4OTQ4MDkwLC0xNzg5MTQyNTY2LC0xNzcxNjQyMjQwLD
 c1NTg1ODg4NCw3MDc4MzI3MjgsLTg1NDkxODU0MCwtMTgzMDQ1
