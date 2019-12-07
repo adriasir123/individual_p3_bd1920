@@ -384,7 +384,8 @@ _Efectivamente, la vista se ha creado con los datos correctos_
 
 * Por último, vamos a probar si podemos insertar registros en la tabla EMP de SCOTT
 ```
-
+INSERT INTO EMP (EMPNO, ENAME) 
+VALUES (8000, 'PAQUITO');
 ```
 
 
@@ -797,11 +798,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NzMwNDAxNywtMTk0OTg2NzIxMywxMT
-MyMDIxODEzLDgxMjMzNTYzNCwtMTY3Mjc5NjI1NywyMTQ3MjAw
-MzU4LDc1NTY1MTA4NywtNTg4OTQ4MDkwLC0xNzg5MTQyNTY2LC
-0xNzcxNjQyMjQwLDc1NTg1ODg4NCw3MDc4MzI3MjgsLTg1NDkx
-ODU0MCwtMTgzMDQ1NDc4MCwxODAzMzU1NzE5LC0xMDI4MjYyOD
-U2LDU2NjIwOTIwNyw4MDU2NjYxMTksOTUyNDAyNjMsLTE5MTY1
-Mzc0NDFdfQ==
+eyJoaXN0b3J5IjpbNTE0NDM3MjcxLC00NzczMDQwMTcsLTE5ND
+k4NjcyMTMsMTEzMjAyMTgxMyw4MTIzMzU2MzQsLTE2NzI3OTYy
+NTcsMjE0NzIwMDM1OCw3NTU2NTEwODcsLTU4ODk0ODA5MCwtMT
+c4OTE0MjU2NiwtMTc3MTY0MjI0MCw3NTU4NTg4ODQsNzA3ODMy
+NzI4LC04NTQ5MTg1NDAsLTE4MzA0NTQ3ODAsMTgwMzM1NTcxOS
+wtMTAyODI2Mjg1Niw1NjYyMDkyMDcsODA1NjY2MTE5LDk1MjQw
+MjYzXX0=
 -->
