@@ -848,7 +848,8 @@ Realiza un procedimiento que reciba un nombre de usuario y un privilegio de sist
 ## Ejercicio 25
 ### Enunciado
 
-Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de usuario y muestre el número de sesiones concurrentes que puede tener abiertas como máximo y las que tiene abiertas realmente.
+Realiza un procedimiento llamado _MostrarNumSesiones_ que:
+reciba un nombre de usuario y muestre el número de sesiones concurrentes que puede tener abiertas como máximo y las que tiene abiertas realmente.
 
 
 ### Realización
@@ -864,11 +865,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3OTM0NjUyLDEyOTMxNjU3NTEsMTY1Mz
-IxODI3OSwzNzc3NDkxNTEsMTg3NzgxMjA4MCwxNDIwNDQ4NjEs
-LTExODgzMzAzMjQsOTczNjI1Niw4NDgzNzY0NjAsLTY4MDc5OD
-g4OSwxNjIzNDE5MzQ5LC00NzczMDQwMTcsLTE5NDk4NjcyMTMs
-MTEzMjAyMTgxMyw4MTIzMzU2MzQsLTE2NzI3OTYyNTcsMjE0Nz
-IwMDM1OCw3NTU2NTEwODcsLTU4ODk0ODA5MCwtMTc4OTE0MjU2
-Nl19
+eyJoaXN0b3J5IjpbMTY1MDA5ODc2OCw5Nzc5MzQ2NTIsMTI5Mz
+E2NTc1MSwxNjUzMjE4Mjc5LDM3Nzc0OTE1MSwxODc3ODEyMDgw
+LDE0MjA0NDg2MSwtMTE4ODMzMDMyNCw5NzM2MjU2LDg0ODM3Nj
+Q2MCwtNjgwNzk4ODg5LDE2MjM0MTkzNDksLTQ3NzMwNDAxNywt
+MTk0OTg2NzIxMywxMTMyMDIxODEzLDgxMjMzNTYzNCwtMTY3Mj
+c5NjI1NywyMTQ3MjAwMzU4LDc1NTY1MTA4NywtNTg4OTQ4MDkw
+XX0=
 -->
