@@ -189,9 +189,16 @@ Comprobamos si puede modificar la estructura o eliminar las tablas creadas.
 grant create any table to USRPRACTICA1;
 grant insert any table to USRPRACTICA1;
 ```
-* Para probar los privilegios
+* Para probar los privilegios, en mi caso por ejemplo he creado 
 
 
+
+
+
+* Modificar la estructura...
+```
+ALTER TABLE table_name DROP COLUMN column_name;
+```
 
 
 
@@ -635,11 +642,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY2MjA5MjA3LDgwNTY2NjExOSw5NTI0MD
-I2MywtMTkxNjUzNzQ0MSwzMjE5ODEyOCwtMTQ4MDA5MjkwOSwt
-MjEwNjQzNjY3MywxODI2OTkzMjg1LDEyNDgzMDMxNjEsNTc0ND
-g1MDEzLDU4NjU3ODk3MywtMTIxNjg4NjAwMCw5NDA0MjIzNjIs
-LTEwMTcyNzg2NjQsLTE1NzQwNzY3LDk4NzY1NDg2NSwtOTE1OT
-I1MDY0LDEzODU4ODIwMjEsLTY5MTM2MzE3MiwxOTYzOTY0OTQy
-XX0=
+eyJoaXN0b3J5IjpbLTEwNTg2ODcyNzEsNTY2MjA5MjA3LDgwNT
+Y2NjExOSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMjE5ODEyOCwt
+MTQ4MDA5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkzMjg1LDEyND
+gzMDMxNjEsNTc0NDg1MDEzLDU4NjU3ODk3MywtMTIxNjg4NjAw
+MCw5NDA0MjIzNjIsLTEwMTcyNzg2NjQsLTE1NzQwNzY3LDk4Nz
+Y1NDg2NSwtOTE1OTI1MDY0LDEzODU4ODIwMjEsLTY5MTM2MzE3
+Ml19
 -->
