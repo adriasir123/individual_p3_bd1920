@@ -332,10 +332,16 @@ grant create table to ROLPRACTICA1;
 grant create view to ROLPRACTICA1;
 grant insert on scott.emp to ROLPRACTICA1;
 ```
-Así que, vamos a probar cada una de estas acciones
+Así que, vamos a probar cada una de estas acciones con USRPRACTICA1
 
-* Creamos 
-
+* Abrimos conexión
+```
+connect usrpractica1;
+```
+```
+Introduzca la contrase±a:
+Conectado.
+```
 
 
 
@@ -743,7 +749,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2Mzg3NDkyNiw4MTIzMzU2MzQsLTE2Nz
+eyJoaXN0b3J5IjpbLTg0NzYxMjgxNCw4MTIzMzU2MzQsLTE2Nz
 I3OTYyNTcsMjE0NzIwMDM1OCw3NTU2NTEwODcsLTU4ODk0ODA5
 MCwtMTc4OTE0MjU2NiwtMTc3MTY0MjI0MCw3NTU4NTg4ODQsNz
 A3ODMyNzI4LC04NTQ5MTg1NDAsLTE4MzA0NTQ3ODAsMTgwMzM1
