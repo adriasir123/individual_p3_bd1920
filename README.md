@@ -284,7 +284,7 @@ select * from scott.dept;
         40 OPERATIONS     BOSTON
 ```
 _Ha funcionado correctamente_
-* Lo siguiente que vamos a probar es si USRPRACTICA1 puede pasarle este permiso a USRPRACTICA2. Y claramente, tendremos que probar si éste último puede hacer la misma consulta que hizo USRPRACTICA1
+* Lo siguiente que vamos a probar es si USRPRACTICA1 puede pasarle este permiso a USRPRACTICA2. Y claramente, tendremos que probar si éste último puede hacer la misma consulta que hizo USRPRACTICA1.
 Le pasamos el permiso
 ```
 grant read on scott.dept to USRPRACTICA2;
@@ -292,7 +292,7 @@ grant read on scott.dept to USRPRACTICA2;
 ```
 Grant succeeded.
 ```
-> Como vemos le he pasado el permiso de manera "normal". Es decir, no tiene el "with grant option", por lo tanto USRPRACTICA2 no podría pasar este privilegio a terceros. 
+> Como vemos, le he pasado el permiso de manera "normal". Es decir, no tiene el "with grant option", por lo tanto USRPRACTICA2 no podría pasar este privilegio a terceros. 
 > Aún así, se podría perfectamente pasar el permiso con "with grant option", dándo esa posibilidad extra para pasarlo a terceros.
 
 Bien, el primero paso ha funcionado. Ahora veamos si podemos realmente leer la tabla desde USRPRACTICA2
@@ -737,7 +737,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjkxMzExNSwyMTQ3MjAwMzU4LDc1NT
+eyJoaXN0b3J5IjpbMTc0MTA0MzAwNSwyMTQ3MjAwMzU4LDc1NT
 Y1MTA4NywtNTg4OTQ4MDkwLC0xNzg5MTQyNTY2LC0xNzcxNjQy
 MjQwLDc1NTg1ODg4NCw3MDc4MzI3MjgsLTg1NDkxODU0MCwtMT
 gzMDQ1NDc4MCwxODAzMzU1NzE5LC0xMDI4MjYyODU2LDU2NjIw
