@@ -225,7 +225,7 @@ select * from usrpractica2.emp;
 ```
 _Tanto los campos de la tabla como el registro añadido son correctos, así que todo los pasos de realizaron correctamente_
 
-* Para terminar, tendremos que comprobar si USRPRACTICA1 Modificar la estructura...
+* Para terminar, tendremos que comprobar si USRPRACTICA1 puede modificar la estructura de la tabla que acaba de crear, por ejemplo. Para llevar a cabo esta acción, serviría el eliminar una columna 
 ```
 ALTER TABLE table_name DROP COLUMN column_name;
 ```
@@ -672,11 +672,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTA4NjM2NTcsLTg1NDkxODU0MCwtMT
-gzMDQ1NDc4MCwxODAzMzU1NzE5LC0xMDI4MjYyODU2LDU2NjIw
-OTIwNyw4MDU2NjYxMTksOTUyNDAyNjMsLTE5MTY1Mzc0NDEsMz
-IxOTgxMjgsLTE0ODAwOTI5MDksLTIxMDY0MzY2NzMsMTgyNjk5
-MzI4NSwxMjQ4MzAzMTYxLDU3NDQ4NTAxMyw1ODY1Nzg5NzMsLT
-EyMTY4ODYwMDAsOTQwNDIyMzYyLC0xMDE3Mjc4NjY0LC0xNTc0
-MDc2N119
+eyJoaXN0b3J5IjpbMzI3MzgzMjgsLTg1NDkxODU0MCwtMTgzMD
+Q1NDc4MCwxODAzMzU1NzE5LC0xMDI4MjYyODU2LDU2NjIwOTIw
+Nyw4MDU2NjYxMTksOTUyNDAyNjMsLTE5MTY1Mzc0NDEsMzIxOT
+gxMjgsLTE0ODAwOTI5MDksLTIxMDY0MzY2NzMsMTgyNjk5MzI4
+NSwxMjQ4MzAzMTYxLDU3NDQ4NTAxMyw1ODY1Nzg5NzMsLTEyMT
+Y4ODYwMDAsOTQwNDIyMzYyLC0xMDE3Mjc4NjY0LC0xNTc0MDc2
+N119
 -->
