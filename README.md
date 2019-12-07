@@ -285,7 +285,10 @@ select * from scott.dept;
 ```
 _Ha funcionado correctamente_
 * Lo siguiente que vamos a probar es si USRPRACTICA1 puede pasarle este permiso a USRPRACTICA2. Y claramente, tendremos que probar si éste último puede hacer la misma consulta que hizo USRPRACTICA1
-
+Le pasamos el permiso
+```
+grant read on scott.dept to USRPRACTICA2;
+```
 
 
 
@@ -709,7 +712,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODU5NDA5NSwtNTg4OTQ4MDkwLC0xNz
+eyJoaXN0b3J5IjpbMTgyNzQ4NDI3MCwtNTg4OTQ4MDkwLC0xNz
 g5MTQyNTY2LC0xNzcxNjQyMjQwLDc1NTg1ODg4NCw3MDc4MzI3
 MjgsLTg1NDkxODU0MCwtMTgzMDQ1NDc4MCwxODAzMzU1NzE5LC
 0xMDI4MjYyODU2LDU2NjIwOTIwNyw4MDU2NjYxMTksOTUyNDAy
