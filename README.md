@@ -472,15 +472,12 @@ Profile created.
 ```
 * Listamos el perfil para comprobar que se creó correctamente
 ```
-select distinct profile, limit
+select *
 	from DBA_PROFILES
 	where profile = 'NOPARESDECURRAR';
 ```
 ```
-PROFILE                                                                                                                  LIMIT
--------------------------------------------------------------------------------------------------------------------------------- -----
-NOPARESDECURRAR                                                                                                          2
-NOPARESDECURRAR                                                                                                          DEFAULT
+
 ```
 _Vemos que el perfil se ha creado correctamente, y que además oracle, aunque no se lo indiquemos, añade unos límites por defecto por perfil creado_
 
@@ -917,11 +914,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMzU5NTc1NiwyNzYwMzY2ODgsLTY3Nz
-I3MjcxMCwtMTI4MDA2OTMyOCwxMDUyODMzNDA1LC02NDA3Mzgw
-NzUsLTM1OTM1NTY5OCw0MzUxODU0MCwtODM0ODQyODI3LDk3Nz
-kzNDY1MiwxMjkzMTY1NzUxLDE2NTMyMTgyNzksMzc3NzQ5MTUx
-LDE4Nzc4MTIwODAsMTQyMDQ0ODYxLC0xMTg4MzMwMzI0LDk3Mz
-YyNTYsODQ4Mzc2NDYwLC02ODA3OTg4ODksMTYyMzQxOTM0OV19
+eyJoaXN0b3J5IjpbOTY2MTA5MzM2LDEyMjM1OTU3NTYsMjc2MD
+M2Njg4LC02NzcyNzI3MTAsLTEyODAwNjkzMjgsMTA1MjgzMzQw
+NSwtNjQwNzM4MDc1LC0zNTkzNTU2OTgsNDM1MTg1NDAsLTgzND
+g0MjgyNyw5Nzc5MzQ2NTIsMTI5MzE2NTc1MSwxNjUzMjE4Mjc5
+LDM3Nzc0OTE1MSwxODc3ODEyMDgwLDE0MjA0NDg2MSwtMTE4OD
+MzMDMyNCw5NzM2MjU2LDg0ODM3NjQ2MCwtNjgwNzk4ODg5XX0=
 
 -->
