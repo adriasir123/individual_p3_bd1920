@@ -360,7 +360,7 @@ Table created.
 ```
 _La tabla se creó correctamente_
 
-* Creamos una vista. Ya que previamente le habíamos dado permiso de lectura al USRPRACTICA1 sobre la table DEPT de SCOTT, aprovecharemos esta información para crearla
+* Creamos una vista. Ya que previamente le habíamos dado permiso de lectura a USRPRACTICA1 sobre la tabla DEPT de SCOTT, aprovecharemos esta información para crearla
 ```
 CREATE VIEW view1 AS
   SELECT *
@@ -820,11 +820,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NDUxMjI0NywxODc3ODEyMDgwLDE0Mj
-A0NDg2MSwtMTE4ODMzMDMyNCw5NzM2MjU2LDg0ODM3NjQ2MCwt
-NjgwNzk4ODg5LDE2MjM0MTkzNDksLTQ3NzMwNDAxNywtMTk0OT
-g2NzIxMywxMTMyMDIxODEzLDgxMjMzNTYzNCwtMTY3Mjc5NjI1
-NywyMTQ3MjAwMzU4LDc1NTY1MTA4NywtNTg4OTQ4MDkwLC0xNz
-g5MTQyNTY2LC0xNzcxNjQyMjQwLDc1NTg1ODg4NCw3MDc4MzI3
-MjhdfQ==
+eyJoaXN0b3J5IjpbMzc3NzQ5MTUxLDE4Nzc4MTIwODAsMTQyMD
+Q0ODYxLC0xMTg4MzMwMzI0LDk3MzYyNTYsODQ4Mzc2NDYwLC02
+ODA3OTg4ODksMTYyMzQxOTM0OSwtNDc3MzA0MDE3LC0xOTQ5OD
+Y3MjEzLDExMzIwMjE4MTMsODEyMzM1NjM0LC0xNjcyNzk2MjU3
+LDIxNDcyMDAzNTgsNzU1NjUxMDg3LC01ODg5NDgwOTAsLTE3OD
+kxNDI1NjYsLTE3NzE2NDIyNDAsNzU1ODU4ODg0LDcwNzgzMjcy
+OF19
 -->
