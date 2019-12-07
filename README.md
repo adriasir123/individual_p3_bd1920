@@ -896,12 +896,13 @@ END;
 EXEC MostrarNumSesiones (‘nombre_usuario’);
 ```
 
-
+### Prueba de funcionamiento
+Para probarlo, abriré 2 ventanas de SQL*PLUS con la sesión inicia
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5ODg5NzY2LC0zNTkzNTU2OTgsNDM1MT
+eyJoaXN0b3J5IjpbODY2ODAyNzIyLC0zNTkzNTU2OTgsNDM1MT
 g1NDAsLTgzNDg0MjgyNyw5Nzc5MzQ2NTIsMTI5MzE2NTc1MSwx
 NjUzMjE4Mjc5LDM3Nzc0OTE1MSwxODc3ODEyMDgwLDE0MjA0ND
 g2MSwtMTE4ODMzMDMyNCw5NzM2MjU2LDg0ODM3NjQ2MCwtNjgw
