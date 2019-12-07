@@ -850,7 +850,7 @@ Realiza un procedimiento que reciba un nombre de usuario y un privilegio de sist
 
 Realiza un procedimiento llamado _MostrarNumSesiones_ que:
 * Reciba un nombre de usuario como parámetro
-* Muestre el número de sesiones concurrentes que puede tener abiertas como máximo y las que tiene abiertas realmente.
+* Muestre el número de sesiones concurrentes que puede tener abiertas como máximo y las que tiene abiertas realmente
 
 
 ### Realización
@@ -866,11 +866,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MTcyMDA1OCwtODM0ODQyODI3LDk3Nz
-kzNDY1MiwxMjkzMTY1NzUxLDE2NTMyMTgyNzksMzc3NzQ5MTUx
-LDE4Nzc4MTIwODAsMTQyMDQ0ODYxLC0xMTg4MzMwMzI0LDk3Mz
-YyNTYsODQ4Mzc2NDYwLC02ODA3OTg4ODksMTYyMzQxOTM0OSwt
-NDc3MzA0MDE3LC0xOTQ5ODY3MjEzLDExMzIwMjE4MTMsODEyMz
-M1NjM0LC0xNjcyNzk2MjU3LDIxNDcyMDAzNTgsNzU1NjUxMDg3
-XX0=
+eyJoaXN0b3J5IjpbNDM1MTg1NDAsLTgzNDg0MjgyNyw5Nzc5Mz
+Q2NTIsMTI5MzE2NTc1MSwxNjUzMjE4Mjc5LDM3Nzc0OTE1MSwx
+ODc3ODEyMDgwLDE0MjA0NDg2MSwtMTE4ODMzMDMyNCw5NzM2Mj
+U2LDg0ODM3NjQ2MCwtNjgwNzk4ODg5LDE2MjM0MTkzNDksLTQ3
+NzMwNDAxNywtMTk0OTg2NzIxMywxMTMyMDIxODEzLDgxMjMzNT
+YzNCwtMTY3Mjc5NjI1NywyMTQ3MjAwMzU4LDc1NTY1MTA4N119
+
 -->
