@@ -530,7 +530,7 @@ Como podemos ver el "resource_limit" está activado, y a partir de ahora los per
 Asigna el perfil creado a USRPRACTICA1 y comprueba su correcto funcionamiento.
 
 ### Realización
-
+* Asignamos el perfil
 ```
 ALTER USER USRPRACTICA1 PROFILE NOPARESDECURRAR;
 ```
@@ -912,11 +912,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODAwNjkzMjgsMTA1MjgzMzQwNSwtNj
-QwNzM4MDc1LC0zNTkzNTU2OTgsNDM1MTg1NDAsLTgzNDg0Mjgy
-Nyw5Nzc5MzQ2NTIsMTI5MzE2NTc1MSwxNjUzMjE4Mjc5LDM3Nz
-c0OTE1MSwxODc3ODEyMDgwLDE0MjA0NDg2MSwtMTE4ODMzMDMy
-NCw5NzM2MjU2LDg0ODM3NjQ2MCwtNjgwNzk4ODg5LDE2MjM0MT
-kzNDksLTQ3NzMwNDAxNywtMTk0OTg2NzIxMywxMTMyMDIxODEz
-XX0=
+eyJoaXN0b3J5IjpbOTc2MjIzMTQ1LC0xMjgwMDY5MzI4LDEwNT
+I4MzM0MDUsLTY0MDczODA3NSwtMzU5MzU1Njk4LDQzNTE4NTQw
+LC04MzQ4NDI4MjcsOTc3OTM0NjUyLDEyOTMxNjU3NTEsMTY1Mz
+IxODI3OSwzNzc3NDkxNTEsMTg3NzgxMjA4MCwxNDIwNDQ4NjEs
+LTExODgzMzAzMjQsOTczNjI1Niw4NDgzNzY0NjAsLTY4MDc5OD
+g4OSwxNjIzNDE5MzQ5LC00NzczMDQwMTcsLTE5NDk4NjcyMTNd
+fQ==
 -->
