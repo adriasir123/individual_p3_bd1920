@@ -499,7 +499,7 @@ NOPARESDECURRAR                                                                 
 
 17 rows selected.
 ```
-_Vemos que el perfil se ha creado correctamente, y que además oracle, aunque no se lo indiquemos, añade unos límites por defecto por perfil creado_
+_Vemos que el perfil se ha creado correctamente, y que además oracle, aunque NO se lo indiquemos, añade unos límites por defecto por perfil creado_
 
 
 
@@ -934,7 +934,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDA5MDI3OCwxMjIzNTk1NzU2LDI3Nj
+eyJoaXN0b3J5IjpbMTA4NjU1NjI1MCwxMjIzNTk1NzU2LDI3Nj
 AzNjY4OCwtNjc3MjcyNzEwLC0xMjgwMDY5MzI4LDEwNTI4MzM0
 MDUsLTY0MDczODA3NSwtMzU5MzU1Njk4LDQzNTE4NTQwLC04Mz
 Q4NDI4MjcsOTc3OTM0NjUyLDEyOTMxNjU3NTEsMTY1MzIxODI3
