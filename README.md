@@ -284,7 +284,8 @@ select * from scott.dept;
         40 OPERATIONS     BOSTON
 ```
 _Ha funcionado correctamente_
-* Lo siguiente que vamos a probar es a 
+* Lo siguiente que vamos a probar es si USRPRACTICA1 puede pasarle este permiso a USRPRACTICA2. Y claramente, tendremos que probar si éste último puede hacer la misma consulta que hizo USRPRACTICA1
+
 
 
 
@@ -708,11 +709,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODM0NzMyMTAsLTU4ODk0ODA5MCwtMT
-c4OTE0MjU2NiwtMTc3MTY0MjI0MCw3NTU4NTg4ODQsNzA3ODMy
-NzI4LC04NTQ5MTg1NDAsLTE4MzA0NTQ3ODAsMTgwMzM1NTcxOS
-wtMTAyODI2Mjg1Niw1NjYyMDkyMDcsODA1NjY2MTE5LDk1MjQw
-MjYzLC0xOTE2NTM3NDQxLDMyMTk4MTI4LC0xNDgwMDkyOTA5LC
-0yMTA2NDM2NjczLDE4MjY5OTMyODUsMTI0ODMwMzE2MSw1NzQ0
-ODUwMTNdfQ==
+eyJoaXN0b3J5IjpbLTE3ODU5NDA5NSwtNTg4OTQ4MDkwLC0xNz
+g5MTQyNTY2LC0xNzcxNjQyMjQwLDc1NTg1ODg4NCw3MDc4MzI3
+MjgsLTg1NDkxODU0MCwtMTgzMDQ1NDc4MCwxODAzMzU1NzE5LC
+0xMDI4MjYyODU2LDU2NjIwOTIwNyw4MDU2NjYxMTksOTUyNDAy
+NjMsLTE5MTY1Mzc0NDEsMzIxOTgxMjgsLTE0ODAwOTI5MDksLT
+IxMDY0MzY2NzMsMTgyNjk5MzI4NSwxMjQ4MzAzMTYxLDU3NDQ4
+NTAxM119
 -->
