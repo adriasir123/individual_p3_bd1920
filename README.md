@@ -342,6 +342,15 @@ connect usrpractica1;
 Introduzca la contrase±a:
 Conectado.
 ```
+_Esto es lo que se muestra cuando hemos conseguido abrir una conexión correctamente_
+* Creamos una tabla
+```
+
+```
+
+
+
+
 
 
 
@@ -749,11 +758,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzYxMjgxNCw4MTIzMzU2MzQsLTE2Nz
-I3OTYyNTcsMjE0NzIwMDM1OCw3NTU2NTEwODcsLTU4ODk0ODA5
-MCwtMTc4OTE0MjU2NiwtMTc3MTY0MjI0MCw3NTU4NTg4ODQsNz
-A3ODMyNzI4LC04NTQ5MTg1NDAsLTE4MzA0NTQ3ODAsMTgwMzM1
-NTcxOSwtMTAyODI2Mjg1Niw1NjYyMDkyMDcsODA1NjY2MTE5LD
-k1MjQwMjYzLC0xOTE2NTM3NDQxLDMyMTk4MTI4LC0xNDgwMDky
-OTA5XX0=
+eyJoaXN0b3J5IjpbLTIwMDIxMjEwMzUsODEyMzM1NjM0LC0xNj
+cyNzk2MjU3LDIxNDcyMDAzNTgsNzU1NjUxMDg3LC01ODg5NDgw
+OTAsLTE3ODkxNDI1NjYsLTE3NzE2NDIyNDAsNzU1ODU4ODg0LD
+cwNzgzMjcyOCwtODU0OTE4NTQwLC0xODMwNDU0NzgwLDE4MDMz
+NTU3MTksLTEwMjgyNjI4NTYsNTY2MjA5MjA3LDgwNTY2NjExOS
+w5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMjE5ODEyOCwtMTQ4MDA5
+MjkwOV19
 -->
