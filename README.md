@@ -294,9 +294,25 @@ Grant succeeded.
 ```
 Bien, el primero paso ha funcionado. Ahora veamos si podemos realmente leer la tabla desde USRPRACTICA2
 ```
+SQL> connect usrpractica2;
+Introduzca la contrase±a:
+Conectado.
+SQL> ALTER SESSION SET NLS_LANGUAGE=ENGLISH;
 
+Session altered.
+
+SQL> select * from scott.dept;
+
+    DEPTNO DNAME          LOC
+---------- -------------- -------------
+        10 ACCOUNTING     NEW YORK
+        20 RESEARCH       DALLAS
+        30 SALES          CHICAGO
+        40 OPERATIONS     BOSTON
+
+SQL>
 ```
-
+_Como podemos comprobar, ha funcionado correctamente._
 
 
 
@@ -718,11 +734,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1NjUxMDg3LC01ODg5NDgwOTAsLTE3OD
-kxNDI1NjYsLTE3NzE2NDIyNDAsNzU1ODU4ODg0LDcwNzgzMjcy
-OCwtODU0OTE4NTQwLC0xODMwNDU0NzgwLDE4MDMzNTU3MTksLT
-EwMjgyNjI4NTYsNTY2MjA5MjA3LDgwNTY2NjExOSw5NTI0MDI2
-MywtMTkxNjUzNzQ0MSwzMjE5ODEyOCwtMTQ4MDA5MjkwOSwtMj
-EwNjQzNjY3MywxODI2OTkzMjg1LDEyNDgzMDMxNjEsNTc0NDg1
-MDEzXX0=
+eyJoaXN0b3J5IjpbOTY0OTc1MTE2LDc1NTY1MTA4NywtNTg4OT
+Q4MDkwLC0xNzg5MTQyNTY2LC0xNzcxNjQyMjQwLDc1NTg1ODg4
+NCw3MDc4MzI3MjgsLTg1NDkxODU0MCwtMTgzMDQ1NDc4MCwxOD
+AzMzU1NzE5LC0xMDI4MjYyODU2LDU2NjIwOTIwNyw4MDU2NjYx
+MTksOTUyNDAyNjMsLTE5MTY1Mzc0NDEsMzIxOTgxMjgsLTE0OD
+AwOTI5MDksLTIxMDY0MzY2NzMsMTgyNjk5MzI4NSwxMjQ4MzAz
+MTYxXX0=
 -->
