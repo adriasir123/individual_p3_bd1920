@@ -292,6 +292,9 @@ grant read on scott.dept to USRPRACTICA2;
 ```
 Grant succeeded.
 ```
+> Como vemos le he pasado el permiso de manera "normal". Es decir, no tiene el "with grant option", por lo tanto USRPRACTICA2 no podría pasar este privilegio a terceros. 
+> Aún así, se 
+
 Bien, el primero paso ha funcionado. Ahora veamos si podemos realmente leer la tabla desde USRPRACTICA2
 ```
 SQL> connect usrpractica2;
@@ -734,11 +737,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NzIwMDM1OCw3NTU2NTEwODcsLTU4OD
-k0ODA5MCwtMTc4OTE0MjU2NiwtMTc3MTY0MjI0MCw3NTU4NTg4
-ODQsNzA3ODMyNzI4LC04NTQ5MTg1NDAsLTE4MzA0NTQ3ODAsMT
-gwMzM1NTcxOSwtMTAyODI2Mjg1Niw1NjYyMDkyMDcsODA1NjY2
-MTE5LDk1MjQwMjYzLC0xOTE2NTM3NDQxLDMyMTk4MTI4LC0xND
-gwMDkyOTA5LC0yMTA2NDM2NjczLDE4MjY5OTMyODUsMTI0ODMw
-MzE2MV19
+eyJoaXN0b3J5IjpbLTIxMDI0MTczMjAsMjE0NzIwMDM1OCw3NT
+U2NTEwODcsLTU4ODk0ODA5MCwtMTc4OTE0MjU2NiwtMTc3MTY0
+MjI0MCw3NTU4NTg4ODQsNzA3ODMyNzI4LC04NTQ5MTg1NDAsLT
+E4MzA0NTQ3ODAsMTgwMzM1NTcxOSwtMTAyODI2Mjg1Niw1NjYy
+MDkyMDcsODA1NjY2MTE5LDk1MjQwMjYzLC0xOTE2NTM3NDQxLD
+MyMTk4MTI4LC0xNDgwMDkyOTA5LC0yMTA2NDM2NjczLDE4MjY5
+OTMyODVdfQ==
 -->
