@@ -213,7 +213,7 @@ DEPTNO NUMBER(2));
 INSERT INTO USRPRACTICA2.EMP (empno, ename)
 VALUES (1, 'paco');
 ```
-
+Para c
 
 
 
@@ -665,7 +665,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxODY0NzU5MywtODU0OTE4NTQwLC0xOD
+eyJoaXN0b3J5IjpbLTg2NTMzMzU4OCwtODU0OTE4NTQwLC0xOD
 MwNDU0NzgwLDE4MDMzNTU3MTksLTEwMjgyNjI4NTYsNTY2MjA5
 MjA3LDgwNTY2NjExOSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMj
 E5ODEyOCwtMTQ4MDA5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkz
