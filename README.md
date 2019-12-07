@@ -457,7 +457,7 @@ _Como vemos, ya no podemos crear vistas_
 
 
 
-## Ejercicio 9
+## Ejercicio 9 :heavy_check_mark:
 ### Enunciado
 
 Crea un perfil NOPARESDECURRAR, que limite a 2 el número de minutos de inactividad permitidos en una sesión
@@ -487,12 +487,15 @@ _Vemos que el perfil se ha creado correctamente, y que además oracle, aunque no
 
 
 
+
+
 ## Ejercicio 10
 ### Enunciado
 
 Activa el uso de perfiles en ORACLE
 
 ### Realización
+
 Profiles only take effect when resource limits are "turned on" for the database as a whole. 
 Es por eso, que debemos ejecutar:
 ```
@@ -848,11 +851,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTc5MjMxNSwxNjUzMjE4Mjc5LDM3Nz
-c0OTE1MSwxODc3ODEyMDgwLDE0MjA0NDg2MSwtMTE4ODMzMDMy
-NCw5NzM2MjU2LDg0ODM3NjQ2MCwtNjgwNzk4ODg5LDE2MjM0MT
-kzNDksLTQ3NzMwNDAxNywtMTk0OTg2NzIxMywxMTMyMDIxODEz
-LDgxMjMzNTYzNCwtMTY3Mjc5NjI1NywyMTQ3MjAwMzU4LDc1NT
-Y1MTA4NywtNTg4OTQ4MDkwLC0xNzg5MTQyNTY2LC0xNzcxNjQy
-MjQwXX0=
+eyJoaXN0b3J5IjpbNjM1MDk3MDc5LDE2NTMyMTgyNzksMzc3Nz
+Q5MTUxLDE4Nzc4MTIwODAsMTQyMDQ0ODYxLC0xMTg4MzMwMzI0
+LDk3MzYyNTYsODQ4Mzc2NDYwLC02ODA3OTg4ODksMTYyMzQxOT
+M0OSwtNDc3MzA0MDE3LC0xOTQ5ODY3MjEzLDExMzIwMjE4MTMs
+ODEyMzM1NjM0LC0xNjcyNzk2MjU3LDIxNDcyMDAzNTgsNzU1Nj
+UxMDg3LC01ODg5NDgwOTAsLTE3ODkxNDI1NjYsLTE3NzE2NDIy
+NDBdfQ==
 -->
