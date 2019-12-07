@@ -332,7 +332,7 @@ grant create table to ROLPRACTICA1;
 grant create view to ROLPRACTICA1;
 grant insert on scott.emp to ROLPRACTICA1;
 ```
-Así que, vamos a probar cada una de esas acciones
+Así que, vamos a probar cada una de estas acciones
 
 * asdsa
 
@@ -743,11 +743,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEyMzM1NjM0LC0xNjcyNzk2MjU3LDIxND
-cyMDAzNTgsNzU1NjUxMDg3LC01ODg5NDgwOTAsLTE3ODkxNDI1
-NjYsLTE3NzE2NDIyNDAsNzU1ODU4ODg0LDcwNzgzMjcyOCwtOD
-U0OTE4NTQwLC0xODMwNDU0NzgwLDE4MDMzNTU3MTksLTEwMjgy
-NjI4NTYsNTY2MjA5MjA3LDgwNTY2NjExOSw5NTI0MDI2MywtMT
-kxNjUzNzQ0MSwzMjE5ODEyOCwtMTQ4MDA5MjkwOSwtMjEwNjQz
-NjY3M119
+eyJoaXN0b3J5IjpbMzMzMTg5NzgwLDgxMjMzNTYzNCwtMTY3Mj
+c5NjI1NywyMTQ3MjAwMzU4LDc1NTY1MTA4NywtNTg4OTQ4MDkw
+LC0xNzg5MTQyNTY2LC0xNzcxNjQyMjQwLDc1NTg1ODg4NCw3MD
+c4MzI3MjgsLTg1NDkxODU0MCwtMTgzMDQ1NDc4MCwxODAzMzU1
+NzE5LC0xMDI4MjYyODU2LDU2NjIwOTIwNyw4MDU2NjYxMTksOT
+UyNDAyNjMsLTE5MTY1Mzc0NDEsMzIxOTgxMjgsLTE0ODAwOTI5
+MDldfQ==
 -->
