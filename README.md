@@ -472,7 +472,7 @@ Profile created.
 ```
 * Listamos el perfil para comprobar que se creó correctamente
 ```
-select *
+select profile, resource_name, resource_type, limit
 	from DBA_PROFILES
 	where profile = 'NOPARESDECURRAR';
 ```
@@ -914,7 +914,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2MTA5MzM2LDEyMjM1OTU3NTYsMjc2MD
+eyJoaXN0b3J5IjpbOTk0NDM0NjY5LDEyMjM1OTU3NTYsMjc2MD
 M2Njg4LC02NzcyNzI3MTAsLTEyODAwNjkzMjgsMTA1MjgzMzQw
 NSwtNjQwNzM4MDc1LC0zNTkzNTU2OTgsNDM1MTg1NDAsLTgzND
 g0MjgyNyw5Nzc5MzQ2NTIsMTI5MzE2NTc1MSwxNjUzMjE4Mjc5
