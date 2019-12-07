@@ -225,7 +225,7 @@ select * from usrpractica2.emp;
 ```
 _Tanto los campos de la tabla como el registro añadido son correctos, así que todo los pasos de realizaron correctamente_
 
-* Para terminar, tendremos que comprobar si USRPRACTICA1 puede modificar la estructura de la tabla que acaba de crear, por ejemplo. Para llevar a cabo esta acción, serviría el eliminar una columna de esa tabla, por lo que borraré la columna "JOB"
+* Para terminar, tendremos que comprobar si USRPRACTICA1 puede modificar la estructura de la tabla que acaba de crear, por ejemplo. Para llevar a cabo esta acción, serviría el eliminar una columna de esa tabla, por lo que intentaré borrar la columna "JOB"
 ```
 ALTER TABLE USRPRACTICA2.EMP DROP COLUMN JOB;
 ```
@@ -235,7 +235,7 @@ ALTER TABLE USRPRACTICA2.EMP DROP COLUMN JOB
 ERROR en lÝnea 1:
 ORA-01031: privilegios insuficientes
 ```
-
+_Evidentemente USRPRACTICA1 no puede realizar esta acción, ya que no tiene permisos de _
 
 
 
@@ -675,11 +675,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTMwNTk3OTEsLTg1NDkxODU0MCwtMT
-gzMDQ1NDc4MCwxODAzMzU1NzE5LC0xMDI4MjYyODU2LDU2NjIw
-OTIwNyw4MDU2NjYxMTksOTUyNDAyNjMsLTE5MTY1Mzc0NDEsMz
-IxOTgxMjgsLTE0ODAwOTI5MDksLTIxMDY0MzY2NzMsMTgyNjk5
-MzI4NSwxMjQ4MzAzMTYxLDU3NDQ4NTAxMyw1ODY1Nzg5NzMsLT
-EyMTY4ODYwMDAsOTQwNDIyMzYyLC0xMDE3Mjc4NjY0LC0xNTc0
-MDc2N119
+eyJoaXN0b3J5IjpbLTI4OTAyNTUzMywtODU0OTE4NTQwLC0xOD
+MwNDU0NzgwLDE4MDMzNTU3MTksLTEwMjgyNjI4NTYsNTY2MjA5
+MjA3LDgwNTY2NjExOSw5NTI0MDI2MywtMTkxNjUzNzQ0MSwzMj
+E5ODEyOCwtMTQ4MDA5MjkwOSwtMjEwNjQzNjY3MywxODI2OTkz
+Mjg1LDEyNDgzMDMxNjEsNTc0NDg1MDEzLDU4NjU3ODk3MywtMT
+IxNjg4NjAwMCw5NDA0MjIzNjIsLTEwMTcyNzg2NjQsLTE1NzQw
+NzY3XX0=
 -->
