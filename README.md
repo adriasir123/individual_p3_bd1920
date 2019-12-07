@@ -539,9 +539,9 @@ User altered.
 ```
 * Esperamos 2 minutos, y comprobamos que haya funcionado
 ```
-
+ORA-02396: ha excedido el tiempo mßximo de inactividad, vuelva a conectarse
 ```
-
+> NOTA IMPORTANTE: 
 
 
 
@@ -917,11 +917,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NzI3MjcxMCwtMTI4MDA2OTMyOCwxMD
-UyODMzNDA1LC02NDA3MzgwNzUsLTM1OTM1NTY5OCw0MzUxODU0
-MCwtODM0ODQyODI3LDk3NzkzNDY1MiwxMjkzMTY1NzUxLDE2NT
-MyMTgyNzksMzc3NzQ5MTUxLDE4Nzc4MTIwODAsMTQyMDQ0ODYx
-LC0xMTg4MzMwMzI0LDk3MzYyNTYsODQ4Mzc2NDYwLC02ODA3OT
-g4ODksMTYyMzQxOTM0OSwtNDc3MzA0MDE3LC0xOTQ5ODY3MjEz
-XX0=
+eyJoaXN0b3J5IjpbMTI3NDIxODgzNiwtNjc3MjcyNzEwLC0xMj
+gwMDY5MzI4LDEwNTI4MzM0MDUsLTY0MDczODA3NSwtMzU5MzU1
+Njk4LDQzNTE4NTQwLC04MzQ4NDI4MjcsOTc3OTM0NjUyLDEyOT
+MxNjU3NTEsMTY1MzIxODI3OSwzNzc3NDkxNTEsMTg3NzgxMjA4
+MCwxNDIwNDQ4NjEsLTExODgzMzAzMjQsOTczNjI1Niw4NDgzNz
+Y0NjAsLTY4MDc5ODg4OSwxNjIzNDE5MzQ5LC00NzczMDQwMTdd
+fQ==
 -->
