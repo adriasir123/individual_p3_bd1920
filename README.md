@@ -247,7 +247,7 @@ DROP TABLE usrpractica2.emp
 ERROR en lÝnea 1:
 ORA-01031: privilegios insuficientes
 ```
-De nuevo, volvemos a tener error de permisos. 
+De nuevo, volvemos a tener errores de permisos. Así que, ¿qué necesitariamos para poder borrar tablas en otros esquemas? 
 
 
 
@@ -683,11 +683,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3ODMyNzI4LC04NTQ5MTg1NDAsLTE4Mz
-A0NTQ3ODAsMTgwMzM1NTcxOSwtMTAyODI2Mjg1Niw1NjYyMDky
-MDcsODA1NjY2MTE5LDk1MjQwMjYzLC0xOTE2NTM3NDQxLDMyMT
-k4MTI4LC0xNDgwMDkyOTA5LC0yMTA2NDM2NjczLDE4MjY5OTMy
-ODUsMTI0ODMwMzE2MSw1NzQ0ODUwMTMsNTg2NTc4OTczLC0xMj
-E2ODg2MDAwLDk0MDQyMjM2MiwtMTAxNzI3ODY2NCwtMTU3NDA3
-NjddfQ==
+eyJoaXN0b3J5IjpbOTUwMDQwODA5LDcwNzgzMjcyOCwtODU0OT
+E4NTQwLC0xODMwNDU0NzgwLDE4MDMzNTU3MTksLTEwMjgyNjI4
+NTYsNTY2MjA5MjA3LDgwNTY2NjExOSw5NTI0MDI2MywtMTkxNj
+UzNzQ0MSwzMjE5ODEyOCwtMTQ4MDA5MjkwOSwtMjEwNjQzNjY3
+MywxODI2OTkzMjg1LDEyNDgzMDMxNjEsNTc0NDg1MDEzLDU4Nj
+U3ODk3MywtMTIxNjg4NjAwMCw5NDA0MjIzNjIsLTEwMTcyNzg2
+NjRdfQ==
 -->
