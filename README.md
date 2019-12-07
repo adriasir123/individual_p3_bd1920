@@ -524,7 +524,7 @@ Como podemos ver el "resource_limit" está activado, y a partir de ahora los per
 
 
 
-## Ejercicio 11
+## Ejercicio 11 :heavy_check_mark:
 ### Enunciado
 
 Asigna el perfil creado a USRPRACTICA1 y comprueba su correcto funcionamiento.
@@ -537,7 +537,7 @@ ALTER USER USRPRACTICA1 PROFILE NOPARESDECURRAR;
 ```
 User altered.
 ```
-* Esperamos 2 minutos, y comprobamos que ha funcionado
+* Esperamos 2 minutos, y comprobamos que haya funcionado
 ```
 
 ```
@@ -555,15 +555,14 @@ Crea un perfil CONTRASEÑASEGURA especificando que:
 
 
 ### Realización
-
+* Creamos el perfil
 ```
 CREATE PROFILE CONTRASEÑASEGURA LIMIT
 	PASSWORD_LIFE_TIME 30
 	FAILED_LOGIN_ATTEMPTS 4
-	PASSWORD_LOCK_TIME UNLIMITED
-;
+	PASSWORD_LOCK_TIME UNLIMITED;
 ```
-
+* Mostramos que se ha creado
 
 
 
@@ -918,7 +917,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDQ0Nzg1NCwtMTI4MDA2OTMyOCwxMD
+eyJoaXN0b3J5IjpbLTY3NzI3MjcxMCwtMTI4MDA2OTMyOCwxMD
 UyODMzNDA1LC02NDA3MzgwNzUsLTM1OTM1NTY5OCw0MzUxODU0
 MCwtODM0ODQyODI3LDk3NzkzNDY1MiwxMjkzMTY1NzUxLDE2NT
 MyMTgyNzksMzc3NzQ5MTUxLDE4Nzc4MTIwODAsMTQyMDQ0ODYx
