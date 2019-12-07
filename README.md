@@ -193,7 +193,7 @@ grant insert any table to USRPRACTICA1;
 ```
 create user USRPRACTICA2 identified by 1234 default tablespace users;  
 ```
-En el esquema de este usuario crearé una tabla simple, y le añadiré un registro
+En el esquema de este usuariocrearé una tabla simple, y le añadiré un registro
 ```
 
 ```
@@ -647,11 +647,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODgzNzk5MywtMTAyODI2Mjg1Niw1Nj
-YyMDkyMDcsODA1NjY2MTE5LDk1MjQwMjYzLC0xOTE2NTM3NDQx
-LDMyMTk4MTI4LC0xNDgwMDkyOTA5LC0yMTA2NDM2NjczLDE4Mj
-Y5OTMyODUsMTI0ODMwMzE2MSw1NzQ0ODUwMTMsNTg2NTc4OTcz
-LC0xMjE2ODg2MDAwLDk0MDQyMjM2MiwtMTAxNzI3ODY2NCwtMT
-U3NDA3NjcsOTg3NjU0ODY1LC05MTU5MjUwNjQsMTM4NTg4MjAy
-MV19
+eyJoaXN0b3J5IjpbMTA1MzEyMjE5LC0xMDI4MjYyODU2LDU2Nj
+IwOTIwNyw4MDU2NjYxMTksOTUyNDAyNjMsLTE5MTY1Mzc0NDEs
+MzIxOTgxMjgsLTE0ODAwOTI5MDksLTIxMDY0MzY2NzMsMTgyNj
+k5MzI4NSwxMjQ4MzAzMTYxLDU3NDQ4NTAxMyw1ODY1Nzg5NzMs
+LTEyMTY4ODYwMDAsOTQwNDIyMzYyLC0xMDE3Mjc4NjY0LC0xNT
+c0MDc2Nyw5ODc2NTQ4NjUsLTkxNTkyNTA2NCwxMzg1ODgyMDIx
+XX0=
 -->
