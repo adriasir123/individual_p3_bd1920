@@ -325,7 +325,7 @@ _Como podemos comprobar, ha funcionado correctamente. He mostrado el prompt comp
 Comprueba que USRPRACTICA1 puede realizar todas las operaciones previstas en el rol (nos referimos al rol que le dimos antes, ROLPRACTICA1)
 
 ### Realización
-_Recordatorio de lo que permitía hacer el ROLPRACTICA1_
+_Recordatorio de lo que permitía hacer ROLPRACTICA1_
 ```
 grant create session to ROLPRACTICA1;
 grant create table to ROLPRACTICA1;
@@ -355,6 +355,16 @@ SAL NUMBER(7, 2),
 COMM NUMBER(7, 2),
 DEPTNO NUMBER(2));
 ```
+```
+Table created.
+```
+_La tabla se creó correctamente_
+* Creamos una vista
+```
+
+```
+
+
 
 
 
@@ -766,7 +776,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTI4NTIyOSw4MTIzMzU2MzQsLTE2Nz
+eyJoaXN0b3J5IjpbMTkzODg5Njc3OSw4MTIzMzU2MzQsLTE2Nz
 I3OTYyNTcsMjE0NzIwMDM1OCw3NTU2NTEwODcsLTU4ODk0ODA5
 MCwtMTc4OTE0MjU2NiwtMTc3MTY0MjI0MCw3NTU4NTg4ODQsNz
 A3ODMyNzI4LC04NTQ5MTg1NDAsLTE4MzA0NTQ3ODAsMTgwMzM1
