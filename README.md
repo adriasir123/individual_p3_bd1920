@@ -596,9 +596,7 @@ Consulta qué usuarios existen en tu base de datos
 SELECT USERNAME
 FROM DBA_USERS;
 ```
-Su output
-
-
+Su output es el siguiente
 ```
 USERNAME
 -----------------------
@@ -642,6 +640,9 @@ SPATIAL_CSW_ADMIN_USR
 
 37 rows selected.
 ```
+_La consulta ha funcionado correctamente_
+
+
 
 
 ## Ejercicio 15
@@ -911,7 +912,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjUwNTIyNjUsMTA1MjgzMzQwNSwtNj
+eyJoaXN0b3J5IjpbLTEyODAwNjkzMjgsMTA1MjgzMzQwNSwtNj
 QwNzM4MDc1LC0zNTkzNTU2OTgsNDM1MTg1NDAsLTgzNDg0Mjgy
 Nyw5Nzc5MzQ2NTIsMTI5MzE2NTc1MSwxNjUzMjE4Mjc5LDM3Nz
 c0OTE1MSwxODc3ODEyMDgwLDE0MjA0NDg2MSwtMTE4ODMzMDMy
