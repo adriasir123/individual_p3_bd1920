@@ -319,7 +319,7 @@ _Como podemos comprobar, ha funcionado correctamente. He mostrado el prompt comp
 
 
 
-## Ejercicio 7
+## Ejercicio 7 :heavy_check_mark:
 ### Enunciado
 
 Comprueba que USRPRACTICA1 puede realizar todas las operaciones previstas en el rol (nos referimos al rol que le dimos antes, ROLPRACTICA1)
@@ -434,7 +434,7 @@ REVOKE CREATE VIEW FROM USRPRACTICA1;
 ```
 
 
-### Prueba de funcionamiento
+
 
 
 
@@ -820,11 +820,11 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3NzQ5MTUxLDE4Nzc4MTIwODAsMTQyMD
-Q0ODYxLC0xMTg4MzMwMzI0LDk3MzYyNTYsODQ4Mzc2NDYwLC02
-ODA3OTg4ODksMTYyMzQxOTM0OSwtNDc3MzA0MDE3LC0xOTQ5OD
-Y3MjEzLDExMzIwMjE4MTMsODEyMzM1NjM0LC0xNjcyNzk2MjU3
-LDIxNDcyMDAzNTgsNzU1NjUxMDg3LC01ODg5NDgwOTAsLTE3OD
-kxNDI1NjYsLTE3NzE2NDIyNDAsNzU1ODU4ODg0LDcwNzgzMjcy
-OF19
+eyJoaXN0b3J5IjpbMTY1MzIxODI3OSwzNzc3NDkxNTEsMTg3Nz
+gxMjA4MCwxNDIwNDQ4NjEsLTExODgzMzAzMjQsOTczNjI1Niw4
+NDgzNzY0NjAsLTY4MDc5ODg4OSwxNjIzNDE5MzQ5LC00NzczMD
+QwMTcsLTE5NDk4NjcyMTMsMTEzMjAyMTgxMyw4MTIzMzU2MzQs
+LTE2NzI3OTYyNTcsMjE0NzIwMDM1OCw3NTU2NTEwODcsLTU4OD
+k0ODA5MCwtMTc4OTE0MjU2NiwtMTc3MTY0MjI0MCw3NTU4NTg4
+ODRdfQ==
 -->
