@@ -858,20 +858,54 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que:
 ```
 set serveroutput on;
 ```
-* 
+* El código del procedimiento es el siguiente
+```
+CREATE OR REPLACE PROCEDURE MostrarNumSesiones (usuarioentrante IN VARCHAR2) 
+IS
+v_perfilsacado	VARCHAR2(30);
+v_limitmaxsesiones	VARCHAR2(40);
+v_numsesiones	NUMBER;
+
+BEGIN
+	-- Sacamos el perfil del usuario solicitado
+	SELECT PROFILE
+		INTO v_perfilsacado
+		FROM DBA_USERS
+		where username = usuarioentrante;
+
+	-- Sacamos el número máximo de sesiones permitidas para ese usuario
+	select limit
+		INTO v_limitmaxsesiones
+		from DBA_PROFILES
+		where profile = v_perfilsacado AND RESOURCE_NAME = 'SESSIONS_PER_USER';
+
+	-- Sacamos las sesiones abiertas por ese usuario actualmente
+	select count(username)
+		INTO v_numsesiones
+		from V$session
+		where username =usuarioentrante;
 
 
+	dbms_output.put_line('El usuario '|| usuarioentrante || ' tiene un límite de sesiones concurrentes permitidas de: ' || v_limitmaxsesiones);
+	dbms_output.put_line('Pero el número real de sesiones que tiene abiertas son: '|| v_numsesiones);
+END;
+/
+```
+* Como deberíamos ejecutar el procedimiento es así
+```
+EXEC MostrarNumSesiones (‘nombre_usuario’);
+```
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NzE0OTk2NiwtMzU5MzU1Njk4LDQzNT
-E4NTQwLC04MzQ4NDI4MjcsOTc3OTM0NjUyLDEyOTMxNjU3NTEs
-MTY1MzIxODI3OSwzNzc3NDkxNTEsMTg3NzgxMjA4MCwxNDIwND
-Q4NjEsLTExODgzMzAzMjQsOTczNjI1Niw4NDgzNzY0NjAsLTY4
-MDc5ODg4OSwxNjIzNDE5MzQ5LC00NzczMDQwMTcsLTE5NDk4Nj
-cyMTMsMTEzMjAyMTgxMyw4MTIzMzU2MzQsLTE2NzI3OTYyNTdd
-fQ==
+eyJoaXN0b3J5IjpbMjY5ODg5NzY2LC0zNTkzNTU2OTgsNDM1MT
+g1NDAsLTgzNDg0MjgyNyw5Nzc5MzQ2NTIsMTI5MzE2NTc1MSwx
+NjUzMjE4Mjc5LDM3Nzc0OTE1MSwxODc3ODEyMDgwLDE0MjA0ND
+g2MSwtMTE4ODMzMDMyNCw5NzM2MjU2LDg0ODM3NjQ2MCwtNjgw
+Nzk4ODg5LDE2MjM0MTkzNDksLTQ3NzMwNDAxNywtMTk0OTg2Nz
+IxMywxMTMyMDIxODEzLDgxMjMzNTYzNCwtMTY3Mjc5NjI1N119
+
 -->
