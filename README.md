@@ -421,13 +421,13 @@ _Ha aparecido el nuevo registro que le hemos añadido, por lo tanto ha funcionad
 
 
 
-## Ejercicio 8
+## Ejercicio 8 :heavy_check_mark:
 ### Enunciado
 
 Quita a USRPRACTICA1 el privilegio de crear vistas. Comprueba que ya no puede hacerlo
 
 ### Realización
-* Para conseguir esto, tendremos que quitarle el privilegio a ROLPRACTICA1, que es la razón real porque la que USRPRACTICA1 puede crear vistas. Si intentamos quitarle el privilegio a USRPRACTICA1, no funcionará, porque oracle no permite quitar privilegios que no se han dado
+* Para conseguir esto, tendremos que quitarle el privilegio a ROLPRACTICA1, que es la razón real por la que USRPRACTICA1 puede crear vistas. Si intentamos quitarle el privilegio a USRPRACTICA1, no funcionará, porque oracle no permite quitar privilegios que no se han dado
 ```
 REVOKE CREATE VIEW FROM ROLPRACTICA1;
 ```
@@ -471,7 +471,12 @@ CREATE PROFILE NOPARESDECURRAR LIMIT IDLE_TIME 2;
 
 
 
-### Prueba de funcionamiento
+
+
+
+
+
+
 
 
 
@@ -495,7 +500,7 @@ show parameter resource_limit
 ```
 
 
-### Prueba de funcionamiento
+
 
 
 
@@ -511,7 +516,7 @@ Asigna el perfil creado a USRPRACTICA1 y comprueba su correcto funcionamiento.
 ALTER USER USRPRACTICA1 PROFILE NOPARESDECURRAR;
 ```
 
-### Prueba de funcionamiento
+
 
 
 
@@ -535,7 +540,7 @@ CREATE PROFILE CONTRASEÑASEGURA LIMIT
 ```
 
 
-### Prueba de funcionamiento
+
 
 
 
@@ -555,7 +560,7 @@ ALTER USER USRPRACTICA1 PROFILE CONTRASEÑASEGURA;
 ALTER USER USRPRACTICA1 IDENTIFIED BY 1234 ACCOUNT UNLOCK;
 ```
 
-### Prueba de funcionamiento
+
 
 
 
@@ -573,7 +578,7 @@ SELECT USERNAME
 FROM DBA_USERS;
 ```
 
-### Prueba de funcionamiento
+
 
 ```
 USERNAME
@@ -838,7 +843,7 @@ Realiza un procedimiento llamado _MostrarNumSesiones_ que reciba un nombre de us
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODEwNDYyOSwxNjUzMjE4Mjc5LDM3Nz
+eyJoaXN0b3J5IjpbLTk5NTAzNzQyNCwxNjUzMjE4Mjc5LDM3Nz
 c0OTE1MSwxODc3ODEyMDgwLDE0MjA0NDg2MSwtMTE4ODMzMDMy
 NCw5NzM2MjU2LDg0ODM3NjQ2MCwtNjgwNzk4ODg5LDE2MjM0MT
 kzNDksLTQ3NzMwNDAxNywtMTk0OTg2NzIxMywxMTMyMDIxODEz
