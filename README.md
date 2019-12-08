@@ -1120,7 +1120,8 @@ SELECT USERNAME
 ```
 no rows selected
 ```
-En este caso no tenemos usuarios cuyo perfil asignado, tuviera limitado el valor "SESSIONS_PER_USER". Por lo tanto, no aparece ningún registro de usuarios que tuvieran limitada las sesiones concurrentes
+En este caso no tenemos usuarios cuyo perfil asignado, tuviera limitado el valor "SESSIONS_PER_USER". 
+Por lo tanto, no aparecen registros de usuarios que tuvieran un límite de sesiones concurrentes
 
 
 
@@ -1207,11 +1208,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODkxOTE0NDMsLTE2ODQzMTY2ODMsND
-UwMzI5NjI2LDE1NjM0NTQ0NjgsOTgzNTU2MTAwLDgwNjA2MDYs
-NzkxODc2NTM0LC05ODA3Mzg1NDcsMTY3ODA2NTMxNCwxNTU3NT
-kzNzA5LDE5MDU2MDQ3MTUsLTcyMTY0Nzg0NCwxNjg0ODA4NjU3
-LDExNDU4MzUyOTgsLTM2Nzc0NzYwLDE3MjAyMTk1MzksOTg0MD
-EyNTc0LDEyMjY5MDI1OTAsLTE2MTA4NTg4NTUsMTA5OTc0Nzg1
-OV19
+eyJoaXN0b3J5IjpbMTIxNjI2OTA0OSwtMTY4NDMxNjY4Myw0NT
+AzMjk2MjYsMTU2MzQ1NDQ2OCw5ODM1NTYxMDAsODA2MDYwNiw3
+OTE4NzY1MzQsLTk4MDczODU0NywxNjc4MDY1MzE0LDE1NTc1OT
+M3MDksMTkwNTYwNDcxNSwtNzIxNjQ3ODQ0LDE2ODQ4MDg2NTcs
+MTE0NTgzNTI5OCwtMzY3NzQ3NjAsMTcyMDIxOTUzOSw5ODQwMT
+I1NzQsMTIyNjkwMjU5MCwtMTYxMDg1ODg1NSwxMDk5NzQ3ODU5
+XX0=
 -->
