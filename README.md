@@ -600,7 +600,7 @@ CONTRASENASEGURA                                                                
 CONTRASENASEGURA                                                                                                         PASSWORD_LIFE_TIME               30
 CONTRASENASEGURA                                                                                                         PASSWORD_LOCK_TIME               UNLIMITED
 ```
-_Los valores de límites por los que hemos filtrado son los que previamente _
+_Los valores de límites por los que hemos filtrado son los que previamente habíamos indicado. Todo ha funcionado correctamente_
 
 
 
@@ -959,7 +959,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk3NDcwNzAsLTExOTg3Mzk3OSwxND
+eyJoaXN0b3J5IjpbLTEzNzgzODM3NTAsLTExOTg3Mzk3OSwxND
 cxNDE3NTQ1LC0xMTM3MjI3NzM4LC0yMTA3Mzg3NjU0LDEzODA5
 NjUzMDUsMTIyMzU5NTc1NiwyNzYwMzY2ODgsLTY3NzI3MjcxMC
 wtMTI4MDA2OTMyOCwxMDUyODMzNDA1LC02NDA3MzgwNzUsLTM1
