@@ -787,9 +787,70 @@ select privilege, table_name
 	where grantee = 'SYSTEM';
 ```
 ```
+PRIVILEGE                                TABLE_NAME
+---------------------------------------- ------------------------------------
+USE                                      ORA$BASE
+SELECT                                   LOGMNR_GTCS_SUPPORT
+EXECUTE                                  DBMS_ALERT
+EXECUTE                                  DBMS_SYS_ERROR
+EXECUTE                                  DBMS_RULE_EXIMP
+EXECUTE                                  DBMS_AQ
+EXECUTE                                  DBMS_AQADM
+EXECUTE                                  DBMS_AQ_IMPORT_INTERNAL
+EXECUTE                                  DBMS_AQELM
+EXECUTE                                  DBMS_TRANSFORM_EXIMP
+EXECUTE                                  DBMS_SYSTEM
+EXECUTE                                  DBMS_LOGMNR_INTERNAL
+EXECUTE                                  LOGMNR_DICT_CACHE
+EXECUTE                                  LOGMNR_GET_GT_PROTOCOL
+EXECUTE                                  LOGMNR_GTLO3
+EXECUTE                                  SYS_GROUP
+EXECUTE                                  CHECK_UPGRADE
+DELETE                                   XDB$TSETMAP
+DELETE                                   XDB$H_INDEX
+INSERT                                   XDB$H_INDEX
+SELECT                                   XDB$H_INDEX
+UPDATE                                   XDB$H_INDEX
+DELETE                                   XDB$H_LINK
+INSERT                                   XDB$H_LINK
+SELECT                                   XDB$H_LINK
+UPDATE                                   XDB$H_LINK
+DELETE                                   XDB$D_LINK
+INSERT                                   XDB$D_LINK
+SELECT                                   XDB$D_LINK
+UPDATE                                   XDB$D_LINK
+DELETE                                   XDB$RESOURCE
+INSERT                                   XDB$RESOURCE
+SELECT                                   XDB$RESOURCE
+UPDATE                                   XDB$RESOURCE
+DELETE                                   XDB$NLOCKS
+INSERT                                   XDB$NLOCKS
+SELECT                                   XDB$NLOCKS
+UPDATE                                   XDB$NLOCKS
+DELETE                                   X$PT6A0WVGOTVN9KD9IOC5OF8P6HD7
+INSERT                                   X$PT6A0WVGOTVN9KD9IOC5OF8P6HD7
+SELECT                                   X$PT6A0WVGOTVN9KD9IOC5OF8P6HD7
+UPDATE                                   X$PT6A0WVGOTVN9KD9IOC5OF8P6HD7
+DELETE                                   XDB$ACL
+INSERT                                   XDB$ACL
+SELECT                                   XDB$ACL
+UPDATE                                   XDB$ACL
+DELETE                                   XDB$RESCONFIG
+INSERT                                   XDB$RESCONFIG
+SELECT                                   XDB$RESCONFIG
+UPDATE                                   XDB$RESCONFIG
+DELETE                                   XDB$CHECKOUTS
+INSERT                                   XDB$CHECKOUTS
+SELECT                                   XDB$CHECKOUTS
+UPDATE                                   XDB$CHECKOUTS
+DELETE                                   XDB$CONFIG
+INSERT                                   XDB$CONFIG
+SELECT                                   XDB$CONFIG
+UPDATE                                   XDB$CONFIG
 
+58 filas seleccionadas.
 ```
-__
+_Se han mostrado todos los privilegios sobre objetos correctamente. Además, quise filtrar _
 
 
 
@@ -998,11 +1059,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0MDEyNTc0LDEyMjY5MDI1OTAsLTE2MT
-A4NTg4NTUsMTA5OTc0Nzg1OSwxODY0NzUwODc5LDEzMzI0NDc4
-NzMsOTM2ODEyMTg5LC0xNjU2NjEwMjY2LDE2NzYzNTI0MCwtNj
-E5NjkzOTU5LC0yMDQyOTMzMDk5LDIxMzI1MjMzMjAsLTExNDMw
-OTUxNjksLTQyMTc2MDMyOSw0MjIyNzc5Niw3MTAxNzgzNSwxMD
-IxNjkxMzc0LC0xMzc4MzgzNzUwLC0xMTk4NzM5NzksMTQ3MTQx
-NzU0NV19
+eyJoaXN0b3J5IjpbMTgzODY3MTY5Niw5ODQwMTI1NzQsMTIyNj
+kwMjU5MCwtMTYxMDg1ODg1NSwxMDk5NzQ3ODU5LDE4NjQ3NTA4
+NzksMTMzMjQ0Nzg3Myw5MzY4MTIxODksLTE2NTY2MTAyNjYsMT
+Y3NjM1MjQwLC02MTk2OTM5NTksLTIwNDI5MzMwOTksMjEzMjUy
+MzMyMCwtMTE0MzA5NTE2OSwtNDIxNzYwMzI5LDQyMjI3Nzk2LD
+cxMDE3ODM1LDEwMjE2OTEzNzQsLTEzNzgzODM3NTAsLTExOTg3
+Mzk3OV19
 -->
