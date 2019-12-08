@@ -639,11 +639,12 @@ ALTER USER USRPRACTICA1 IDENTIFIED BY 1234 ACCOUNT UNLOCK;
 ```
 User altered.
 ```
-_Se desbloqueó la cuenta directamente_
+_Se desbloqueó la cuenta correctamente_
 
+* Para finalizar, vamos a comprobar que realmente podemos entrar a la cuenta de nuevo
+```
 
-
-
+```
 
 
 ## Ejercicio 14 :heavy_check_mark:
@@ -973,11 +974,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDMwOTUxNjksLTQyMTc2MDMyOSw0Mj
-IyNzc5Niw3MTAxNzgzNSwxMDIxNjkxMzc0LC0xMzc4MzgzNzUw
-LC0xMTk4NzM5NzksMTQ3MTQxNzU0NSwtMTEzNzIyNzczOCwtMj
-EwNzM4NzY1NCwxMzgwOTY1MzA1LDEyMjM1OTU3NTYsMjc2MDM2
-Njg4LC02NzcyNzI3MTAsLTEyODAwNjkzMjgsMTA1MjgzMzQwNS
-wtNjQwNzM4MDc1LC0zNTkzNTU2OTgsNDM1MTg1NDAsLTgzNDg0
-MjgyN119
+eyJoaXN0b3J5IjpbMTk3MTI0NzQ0NSwtMTE0MzA5NTE2OSwtND
+IxNzYwMzI5LDQyMjI3Nzk2LDcxMDE3ODM1LDEwMjE2OTEzNzQs
+LTEzNzgzODM3NTAsLTExOTg3Mzk3OSwxNDcxNDE3NTQ1LC0xMT
+M3MjI3NzM4LC0yMTA3Mzg3NjU0LDEzODA5NjUzMDUsMTIyMzU5
+NTc1NiwyNzYwMzY2ODgsLTY3NzI3MjcxMCwtMTI4MDA2OTMyOC
+wxMDUyODMzNDA1LC02NDA3MzgwNzUsLTM1OTM1NTY5OCw0MzUx
+ODU0MF19
 -->
