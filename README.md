@@ -1120,7 +1120,7 @@ SELECT USERNAME
 ```
 no rows selected
 ```
-En este caso no tenemos usuarios cuyo perfil asignado, tuviera limitado el valor "SESSIONS_PER_USER"
+En este caso no tenemos usuarios cuyo perfil asignado, tuviera limitado el valor "SESSIONS_PER_USER". Por lo tanto, no aparece ningún registro
 
 
 
@@ -1207,11 +1207,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwMzI5NjI2LDE1NjM0NTQ0NjgsOTgzNT
-U2MTAwLDgwNjA2MDYsNzkxODc2NTM0LC05ODA3Mzg1NDcsMTY3
-ODA2NTMxNCwxNTU3NTkzNzA5LDE5MDU2MDQ3MTUsLTcyMTY0Nz
-g0NCwxNjg0ODA4NjU3LDExNDU4MzUyOTgsLTM2Nzc0NzYwLDE3
-MjAyMTk1MzksOTg0MDEyNTc0LDEyMjY5MDI1OTAsLTE2MTA4NT
-g4NTUsMTA5OTc0Nzg1OSwxODY0NzUwODc5LDEzMzI0NDc4NzNd
-fQ==
+eyJoaXN0b3J5IjpbLTE2ODQzMTY2ODMsNDUwMzI5NjI2LDE1Nj
+M0NTQ0NjgsOTgzNTU2MTAwLDgwNjA2MDYsNzkxODc2NTM0LC05
+ODA3Mzg1NDcsMTY3ODA2NTMxNCwxNTU3NTkzNzA5LDE5MDU2MD
+Q3MTUsLTcyMTY0Nzg0NCwxNjg0ODA4NjU3LDExNDU4MzUyOTgs
+LTM2Nzc0NzYwLDE3MjAyMTk1MzksOTg0MDEyNTc0LDEyMjY5MD
+I1OTAsLTE2MTA4NTg4NTUsMTA5OTc0Nzg1OSwxODY0NzUwODc5
+XX0=
 -->
