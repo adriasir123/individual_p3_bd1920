@@ -628,7 +628,7 @@ User altered.
 ERROR:
 ORA-28000: la cuenta estß bloqueada
 ```
-_Este es el mensaje que nos aparecería al 4 error en la introducción de contraseña, que es cuando se bloquearía la cuenta_
+_Este es el mensaje que nos aparecería al 4º error en la introducción de contraseña, que es cuando se bloquearía la cuenta_
 
 > NOTA: en cuanto cometamos el 4 error de contraseña, simplemente se nos denegará la conexión, pero **no recibiremos aviso alguno** de que la cuenta ha sido bloqueada. Es decir, al 4º error la cuenta en realidad sí se estaría bloqueando, pero sería al siguiente intento de conexión, cuando se nos avisaría de que la cuenta ha sido bloqueada
 
@@ -973,7 +973,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0MDI3Mjg2LC00MjE3NjAzMjksNDIyMj
+eyJoaXN0b3J5IjpbNDIzODY4OTUwLC00MjE3NjAzMjksNDIyMj
 c3OTYsNzEwMTc4MzUsMTAyMTY5MTM3NCwtMTM3ODM4Mzc1MCwt
 MTE5ODczOTc5LDE0NzE0MTc1NDUsLTExMzcyMjc3MzgsLTIxMD
 czODc2NTQsMTM4MDk2NTMwNSwxMjIzNTk1NzU2LDI3NjAzNjY4
