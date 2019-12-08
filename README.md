@@ -591,7 +591,7 @@ select profile, resource_name, limit
 		AND
 		(resource_name = 'PASSWORD_LIFE_TIME' OR
 		resource_name = 'FAILED_LOGIN_ATTEMPTS' OR
-		resource_name = ');
+		resource_name = 'PASSWORD_LOCK_TIME');
 ```
 
 
@@ -944,7 +944,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjIxMDk4OSwxNDcxNDE3NTQ1LC0xMT
+eyJoaXN0b3J5IjpbLTExOTg3Mzk3OSwxNDcxNDE3NTQ1LC0xMT
 M3MjI3NzM4LC0yMTA3Mzg3NjU0LDEzODA5NjUzMDUsMTIyMzU5
 NTc1NiwyNzYwMzY2ODgsLTY3NzI3MjcxMCwtMTI4MDA2OTMyOC
 wxMDUyODMzNDA1LC02NDA3MzgwNzUsLTM1OTM1NTY5OCw0MzUx
