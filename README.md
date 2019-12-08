@@ -714,11 +714,13 @@ _La consulta ha funcionado correctamente_
 
 
 
+
+
+
 ## Ejercicio 15
 ### Enunciado
 
 Elige un usuario concreto y consulta qué cuota tiene sobre cada uno de los tablespaces.
-
 
 ### Realización
 Voy a hacerlo sobre AUDSYS
@@ -981,11 +983,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjY4MzUwNzEsLTIwNDI5MzMwOTksMj
-EzMjUyMzMyMCwtMTE0MzA5NTE2OSwtNDIxNzYwMzI5LDQyMjI3
-Nzk2LDcxMDE3ODM1LDEwMjE2OTEzNzQsLTEzNzgzODM3NTAsLT
-ExOTg3Mzk3OSwxNDcxNDE3NTQ1LC0xMTM3MjI3NzM4LC0yMTA3
-Mzg3NjU0LDEzODA5NjUzMDUsMTIyMzU5NTc1NiwyNzYwMzY2OD
-gsLTY3NzI3MjcxMCwtMTI4MDA2OTMyOCwxMDUyODMzNDA1LC02
-NDA3MzgwNzVdfQ==
+eyJoaXN0b3J5IjpbLTYxOTY5Mzk1OSwtMjA0MjkzMzA5OSwyMT
+MyNTIzMzIwLC0xMTQzMDk1MTY5LC00MjE3NjAzMjksNDIyMjc3
+OTYsNzEwMTc4MzUsMTAyMTY5MTM3NCwtMTM3ODM4Mzc1MCwtMT
+E5ODczOTc5LDE0NzE0MTc1NDUsLTExMzcyMjc3MzgsLTIxMDcz
+ODc2NTQsMTM4MDk2NTMwNSwxMjIzNTk1NzU2LDI3NjAzNjY4OC
+wtNjc3MjcyNzEwLC0xMjgwMDY5MzI4LDEwNTI4MzM0MDUsLTY0
+MDczODA3NV19
 -->
