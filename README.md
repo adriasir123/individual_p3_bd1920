@@ -1024,20 +1024,21 @@ SELECT_CATALOG_ROLE                                                             
 ```
 ...sabremos que está compuesto por el rol "SELECT_CATALOG_ROLE"
 
-> NOTA: 
+> NOTA: sabemos que la consulta funciona como es debido por la siguiente razón:
+> Que un rol esté compuesto de otros roles, quiere decir que al rol dicho, le habremos tenido que "otorgar" otros role
 
 
 
 ## Ejercicio 21
 ### Enunciado
 
-Consulta qué perfiles existen en tu base de datos.
+Consulta qué perfiles existen en tu base de datos
 
 ### Realización
 
 ```
-sele profile  
-	From dba_profiles;
+select profile  
+	from dba_profiles;
 ```
 
 
@@ -1178,11 +1179,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzA2MjYxNzcsMTU1NzU5MzcwOSwxOT
-A1NjA0NzE1LC03MjE2NDc4NDQsMTY4NDgwODY1NywxMTQ1ODM1
-Mjk4LC0zNjc3NDc2MCwxNzIwMjE5NTM5LDk4NDAxMjU3NCwxMj
-I2OTAyNTkwLC0xNjEwODU4ODU1LDEwOTk3NDc4NTksMTg2NDc1
-MDg3OSwxMzMyNDQ3ODczLDkzNjgxMjE4OSwtMTY1NjYxMDI2Ni
-wxNjc2MzUyNDAsLTYxOTY5Mzk1OSwtMjA0MjkzMzA5OSwyMTMy
-NTIzMzIwXX0=
+eyJoaXN0b3J5IjpbLTgwNjQzNzA5NywxNTU3NTkzNzA5LDE5MD
+U2MDQ3MTUsLTcyMTY0Nzg0NCwxNjg0ODA4NjU3LDExNDU4MzUy
+OTgsLTM2Nzc0NzYwLDE3MjAyMTk1MzksOTg0MDEyNTc0LDEyMj
+Y5MDI1OTAsLTE2MTA4NTg4NTUsMTA5OTc0Nzg1OSwxODY0NzUw
+ODc5LDEzMzI0NDc4NzMsOTM2ODEyMTg5LC0xNjU2NjEwMjY2LD
+E2NzYzNTI0MCwtNjE5NjkzOTU5LC0yMDQyOTMzMDk5LDIxMzI1
+MjMzMjBdfQ==
 -->
