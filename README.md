@@ -1001,9 +1001,9 @@ Elige un rol concreto y averigua si está compuesto por otros roles o no
 ### Realización
 
 ```
-Select *
+select granted_role, grantee
 	from DBA_ROLE_PRIVS  
-	Where grantee = 'JAVA_ADMIN';
+	where grantee = 'JAVA_ADMIN';
 ```
 
 
@@ -1162,11 +1162,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjEwMDEzMzcsLTcyMTY0Nzg0NCwxNj
-g0ODA4NjU3LDExNDU4MzUyOTgsLTM2Nzc0NzYwLDE3MjAyMTk1
-MzksOTg0MDEyNTc0LDEyMjY5MDI1OTAsLTE2MTA4NTg4NTUsMT
-A5OTc0Nzg1OSwxODY0NzUwODc5LDEzMzI0NDc4NzMsOTM2ODEy
-MTg5LC0xNjU2NjEwMjY2LDE2NzYzNTI0MCwtNjE5NjkzOTU5LC
-0yMDQyOTMzMDk5LDIxMzI1MjMzMjAsLTExNDMwOTUxNjksLTQy
-MTc2MDMyOV19
+eyJoaXN0b3J5IjpbMTkwNTYwNDcxNSwtNzIxNjQ3ODQ0LDE2OD
+Q4MDg2NTcsMTE0NTgzNTI5OCwtMzY3NzQ3NjAsMTcyMDIxOTUz
+OSw5ODQwMTI1NzQsMTIyNjkwMjU5MCwtMTYxMDg1ODg1NSwxMD
+k5NzQ3ODU5LDE4NjQ3NTA4NzksMTMzMjQ0Nzg3Myw5MzY4MTIx
+ODksLTE2NTY2MTAyNjYsMTY3NjM1MjQwLC02MTk2OTM5NTksLT
+IwNDI5MzMwOTksMjEzMjUyMzMyMCwtMTE0MzA5NTE2OSwtNDIx
+NzYwMzI5XX0=
 -->
