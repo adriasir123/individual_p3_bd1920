@@ -1030,7 +1030,7 @@ SELECT_CATALOG_ROLE                                                             
 
 
 
-## Ejercicio 21
+## Ejercicio 21 :heavy_check_mark:
 ### Enunciado
 
 Consulta qué perfiles existen en tu base de datos
@@ -1065,9 +1065,9 @@ Elige un perfil y consulta qué límites se establecen en el mismo.
 ### Realización
 
 ```
-SELECT limit  
-From dba_profiles  
-Where profile = nombre_perfil;
+select limit  
+	from dba_profiles  
+	where profile = 'ORA_STIG_PROFILE';
 ```
 
 
@@ -1185,11 +1185,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDczODU0NywxNjc4MDY1MzE0LDE1NT
-c1OTM3MDksMTkwNTYwNDcxNSwtNzIxNjQ3ODQ0LDE2ODQ4MDg2
-NTcsMTE0NTgzNTI5OCwtMzY3NzQ3NjAsMTcyMDIxOTUzOSw5OD
-QwMTI1NzQsMTIyNjkwMjU5MCwtMTYxMDg1ODg1NSwxMDk5NzQ3
-ODU5LDE4NjQ3NTA4NzksMTMzMjQ0Nzg3Myw5MzY4MTIxODksLT
-E2NTY2MTAyNjYsMTY3NjM1MjQwLC02MTk2OTM5NTksLTIwNDI5
-MzMwOTldfQ==
+eyJoaXN0b3J5IjpbLTg2ODY4NjQyNSwtOTgwNzM4NTQ3LDE2Nz
+gwNjUzMTQsMTU1NzU5MzcwOSwxOTA1NjA0NzE1LC03MjE2NDc4
+NDQsMTY4NDgwODY1NywxMTQ1ODM1Mjk4LC0zNjc3NDc2MCwxNz
+IwMjE5NTM5LDk4NDAxMjU3NCwxMjI2OTAyNTkwLC0xNjEwODU4
+ODU1LDEwOTk3NDc4NTksMTg2NDc1MDg3OSwxMzMyNDQ3ODczLD
+kzNjgxMjE4OSwtMTY1NjYxMDI2NiwxNjc2MzUyNDAsLTYxOTY5
+Mzk1OV19
 -->
