@@ -1013,14 +1013,18 @@ Por ejemplo, como podemos ver, el rol "JAVA_ADMIN" NO está compuesto por otros 
 ¿Pero y si quisiéramos saber el resultado que daría la consulta con un rol que SÍ estuviera compuesto de otros roles? Para eso, primero deberíamos de saber previamente qué rol está compuesto por otros roles. Pero este trabajo ya lo he hecho, y he averiguado que el rol "SYSUMF_ROLE" cumple estas condiciones.
 Por lo tanto, si repetimos la consulta anterior pero con este rol...
 ```
-
+select granted_role, grantee
+	from DBA_ROLE_PRIVS  
+	where grantee = 'SYSUMF_ROLE';
 ```
+```
+GRANTED_ROLE                                                                                                             GRANTEE
+-------------------------------------------------------------------------------------------------------------------------------- --------
+SELECT_CATALOG_ROLE                                                                                                      SYSUMF_ROLE
+```
+...sabremos que está compuesto por el rol "SELECT_CATALOG_ROLE"
 
-
-
-
-
-
+> NOTA: 
 
 
 
@@ -1032,8 +1036,8 @@ Consulta qué perfiles existen en tu base de datos.
 ### Realización
 
 ```
-SELECT profile  
-From dba_profiles;
+sele profile  
+	From dba_profiles;
 ```
 
 
@@ -1174,11 +1178,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDA3Njk5MiwxNTU3NTkzNzA5LDE5MD
-U2MDQ3MTUsLTcyMTY0Nzg0NCwxNjg0ODA4NjU3LDExNDU4MzUy
-OTgsLTM2Nzc0NzYwLDE3MjAyMTk1MzksOTg0MDEyNTc0LDEyMj
-Y5MDI1OTAsLTE2MTA4NTg4NTUsMTA5OTc0Nzg1OSwxODY0NzUw
-ODc5LDEzMzI0NDc4NzMsOTM2ODEyMTg5LC0xNjU2NjEwMjY2LD
-E2NzYzNTI0MCwtNjE5NjkzOTU5LC0yMDQyOTMzMDk5LDIxMzI1
-MjMzMjBdfQ==
+eyJoaXN0b3J5IjpbLTIxMzA2MjYxNzcsMTU1NzU5MzcwOSwxOT
+A1NjA0NzE1LC03MjE2NDc4NDQsMTY4NDgwODY1NywxMTQ1ODM1
+Mjk4LC0zNjc3NDc2MCwxNzIwMjE5NTM5LDk4NDAxMjU3NCwxMj
+I2OTAyNTkwLC0xNjEwODU4ODU1LDEwOTk3NDc4NTksMTg2NDc1
+MDg3OSwxMzMyNDQ3ODczLDkzNjgxMjE4OSwtMTY1NjYxMDI2Ni
+wxNjc2MzUyNDAsLTYxOTY5Mzk1OSwtMjA0MjkzMzA5OSwyMTMy
+NTIzMzIwXX0=
 -->
