@@ -594,9 +594,13 @@ select profile, resource_name, limit
 		resource_name = 'PASSWORD_LOCK_TIME');
 ```
 ```
-
+PROFILE                                                                                                                  RESOURCE_NAME                    LIMIT
+-------------------------------------------------------------------------------------------------------------------------------- -------------------------------- ---------
+CONTRASENASEGURA                                                                                                         FAILED_LOGIN_ATTEMPTS            4
+CONTRASENASEGURA                                                                                                         PASSWORD_LIFE_TIME               30
+CONTRASENASEGURA                                                                                                         PASSWORD_LOCK_TIME               UNLIMITED
 ```
-
+_Los valores de límites por los que hemos filtrado son los que previamente _
 
 
 
@@ -955,11 +959,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTgzNjU1MSwtMTE5ODczOTc5LDE0Nz
-E0MTc1NDUsLTExMzcyMjc3MzgsLTIxMDczODc2NTQsMTM4MDk2
-NTMwNSwxMjIzNTk1NzU2LDI3NjAzNjY4OCwtNjc3MjcyNzEwLC
-0xMjgwMDY5MzI4LDEwNTI4MzM0MDUsLTY0MDczODA3NSwtMzU5
-MzU1Njk4LDQzNTE4NTQwLC04MzQ4NDI4MjcsOTc3OTM0NjUyLD
-EyOTMxNjU3NTEsMTY1MzIxODI3OSwzNzc3NDkxNTEsMTg3Nzgx
-MjA4MF19
+eyJoaXN0b3J5IjpbLTE4Njk3NDcwNzAsLTExOTg3Mzk3OSwxND
+cxNDE3NTQ1LC0xMTM3MjI3NzM4LC0yMTA3Mzg3NjU0LDEzODA5
+NjUzMDUsMTIyMzU5NTc1NiwyNzYwMzY2ODgsLTY3NzI3MjcxMC
+wtMTI4MDA2OTMyOCwxMDUyODMzNDA1LC02NDA3MzgwNzUsLTM1
+OTM1NTY5OCw0MzUxODU0MCwtODM0ODQyODI3LDk3NzkzNDY1Mi
+wxMjkzMTY1NzUxLDE2NTMyMTgyNzksMzc3NzQ5MTUxLDE4Nzc4
+MTIwODBdfQ==
 -->
