@@ -636,10 +636,10 @@ _Este es el mensaje que nos aparecería al 4º error en la introducción de cont
 ```
 ALTER USER USRPRACTICA1 IDENTIFIED BY 1234 ACCOUNT UNLOCK;
 ```
-
-
-
-
+```
+User altered.
+```
+_Se desbloqueó la cuenta directamente_
 
 
 
@@ -973,11 +973,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzODY4OTUwLC00MjE3NjAzMjksNDIyMj
-c3OTYsNzEwMTc4MzUsMTAyMTY5MTM3NCwtMTM3ODM4Mzc1MCwt
-MTE5ODczOTc5LDE0NzE0MTc1NDUsLTExMzcyMjc3MzgsLTIxMD
-czODc2NTQsMTM4MDk2NTMwNSwxMjIzNTk1NzU2LDI3NjAzNjY4
-OCwtNjc3MjcyNzEwLC0xMjgwMDY5MzI4LDEwNTI4MzM0MDUsLT
-Y0MDczODA3NSwtMzU5MzU1Njk4LDQzNTE4NTQwLC04MzQ4NDI4
-MjddfQ==
+eyJoaXN0b3J5IjpbLTExNDMwOTUxNjksLTQyMTc2MDMyOSw0Mj
+IyNzc5Niw3MTAxNzgzNSwxMDIxNjkxMzc0LC0xMzc4MzgzNzUw
+LC0xMTk4NzM5NzksMTQ3MTQxNzU0NSwtMTEzNzIyNzczOCwtMj
+EwNzM4NzY1NCwxMzgwOTY1MzA1LDEyMjM1OTU3NTYsMjc2MDM2
+Njg4LC02NzcyNzI3MTAsLTEyODAwNjkzMjgsMTA1MjgzMzQwNS
+wtNjQwNzM4MDc1LC0zNTkzNTU2OTgsNDM1MTg1NDAsLTgzNDg0
+MjgyN119
 -->
