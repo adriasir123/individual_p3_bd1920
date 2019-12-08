@@ -609,7 +609,7 @@ _Los valores de los límites por los que hemos filtrado son los que previamente 
 
 
 
-## Ejercicio 13
+## Ejercicio 13 :heavy_check_mark:
 ### Enunciado
 
 * Asigna el perfil creado a USRPRACTICA1 y comprueba su funcionamiento
@@ -979,11 +979,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwNTkzNzE4LDIxMzI1MjMzMjAsLTExND
-MwOTUxNjksLTQyMTc2MDMyOSw0MjIyNzc5Niw3MTAxNzgzNSwx
-MDIxNjkxMzc0LC0xMzc4MzgzNzUwLC0xMTk4NzM5NzksMTQ3MT
-QxNzU0NSwtMTEzNzIyNzczOCwtMjEwNzM4NzY1NCwxMzgwOTY1
-MzA1LDEyMjM1OTU3NTYsMjc2MDM2Njg4LC02NzcyNzI3MTAsLT
-EyODAwNjkzMjgsMTA1MjgzMzQwNSwtNjQwNzM4MDc1LC0zNTkz
-NTU2OThdfQ==
+eyJoaXN0b3J5IjpbLTE3NDI0NDcwNjAsMjEzMjUyMzMyMCwtMT
+E0MzA5NTE2OSwtNDIxNzYwMzI5LDQyMjI3Nzk2LDcxMDE3ODM1
+LDEwMjE2OTEzNzQsLTEzNzgzODM3NTAsLTExOTg3Mzk3OSwxND
+cxNDE3NTQ1LC0xMTM3MjI3NzM4LC0yMTA3Mzg3NjU0LDEzODA5
+NjUzMDUsMTIyMzU5NTc1NiwyNzYwMzY2ODgsLTY3NzI3MjcxMC
+wtMTI4MDA2OTMyOCwxMDUyODMzNDA1LC02NDA3MzgwNzUsLTM1
+OTM1NTY5OF19
 -->
