@@ -648,7 +648,7 @@ Enter password:
 Conectado.
 SQL>
 ```
-_Hemos podido acceder sin problemas, hemos realizado todos los pasos correctamente_
+_Hemos podido acceder sin problemas, por lo que se han realizado todos los pasos correctamente_
 
 
 
@@ -979,11 +979,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMjUyMzMyMCwtMTE0MzA5NTE2OSwtND
-IxNzYwMzI5LDQyMjI3Nzk2LDcxMDE3ODM1LDEwMjE2OTEzNzQs
-LTEzNzgzODM3NTAsLTExOTg3Mzk3OSwxNDcxNDE3NTQ1LC0xMT
-M3MjI3NzM4LC0yMTA3Mzg3NjU0LDEzODA5NjUzMDUsMTIyMzU5
-NTc1NiwyNzYwMzY2ODgsLTY3NzI3MjcxMCwtMTI4MDA2OTMyOC
-wxMDUyODMzNDA1LC02NDA3MzgwNzUsLTM1OTM1NTY5OCw0MzUx
-ODU0MF19
+eyJoaXN0b3J5IjpbNzkwNTkzNzE4LDIxMzI1MjMzMjAsLTExND
+MwOTUxNjksLTQyMTc2MDMyOSw0MjIyNzc5Niw3MTAxNzgzNSwx
+MDIxNjkxMzc0LC0xMzc4MzgzNzUwLC0xMTk4NzM5NzksMTQ3MT
+QxNzU0NSwtMTEzNzIyNzczOCwtMjEwNzM4NzY1NCwxMzgwOTY1
+MzA1LDEyMjM1OTU3NTYsMjc2MDM2Njg4LC02NzcyNzI3MTAsLT
+EyODAwNjkzMjgsMTA1MjgzMzQwNSwtNjQwNzM4MDc1LC0zNTkz
+NTU2OThdfQ==
 -->
