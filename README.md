@@ -8,7 +8,7 @@ En este repositorio se encuentra el código de mi parte individual para la prác
 Crea un rol ROLPRACTICA1 con los privilegios: 
 - Conectarse a la base de datos
 - Crear tablas y vistas
-- Insertar datos en la tabla EMP de SCOTT.
+- Insertar datos en la tabla EMP de SCOTT
 
 ### Realización
 
@@ -1210,11 +1210,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3ODA1MjA2NiwtNjc2NjgwMDg0LC05OT
-EwMDA5NzQsLTE1OTg4NzY5NDUsLTEzODkyNzYzNDUsMTIxNjI2
-OTA0OSwtMTY4NDMxNjY4Myw0NTAzMjk2MjYsMTU2MzQ1NDQ2OC
-w5ODM1NTYxMDAsODA2MDYwNiw3OTE4NzY1MzQsLTk4MDczODU0
-NywxNjc4MDY1MzE0LDE1NTc1OTM3MDksMTkwNTYwNDcxNSwtNz
-IxNjQ3ODQ0LDE2ODQ4MDg2NTcsMTE0NTgzNTI5OCwtMzY3NzQ3
-NjBdfQ==
+eyJoaXN0b3J5IjpbLTE3NjM5MDg5OTAsMTU3ODA1MjA2NiwtNj
+c2NjgwMDg0LC05OTEwMDA5NzQsLTE1OTg4NzY5NDUsLTEzODky
+NzYzNDUsMTIxNjI2OTA0OSwtMTY4NDMxNjY4Myw0NTAzMjk2Mj
+YsMTU2MzQ1NDQ2OCw5ODM1NTYxMDAsODA2MDYwNiw3OTE4NzY1
+MzQsLTk4MDczODU0NywxNjc4MDY1MzE0LDE1NTc1OTM3MDksMT
+kwNTYwNDcxNSwtNzIxNjQ3ODQ0LDE2ODQ4MDg2NTcsMTE0NTgz
+NTI5OF19
 -->
