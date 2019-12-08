@@ -612,15 +612,24 @@ _Los valores de los límites por los que hemos filtrado son los que previamente 
 ## Ejercicio 13
 ### Enunciado
 
-Asigna el perfil creado a USRPRACTICA1 y comprueba su funcionamiento
-Desbloquea posteriormente al usuario (porque el perfil hace que al 4 error de introducción de contraseña, bloquee al usuario)
+* Asigna el perfil creado a USRPRACTICA1 y comprueba su funcionamiento
+* Desbloquea posteriormente al usuario (porque el perfil hacía que al 4 error de introducción de contraseña, bloquease la cuenta)
 
 ### Realización
 
 ```
 ALTER USER USRPRACTICA1 PROFILE CONTRASEÑASEGURA;
+```
+
+
+
+* Desbloqueamos la cuenta
+```
 ALTER USER USRPRACTICA1 IDENTIFIED BY 1234 ACCOUNT UNLOCK;
 ```
+
+
+
 
 
 
@@ -955,11 +964,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3ODE1NzUyLC0xMzc4MzgzNzUwLC0xMT
-k4NzM5NzksMTQ3MTQxNzU0NSwtMTEzNzIyNzczOCwtMjEwNzM4
-NzY1NCwxMzgwOTY1MzA1LDEyMjM1OTU3NTYsMjc2MDM2Njg4LC
-02NzcyNzI3MTAsLTEyODAwNjkzMjgsMTA1MjgzMzQwNSwtNjQw
-NzM4MDc1LC0zNTkzNTU2OTgsNDM1MTg1NDAsLTgzNDg0MjgyNy
-w5Nzc5MzQ2NTIsMTI5MzE2NTc1MSwxNjUzMjE4Mjc5LDM3Nzc0
-OTE1MV19
+eyJoaXN0b3J5IjpbMTAyMTY5MTM3NCwtMTM3ODM4Mzc1MCwtMT
+E5ODczOTc5LDE0NzE0MTc1NDUsLTExMzcyMjc3MzgsLTIxMDcz
+ODc2NTQsMTM4MDk2NTMwNSwxMjIzNTk1NzU2LDI3NjAzNjY4OC
+wtNjc3MjcyNzEwLC0xMjgwMDY5MzI4LDEwNTI4MzM0MDUsLTY0
+MDczODA3NSwtMzU5MzU1Njk4LDQzNTE4NTQwLC04MzQ4NDI4Mj
+csOTc3OTM0NjUyLDEyOTMxNjU3NTEsMTY1MzIxODI3OSwzNzc3
+NDkxNTFdfQ==
 -->
