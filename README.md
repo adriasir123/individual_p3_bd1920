@@ -652,8 +652,6 @@ _Hemos podido acceder sin problemas, hemos realizado todos los pasos correctamen
 
 
 
-
-
 ## Ejercicio 14 :heavy_check_mark:
 ### Enunciado
 
@@ -981,7 +979,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTcyMzQ4NCwtMTE0MzA5NTE2OSwtND
+eyJoaXN0b3J5IjpbMjEzMjUyMzMyMCwtMTE0MzA5NTE2OSwtND
 IxNzYwMzI5LDQyMjI3Nzk2LDcxMDE3ODM1LDEwMjE2OTEzNzQs
 LTEzNzgzODM3NTAsLTExOTg3Mzk3OSwxNDcxNDE3NTQ1LC0xMT
 M3MjI3NzM4LC0yMTA3Mzg3NjU0LDEzODA5NjUzMDUsMTIyMzU5
