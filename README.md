@@ -1060,7 +1060,7 @@ DEFAULT
 ## Ejercicio 22
 ### Enunciado
 
-Elige un perfil y consulta qué límites se establecen en el mismo.
+Elige un perfil y consulta qué límites se establecen en el mismo
 
 ### Realización
 He elegido el perfil "ORA_STIG_PROFILE". La consulta es la siguiente:
@@ -1205,11 +1205,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MzU3NzExNCw3OTE4NzY1MzQsLTk4MD
-czODU0NywxNjc4MDY1MzE0LDE1NTc1OTM3MDksMTkwNTYwNDcx
-NSwtNzIxNjQ3ODQ0LDE2ODQ4MDg2NTcsMTE0NTgzNTI5OCwtMz
-Y3NzQ3NjAsMTcyMDIxOTUzOSw5ODQwMTI1NzQsMTIyNjkwMjU5
-MCwtMTYxMDg1ODg1NSwxMDk5NzQ3ODU5LDE4NjQ3NTA4NzksMT
-MzMjQ0Nzg3Myw5MzY4MTIxODksLTE2NTY2MTAyNjYsMTY3NjM1
-MjQwXX0=
+eyJoaXN0b3J5IjpbMjc3MzUyMTUwLDc5MTg3NjUzNCwtOTgwNz
+M4NTQ3LDE2NzgwNjUzMTQsMTU1NzU5MzcwOSwxOTA1NjA0NzE1
+LC03MjE2NDc4NDQsMTY4NDgwODY1NywxMTQ1ODM1Mjk4LC0zNj
+c3NDc2MCwxNzIwMjE5NTM5LDk4NDAxMjU3NCwxMjI2OTAyNTkw
+LC0xNjEwODU4ODU1LDEwOTk3NDc4NTksMTg2NDc1MDg3OSwxMz
+MyNDQ3ODczLDkzNjgxMjE4OSwtMTY1NjYxMDI2NiwxNjc2MzUy
+NDBdfQ==
 -->
