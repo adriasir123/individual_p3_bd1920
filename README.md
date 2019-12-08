@@ -782,7 +782,7 @@ Elige un usuario concreto y muestra qué privilegios sobre objetos tiene asignad
 ### Realización
 * Mostraremos los del usuario SYSTEM, por ejemplo
 ```
-select privilege
+select privilege, table_name
 	from DBA_TAB_PRIVS  
 	where grantee = 'SYSTEM';
 ```
@@ -998,11 +998,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4MjA2NTc0LC0xNjEwODU4ODU1LDEwOT
-k3NDc4NTksMTg2NDc1MDg3OSwxMzMyNDQ3ODczLDkzNjgxMjE4
-OSwtMTY1NjYxMDI2NiwxNjc2MzUyNDAsLTYxOTY5Mzk1OSwtMj
-A0MjkzMzA5OSwyMTMyNTIzMzIwLC0xMTQzMDk1MTY5LC00MjE3
-NjAzMjksNDIyMjc3OTYsNzEwMTc4MzUsMTAyMTY5MTM3NCwtMT
-M3ODM4Mzc1MCwtMTE5ODczOTc5LDE0NzE0MTc1NDUsLTExMzcy
-Mjc3MzhdfQ==
+eyJoaXN0b3J5IjpbMTIyNjkwMjU5MCwtMTYxMDg1ODg1NSwxMD
+k5NzQ3ODU5LDE4NjQ3NTA4NzksMTMzMjQ0Nzg3Myw5MzY4MTIx
+ODksLTE2NTY2MTAyNjYsMTY3NjM1MjQwLC02MTk2OTM5NTksLT
+IwNDI5MzMwOTksMjEzMjUyMzMyMCwtMTE0MzA5NTE2OSwtNDIx
+NzYwMzI5LDQyMjI3Nzk2LDcxMDE3ODM1LDEwMjE2OTEzNzQsLT
+EzNzgzODM3NTAsLTExOTg3Mzk3OSwxNDcxNDE3NTQ1LC0xMTM3
+MjI3NzM4XX0=
 -->
