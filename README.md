@@ -751,7 +751,7 @@ Elige un usuario concreto y muestra qué privilegios de sistema tiene asignados
 ### Realización
 * 
 ```
-select *
+select privilege
 	from DBA_SYS_PRIVS  
 	where grantee = 'SYSTEM';
 ```
@@ -987,11 +987,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDc1MDg3OSwxMzMyNDQ3ODczLDkzNj
-gxMjE4OSwtMTY1NjYxMDI2NiwxNjc2MzUyNDAsLTYxOTY5Mzk1
-OSwtMjA0MjkzMzA5OSwyMTMyNTIzMzIwLC0xMTQzMDk1MTY5LC
-00MjE3NjAzMjksNDIyMjc3OTYsNzEwMTc4MzUsMTAyMTY5MTM3
-NCwtMTM3ODM4Mzc1MCwtMTE5ODczOTc5LDE0NzE0MTc1NDUsLT
-ExMzcyMjc3MzgsLTIxMDczODc2NTQsMTM4MDk2NTMwNSwxMjIz
-NTk1NzU2XX0=
+eyJoaXN0b3J5IjpbLTExNDY5MDEzMjAsMTg2NDc1MDg3OSwxMz
+MyNDQ3ODczLDkzNjgxMjE4OSwtMTY1NjYxMDI2NiwxNjc2MzUy
+NDAsLTYxOTY5Mzk1OSwtMjA0MjkzMzA5OSwyMTMyNTIzMzIwLC
+0xMTQzMDk1MTY5LC00MjE3NjAzMjksNDIyMjc3OTYsNzEwMTc4
+MzUsMTAyMTY5MTM3NCwtMTM3ODM4Mzc1MCwtMTE5ODczOTc5LD
+E0NzE0MTc1NDUsLTExMzcyMjc3MzgsLTIxMDczODc2NTQsMTM4
+MDk2NTMwNV19
 -->
