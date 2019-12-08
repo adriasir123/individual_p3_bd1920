@@ -1038,13 +1038,18 @@ Consulta qué perfiles existen en tu base de datos
 ### Realización
 Hacemos la consulta...
 ```
-select profile  
+select distinct profile  
 	from dba_profiles;
 ```
 ```
-
+PROFILE
+------------------
+ORA_STIG_PROFILE
+NOPARESDECURRAR
+CONTRASENASEGURA
+DEFAULT
 ```
-
+...y vemos que en la base de datos sólo existen esos 4 perfiles
 
 
 
@@ -1180,7 +1185,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNjIwOTQ2NCwxNjc4MDY1MzE0LDE1NT
+eyJoaXN0b3J5IjpbLTk4MDczODU0NywxNjc4MDY1MzE0LDE1NT
 c1OTM3MDksMTkwNTYwNDcxNSwtNzIxNjQ3ODQ0LDE2ODQ4MDg2
 NTcsMTE0NTgzNTI5OCwtMzY3NzQ3NjAsMTcyMDIxOTUzOSw5OD
 QwMTI1NzQsMTIyNjkwMjU5MCwtMTYxMDg1ODg1NSwxMDk5NzQ3
