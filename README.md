@@ -1065,12 +1065,32 @@ Elige un perfil y consulta qué límites se establecen en el mismo.
 ### Realización
 He elegido el perfil "ORA_STIG_PROFILE". La consulta es la siguiente:
 ```
-select resource_name, limit  
+select resource_name,  limit  
 	from dba_profiles  
 	where profile = 'ORA_STIG_PROFILE';
 ```
 ```
+RESOURCE_NAME                    LIMIT
+-------------------------------- ----------------------------
+COMPOSITE_LIMIT                  DEFAULT
+SESSIONS_PER_USER                DEFAULT
+CPU_PER_SESSION                  DEFAULT
+CPU_PER_CALL                     DEFAULT
+LOGICAL_READS_PER_SESSION        DEFAULT
+LOGICAL_READS_PER_CALL           DEFAULT
+IDLE_TIME                        15
+CONNECT_TIME                     DEFAULT
+PRIVATE_SGA                      DEFAULT
+FAILED_LOGIN_ATTEMPTS            3
+PASSWORD_LIFE_TIME               60
+PASSWORD_REUSE_TIME              365
+PASSWORD_REUSE_MAX               10
+PASSWORD_VERIFY_FUNCTION         ORA12C_STIG_VERIFY_FUNCTION
+PASSWORD_LOCK_TIME               UNLIMITED
+PASSWORD_GRACE_TIME              5
+INACTIVE_ACCOUNT_TIME            35
 
+17 rows selected.
 ```
 
 
@@ -1185,11 +1205,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxODc2NTM0LC05ODA3Mzg1NDcsMTY3OD
-A2NTMxNCwxNTU3NTkzNzA5LDE5MDU2MDQ3MTUsLTcyMTY0Nzg0
-NCwxNjg0ODA4NjU3LDExNDU4MzUyOTgsLTM2Nzc0NzYwLDE3Mj
-AyMTk1MzksOTg0MDEyNTc0LDEyMjY5MDI1OTAsLTE2MTA4NTg4
-NTUsMTA5OTc0Nzg1OSwxODY0NzUwODc5LDEzMzI0NDc4NzMsOT
-M2ODEyMTg5LC0xNjU2NjEwMjY2LDE2NzYzNTI0MCwtNjE5Njkz
-OTU5XX0=
+eyJoaXN0b3J5IjpbLTg0MjI5NDUyLDc5MTg3NjUzNCwtOTgwNz
+M4NTQ3LDE2NzgwNjUzMTQsMTU1NzU5MzcwOSwxOTA1NjA0NzE1
+LC03MjE2NDc4NDQsMTY4NDgwODY1NywxMTQ1ODM1Mjk4LC0zNj
+c3NDc2MCwxNzIwMjE5NTM5LDk4NDAxMjU3NCwxMjI2OTAyNTkw
+LC0xNjEwODU4ODU1LDEwOTk3NDc4NTksMTg2NDc1MDg3OSwxMz
+MyNDQ3ODczLDkzNjgxMjE4OSwtMTY1NjYxMDI2NiwxNjc2MzUy
+NDBdfQ==
 -->
