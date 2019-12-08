@@ -562,7 +562,7 @@ ORA-02396: ha excedido el tiempo mßximo de inactividad, vuelva a conectarse
 
 
 
-## Ejercicio 12
+## Ejercicio 12 :heavy_check_mark:
 ### Enunciado
 
 Crea un perfil CONTRASEÑASEGURA especificando que:
@@ -600,11 +600,7 @@ CONTRASENASEGURA                                                                
 CONTRASENASEGURA                                                                                                         PASSWORD_LIFE_TIME               30
 CONTRASENASEGURA                                                                                                         PASSWORD_LOCK_TIME               UNLIMITED
 ```
-_Los valores de límites por los que hemos filtrado son los que previamente habíamos indicado. Todo ha funcionado correctamente_
-
-
-
-
+_Los valores de los límites por los que hemos filtrado son los que previamente habíamos indicado. Todo ha funcionado correctamente_
 
 
 
@@ -959,11 +955,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzgzODM3NTAsLTExOTg3Mzk3OSwxND
-cxNDE3NTQ1LC0xMTM3MjI3NzM4LC0yMTA3Mzg3NjU0LDEzODA5
-NjUzMDUsMTIyMzU5NTc1NiwyNzYwMzY2ODgsLTY3NzI3MjcxMC
-wtMTI4MDA2OTMyOCwxMDUyODMzNDA1LC02NDA3MzgwNzUsLTM1
-OTM1NTY5OCw0MzUxODU0MCwtODM0ODQyODI3LDk3NzkzNDY1Mi
-wxMjkzMTY1NzUxLDE2NTMyMTgyNzksMzc3NzQ5MTUxLDE4Nzc4
-MTIwODBdfQ==
+eyJoaXN0b3J5IjpbOTM3ODE1NzUyLC0xMzc4MzgzNzUwLC0xMT
+k4NzM5NzksMTQ3MTQxNzU0NSwtMTEzNzIyNzczOCwtMjEwNzM4
+NzY1NCwxMzgwOTY1MzA1LDEyMjM1OTU3NTYsMjc2MDM2Njg4LC
+02NzcyNzI3MTAsLTEyODAwNjkzMjgsMTA1MjgzMzQwNSwtNjQw
+NzM4MDc1LC0zNTkzNTU2OTgsNDM1MTg1NDAsLTgzNDg0MjgyNy
+w5Nzc5MzQ2NTIsMTI5MzE2NTc1MSwxNjUzMjE4Mjc5LDM3Nzc0
+OTE1MV19
 -->
