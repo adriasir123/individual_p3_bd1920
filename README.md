@@ -1010,14 +1010,15 @@ no rows selected
 ```
 Por ejemplo, como podemos ver, el rol "JAVA_ADMIN" NO está compuesto por otros roles
 
-¿Pero y si quisiéramos saber el resultado que daría la consulta con un rol que SÍ estuviera compuesto de otros roles? Para eso, primero deberíamos de saber previamente qué rol está compuesto por otros roles.
+¿Pero y si quisiéramos saber el resultado que daría la consulta con un rol que SÍ estuviera compuesto de otros roles? Para eso, primero deberíamos de saber previamente qué rol está compuesto por otros roles. Pero este trabajo ya lo he hecho, y he averiguado que el rol "SYSUMF_ROLE" cumple estas condiciones.
+Por lo tanto, si repetimos la consulta anterior pero con este rol...
+```
+
+```
 
 
 
 
-
-
-SYSUMF_ROLE
 
 
 
@@ -1173,7 +1174,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjA1MzI1OSwxNTU3NTkzNzA5LDE5MD
+eyJoaXN0b3J5IjpbLTIyNDA3Njk5MiwxNTU3NTkzNzA5LDE5MD
 U2MDQ3MTUsLTcyMTY0Nzg0NCwxNjg0ODA4NjU3LDExNDU4MzUy
 OTgsLTM2Nzc0NzYwLDE3MjAyMTk1MzksOTg0MDEyNTc0LDEyMj
 Y5MDI1OTAsLTE2MTA4NTg4NTUsMTA5OTc0Nzg1OSwxODY0NzUw
