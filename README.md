@@ -993,7 +993,7 @@ _En este caso, el rol indicado lo tiene asignado sólo el usuario SYS_
 
 
 
-## Ejercicio 20
+## Ejercicio 20 :heavy_check_mark:
 ### Enunciado
 
 Elige un rol concreto y averigua si está compuesto por otros roles o no
@@ -1036,7 +1036,7 @@ SELECT_CATALOG_ROLE                                                             
 Consulta qué perfiles existen en tu base de datos
 
 ### Realización
-
+Hacemos la consulta...
 ```
 select profile  
 	from dba_profiles;
@@ -1180,11 +1180,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM1MDc1MjYsMTY3ODA2NTMxNCwxNTU3NT
-kzNzA5LDE5MDU2MDQ3MTUsLTcyMTY0Nzg0NCwxNjg0ODA4NjU3
-LDExNDU4MzUyOTgsLTM2Nzc0NzYwLDE3MjAyMTk1MzksOTg0MD
-EyNTc0LDEyMjY5MDI1OTAsLTE2MTA4NTg4NTUsMTA5OTc0Nzg1
-OSwxODY0NzUwODc5LDEzMzI0NDc4NzMsOTM2ODEyMTg5LC0xNj
-U2NjEwMjY2LDE2NzYzNTI0MCwtNjE5NjkzOTU5LC0yMDQyOTMz
-MDk5XX0=
+eyJoaXN0b3J5IjpbLTg4NjY5MDgwMCwxNjc4MDY1MzE0LDE1NT
+c1OTM3MDksMTkwNTYwNDcxNSwtNzIxNjQ3ODQ0LDE2ODQ4MDg2
+NTcsMTE0NTgzNTI5OCwtMzY3NzQ3NjAsMTcyMDIxOTUzOSw5OD
+QwMTI1NzQsMTIyNjkwMjU5MCwtMTYxMDg1ODg1NSwxMDk5NzQ3
+ODU5LDE4NjQ3NTA4NzksMTMzMjQ0Nzg3Myw5MzY4MTIxODksLT
+E2NTY2MTAyNjYsMTY3NjM1MjQwLC02MTk2OTM5NTksLTIwNDI5
+MzMwOTldfQ==
 -->
