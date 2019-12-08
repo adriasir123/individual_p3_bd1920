@@ -746,7 +746,7 @@ Por último, quiero indicar que esa cuota de "-1", quiere decir que es ilimitada
 ## Ejercicio 16
 ### Enunciado
 
-Elige un usuario concreto y muestra qué privilegios de sistema tiene asignados.
+Elige un usuario concreto y muestra qué privilegios de sistema tiene asignados
 
 ### Realización
 * 
@@ -987,7 +987,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NzU0NDUyOSw5MzY4MTIxODksLTE2NT
+eyJoaXN0b3J5IjpbMTMzMjQ0Nzg3Myw5MzY4MTIxODksLTE2NT
 Y2MTAyNjYsMTY3NjM1MjQwLC02MTk2OTM5NTksLTIwNDI5MzMw
 OTksMjEzMjUyMzMyMCwtMTE0MzA5NTE2OSwtNDIxNzYwMzI5LD
 QyMjI3Nzk2LDcxMDE3ODM1LDEwMjE2OTEzNzQsLTEzNzgzODM3
