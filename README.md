@@ -623,7 +623,10 @@ ALTER USER USRPRACTICA1 PROFILE CONTRASENASEGURA;
 ```
 User altered.
 ```
-* 
+* Para comprobar que el perfil funciona, simplemente nos equivocaremos 4 veces en la introducción de contraseña, y veremos cómo la cuenta se bloquea indefinidamente
+```
+
+```
 
 
 * Desbloqueamos la cuenta
@@ -967,11 +970,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyMjc3OTYsNzEwMTc4MzUsMTAyMTY5MT
-M3NCwtMTM3ODM4Mzc1MCwtMTE5ODczOTc5LDE0NzE0MTc1NDUs
-LTExMzcyMjc3MzgsLTIxMDczODc2NTQsMTM4MDk2NTMwNSwxMj
-IzNTk1NzU2LDI3NjAzNjY4OCwtNjc3MjcyNzEwLC0xMjgwMDY5
-MzI4LDEwNTI4MzM0MDUsLTY0MDczODA3NSwtMzU5MzU1Njk4LD
-QzNTE4NTQwLC04MzQ4NDI4MjcsOTc3OTM0NjUyLDEyOTMxNjU3
-NTFdfQ==
+eyJoaXN0b3J5IjpbLTQyMTc2MDMyOSw0MjIyNzc5Niw3MTAxNz
+gzNSwxMDIxNjkxMzc0LC0xMzc4MzgzNzUwLC0xMTk4NzM5Nzks
+MTQ3MTQxNzU0NSwtMTEzNzIyNzczOCwtMjEwNzM4NzY1NCwxMz
+gwOTY1MzA1LDEyMjM1OTU3NTYsMjc2MDM2Njg4LC02NzcyNzI3
+MTAsLTEyODAwNjkzMjgsMTA1MjgzMzQwNSwtNjQwNzM4MDc1LC
+0zNTkzNTU2OTgsNDM1MTg1NDAsLTgzNDg0MjgyNyw5Nzc5MzQ2
+NTJdfQ==
 -->
