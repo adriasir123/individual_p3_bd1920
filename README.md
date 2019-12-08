@@ -582,9 +582,11 @@ CREATE PROFILE CONTRASENASEGURA LIMIT
 ```
 Profile created.
 ```
-* Mostramos que se ha creado el perfil, y tiene los límites
+* Mostramos que se ha creado el perfil, y tiene los límites dichos
 ```
-
+select profile, resource_name, limit
+	from DBA_PROFILES
+	where profile = 'CONTRASENASEGURA';
 ```
 
 
@@ -937,11 +939,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzY2MTkyNiwxNDcxNDE3NTQ1LC0xMT
-M3MjI3NzM4LC0yMTA3Mzg3NjU0LDEzODA5NjUzMDUsMTIyMzU5
-NTc1NiwyNzYwMzY2ODgsLTY3NzI3MjcxMCwtMTI4MDA2OTMyOC
-wxMDUyODMzNDA1LC02NDA3MzgwNzUsLTM1OTM1NTY5OCw0MzUx
-ODU0MCwtODM0ODQyODI3LDk3NzkzNDY1MiwxMjkzMTY1NzUxLD
-E2NTMyMTgyNzksMzc3NzQ5MTUxLDE4Nzc4MTIwODAsMTQyMDQ0
-ODYxXX0=
+eyJoaXN0b3J5IjpbLTE3MTczMTk5OTksMTQ3MTQxNzU0NSwtMT
+EzNzIyNzczOCwtMjEwNzM4NzY1NCwxMzgwOTY1MzA1LDEyMjM1
+OTU3NTYsMjc2MDM2Njg4LC02NzcyNzI3MTAsLTEyODAwNjkzMj
+gsMTA1MjgzMzQwNSwtNjQwNzM4MDc1LC0zNTkzNTU2OTgsNDM1
+MTg1NDAsLTgzNDg0MjgyNyw5Nzc5MzQ2NTIsMTI5MzE2NTc1MS
+wxNjUzMjE4Mjc5LDM3Nzc0OTE1MSwxODc3ODEyMDgwLDE0MjA0
+NDg2MV19
 -->
