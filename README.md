@@ -723,7 +723,7 @@ _La consulta ha funcionado correctamente_
 Elige un usuario concreto y consulta qué cuota tiene sobre cada uno de los tablespaces.
 
 ### Realización
-Voy a hacerlo sobre AUDSYS
+* Haré la consulta sobre el usuario AUDSYS
 ```
 select tablespace_name, username, max_bytes
 	from dba_ts_quotas
@@ -983,11 +983,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NjM1MjQwLC02MTk2OTM5NTksLTIwND
-I5MzMwOTksMjEzMjUyMzMyMCwtMTE0MzA5NTE2OSwtNDIxNzYw
-MzI5LDQyMjI3Nzk2LDcxMDE3ODM1LDEwMjE2OTEzNzQsLTEzNz
-gzODM3NTAsLTExOTg3Mzk3OSwxNDcxNDE3NTQ1LC0xMTM3MjI3
-NzM4LC0yMTA3Mzg3NjU0LDEzODA5NjUzMDUsMTIyMzU5NTc1Ni
-wyNzYwMzY2ODgsLTY3NzI3MjcxMCwtMTI4MDA2OTMyOCwxMDUy
-ODMzNDA1XX0=
+eyJoaXN0b3J5IjpbLTE2NTY2MTAyNjYsMTY3NjM1MjQwLC02MT
+k2OTM5NTksLTIwNDI5MzMwOTksMjEzMjUyMzMyMCwtMTE0MzA5
+NTE2OSwtNDIxNzYwMzI5LDQyMjI3Nzk2LDcxMDE3ODM1LDEwMj
+E2OTEzNzQsLTEzNzgzODM3NTAsLTExOTg3Mzk3OSwxNDcxNDE3
+NTQ1LC0xMTM3MjI3NzM4LC0yMTA3Mzg3NjU0LDEzODA5NjUzMD
+UsMTIyMzU5NTc1NiwyNzYwMzY2ODgsLTY3NzI3MjcxMCwtMTI4
+MDA2OTMyOF19
 -->
