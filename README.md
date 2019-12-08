@@ -630,7 +630,7 @@ ORA-28000: la cuenta estß bloqueada
 ```
 _Este es el mensaje que nos aparecería al 4 error en la introducción de contraseña, que es cuando se bloquearía la cuenta_
 
-> NOTA: 
+> NOTA: en cuanto cometamos el 4 error de contraseña, simplemente se nos denegará la conexión, pero **no 
 
 
 * Desbloqueamos la cuenta
@@ -974,11 +974,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0MjE3MDA2LC00MjE3NjAzMjksNDIyMj
-c3OTYsNzEwMTc4MzUsMTAyMTY5MTM3NCwtMTM3ODM4Mzc1MCwt
-MTE5ODczOTc5LDE0NzE0MTc1NDUsLTExMzcyMjc3MzgsLTIxMD
-czODc2NTQsMTM4MDk2NTMwNSwxMjIzNTk1NzU2LDI3NjAzNjY4
-OCwtNjc3MjcyNzEwLC0xMjgwMDY5MzI4LDEwNTI4MzM0MDUsLT
-Y0MDczODA3NSwtMzU5MzU1Njk4LDQzNTE4NTQwLC04MzQ4NDI4
-MjddfQ==
+eyJoaXN0b3J5IjpbMTg4MDQ5Njg4MSwtNDIxNzYwMzI5LDQyMj
+I3Nzk2LDcxMDE3ODM1LDEwMjE2OTEzNzQsLTEzNzgzODM3NTAs
+LTExOTg3Mzk3OSwxNDcxNDE3NTQ1LC0xMTM3MjI3NzM4LC0yMT
+A3Mzg3NjU0LDEzODA5NjUzMDUsMTIyMzU5NTc1NiwyNzYwMzY2
+ODgsLTY3NzI3MjcxMCwtMTI4MDA2OTMyOCwxMDUyODMzNDA1LC
+02NDA3MzgwNzUsLTM1OTM1NTY5OCw0MzUxODU0MCwtODM0ODQy
+ODI3XX0=
 -->
