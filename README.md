@@ -1011,7 +1011,7 @@ no rows selected
 Por ejemplo, como podemos ver, el rol "JAVA_ADMIN" NO está compuesto por otros roles
 
 ¿Pero y si quisiéramos saber el resultado que daría la consulta con un rol que SÍ estuviera compuesto de otros roles? Para eso, primero deberíamos de saber previamente qué rol está compuesto por otros roles. Pero este trabajo ya lo he hecho, y he averiguado que el rol "SYSUMF_ROLE" cumple estas condiciones.
-Por lo tanto, si repetimos la consulta anterior pero con este rol...
+Por lo tanto, si repetimos la consulta anterior con este rol...
 ```
 select granted_role, grantee
 	from DBA_ROLE_PRIVS  
@@ -1180,11 +1180,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODA2NTMxNCwxNTU3NTkzNzA5LDE5MD
-U2MDQ3MTUsLTcyMTY0Nzg0NCwxNjg0ODA4NjU3LDExNDU4MzUy
-OTgsLTM2Nzc0NzYwLDE3MjAyMTk1MzksOTg0MDEyNTc0LDEyMj
-Y5MDI1OTAsLTE2MTA4NTg4NTUsMTA5OTc0Nzg1OSwxODY0NzUw
-ODc5LDEzMzI0NDc4NzMsOTM2ODEyMTg5LC0xNjU2NjEwMjY2LD
-E2NzYzNTI0MCwtNjE5NjkzOTU5LC0yMDQyOTMzMDk5LDIxMzI1
-MjMzMjBdfQ==
+eyJoaXN0b3J5IjpbMTM3MzQyMjYzNiwxNjc4MDY1MzE0LDE1NT
+c1OTM3MDksMTkwNTYwNDcxNSwtNzIxNjQ3ODQ0LDE2ODQ4MDg2
+NTcsMTE0NTgzNTI5OCwtMzY3NzQ3NjAsMTcyMDIxOTUzOSw5OD
+QwMTI1NzQsMTIyNjkwMjU5MCwtMTYxMDg1ODg1NSwxMDk5NzQ3
+ODU5LDE4NjQ3NTA4NzksMTMzMjQ0Nzg3Myw5MzY4MTIxODksLT
+E2NTY2MTAyNjYsMTY3NjM1MjQwLC02MTk2OTM5NTksLTIwNDI5
+MzMwOTldfQ==
 -->
