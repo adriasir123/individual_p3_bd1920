@@ -968,7 +968,7 @@ _Estos son todos los roles que existen en nuestra base de datos_
 
 
 
-## Ejercicio 19
+## Ejercicio 19 :heavy_check_mark:
 ### Enunciado
 
 Elige un rol concreto y consulta qué usuarios lo tienen asignado
@@ -1160,11 +1160,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDgwODY1NywxMTQ1ODM1Mjk4LC0zNj
-c3NDc2MCwxNzIwMjE5NTM5LDk4NDAxMjU3NCwxMjI2OTAyNTkw
-LC0xNjEwODU4ODU1LDEwOTk3NDc4NTksMTg2NDc1MDg3OSwxMz
-MyNDQ3ODczLDkzNjgxMjE4OSwtMTY1NjYxMDI2NiwxNjc2MzUy
-NDAsLTYxOTY5Mzk1OSwtMjA0MjkzMzA5OSwyMTMyNTIzMzIwLC
-0xMTQzMDk1MTY5LC00MjE3NjAzMjksNDIyMjc3OTYsNzEwMTc4
-MzVdfQ==
+eyJoaXN0b3J5IjpbMTQ0MjM5MjczLDE2ODQ4MDg2NTcsMTE0NT
+gzNTI5OCwtMzY3NzQ3NjAsMTcyMDIxOTUzOSw5ODQwMTI1NzQs
+MTIyNjkwMjU5MCwtMTYxMDg1ODg1NSwxMDk5NzQ3ODU5LDE4Nj
+Q3NTA4NzksMTMzMjQ0Nzg3Myw5MzY4MTIxODksLTE2NTY2MTAy
+NjYsMTY3NjM1MjQwLC02MTk2OTM5NTksLTIwNDI5MzMwOTksMj
+EzMjUyMzMyMCwtMTE0MzA5NTE2OSwtNDIxNzYwMzI5LDQyMjI3
+Nzk2XX0=
 -->
