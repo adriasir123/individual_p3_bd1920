@@ -725,7 +725,7 @@ Elige un usuario concreto y consulta qué cuota tiene sobre cada uno de los tabl
 ### Realización
 Voy a hacerlo sobre AUDSYS
 ```
-select tablespace_name, username, bytes, max_bytes
+select tablespace_name, username, max_bytes
 	from dba_ts_quotas
 	where username = 'AUDSYS';
 ```
@@ -983,11 +983,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTY5Mzk1OSwtMjA0MjkzMzA5OSwyMT
-MyNTIzMzIwLC0xMTQzMDk1MTY5LC00MjE3NjAzMjksNDIyMjc3
-OTYsNzEwMTc4MzUsMTAyMTY5MTM3NCwtMTM3ODM4Mzc1MCwtMT
-E5ODczOTc5LDE0NzE0MTc1NDUsLTExMzcyMjc3MzgsLTIxMDcz
-ODc2NTQsMTM4MDk2NTMwNSwxMjIzNTk1NzU2LDI3NjAzNjY4OC
-wtNjc3MjcyNzEwLC0xMjgwMDY5MzI4LDEwNTI4MzM0MDUsLTY0
-MDczODA3NV19
+eyJoaXN0b3J5IjpbMTY3NjM1MjQwLC02MTk2OTM5NTksLTIwND
+I5MzMwOTksMjEzMjUyMzMyMCwtMTE0MzA5NTE2OSwtNDIxNzYw
+MzI5LDQyMjI3Nzk2LDcxMDE3ODM1LDEwMjE2OTEzNzQsLTEzNz
+gzODM3NTAsLTExOTg3Mzk3OSwxNDcxNDE3NTQ1LC0xMTM3MjI3
+NzM4LC0yMTA3Mzg3NjU0LDEzODA5NjUzMDUsMTIyMzU5NTc1Ni
+wyNzYwMzY2ODgsLTY3NzI3MjcxMCwtMTI4MDA2OTMyOCwxMDUy
+ODMzNDA1XX0=
 -->
