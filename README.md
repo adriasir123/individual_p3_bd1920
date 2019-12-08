@@ -980,6 +980,12 @@ SELECT granted_role, grantee
 	FROM DBA_ROLE_PRIVS  
 	WHERE granted_role = 'APPLICATION_TRACE_VIEWER';
 ```
+```
+GRANTED_ROLE             GRANTEE
+------------------------ ---------
+APPLICATION_TRACE_VIEWER SYS
+```
+
 
 
 
@@ -1154,7 +1160,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTUyMTk1NiwxMTQ1ODM1Mjk4LC0zNj
+eyJoaXN0b3J5IjpbLTc0MzA0MjAyOSwxMTQ1ODM1Mjk4LC0zNj
 c3NDc2MCwxNzIwMjE5NTM5LDk4NDAxMjU3NCwxMjI2OTAyNTkw
 LC0xNjEwODU4ODU1LDEwOTk3NDc4NTksMTg2NDc1MDg3OSwxMz
 MyNDQ3ODczLDkzNjgxMjE4OSwtMTY1NjYxMDI2NiwxNjc2MzUy
