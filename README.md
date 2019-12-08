@@ -855,7 +855,7 @@ _Se han mostrado todos los privilegios sobre objetos correctamente. Además, qui
 
 
 
-## Ejercicio 18
+## Ejercicio 18 :heavy_check_mark:
 ### Enunciado
 
 Consulta qué roles existen en tu base de datos
@@ -962,6 +962,9 @@ ROLPRACTICA1
 90 filas seleccionadas.
 ```
 _Estos son todos los roles que existen en nuestra base de datos_
+
+
+
 
 
 
@@ -1150,11 +1153,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2Nzc0NzYwLDE3MjAyMTk1MzksOTg0MD
-EyNTc0LDEyMjY5MDI1OTAsLTE2MTA4NTg4NTUsMTA5OTc0Nzg1
-OSwxODY0NzUwODc5LDEzMzI0NDc4NzMsOTM2ODEyMTg5LC0xNj
-U2NjEwMjY2LDE2NzYzNTI0MCwtNjE5NjkzOTU5LC0yMDQyOTMz
-MDk5LDIxMzI1MjMzMjAsLTExNDMwOTUxNjksLTQyMTc2MDMyOS
-w0MjIyNzc5Niw3MTAxNzgzNSwxMDIxNjkxMzc0LC0xMzc4Mzgz
-NzUwXX0=
+eyJoaXN0b3J5IjpbLTIxMjk0NzYwMTIsLTM2Nzc0NzYwLDE3Mj
+AyMTk1MzksOTg0MDEyNTc0LDEyMjY5MDI1OTAsLTE2MTA4NTg4
+NTUsMTA5OTc0Nzg1OSwxODY0NzUwODc5LDEzMzI0NDc4NzMsOT
+M2ODEyMTg5LC0xNjU2NjEwMjY2LDE2NzYzNTI0MCwtNjE5Njkz
+OTU5LC0yMDQyOTMzMDk5LDIxMzI1MjMzMjAsLTExNDMwOTUxNj
+ksLTQyMTc2MDMyOSw0MjIyNzc5Niw3MTAxNzgzNSwxMDIxNjkx
+Mzc0XX0=
 -->
