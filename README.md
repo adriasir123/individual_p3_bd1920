@@ -734,7 +734,8 @@ TABLESPACE_NAME                USERNA  MAX_BYTES
 ------------------------------ ------ ----------
 SYSAUX                         AUDSYS         -1
 ```
-En este caso, el usuario AUDSYS sólo tiene cuota sobre el tablespace SYSAUX. En el caso de que le diéramos cuota a ese usuario en otros tablespaces, aparecerían más registros a 
+En este caso, el usuario AUDSYS sólo tiene cuota sobre el tablespace SYSAUX. En el caso de que le diéramos cuota a ese usuario en otros tablespaces, la consulta devolvería más registros.
+Por último, quiero indicar que esa cuota de "-1", quiere decir que es ilimitada sobre el tablespace
 
 
 
@@ -985,11 +986,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2Mjc3MjU3NiwtMTY1NjYxMDI2NiwxNj
-c2MzUyNDAsLTYxOTY5Mzk1OSwtMjA0MjkzMzA5OSwyMTMyNTIz
-MzIwLC0xMTQzMDk1MTY5LC00MjE3NjAzMjksNDIyMjc3OTYsNz
-EwMTc4MzUsMTAyMTY5MTM3NCwtMTM3ODM4Mzc1MCwtMTE5ODcz
-OTc5LDE0NzE0MTc1NDUsLTExMzcyMjc3MzgsLTIxMDczODc2NT
-QsMTM4MDk2NTMwNSwxMjIzNTk1NzU2LDI3NjAzNjY4OCwtNjc3
-MjcyNzEwXX0=
+eyJoaXN0b3J5IjpbLTEwNTY4ODYzMTAsLTE2NTY2MTAyNjYsMT
+Y3NjM1MjQwLC02MTk2OTM5NTksLTIwNDI5MzMwOTksMjEzMjUy
+MzMyMCwtMTE0MzA5NTE2OSwtNDIxNzYwMzI5LDQyMjI3Nzk2LD
+cxMDE3ODM1LDEwMjE2OTEzNzQsLTEzNzgzODM3NTAsLTExOTg3
+Mzk3OSwxNDcxNDE3NTQ1LC0xMTM3MjI3NzM4LC0yMTA3Mzg3Nj
+U0LDEzODA5NjUzMDUsMTIyMzU5NTc1NiwyNzYwMzY2ODgsLTY3
+NzI3MjcxMF19
 -->
