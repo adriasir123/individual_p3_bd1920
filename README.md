@@ -616,7 +616,7 @@ _Los valores de los límites por los que hemos filtrado son los que previamente 
 * Desbloquea posteriormente al usuario (porque el perfil hacía que al 4 error de introducción de contraseña, bloquease la cuenta)
 
 ### Realización
-
+* Asignamos el perfil
 ```
 ALTER USER USRPRACTICA1 PROFILE CONTRASENASEGURA;
 ```
@@ -964,11 +964,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwMTc4MzUsMTAyMTY5MTM3NCwtMTM3OD
-M4Mzc1MCwtMTE5ODczOTc5LDE0NzE0MTc1NDUsLTExMzcyMjc3
-MzgsLTIxMDczODc2NTQsMTM4MDk2NTMwNSwxMjIzNTk1NzU2LD
-I3NjAzNjY4OCwtNjc3MjcyNzEwLC0xMjgwMDY5MzI4LDEwNTI4
-MzM0MDUsLTY0MDczODA3NSwtMzU5MzU1Njk4LDQzNTE4NTQwLC
-04MzQ4NDI4MjcsOTc3OTM0NjUyLDEyOTMxNjU3NTEsMTY1MzIx
-ODI3OV19
+eyJoaXN0b3J5IjpbLTE4OTQyNDQ1MTgsNzEwMTc4MzUsMTAyMT
+Y5MTM3NCwtMTM3ODM4Mzc1MCwtMTE5ODczOTc5LDE0NzE0MTc1
+NDUsLTExMzcyMjc3MzgsLTIxMDczODc2NTQsMTM4MDk2NTMwNS
+wxMjIzNTk1NzU2LDI3NjAzNjY4OCwtNjc3MjcyNzEwLC0xMjgw
+MDY5MzI4LDEwNTI4MzM0MDUsLTY0MDczODA3NSwtMzU5MzU1Nj
+k4LDQzNTE4NTQwLC04MzQ4NDI4MjcsOTc3OTM0NjUyLDEyOTMx
+NjU3NTFdfQ==
 -->
