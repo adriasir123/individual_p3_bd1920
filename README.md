@@ -658,7 +658,7 @@ _Hemos podido acceder sin problemas, por lo que se han realizado todos los pasos
 Consulta qué usuarios existen en tu base de datos
 
 ### Realización
-* Hacemos la consulta dicha
+* Hacemos la consulta
 ```
 SELECT USERNAME
 FROM DBA_USERS;
@@ -979,7 +979,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDI0NDcwNjAsMjEzMjUyMzMyMCwtMT
+eyJoaXN0b3J5IjpbLTIwNDI5MzMwOTksMjEzMjUyMzMyMCwtMT
 E0MzA5NTE2OSwtNDIxNzYwMzI5LDQyMjI3Nzk2LDcxMDE3ODM1
 LDEwMjE2OTEzNzQsLTEzNzgzODM3NTAsLTExOTg3Mzk3OSwxND
 cxNDE3NTQ1LC0xMTM3MjI3NzM4LC0yMTA3Mzg3NjU0LDEzODA5
