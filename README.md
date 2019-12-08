@@ -625,9 +625,10 @@ User altered.
 ```
 * Para comprobar que el perfil funciona, simplemente nos equivocaremos 4 veces en la introducción de contraseña, y veremos cómo la cuenta se bloquea indefinidamente
 ```
-
+ERROR:
+ORA-28000: la cuenta estß bloqueada
 ```
-
+_Este es el mensaje que nos aparecería al 4 error en la introducción de contraseña, que _
 
 * Desbloqueamos la cuenta
 ```
@@ -970,11 +971,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMTc2MDMyOSw0MjIyNzc5Niw3MTAxNz
-gzNSwxMDIxNjkxMzc0LC0xMzc4MzgzNzUwLC0xMTk4NzM5Nzks
-MTQ3MTQxNzU0NSwtMTEzNzIyNzczOCwtMjEwNzM4NzY1NCwxMz
-gwOTY1MzA1LDEyMjM1OTU3NTYsMjc2MDM2Njg4LC02NzcyNzI3
-MTAsLTEyODAwNjkzMjgsMTA1MjgzMzQwNSwtNjQwNzM4MDc1LC
-0zNTkzNTU2OTgsNDM1MTg1NDAsLTgzNDg0MjgyNyw5Nzc5MzQ2
-NTJdfQ==
+eyJoaXN0b3J5IjpbLTE1NzUyODUyNiwtNDIxNzYwMzI5LDQyMj
+I3Nzk2LDcxMDE3ODM1LDEwMjE2OTEzNzQsLTEzNzgzODM3NTAs
+LTExOTg3Mzk3OSwxNDcxNDE3NTQ1LC0xMTM3MjI3NzM4LC0yMT
+A3Mzg3NjU0LDEzODA5NjUzMDUsMTIyMzU5NTc1NiwyNzYwMzY2
+ODgsLTY3NzI3MjcxMCwtMTI4MDA2OTMyOCwxMDUyODMzNDA1LC
+02NDA3MzgwNzUsLTM1OTM1NTY5OCw0MzUxODU0MCwtODM0ODQy
+ODI3XX0=
 -->
