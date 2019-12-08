@@ -971,13 +971,14 @@ _Estos son todos los roles que existen en nuestra base de datos_
 ## Ejercicio 19
 ### Enunciado
 
-Elige un rol concreto y consulta qué usuarios lo tienen asignado.
+Elige un rol concreto y consulta qué usuarios lo tienen asignado
 
 ### Realización
 
 ```
-SELECT granted_role, username FROM USER_ROLE_PRIVS  
-WHERE granted_role = <nombre>;
+SELECT granted_role, username
+	FROM DBA_ROLE_PRIVS  
+	WHERE granted_role = <nombre>;
 ```
 
 
@@ -1153,7 +1154,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjk0NzYwMTIsLTM2Nzc0NzYwLDE3Mj
+eyJoaXN0b3J5IjpbLTEwNzYwNDE5ODgsLTM2Nzc0NzYwLDE3Mj
 AyMTk1MzksOTg0MDEyNTc0LDEyMjY5MDI1OTAsLTE2MTA4NTg4
 NTUsMTA5OTc0Nzg1OSwxODY0NzUwODc5LDEzMzI0NDc4NzMsOT
 M2ODEyMTg5LC0xNjU2NjEwMjY2LDE2NzYzNTI0MCwtNjE5Njkz
