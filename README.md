@@ -1123,7 +1123,7 @@ no rows selected
 En este caso no tenemos usuarios cuyo perfil asignado, tuviera limitado el valor "SESSIONS_PER_USER". 
 Por lo tanto, no aparecen registros de usuarios que tuvieran un límite de sesiones concurrentes.
 
-> NOTA: esta consulta funcionaría también en el caso de que hubiera múltiples usuarios (incluso con diferentes perfiles) que tuvieran este tipo de límitación en el número de sesiones concurrentes
+> NOTA: esta consulta funcionaría también en el caso de que hubieran múltiples usuarios (incluso con diferentes perfiles) que tuvieran este tipo de límitación en el número de sesiones concurrentes
 
 
 
@@ -1210,11 +1210,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NjY4MDA4NCwtOTkxMDAwOTc0LC0xNT
-k4ODc2OTQ1LC0xMzg5Mjc2MzQ1LDEyMTYyNjkwNDksLTE2ODQz
-MTY2ODMsNDUwMzI5NjI2LDE1NjM0NTQ0NjgsOTgzNTU2MTAwLD
-gwNjA2MDYsNzkxODc2NTM0LC05ODA3Mzg1NDcsMTY3ODA2NTMx
-NCwxNTU3NTkzNzA5LDE5MDU2MDQ3MTUsLTcyMTY0Nzg0NCwxNj
-g0ODA4NjU3LDExNDU4MzUyOTgsLTM2Nzc0NzYwLDE3MjAyMTk1
-MzldfQ==
+eyJoaXN0b3J5IjpbMTU3ODA1MjA2NiwtNjc2NjgwMDg0LC05OT
+EwMDA5NzQsLTE1OTg4NzY5NDUsLTEzODkyNzYzNDUsMTIxNjI2
+OTA0OSwtMTY4NDMxNjY4Myw0NTAzMjk2MjYsMTU2MzQ1NDQ2OC
+w5ODM1NTYxMDAsODA2MDYwNiw3OTE4NzY1MzQsLTk4MDczODU0
+NywxNjc4MDY1MzE0LDE1NTc1OTM3MDksMTkwNTYwNDcxNSwtNz
+IxNjQ3ODQ0LDE2ODQ4MDg2NTcsMTE0NTgzNTI5OCwtMzY3NzQ3
+NjBdfQ==
 -->
