@@ -774,7 +774,7 @@ _Esos son los 8 privilegios de sistema que el usuario SYSTEM tiene asignados_
 
 
 
-## Ejercicio 17
+## Ejercicio 17 :heavy_check_mark:
 ### Enunciado
 
 Elige un usuario concreto y muestra qué privilegios sobre objetos tiene asignados
@@ -855,15 +855,13 @@ _Se han mostrado todos los privilegios sobre objetos correctamente. Además, qui
 
 
 
-
-
 ## Ejercicio 18
 ### Enunciado
 
-Consulta qué roles existen en tu base de datos.
+Consulta qué roles existen en tu base de datos
 
 ### Realización
-
+* Hacemos la consulta
 ```
 SELECT role FROM DBA_ROLES;
 ```
@@ -1059,11 +1057,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMDIxOTUzOSw5ODQwMTI1NzQsMTIyNj
-kwMjU5MCwtMTYxMDg1ODg1NSwxMDk5NzQ3ODU5LDE4NjQ3NTA4
-NzksMTMzMjQ0Nzg3Myw5MzY4MTIxODksLTE2NTY2MTAyNjYsMT
-Y3NjM1MjQwLC02MTk2OTM5NTksLTIwNDI5MzMwOTksMjEzMjUy
-MzMyMCwtMTE0MzA5NTE2OSwtNDIxNzYwMzI5LDQyMjI3Nzk2LD
-cxMDE3ODM1LDEwMjE2OTEzNzQsLTEzNzgzODM3NTAsLTExOTg3
-Mzk3OV19
+eyJoaXN0b3J5IjpbLTUyNjIzMDQ4MywxNzIwMjE5NTM5LDk4ND
+AxMjU3NCwxMjI2OTAyNTkwLC0xNjEwODU4ODU1LDEwOTk3NDc4
+NTksMTg2NDc1MDg3OSwxMzMyNDQ3ODczLDkzNjgxMjE4OSwtMT
+Y1NjYxMDI2NiwxNjc2MzUyNDAsLTYxOTY5Mzk1OSwtMjA0Mjkz
+MzA5OSwyMTMyNTIzMzIwLC0xMTQzMDk1MTY5LC00MjE3NjAzMj
+ksNDIyMjc3OTYsNzEwMTc4MzUsMTAyMTY5MTM3NCwtMTM3ODM4
+Mzc1MF19
 -->
