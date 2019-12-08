@@ -579,10 +579,10 @@ CREATE PROFILE CONTRASEÑASEGURA LIMIT
 	FAILED_LOGIN_ATTEMPTS 4
 	PASSWORD_LOCK_TIME UNLIMITED;
 ```
-* Mostramos que se ha creado el perfil, y tiene los límites indicados
+* Mostramos que se ha creado el perfil, y tiene los límites
+```
 
-
-
+```
 
 
 
@@ -934,7 +934,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzI2OTgxMTQsLTIxMDczODc2NTQsMT
+eyJoaXN0b3J5IjpbLTExMzcyMjc3MzgsLTIxMDczODc2NTQsMT
 M4MDk2NTMwNSwxMjIzNTk1NzU2LDI3NjAzNjY4OCwtNjc3Mjcy
 NzEwLC0xMjgwMDY5MzI4LDEwNTI4MzM0MDUsLTY0MDczODA3NS
 wtMzU5MzU1Njk4LDQzNTE4NTQwLC04MzQ4NDI4MjcsOTc3OTM0
