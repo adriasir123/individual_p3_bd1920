@@ -1025,8 +1025,8 @@ SELECT_CATALOG_ROLE                                                             
 ...sabremos que está compuesto por el rol "SELECT_CATALOG_ROLE"
 
 > NOTA: sabemos que la consulta funciona como es debido por la siguiente razón:
-> Que un rol esté compuesto de otros roles, quiere decir que al rol dicho, le habremos tenido que "otorgar" otros roles. Pues bien, si en la vista "DBA_ROLE_PRIVS", en la columna "grantee", apareciera el nombre de algo que sabemos que es un rol, podríamos confirmar que ese rol está compuesto por uno o varios roles (los que aparezcan).
-> En cambio, si el nombre del rol que estamos buscando NO apareciese en la columna "grantee" de esa vista, podríamos confirmar que ese rol NO está compuesto por otros roles.
+> Que un rol esté compuesto de otros roles, quiere decir que al rol dicho, le habremos tenido que "otorgar" otros roles. Pues bien, si en la vista "DBA_ROLE_PRIVS", en la columna "grantee", apareciera el nombre de algo que sabemos que es un rol, podríamos confirmar que ese rol está compuesto por uno o varios roles (los que aparezcan)
+> En cambio, si el nombre del rol que estamos buscando NO apareciese en la columna "grantee" de esa vista, podríamos confirmar que ese rol NO está compuesto por otros roles
 
 
 
@@ -1180,11 +1180,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzQyMjYzNiwxNjc4MDY1MzE0LDE1NT
-c1OTM3MDksMTkwNTYwNDcxNSwtNzIxNjQ3ODQ0LDE2ODQ4MDg2
-NTcsMTE0NTgzNTI5OCwtMzY3NzQ3NjAsMTcyMDIxOTUzOSw5OD
-QwMTI1NzQsMTIyNjkwMjU5MCwtMTYxMDg1ODg1NSwxMDk5NzQ3
-ODU5LDE4NjQ3NTA4NzksMTMzMjQ0Nzg3Myw5MzY4MTIxODksLT
-E2NTY2MTAyNjYsMTY3NjM1MjQwLC02MTk2OTM5NTksLTIwNDI5
-MzMwOTldfQ==
+eyJoaXN0b3J5IjpbMjM1MDc1MjYsMTY3ODA2NTMxNCwxNTU3NT
+kzNzA5LDE5MDU2MDQ3MTUsLTcyMTY0Nzg0NCwxNjg0ODA4NjU3
+LDExNDU4MzUyOTgsLTM2Nzc0NzYwLDE3MjAyMTk1MzksOTg0MD
+EyNTc0LDEyMjY5MDI1OTAsLTE2MTA4NTg4NTUsMTA5OTc0Nzg1
+OSwxODY0NzUwODc5LDEzMzI0NDc4NzMsOTM2ODEyMTg5LC0xNj
+U2NjEwMjY2LDE2NzYzNTI0MCwtNjE5NjkzOTU5LC0yMDQyOTMz
+MDk5XX0=
 -->
