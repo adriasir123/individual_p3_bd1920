@@ -1098,7 +1098,7 @@ Estos son los límites establecidos para el perfil
 
 
 
-## Ejercicio 23
+## Ejercicio 23 :heavy_check_mark:
 ### Enunciado
 
 Muestra los nombres de los usuarios que TIENEN limitado el número de sesiones concurrentes
@@ -1208,11 +1208,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjI2OTA0OSwtMTY4NDMxNjY4Myw0NT
-AzMjk2MjYsMTU2MzQ1NDQ2OCw5ODM1NTYxMDAsODA2MDYwNiw3
-OTE4NzY1MzQsLTk4MDczODU0NywxNjc4MDY1MzE0LDE1NTc1OT
-M3MDksMTkwNTYwNDcxNSwtNzIxNjQ3ODQ0LDE2ODQ4MDg2NTcs
-MTE0NTgzNTI5OCwtMzY3NzQ3NjAsMTcyMDIxOTUzOSw5ODQwMT
-I1NzQsMTIyNjkwMjU5MCwtMTYxMDg1ODg1NSwxMDk5NzQ3ODU5
-XX0=
+eyJoaXN0b3J5IjpbLTEzODkyNzYzNDUsMTIxNjI2OTA0OSwtMT
+Y4NDMxNjY4Myw0NTAzMjk2MjYsMTU2MzQ1NDQ2OCw5ODM1NTYx
+MDAsODA2MDYwNiw3OTE4NzY1MzQsLTk4MDczODU0NywxNjc4MD
+Y1MzE0LDE1NTc1OTM3MDksMTkwNTYwNDcxNSwtNzIxNjQ3ODQ0
+LDE2ODQ4MDg2NTcsMTE0NTgzNTI5OCwtMzY3NzQ3NjAsMTcyMD
+IxOTUzOSw5ODQwMTI1NzQsMTIyNjkwMjU5MCwtMTYxMDg1ODg1
+NV19
 -->
