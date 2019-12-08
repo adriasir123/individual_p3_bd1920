@@ -961,7 +961,7 @@ ROLPRACTICA1
 
 90 filas seleccionadas.
 ```
-_Estos_
+_Estos son todos los roles que existen en nuestra base de datos_
 
 
 
@@ -1150,7 +1150,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1MjI0MzkzLDE3MjAyMTk1MzksOTg0MD
+eyJoaXN0b3J5IjpbLTM2Nzc0NzYwLDE3MjAyMTk1MzksOTg0MD
 EyNTc0LDEyMjY5MDI1OTAsLTE2MTA4NTg4NTUsMTA5OTc0Nzg1
 OSwxODY0NzUwODc5LDEzMzI0NDc4NzMsOTM2ODEyMTg5LC0xNj
 U2NjEwMjY2LDE2NzYzNTI0MCwtNjE5NjkzOTU5LC0yMDQyOTMz
