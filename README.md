@@ -1104,21 +1104,23 @@ Estos son los límites establecidos para el perfil
 Muestra los nombres de los usuarios que TIENEN limitado el número de sesiones concurrentes
 
 ### Realización
-
+Esta es la consulta:
 ```
 SELECT USERNAME  
 	FROM DBA_USERS  
-	where profile = (  
-  
-SELECT distinct profile  
-From dba_profiles  
-Where resource_name = 'SESSIONS_PER_USER';  
-)
+	where profile = (
+						select profile
+						from dba_profiles  
+						where
+							resource_name = 'SESSIONS_PER_USER' AND
+							limit <> 'UNLIMITED' AND
+							limit <> 'DEFAULT'
+					);
 ```
-
-
-
-
+```
+no rows selected
+```
+En este caso no tenemos usuarios con
 
 
 
@@ -1205,11 +1207,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MzQ1NDQ2OCw5ODM1NTYxMDAsODA2MD
-YwNiw3OTE4NzY1MzQsLTk4MDczODU0NywxNjc4MDY1MzE0LDE1
-NTc1OTM3MDksMTkwNTYwNDcxNSwtNzIxNjQ3ODQ0LDE2ODQ4MD
-g2NTcsMTE0NTgzNTI5OCwtMzY3NzQ3NjAsMTcyMDIxOTUzOSw5
-ODQwMTI1NzQsMTIyNjkwMjU5MCwtMTYxMDg1ODg1NSwxMDk5Nz
-Q3ODU5LDE4NjQ3NTA4NzksMTMzMjQ0Nzg3Myw5MzY4MTIxODld
-fQ==
+eyJoaXN0b3J5IjpbLTc1MTE0NDgyOSwxNTYzNDU0NDY4LDk4Mz
+U1NjEwMCw4MDYwNjA2LDc5MTg3NjUzNCwtOTgwNzM4NTQ3LDE2
+NzgwNjUzMTQsMTU1NzU5MzcwOSwxOTA1NjA0NzE1LC03MjE2ND
+c4NDQsMTY4NDgwODY1NywxMTQ1ODM1Mjk4LC0zNjc3NDc2MCwx
+NzIwMjE5NTM5LDk4NDAxMjU3NCwxMjI2OTAyNTkwLC0xNjEwOD
+U4ODU1LDEwOTk3NDc4NTksMTg2NDc1MDg3OSwxMzMyNDQ3ODcz
+XX0=
 -->
