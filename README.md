@@ -643,8 +643,15 @@ _Se desbloqueó la cuenta correctamente_
 
 * Para finalizar, vamos a comprobar que realmente podemos entrar a la cuenta de nuevo
 ```
-
+SQL> connect usrpractica1;
+Enter password:
+Conectado.
+SQL>
 ```
+_Hemos podido acceder sin problemas, hemos realizado todos los pasos correctamente_
+
+
+
 
 
 ## Ejercicio 14 :heavy_check_mark:
@@ -974,7 +981,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTI0NzQ0NSwtMTE0MzA5NTE2OSwtND
+eyJoaXN0b3J5IjpbMTgxOTcyMzQ4NCwtMTE0MzA5NTE2OSwtND
 IxNzYwMzI5LDQyMjI3Nzk2LDcxMDE3ODM1LDEwMjE2OTEzNzQs
 LTEzNzgzODM3NTAsLTExOTg3Mzk3OSwxNDcxNDE3NTQ1LC0xMT
 M3MjI3NzM4LC0yMTA3Mzg3NjU0LDEzODA5NjUzMDUsMTIyMzU5
