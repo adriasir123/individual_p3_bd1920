@@ -974,7 +974,7 @@ _Estos son todos los roles que existen en nuestra base de datos_
 Elige un rol concreto y consulta qué usuarios lo tienen asignado
 
 ### Realización
-
+* Haremos la consulta para el rol "APPLICATION_TRACE_VIEWER"
 ```
 SELECT granted_role, grantee
 	FROM DBA_ROLE_PRIVS  
@@ -1154,11 +1154,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTgzNTI5OCwtMzY3NzQ3NjAsMTcyMD
-IxOTUzOSw5ODQwMTI1NzQsMTIyNjkwMjU5MCwtMTYxMDg1ODg1
-NSwxMDk5NzQ3ODU5LDE4NjQ3NTA4NzksMTMzMjQ0Nzg3Myw5Mz
-Y4MTIxODksLTE2NTY2MTAyNjYsMTY3NjM1MjQwLC02MTk2OTM5
-NTksLTIwNDI5MzMwOTksMjEzMjUyMzMyMCwtMTE0MzA5NTE2OS
-wtNDIxNzYwMzI5LDQyMjI3Nzk2LDcxMDE3ODM1LDEwMjE2OTEz
-NzRdfQ==
+eyJoaXN0b3J5IjpbMjA3OTUyMTk1NiwxMTQ1ODM1Mjk4LC0zNj
+c3NDc2MCwxNzIwMjE5NTM5LDk4NDAxMjU3NCwxMjI2OTAyNTkw
+LC0xNjEwODU4ODU1LDEwOTk3NDc4NTksMTg2NDc1MDg3OSwxMz
+MyNDQ3ODczLDkzNjgxMjE4OSwtMTY1NjYxMDI2NiwxNjc2MzUy
+NDAsLTYxOTY5Mzk1OSwtMjA0MjkzMzA5OSwyMTMyNTIzMzIwLC
+0xMTQzMDk1MTY5LC00MjE3NjAzMjksNDIyMjc3OTYsNzEwMTc4
+MzVdfQ==
 -->
