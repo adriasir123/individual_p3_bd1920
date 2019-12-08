@@ -749,12 +749,28 @@ Por último, quiero indicar que esa cuota de "-1", quiere decir que es ilimitada
 Elige un usuario concreto y muestra qué privilegios de sistema tiene asignados
 
 ### Realización
-* 
+* Mostraremos los del usuario SYSTEM, por ejemplo
 ```
 select privilege
 	from DBA_SYS_PRIVS  
 	where grantee = 'SYSTEM';
 ```
+```
+PRIVILEGE
+------------------------
+CREATE MATERIALIZED VIEW
+CREATE TABLE
+UNLIMITED TABLESPACE
+GLOBAL QUERY REWRITE
+MANAGE ANY QUEUE
+ENQUEUE ANY QUEUE
+SELECT ANY TABLE
+DEQUEUE ANY QUEUE
+
+8 filas seleccionadas.
+```
+
+
 
 
 
@@ -987,11 +1003,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDY5MDEzMjAsMTg2NDc1MDg3OSwxMz
-MyNDQ3ODczLDkzNjgxMjE4OSwtMTY1NjYxMDI2NiwxNjc2MzUy
-NDAsLTYxOTY5Mzk1OSwtMjA0MjkzMzA5OSwyMTMyNTIzMzIwLC
-0xMTQzMDk1MTY5LC00MjE3NjAzMjksNDIyMjc3OTYsNzEwMTc4
-MzUsMTAyMTY5MTM3NCwtMTM3ODM4Mzc1MCwtMTE5ODczOTc5LD
-E0NzE0MTc1NDUsLTExMzcyMjc3MzgsLTIxMDczODc2NTQsMTM4
-MDk2NTMwNV19
+eyJoaXN0b3J5IjpbMTA5OTc0Nzg1OSwxODY0NzUwODc5LDEzMz
+I0NDc4NzMsOTM2ODEyMTg5LC0xNjU2NjEwMjY2LDE2NzYzNTI0
+MCwtNjE5NjkzOTU5LC0yMDQyOTMzMDk5LDIxMzI1MjMzMjAsLT
+ExNDMwOTUxNjksLTQyMTc2MDMyOSw0MjIyNzc5Niw3MTAxNzgz
+NSwxMDIxNjkxMzc0LC0xMzc4MzgzNzUwLC0xMTk4NzM5NzksMT
+Q3MTQxNzU0NSwtMTEzNzIyNzczOCwtMjEwNzM4NzY1NCwxMzgw
+OTY1MzA1XX0=
 -->
