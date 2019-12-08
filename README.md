@@ -1106,13 +1106,13 @@ Muestra los nombres de los usuarios que tienen limitado el número de sesiones c
 ### Realización
 
 ```
-SELECT USERNAME, PROFILE  
-FROM DBA_USERS  
-Where profile = (  
+SELECT USERNAME  
+	FROM DBA_USERS  
+	where profile = (  
   
 SELECT distinct profile  
 From dba_profiles  
-Where limit = sessions_per_user;  
+Where resource_name = 'SESSIONS_PER_USER';  
 )
 ```
 
@@ -1205,11 +1205,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA2MDYwNiw3OTE4NzY1MzQsLTk4MDczOD
-U0NywxNjc4MDY1MzE0LDE1NTc1OTM3MDksMTkwNTYwNDcxNSwt
-NzIxNjQ3ODQ0LDE2ODQ4MDg2NTcsMTE0NTgzNTI5OCwtMzY3Nz
-Q3NjAsMTcyMDIxOTUzOSw5ODQwMTI1NzQsMTIyNjkwMjU5MCwt
-MTYxMDg1ODg1NSwxMDk5NzQ3ODU5LDE4NjQ3NTA4NzksMTMzMj
-Q0Nzg3Myw5MzY4MTIxODksLTE2NTY2MTAyNjYsMTY3NjM1MjQw
+eyJoaXN0b3J5IjpbOTgzNTU2MTAwLDgwNjA2MDYsNzkxODc2NT
+M0LC05ODA3Mzg1NDcsMTY3ODA2NTMxNCwxNTU3NTkzNzA5LDE5
+MDU2MDQ3MTUsLTcyMTY0Nzg0NCwxNjg0ODA4NjU3LDExNDU4Mz
+UyOTgsLTM2Nzc0NzYwLDE3MjAyMTk1MzksOTg0MDEyNTc0LDEy
+MjY5MDI1OTAsLTE2MTA4NTg4NTUsMTA5OTc0Nzg1OSwxODY0Nz
+UwODc5LDEzMzI0NDc4NzMsOTM2ODEyMTg5LC0xNjU2NjEwMjY2
 XX0=
 -->
