@@ -850,7 +850,7 @@ UPDATE                                   XDB$CONFIG
 
 58 filas seleccionadas.
 ```
-_Se han mostrado todos los privilegios sobre objetos correctamente. Además, quise añadir también en el filtrado la columna "table_name", porque considero que tiene bastante sentido añadirla paral_
+_Se han mostrado todos los privilegios sobre objetos correctamente. Además, quise añadir también en el filtrado la columna "table_name", porque considero que tiene bastante sentido añadirla para que la información sobre privilegios mostrada tenga sentido_
 
 
 
@@ -1059,7 +1059,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NjkzNjc4NCw5ODQwMTI1NzQsMTIyNj
+eyJoaXN0b3J5IjpbMTcyMDIxOTUzOSw5ODQwMTI1NzQsMTIyNj
 kwMjU5MCwtMTYxMDg1ODg1NSwxMDk5NzQ3ODU5LDE4NjQ3NTA4
 NzksMTMzMjQ0Nzg3Myw5MzY4MTIxODksLTE2NTY2MTAyNjYsMT
 Y3NjM1MjQwLC02MTk2OTM5NTksLTIwNDI5MzMwOTksMjEzMjUy
