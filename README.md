@@ -743,7 +743,7 @@ Por último, quiero indicar que esa cuota de "-1", quiere decir que es ilimitada
 
 
 
-## Ejercicio 16
+## Ejercicio 16 :heavy_check_mark:
 ### Enunciado
 
 Elige un usuario concreto y muestra qué privilegios de sistema tiene asignados
@@ -998,11 +998,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTA4NTg4NTUsMTA5OTc0Nzg1OSwxOD
-Y0NzUwODc5LDEzMzI0NDc4NzMsOTM2ODEyMTg5LC0xNjU2NjEw
-MjY2LDE2NzYzNTI0MCwtNjE5NjkzOTU5LC0yMDQyOTMzMDk5LD
-IxMzI1MjMzMjAsLTExNDMwOTUxNjksLTQyMTc2MDMyOSw0MjIy
-Nzc5Niw3MTAxNzgzNSwxMDIxNjkxMzc0LC0xMzc4MzgzNzUwLC
-0xMTk4NzM5NzksMTQ3MTQxNzU0NSwtMTEzNzIyNzczOCwtMjEw
-NzM4NzY1NF19
+eyJoaXN0b3J5IjpbLTIxMjUyNzI3NjcsLTE2MTA4NTg4NTUsMT
+A5OTc0Nzg1OSwxODY0NzUwODc5LDEzMzI0NDc4NzMsOTM2ODEy
+MTg5LC0xNjU2NjEwMjY2LDE2NzYzNTI0MCwtNjE5NjkzOTU5LC
+0yMDQyOTMzMDk5LDIxMzI1MjMzMjAsLTExNDMwOTUxNjksLTQy
+MTc2MDMyOSw0MjIyNzc5Niw3MTAxNzgzNSwxMDIxNjkxMzc0LC
+0xMzc4MzgzNzUwLC0xMTk4NzM5NzksMTQ3MTQxNzU0NSwtMTEz
+NzIyNzczOF19
 -->
