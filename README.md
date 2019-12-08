@@ -1001,9 +1001,9 @@ Elige un rol concreto y averigua si está compuesto por otros roles o no
 ### Realización
 
 ```
-Select * from  
-DBA_ROLE_PRIVS  
-Where grantee = nombre_rol;
+Select *
+	from DBA_ROLE_PRIVS  
+	Where grantee = nombre_rol;
 ```
 
 
@@ -1082,9 +1082,11 @@ Where limit = sessions_per_user;
 
 
 ## Ejercicio 24
+### Enunciado
+
 Realiza un procedimiento que reciba un nombre de usuario y un privilegio de sistema y nos muestre el mensaje 'SI, DIRECTO' si el usuario tiene ese privilegio concedido directamente, 'SI, POR ROL' si el usuario tiene ese privilegio en alguno de los roles que tiene concedidos y un 'NO' si el usuario no tiene dicho privilegio.
 
-
+### Realización
 
 
 
@@ -1160,11 +1162,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MjM5MjczLDE2ODQ4MDg2NTcsMTE0NT
-gzNTI5OCwtMzY3NzQ3NjAsMTcyMDIxOTUzOSw5ODQwMTI1NzQs
-MTIyNjkwMjU5MCwtMTYxMDg1ODg1NSwxMDk5NzQ3ODU5LDE4Nj
-Q3NTA4NzksMTMzMjQ0Nzg3Myw5MzY4MTIxODksLTE2NTY2MTAy
-NjYsMTY3NjM1MjQwLC02MTk2OTM5NTksLTIwNDI5MzMwOTksMj
-EzMjUyMzMyMCwtMTE0MzA5NTE2OSwtNDIxNzYwMzI5LDQyMjI3
-Nzk2XX0=
+eyJoaXN0b3J5IjpbLTcyMTY0Nzg0NCwxNjg0ODA4NjU3LDExND
+U4MzUyOTgsLTM2Nzc0NzYwLDE3MjAyMTk1MzksOTg0MDEyNTc0
+LDEyMjY5MDI1OTAsLTE2MTA4NTg4NTUsMTA5OTc0Nzg1OSwxOD
+Y0NzUwODc5LDEzMzI0NDc4NzMsOTM2ODEyMTg5LC0xNjU2NjEw
+MjY2LDE2NzYzNTI0MCwtNjE5NjkzOTU5LC0yMDQyOTMzMDk5LD
+IxMzI1MjMzMjAsLTExNDMwOTUxNjksLTQyMTc2MDMyOSw0MjIy
+Nzc5Nl19
 -->
