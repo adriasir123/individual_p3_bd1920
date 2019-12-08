@@ -729,10 +729,12 @@ select tablespace_name, username, max_bytes
 	from dba_ts_quotas
 	where username = 'AUDSYS';
 ```
-
-
-
-
+```
+TABLESPACE_NAME                USERNA  MAX_BYTES
+------------------------------ ------ ----------
+SYSAUX                         AUDSYS         -1
+```
+En este caso, el usuario AUDSYS sólo tiene cuota sobre el tablespace SYSAUX. En el caso de que le diéramos cuota a ese usuario en otros tablespaces, aparecerían más registros a 
 
 
 
@@ -983,11 +985,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTY2MTAyNjYsMTY3NjM1MjQwLC02MT
-k2OTM5NTksLTIwNDI5MzMwOTksMjEzMjUyMzMyMCwtMTE0MzA5
-NTE2OSwtNDIxNzYwMzI5LDQyMjI3Nzk2LDcxMDE3ODM1LDEwMj
-E2OTEzNzQsLTEzNzgzODM3NTAsLTExOTg3Mzk3OSwxNDcxNDE3
-NTQ1LC0xMTM3MjI3NzM4LC0yMTA3Mzg3NjU0LDEzODA5NjUzMD
-UsMTIyMzU5NTc1NiwyNzYwMzY2ODgsLTY3NzI3MjcxMCwtMTI4
-MDA2OTMyOF19
+eyJoaXN0b3J5IjpbMTc2Mjc3MjU3NiwtMTY1NjYxMDI2NiwxNj
+c2MzUyNDAsLTYxOTY5Mzk1OSwtMjA0MjkzMzA5OSwyMTMyNTIz
+MzIwLC0xMTQzMDk1MTY5LC00MjE3NjAzMjksNDIyMjc3OTYsNz
+EwMTc4MzUsMTAyMTY5MTM3NCwtMTM3ODM4Mzc1MCwtMTE5ODcz
+OTc5LDE0NzE0MTc1NDUsLTExMzcyMjc3MzgsLTIxMDczODc2NT
+QsMTM4MDk2NTMwNSwxMjIzNTk1NzU2LDI3NjAzNjY4OCwtNjc3
+MjcyNzEwXX0=
 -->
