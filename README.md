@@ -1065,7 +1065,7 @@ Elige un perfil y consulta qué límites se establecen en el mismo.
 ### Realización
 He elegido el perfil "ORA_STIG_PROFILE". La consulta es la siguiente:
 ```
-select limit  
+select resource_name, limit  
 	from dba_profiles  
 	where profile = 'ORA_STIG_PROFILE';
 ```
@@ -1185,11 +1185,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzc2ODYxOCwtOTgwNzM4NTQ3LDE2Nz
-gwNjUzMTQsMTU1NzU5MzcwOSwxOTA1NjA0NzE1LC03MjE2NDc4
-NDQsMTY4NDgwODY1NywxMTQ1ODM1Mjk4LC0zNjc3NDc2MCwxNz
-IwMjE5NTM5LDk4NDAxMjU3NCwxMjI2OTAyNTkwLC0xNjEwODU4
-ODU1LDEwOTk3NDc4NTksMTg2NDc1MDg3OSwxMzMyNDQ3ODczLD
-kzNjgxMjE4OSwtMTY1NjYxMDI2NiwxNjc2MzUyNDAsLTYxOTY5
-Mzk1OV19
+eyJoaXN0b3J5IjpbNzkxODc2NTM0LC05ODA3Mzg1NDcsMTY3OD
+A2NTMxNCwxNTU3NTkzNzA5LDE5MDU2MDQ3MTUsLTcyMTY0Nzg0
+NCwxNjg0ODA4NjU3LDExNDU4MzUyOTgsLTM2Nzc0NzYwLDE3Mj
+AyMTk1MzksOTg0MDEyNTc0LDEyMjY5MDI1OTAsLTE2MTA4NTg4
+NTUsMTA5OTc0Nzg1OSwxODY0NzUwODc5LDEzMzI0NDc4NzMsOT
+M2ODEyMTg5LC0xNjU2NjEwMjY2LDE2NzYzNTI0MCwtNjE5Njkz
+OTU5XX0=
 -->
