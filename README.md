@@ -1101,7 +1101,7 @@ Estos son los límites establecidos para el perfil
 ## Ejercicio 23
 ### Enunciado
 
-Muestra los nombres de los usuarios que tienen limitado el número de sesiones concurrentes.
+Muestra los nombres de los usuarios que tienen limitado el número de sesiones concurrentes
 
 ### Realización
 
@@ -1205,11 +1205,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjk1NjM5MDIsNzkxODc2NTM0LC05OD
-A3Mzg1NDcsMTY3ODA2NTMxNCwxNTU3NTkzNzA5LDE5MDU2MDQ3
-MTUsLTcyMTY0Nzg0NCwxNjg0ODA4NjU3LDExNDU4MzUyOTgsLT
-M2Nzc0NzYwLDE3MjAyMTk1MzksOTg0MDEyNTc0LDEyMjY5MDI1
-OTAsLTE2MTA4NTg4NTUsMTA5OTc0Nzg1OSwxODY0NzUwODc5LD
-EzMzI0NDc4NzMsOTM2ODEyMTg5LC0xNjU2NjEwMjY2LDE2NzYz
-NTI0MF19
+eyJoaXN0b3J5IjpbLTI1MzU3NzExNCw3OTE4NzY1MzQsLTk4MD
+czODU0NywxNjc4MDY1MzE0LDE1NTc1OTM3MDksMTkwNTYwNDcx
+NSwtNzIxNjQ3ODQ0LDE2ODQ4MDg2NTcsMTE0NTgzNTI5OCwtMz
+Y3NzQ3NjAsMTcyMDIxOTUzOSw5ODQwMTI1NzQsMTIyNjkwMjU5
+MCwtMTYxMDg1ODg1NSwxMDk5NzQ3ODU5LDE4NjQ3NTA4NzksMT
+MzMjQ0Nzg3Myw5MzY4MTIxODksLTE2NTY2MTAyNjYsMTY3NjM1
+MjQwXX0=
 -->
