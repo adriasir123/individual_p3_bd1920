@@ -985,7 +985,7 @@ GRANTED_ROLE             GRANTEE
 ------------------------ ---------
 APPLICATION_TRACE_VIEWER SYS
 ```
-
+_En este caso, el rol indicado lo tiene asignado sólo el usuario SYS_
 
 
 
@@ -1160,7 +1160,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzA0MjAyOSwxMTQ1ODM1Mjk4LC0zNj
+eyJoaXN0b3J5IjpbMTY4NDgwODY1NywxMTQ1ODM1Mjk4LC0zNj
 c3NDc2MCwxNzIwMjE5NTM5LDk4NDAxMjU3NCwxMjI2OTAyNTkw
 LC0xNjEwODU4ODU1LDEwOTk3NDc4NTksMTg2NDc1MDg3OSwxMz
 MyNDQ3ODczLDkzNjgxMjE4OSwtMTY1NjYxMDI2NiwxNjc2MzUy
