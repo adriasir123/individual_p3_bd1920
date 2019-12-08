@@ -999,12 +999,21 @@ _En este caso, el rol indicado lo tiene asignado sólo el usuario SYS_
 Elige un rol concreto y averigua si está compuesto por otros roles o no
 
 ### Realización
-En mi caso, voy a elegir el rol "JAVA_ADMIN". La consulta sería la siguiente
+En mi caso, voy a elegir el rol "JAVA_ADMIN". La consulta sería la siguiente:
 ```
 select granted_role, grantee
 	from DBA_ROLE_PRIVS  
 	where grantee = 'JAVA_ADMIN';
 ```
+```
+no rows selected
+```
+Por ejemplo, como podemos ver, el rol "JAVA_ADMIN" 
+
+
+
+
+
 
 SYSUMF_ROLE
 
@@ -1162,11 +1171,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTY0ODgyMzcsMTU1NzU5MzcwOSwxOT
-A1NjA0NzE1LC03MjE2NDc4NDQsMTY4NDgwODY1NywxMTQ1ODM1
-Mjk4LC0zNjc3NDc2MCwxNzIwMjE5NTM5LDk4NDAxMjU3NCwxMj
-I2OTAyNTkwLC0xNjEwODU4ODU1LDEwOTk3NDc4NTksMTg2NDc1
-MDg3OSwxMzMyNDQ3ODczLDkzNjgxMjE4OSwtMTY1NjYxMDI2Ni
-wxNjc2MzUyNDAsLTYxOTY5Mzk1OSwtMjA0MjkzMzA5OSwyMTMy
-NTIzMzIwXX0=
+eyJoaXN0b3J5IjpbMTg2NjA5MzA2NSwxNTU3NTkzNzA5LDE5MD
+U2MDQ3MTUsLTcyMTY0Nzg0NCwxNjg0ODA4NjU3LDExNDU4MzUy
+OTgsLTM2Nzc0NzYwLDE3MjAyMTk1MzksOTg0MDEyNTc0LDEyMj
+Y5MDI1OTAsLTE2MTA4NTg4NTUsMTA5OTc0Nzg1OSwxODY0NzUw
+ODc5LDEzMzI0NDc4NzMsOTM2ODEyMTg5LC0xNjU2NjEwMjY2LD
+E2NzYzNTI0MCwtNjE5NjkzOTU5LC0yMDQyOTMzMDk5LDIxMzI1
+MjMzMjBdfQ==
 -->
