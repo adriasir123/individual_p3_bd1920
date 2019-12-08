@@ -1008,7 +1008,9 @@ select granted_role, grantee
 ```
 no rows selected
 ```
-Por ejemplo, como podemos ver, el rol "JAVA_ADMIN" 
+Por ejemplo, como podemos ver, el rol "JAVA_ADMIN" NO está compuesto por otros roles
+
+¿Pero y si quisiéramos el resultado que daría la consulta con un rol que SÍ estuviera compuesto de otros roles? Para eso
 
 
 
@@ -1171,11 +1173,11 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NjA5MzA2NSwxNTU3NTkzNzA5LDE5MD
-U2MDQ3MTUsLTcyMTY0Nzg0NCwxNjg0ODA4NjU3LDExNDU4MzUy
-OTgsLTM2Nzc0NzYwLDE3MjAyMTk1MzksOTg0MDEyNTc0LDEyMj
-Y5MDI1OTAsLTE2MTA4NTg4NTUsMTA5OTc0Nzg1OSwxODY0NzUw
-ODc5LDEzMzI0NDc4NzMsOTM2ODEyMTg5LC0xNjU2NjEwMjY2LD
-E2NzYzNTI0MCwtNjE5NjkzOTU5LC0yMDQyOTMzMDk5LDIxMzI1
-MjMzMjBdfQ==
+eyJoaXN0b3J5IjpbNjAzMDE2NjYsMTU1NzU5MzcwOSwxOTA1Nj
+A0NzE1LC03MjE2NDc4NDQsMTY4NDgwODY1NywxMTQ1ODM1Mjk4
+LC0zNjc3NDc2MCwxNzIwMjE5NTM5LDk4NDAxMjU3NCwxMjI2OT
+AyNTkwLC0xNjEwODU4ODU1LDEwOTk3NDc4NTksMTg2NDc1MDg3
+OSwxMzMyNDQ3ODczLDkzNjgxMjE4OSwtMTY1NjYxMDI2NiwxNj
+c2MzUyNDAsLTYxOTY5Mzk1OSwtMjA0MjkzMzA5OSwyMTMyNTIz
+MzIwXX0=
 -->
