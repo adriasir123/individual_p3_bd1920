@@ -1063,15 +1063,15 @@ DEFAULT
 Elige un perfil y consulta qué límites se establecen en el mismo.
 
 ### Realización
-
+He elegido el perfil "ORA_STIG_PROFILE". La consulta es la siguiente:
 ```
 select limit  
 	from dba_profiles  
 	where profile = 'ORA_STIG_PROFILE';
 ```
+```
 
-
-
+```
 
 
 
@@ -1185,7 +1185,7 @@ SQL>
 ```
 _Como vemos, todo ha funcionado como se esperaba_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODY4NjQyNSwtOTgwNzM4NTQ3LDE2Nz
+eyJoaXN0b3J5IjpbMTkxNzc2ODYxOCwtOTgwNzM4NTQ3LDE2Nz
 gwNjUzMTQsMTU1NzU5MzcwOSwxOTA1NjA0NzE1LC03MjE2NDc4
 NDQsMTY4NDgwODY1NywxMTQ1ODM1Mjk4LC0zNjc3NDc2MCwxNz
 IwMjE5NTM5LDk4NDAxMjU3NCwxMjI2OTAyNTkwLC0xNjEwODU4
